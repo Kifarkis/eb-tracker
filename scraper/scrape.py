@@ -21,7 +21,7 @@ API_SHOPS = (
     "&filter[amount]=5000"
 )
 API_CATEGORIES = (
-    "https://onlineshopping.loyaltykey.com/api/v1/categories"
+    "https://onlineshopping.loyaltykey.com/api/v1/shops/categories"
     "?filter[language]=sv"
 )
 
@@ -223,7 +223,6 @@ def card_html(shop, discovered_today, category_slug):
         urgent = "urgent" if ("1 dag" in lower or "idag" in lower or "timmar" in lower) else ""
         days_remaining = f'<span class="sas-days {urgent}">{ends_text}</span>'
 
-    # Data attributes drive client-side filtering/search.
     search_key = escape((shop.get("name") or "").lower())
     return (
         f'<a class="sas-card{campaign_class}" href="{shop_url}" target="_blank" rel="noopener" '
@@ -256,8 +255,8 @@ def list_row_html(shop, category_slug, bar_percent):
     name = escape(shop.get("name"))
     uuid = escape(shop.get("uuid"))
     shop_url = f"https://onlineshopping.flysas.com/sv-SE/butiker/about-you/{uuid}"
-    first_letter = (name[:1] or "#").upper()
     search_key = escape((shop.get("name") or "").lower())
+    first_letter = (name[:1] or "#").upper()
     return (
         f'<a class="sas-list-row" href="{shop_url}" target="_blank" rel="noopener" '
         f'data-name="{search_key}" data-cat="{escape(category_slug)}" '
@@ -299,14 +298,15 @@ def category_slug_from_name(name):
 
 
 def build_category_map(categories_data):
-    """Map categoryId (int) -> {slug, name}. Unknown IDs will get a fallback."""
+    """Map categoryId (int) -> {slug, name}."""
     mapping = {}
     items = categories_data.get("data", []) if isinstance(categories_data, dict) else []
     for cat in items:
-        cid = cat.get("id")
-        name = cat.get("name") or cat.get("title") or f"Kategori {cid}"
+        cid = cat.get("category_id") or cat.get("id")
+        name = cat.get("name") or f"Kategori {cid}"
+        slug = cat.get("slug") or category_slug_from_name(name)
         if cid is not None:
-            mapping[cid] = {"slug": category_slug_from_name(name), "name": name}
+            mapping[cid] = {"slug": slug, "name": name}
     return mapping
 
 
@@ -333,7 +333,6 @@ def render_html(shops_state, category_map):
 
     gone.sort(key=lambda s: s.get("gone_since") or "", reverse=True)
 
-    # Mini bar chart: scale within commission_type group.
     max_fixed = max((points_display(s)["main"] for s in non_campaign if s.get("commission_type") == "fixed"), default=1)
     max_variable = max((points_display(s)["main"] for s in non_campaign if s.get("commission_type") == "variable"), default=1)
 
@@ -344,13 +343,11 @@ def render_html(shops_state, category_map):
             return 0
         return round(min(100, (disp["main"] / m) * 100))
 
-    # Category chips — only include categories that actually appear in current data.
     used_category_ids = {s.get("category_id") for s in active if s.get("category_id") is not None}
     categories_in_use = [
         (category_map[cid]["slug"], category_map[cid]["name"])
         for cid in used_category_ids if cid in category_map
     ]
-    # Stable alphabetical order for chips.
     categories_in_use.sort(key=lambda x: x[1].lower())
 
     campaign_cards = "".join(
@@ -367,7 +364,6 @@ def render_html(shops_state, category_map):
     )
     gone_rows = "".join(gone_row_html(s) for s in gone)
 
-    # Alphabet jumper — only letters that are actually present as first-letter in the list.
     letters_present = sorted({(s.get("name") or "#")[:1].upper() for s in non_campaign})
     jumper_html = "".join(
         f'<span class="sas-jumper-letter" data-letter="{escape(ltr)}">{escape(ltr)}</span>'
@@ -652,7 +648,6 @@ body {{
       var letter = l.dataset.letter;
       jumperLetters.forEach(function(x) {{ x.classList.remove('active'); }});
       l.classList.add('active');
-      // Find the first visible row whose name starts with this letter.
       for (var i = 0; i < rows.length; i++) {{
         var r = rows[i];
         if (r.style.display === 'none') continue;
