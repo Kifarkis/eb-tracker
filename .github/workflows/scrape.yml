@@ -1,27 +1,4 @@
-name: Scrape SAS shopping offers
-
-on:
-  schedule:
-    - cron: '0 */6 * * *'   # every 6 hours at minute 0 (UTC)
-  workflow_dispatch:         # allows manual trigger from the Actions tab
-
-permissions:
-  contents: write            # scoped write so the job can commit updated files
-
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Run scraper
-        run: python scraper/scrape.py
-
-      - name: Commit and push changes
+- name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
