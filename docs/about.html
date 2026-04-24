@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Om sidan — EuroBonus Shopping</title>
+<style>
+:root {
+  --bg: #faf9f7; --surface: #ffffff;
+  --border: rgba(0, 0, 0, 0.08); --border-strong: rgba(0, 0, 0, 0.16);
+  --text: #1a1a1a; --text-muted: #6b6b6b; --text-faint: #9a9a9a;
+  --accent: #1f6feb;
+}
+html[data-theme="dark"] {
+  --bg: #0f0f10; --surface: #1a1a1c;
+  --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+  --text: #ededed; --text-muted: #a0a0a0; --text-faint: #666666;
+  --accent: #6ea8ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f0f10; --surface: #1a1a1c;
+    --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+    --text: #ededed; --text-muted: #a0a0a0; --text-faint: #666666;
+    --accent: #6ea8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg); color: var(--text);
+  margin: 0; padding: 48px 24px 64px;
+  font-size: 15px; line-height: 1.65;
+}
+.container { max-width: 640px; margin: 0 auto; }
+.back { display: inline-block; color: var(--text-muted); text-decoration: none; font-size: 13px; margin-bottom: 32px; }
+.back:hover { color: var(--text); }
+.lang-switch { float: right; font-size: 13px; color: var(--text-muted); }
+.lang-switch a { color: var(--text-muted); text-decoration: none; }
+.lang-switch a:hover { color: var(--text); text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 32px 0; }
+h2 { font-size: 18px; font-weight: 500; letter-spacing: -0.01em; margin: 32px 0 8px 0; }
+p { margin: 0 0 16px 0; color: var(--text-muted); }
+strong { color: var(--text); font-weight: 500; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.footer-note { margin-top: 64px; padding-top: 24px; border-top: 0.5px solid var(--border); font-size: 12px; color: var(--text-faint); }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="/">← Tillbaka</a>
+  <span class="lang-switch"><a href="#" id="lang-toggle">English</a></span>
+
+  <article id="sv">
+    <h1>Om sidan</h1>
+
+    <p>Det här är en automatisk spårare av kampanjer i SAS EuroBonus Shopping. Sidan hämtar data var sjätte timme och visar vilka butiker som har aktiva kampanjer just nu, vad som är på väg att ta slut och vilka butiker som försvunnit från utbudet.</p>
+
+    <h2>Vem är jag?</h2>
+    <p>Hej, jag heter David. Jag byggde det här för mig själv för att jag är trött på att missa bra kampanjer. Tänkte att fler kanske har nytta av det.</p>
+
+    <h2>Är det här officiellt?</h2>
+    <p><strong>Nej.</strong> Sidan är inte ansluten till, godkänd av eller sponsrad av SAS eller EuroBonus. Den är ett oberoende hobbyprojekt som använder offentligt tillgänglig data.</p>
+
+    <h2>Varifrån kommer datan?</h2>
+    <p>Butiker och kampanjer hämtas automatiskt var sjätte timme från EuroBonus Shopping-plattformens publika backend. Historiken (när en kampanj startade, vilka butiker som försvunnit) räknas ut av den här sidan över tid.</p>
+
+    <h2>Fungerar det för alla länder?</h2>
+    <p>Sidan stödjer Sverige, Danmark, Norge och Finland. Byt land och språk uppe i hörnet. Finland finns bara på engelska tills vidare.</p>
+
+    <h2>Kontakt</h2>
+    <p>Har du hittat en bugg, har ett förslag eller bara vill säga hej? Mejla <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a>.</p>
+
+    <div class="footer-note">
+      <p>© 2026. Inget på sidan är finansiell rådgivning. Poängvärden kan ändras utan förvarning — kontrollera alltid direkt på SAS om du tänker göra ett stort köp.</p>
+    </div>
+  </article>
+
+  <article id="en" style="display: none;">
+    <h1>About</h1>
+
+    <p>This is an automated tracker for SAS EuroBonus Shopping campaigns. The site pulls data every six hours and shows which shops currently have active campaigns, which ones are ending soon, and which shops have disappeared from the catalog.</p>
+
+    <h2>Who made this?</h2>
+    <p>Hi, I'm David. I built this for myself because I kept missing good campaigns. Figured others might find it useful too.</p>
+
+    <h2>Is this official?</h2>
+    <p><strong>No.</strong> This site is not affiliated with, endorsed by, or sponsored by SAS or EuroBonus. It's an independent hobby project using publicly available data.</p>
+
+    <h2>Where does the data come from?</h2>
+    <p>Shops and campaigns are fetched automatically every six hours from the EuroBonus Shopping platform's public backend. Historical data (when a campaign started, which shops have disappeared) is computed by this site over time.</p>
+
+    <h2>Which countries?</h2>
+    <p>The site supports Sweden, Denmark, Norway, and Finland. Switch country and language in the top-right corner. Finland is English-only for now.</p>
+
+    <h2>Contact</h2>
+    <p>Found a bug, got a suggestion, or just want to say hi? Email <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a>.</p>
+
+    <div class="footer-note">
+      <p>© 2026. Nothing on this site is financial advice. Point values can change without notice — always verify directly with SAS before making a big purchase.</p>
+    </div>
+  </article>
+</div>
+
+<script>
+  (function() {
+    var sv = document.getElementById('sv');
+    var en = document.getElementById('en');
+    var toggle = document.getElementById('lang-toggle');
+    var current = 'sv';
+    function apply() {
+      sv.style.display = current === 'sv' ? '' : 'none';
+      en.style.display = current === 'en' ? '' : 'none';
+      toggle.textContent = current === 'sv' ? 'English' : 'Svenska';
+      document.documentElement.lang = current;
+    }
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      current = current === 'sv' ? 'en' : 'sv';
+      apply();
+    });
+    // Light/dark storage shared with main site
+    try {
+      var stored = localStorage.getItem('sas-theme');
+      if (stored === 'dark' || stored === 'light') {
+        document.documentElement.setAttribute('data-theme', stored);
+      }
+    } catch (e) {}
+  })();
+</script>
+</body>
+</html>
