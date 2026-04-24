@@ -1,0 +1,23 @@
+Copyright (c) 2026 David Kifarkis
+
+All rights reserved.
+
+This software and its output (including the generated website at
+eurobonus.chiq.se) is provided for personal use only.
+
+Permission is NOT granted to:
+  - Redistribute, republish, or rehost this software or its output
+  - Use this software or any part of it to create derivative or
+    competing services
+  - Use the name, branding, or visual design in any form without
+    prior written consent
+
+This is not open-source software. The source is published for
+transparency only.
+
+---
+
+Note: This project fetches publicly available data from
+onlineshopping.loyaltykey.com (the backend for SAS EuroBonus Shopping).
+This project is not affiliated with, endorsed by, or sponsored by
+Scandinavian Airlines (SAS), EuroBonus, or Loyaltykey.
