@@ -370,7 +370,7 @@ def render_html(shops_state, category_map):
         for ltr in letters_present if ltr.isalpha() or ltr.isdigit()
     )
 
-category_options_html = '<option value="all">Alla kategorier</option>' + "".join(
+    category_options_html = '<option value="all">Alla kategorier</option>' + "".join(
         f'<option value="{escape(slug)}">{escape(name)}</option>'
         for slug, name in categories_in_use
     )
@@ -481,6 +481,8 @@ body {{
   .sas-list-points {{ min-width: 110px; font-size: 13px; }}
   .sas-card {{ padding: 16px; min-height: 120px; }}
   .sas-points-main {{ font-size: 24px; }}
+  .sas-category-wrap {{ margin-left: 0; width: 100%; }}
+  .sas-category-select {{ width: 100%; }}
 }}
 </style>
 </head>
@@ -494,7 +496,7 @@ body {{
     <button class="sas-toggle" id="theme-toggle">Dark mode</button>
   </div>
 
-<div class="sas-filter-row">
+  <div class="sas-filter-row">
     <div id="view-filters" style="display: flex; gap: 8px; flex-wrap: wrap;">
       <button class="sas-chip active" data-view="all">Alla</button>
       <button class="sas-chip" data-view="campaigns">Kampanjer</button>
