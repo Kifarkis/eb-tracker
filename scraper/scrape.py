@@ -67,6 +67,11 @@ STRINGS = {
         "footer_unaffiliated": "Oberoende sida, inte ansluten till SAS eller EuroBonus.",
         "footer_about": "Om sidan",
         "footer_privacy": "Integritet",
+        "modal_shop_at": "Handla hos",
+        "modal_close": "Stäng",
+        "modal_campaign_period": "Kampanjperiod",
+        "modal_campaign_ends": "Slutar",
+        "modal_open_external": "Öppna direkt",
     },
     "en": {
         "title": "EuroBonus Shopping",
@@ -100,6 +105,11 @@ STRINGS = {
         "footer_unaffiliated": "Independent site, not affiliated with SAS or EuroBonus.",
         "footer_about": "About",
         "footer_privacy": "Privacy",
+        "modal_shop_at": "Shop at",
+        "modal_close": "Close",
+        "modal_campaign_period": "Campaign",
+        "modal_campaign_ends": "Ends",
+        "modal_open_external": "Open directly",
     },
     "da": {
         "title": "EuroBonus Shopping",
@@ -133,6 +143,11 @@ STRINGS = {
         "footer_unaffiliated": "Uafhængig side, ikke tilknyttet SAS eller EuroBonus.",
         "footer_about": "Om",
         "footer_privacy": "Privatliv",
+        "modal_shop_at": "Køb hos",
+        "modal_close": "Luk",
+        "modal_campaign_period": "Kampagne",
+        "modal_campaign_ends": "Slutter",
+        "modal_open_external": "Åbn direkte",
     },
     "nb": {
         "title": "EuroBonus Shopping",
@@ -166,6 +181,11 @@ STRINGS = {
         "footer_unaffiliated": "Uavhengig side, ikke tilknyttet SAS eller EuroBonus.",
         "footer_about": "Om",
         "footer_privacy": "Personvern",
+        "modal_shop_at": "Handle hos",
+        "modal_close": "Lukk",
+        "modal_campaign_period": "Kampanje",
+        "modal_campaign_ends": "Slutter",
+        "modal_open_external": "Åpne direkte",
     },
 }
 
@@ -223,6 +243,27 @@ def translate_ends_en(text):
         if m:
             return re.sub(pattern, replacement, text.strip(), flags=re.IGNORECASE)
     return text
+
+
+def sanitize_description(raw_html):
+    """Light-weight sanitization: strip scripts/iframes/on-handlers, preserve basic formatting."""
+    if not raw_html:
+        return ""
+    # Remove dangerous tags entirely
+    cleaned = re.sub(
+        r"<(script|iframe|object|embed|style|form|input|button|link|meta)\b[^>]*>.*?</\1>",
+        "", raw_html, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(
+        r"<(script|iframe|object|embed|style|form|input|button|link|meta)\b[^>]*/?>",
+        "", cleaned, flags=re.IGNORECASE)
+    # Remove on* event handlers
+    cleaned = re.sub(r"\son\w+\s*=\s*\"[^\"]*\"", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\son\w+\s*=\s*'[^']*'", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\son\w+\s*=\s*[^\s>]+", "", cleaned, flags=re.IGNORECASE)
+    # Remove javascript: URLs
+    cleaned = re.sub(r"href\s*=\s*\"javascript:[^\"]*\"", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"href\s*=\s*'javascript:[^']*'", "", cleaned, flags=re.IGNORECASE)
+    return cleaned
 
 
 def update_state(api_shops, shops_state, history):
@@ -286,6 +327,7 @@ def update_state(api_shops, shops_state, history):
             "name": s.get("name"),
             "slug": s.get("slug"),
             "logo": s.get("logo"),
+            "description": s.get("description"),
             "first_seen": prev.get("first_seen") or today,
             "last_seen": today,
             "status": "active",
@@ -378,10 +420,12 @@ def prepare_country_dataset(shops_state, category_map):
         disp = points_display(s)
         cid = s.get("category_id")
         cat = category_map.get(cid, {"slug": "uncategorized", "name": "Uncategorized"})
+        ac = s.get("active_campaign") or {}
         shops_out.append({
             "uuid": uuid,
             "name": s.get("name"),
             "logo": s.get("logo"),
+            "description": sanitize_description(s.get("description")),
             "status": s.get("status"),
             "category_slug": cat["slug"],
             "category_name": cat["name"],
@@ -392,7 +436,8 @@ def prepare_country_dataset(shops_state, category_map):
             "has_campaign": disp["show_campaign"],
             "campaign_ends_human": s.get("campaign_ends_human"),
             "campaign_ends_human_en": s.get("campaign_ends_human_en"),
-            "campaign_started": (s.get("active_campaign") or {}).get("started"),
+            "campaign_started": ac.get("started"),
+            "campaign_ends_date": ac.get("ends_date"),
             "first_seen": s.get("first_seen"),
             "gone_since": s.get("gone_since"),
         })
@@ -474,22 +519,25 @@ body {{
 .sas-section-header {{ display: flex; justify-content: space-between; align-items: center; margin: 32px 0 14px 0; }}
 .sas-section-header .sas-section-label {{ margin: 0; }}
 .sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }}
-.sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; text-decoration: none; color: inherit; transition: border-color 0.12s, transform 0.12s; }}
+.sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; color: inherit; transition: border-color 0.12s, transform 0.12s; cursor: pointer; position: relative; }}
 .sas-card:hover {{ border-color: var(--border-strong); transform: translateY(-1px); }}
 .sas-card.campaign {{ border-color: var(--accent); }}
 .sas-card-top {{ display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }}
 .sas-card-identity {{ display: flex; align-items: center; gap: 12px; min-width: 0; }}
+.sas-card-external {{ position: absolute; top: 12px; right: 12px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 6px; color: var(--text-faint); background: transparent; border: none; cursor: pointer; padding: 0; }}
+.sas-card-external:hover {{ color: var(--text); background: var(--bg); }}
+.sas-card-external svg {{ width: 14px; height: 14px; }}
 
-.sas-logo-wrap-lg, .sas-logo-wrap-md {{ display: flex; align-items: center; justify-content: center; background: #e5e7eb; flex-shrink: 0; overflow: hidden; }}
-.sas-logo-wrap-lg {{ width: 48px; height: 48px; border-radius: 10px; padding: 5px; }}
-.sas-logo-wrap-md {{ width: 40px; height: 40px; border-radius: 8px; padding: 4px; }}
-.sas-logo-img {{ max-width: 100%; max-height: 100%; object-fit: contain; }}
+.sas-logo-wrap-lg, .sas-logo-wrap-md {{ display: flex; align-items: center; justify-content: center; background: #d1d5db; flex-shrink: 0; overflow: hidden; }}
+.sas-logo-wrap-lg {{ width: 48px; height: 48px; border-radius: 10px; padding: 4px; }}
+.sas-logo-wrap-md {{ width: 40px; height: 40px; border-radius: 8px; padding: 3px; }}
+.sas-logo-img {{ width: 100%; height: 100%; object-fit: contain; }}
 .sas-logo-fallback {{ width: 100%; height: 100%; color: #555; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; letter-spacing: -0.02em; }}
 html[data-theme="dark"] .sas-logo-wrap-lg,
-html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
+html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 
-.sas-card-name {{ font-size: 17px; font-weight: 500; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
-.sas-new-dot {{ width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0; margin-top: 11px; }}
+.sas-card-name {{ font-size: 17px; font-weight: 500; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 36px; }}
+.sas-new-dot {{ width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0; position: absolute; top: 22px; right: 48px; }}
 .sas-points-block {{ display: flex; flex-direction: column; gap: 8px; }}
 .sas-points-row {{ display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }}
 .sas-points-main {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 26px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; }}
@@ -510,9 +558,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
 
 .sas-list {{ display: flex; flex-direction: column; }}
-.sas-list-row {{ display: grid; grid-template-columns: 40px 1fr 80px auto auto; gap: 16px; align-items: center; padding: 14px 4px; border-bottom: 0.5px solid var(--border); text-decoration: none; color: inherit; scroll-margin-top: 20px; }}
+.sas-list-row {{ display: grid; grid-template-columns: 40px 1fr 80px auto auto; gap: 16px; align-items: center; padding: 14px 4px; border-bottom: 0.5px solid var(--border); color: inherit; scroll-margin-top: 20px; cursor: pointer; }}
 .sas-list-row:hover .sas-list-name {{ color: var(--accent); }}
-.sas-list-row-gone {{ opacity: 0.55; }}
+.sas-list-row-gone {{ opacity: 0.55; cursor: default; }}
 .sas-list-logo-wrap {{ width: 40px; height: 40px; }}
 .sas-list-name {{ font-size: 16px; }}
 .sas-list-bar {{ height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; width: 80px; }}
@@ -522,6 +570,33 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
 
 .sas-hidden {{ display: none !important; }}
 .sas-empty {{ color: var(--text-faint); font-size: 14px; padding: 16px 0; }}
+
+/* Modal / bottom sheet */
+.sas-modal-backdrop {{ position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); z-index: 100; display: flex; align-items: flex-end; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; }}
+.sas-modal-backdrop.open {{ opacity: 1; pointer-events: auto; }}
+.sas-modal {{ background: var(--surface); width: 100%; max-width: 560px; border-radius: 20px 20px 0 0; max-height: 85vh; display: flex; flex-direction: column; transform: translateY(100%); transition: transform 0.25s ease; overflow: hidden; }}
+.sas-modal-backdrop.open .sas-modal {{ transform: translateY(0); }}
+.sas-modal-handle {{ width: 36px; height: 4px; border-radius: 2px; background: var(--border-strong); margin: 10px auto 0; flex-shrink: 0; }}
+.sas-modal-body {{ overflow-y: auto; padding: 20px 24px 100px; flex: 1; }}
+.sas-modal-head {{ display: flex; gap: 14px; align-items: center; margin-bottom: 18px; }}
+.sas-modal-head .sas-logo-wrap-lg {{ width: 56px; height: 56px; border-radius: 12px; }}
+.sas-modal-title {{ font-size: 22px; font-weight: 500; letter-spacing: -0.01em; margin: 0 0 4px 0; }}
+.sas-modal-category {{ font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }}
+.sas-modal-stats {{ display: flex; flex-direction: column; gap: 10px; padding: 14px 16px; background: var(--bg); border-radius: 10px; margin-bottom: 18px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; }}
+.sas-modal-stat-row {{ display: flex; justify-content: space-between; color: var(--text-muted); }}
+.sas-modal-stat-row strong {{ color: var(--text); font-weight: 500; }}
+.sas-modal-description {{ font-size: 14px; line-height: 1.6; color: var(--text-muted); }}
+.sas-modal-description p {{ margin: 0 0 12px 0; }}
+.sas-modal-description strong {{ color: var(--text); font-weight: 500; }}
+.sas-modal-description a {{ color: var(--accent); }}
+.sas-modal-description h1, .sas-modal-description h2, .sas-modal-description h3 {{ font-size: 15px; font-weight: 500; color: var(--text); margin: 16px 0 8px 0; }}
+.sas-modal-description ul, .sas-modal-description ol {{ margin: 8px 0 12px 20px; padding: 0; }}
+.sas-modal-description li {{ margin-bottom: 4px; }}
+.sas-modal-footer {{ position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 20px calc(14px + env(safe-area-inset-bottom, 0px)); background: var(--surface); border-top: 0.5px solid var(--border); display: flex; gap: 10px; }}
+.sas-modal-primary {{ flex: 1; background: var(--accent); color: #fff; padding: 14px; border: 0; border-radius: 10px; font-size: 15px; font-weight: 500; cursor: pointer; text-decoration: none; text-align: center; font-family: inherit; }}
+.sas-modal-primary:hover {{ opacity: 0.9; }}
+.sas-modal-close {{ background: none; border: 0.5px solid var(--border-strong); color: var(--text-muted); padding: 14px 18px; border-radius: 10px; font-size: 14px; cursor: pointer; font-family: inherit; }}
+.sas-modal-close:hover {{ color: var(--text); }}
 
 .sas-footer {{ display: flex; justify-content: space-between; align-items: center; margin-top: 64px; padding-top: 24px; border-top: 0.5px solid var(--border); gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--text-faint); }}
 .sas-footer a {{ color: var(--text-muted); text-decoration: none; }}
@@ -539,6 +614,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
   .sas-category-wrap {{ margin-left: 0; width: 100%; }}
   .sas-category-select {{ width: 100%; }}
   .sas-footer {{ flex-direction: column; align-items: flex-start; gap: 8px; }}
+  .sas-modal {{ max-height: 90vh; }}
 }}
 </style>
 </head>
@@ -599,6 +675,17 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
       <span>© 2026 David Kifarkis</span>
     </div>
   </footer>
+</div>
+
+<div class="sas-modal-backdrop" id="modal-backdrop">
+  <div class="sas-modal" id="modal">
+    <div class="sas-modal-handle"></div>
+    <div class="sas-modal-body" id="modal-body"></div>
+    <div class="sas-modal-footer">
+      <a class="sas-modal-primary" id="modal-shop-btn" target="_blank" rel="noopener"></a>
+      <button class="sas-modal-close" id="modal-close"></button>
+    </div>
+  </div>
 </div>
 
 <script id="sas-data" type="application/json">{datasets_json}</script>
@@ -684,6 +771,63 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
     return 'https://onlineshopping.flysas.com/sv-SE/butiker/about-you/' + encodeURIComponent(uuid);
   }}
 
+  // Modal handling
+  var backdrop = document.getElementById('modal-backdrop');
+  var modal = document.getElementById('modal');
+  var modalBody = document.getElementById('modal-body');
+  var modalShopBtn = document.getElementById('modal-shop-btn');
+  var modalClose = document.getElementById('modal-close');
+
+  function openModal(shop) {{
+    var ends = '';
+    if (shop.has_campaign && shop.campaign_started) {{
+      var endPart = shop.campaign_ends_date ? ' → ' + shop.campaign_ends_date : '';
+      ends = '<div class="sas-modal-stat-row"><span>' + t('modal_campaign_period') + '</span><strong>' + shop.campaign_started + endPart + '</strong></div>';
+    }}
+    var et = endsText(shop);
+    var endsHuman = (shop.has_campaign && et) ? '<div class="sas-modal-stat-row"><span>' + t('modal_campaign_ends') + '</span><strong>' + et + '</strong></div>' : '';
+    var bonusRow = shop.bonus > 0 ? '<div class="sas-modal-stat-row"><span>Bonus</span><strong>+' + shop.bonus + ' EB</strong></div>' : '';
+
+    modalBody.innerHTML =
+      '<div class="sas-modal-head">' +
+      '  ' + logoHTML(shop, 'logo-lg') +
+      '  <div>' +
+      '    <div class="sas-modal-category">' + (shop.category_name || '') + '</div>' +
+      '    <h2 class="sas-modal-title">' + shop.name + '</h2>' +
+      '  </div>' +
+      '</div>' +
+      '<div class="sas-modal-stats">' +
+      '  <div class="sas-modal-stat-row"><span>EB ' + unit(shop).replace('/', '').trim() + '</span><strong>' + shop.main + ' EB</strong></div>' +
+      bonusRow +
+      '  <div class="sas-modal-stat-row"><span>' + t('level_label') + '</span><strong>' + shop.level + ' ' + t('points_short') + '</strong></div>' +
+      ends +
+      endsHuman +
+      '</div>' +
+      '<div class="sas-modal-description">' + (shop.description || '') + '</div>';
+
+    modalShopBtn.href = shopUrl(shop.uuid);
+    modalShopBtn.textContent = t('modal_shop_at') + ' ' + shop.name;
+    modalClose.textContent = t('modal_close');
+    backdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }}
+
+  function closeModal() {{
+    backdrop.classList.remove('open');
+    document.body.style.overflow = '';
+  }}
+
+  backdrop.addEventListener('click', function(e) {{
+    if (e.target === backdrop) closeModal();
+  }});
+  modalClose.addEventListener('click', closeModal);
+  document.addEventListener('keydown', function(e) {{
+    if (e.key === 'Escape') closeModal();
+  }});
+
+  // Store shops by uuid for modal lookup
+  var shopsByUuid = {{}};
+
   function cardHTML(shop, ds) {{
     var today = new Date(ds.updated.split(' ')[0]);
     var started = shop.campaign_started ? new Date(shop.campaign_started) : null;
@@ -700,19 +844,20 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
       daysHTML = '<span class="sas-days ' + (urgent ? 'urgent' : '') + '">' + et + '</span>';
     }}
 
-    var a = document.createElement('a');
-    a.className = 'sas-card' + campaignClass;
-    a.href = shopUrl(shop.uuid);
-    a.target = '_blank';
-    a.rel = 'noopener';
-    a.dataset.name = (shop.name || '').toLowerCase();
-    a.dataset.cat = shop.category_slug || '';
-    a.dataset.campaign = shop.has_campaign ? '1' : '0';
-    a.dataset.urgent = urgent ? '1' : '0';
-    a.innerHTML =
+    var div = document.createElement('div');
+    div.className = 'sas-card' + campaignClass;
+    div.dataset.uuid = shop.uuid;
+    div.dataset.name = (shop.name || '').toLowerCase();
+    div.dataset.cat = shop.category_slug || '';
+    div.dataset.campaign = shop.has_campaign ? '1' : '0';
+    div.dataset.urgent = urgent ? '1' : '0';
+    div.innerHTML =
+      '<button class="sas-card-external" title="' + t('modal_open_external') + '" aria-label="' + t('modal_open_external') + '" data-external-uuid="' + shop.uuid + '">' +
+      '  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
+      '</button>' +
+      newDot +
       '<div class="sas-card-top">' +
       '  <div class="sas-card-identity">' + logoHTML(shop, 'logo-lg') + '<div class="sas-card-name">' + shop.name + '</div></div>' +
-      '  ' + newDot +
       '</div>' +
       '<div class="sas-points-block">' +
       '  <div class="sas-points-row">' +
@@ -727,28 +872,26 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
       '  </div>' +
       '</div>' +
       '<div class="sas-card-foot">' + daysHTML + '</div>';
-    return a;
+    return div;
   }}
 
   function listRowHTML(shop, barPct) {{
-    var a = document.createElement('a');
-    a.className = 'sas-list-row';
-    a.href = shopUrl(shop.uuid);
-    a.target = '_blank';
-    a.rel = 'noopener';
-    a.dataset.name = (shop.name || '').toLowerCase();
-    a.dataset.cat = shop.category_slug || '';
-    a.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
-    a.dataset.points = shop.main;
-    a.dataset.level = shop.level;
-    a.dataset.firstSeen = shop.first_seen || '';
-    a.innerHTML =
+    var div = document.createElement('div');
+    div.className = 'sas-list-row';
+    div.dataset.uuid = shop.uuid;
+    div.dataset.name = (shop.name || '').toLowerCase();
+    div.dataset.cat = shop.category_slug || '';
+    div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
+    div.dataset.points = shop.main;
+    div.dataset.level = shop.level;
+    div.dataset.firstSeen = shop.first_seen || '';
+    div.innerHTML =
       '<div class="sas-list-logo-wrap">' + logoHTML(shop, 'logo-md') + '</div>' +
       '<div class="sas-list-name">' + shop.name + '</div>' +
       '<div class="sas-list-bar"><div class="sas-list-bar-fill" style="width: ' + barPct + '%;"></div></div>' +
       '<div class="sas-list-points">' + shop.main + ' EB ' + unit(shop) + '</div>' +
       '<div class="sas-list-level">' + shop.level + ' ' + t('level_short') + '</div>';
-    return a;
+    return div;
   }}
 
   function goneRowHTML(shop) {{
@@ -770,6 +913,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
     document.documentElement.lang = lang;
     document.getElementById('title-text').textContent = t('title');
     setToggleLabel();
+
+    shopsByUuid = {{}};
+    ds.shops.forEach(function(s) {{ shopsByUuid[s.uuid] = s; }});
 
     var active = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
     var gone = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
@@ -901,6 +1047,22 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #d1d5db; }}
     applyFilters();
     sortRows();
   }}
+
+  // Delegated click for cards + rows → open modal. External button → SAS directly.
+  document.addEventListener('click', function(e) {{
+    var ext = e.target.closest('[data-external-uuid]');
+    if (ext) {{
+      e.stopPropagation();
+      var sh = shopsByUuid[ext.dataset.externalUuid];
+      if (sh) window.open(shopUrl(sh.uuid), '_blank', 'noopener');
+      return;
+    }}
+    var card = e.target.closest('.sas-card[data-uuid], .sas-list-row[data-uuid]');
+    if (card) {{
+      var sh2 = shopsByUuid[card.dataset.uuid];
+      if (sh2 && sh2.status !== 'gone') openModal(sh2);
+    }}
+  }});
 
   function applyFilters() {{
     var campaignsSection = document.querySelector('[data-section="campaigns"]');
