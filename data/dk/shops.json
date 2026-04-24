@@ -4680,17 +4680,22 @@
     "uuid": "018f3367-2401-704c-900c-526d7eecfc51"
   },
   "01909142-1013-7009-832e-9bdf53f0b900": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "10.05.2026",
+      "points_campaign": 5000,
+      "points_channel": 1000,
+      "started": "2026-04-24"
+    },
     "all_time_high_date": "2026-04-24",
-    "all_time_high_points": 3000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "all_time_high_points": 5000,
+    "campaign_ends_human": "om 2 uger",
+    "campaign_ends_human_en": "in 2 weeks",
     "category_id": 15,
     "commission_type": "fixed",
     "currency": "DKK",
     "current_points": 3000,
-    "current_points_campaign": 0,
-    "current_points_channel": 600,
+    "current_points_campaign": 5000,
+    "current_points_channel": 1000,
     "first_seen": "2026-04-24",
     "last_seen": "2026-04-24",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/dpX1ujyoQY59jI7uIPkpEChJGTNV3et3yaG5qyp7.png",
