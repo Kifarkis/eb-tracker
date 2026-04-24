@@ -20,7 +20,7 @@ API_BASE = (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STATE_FILE = REPO_ROOT / "data" / "offers.json"
-HTML_FILE = REPO_ROOT / "public" / "index.html"
+HTML_FILE = REPO_ROOT / "docs" / "index.html"
 
 
 def fetch_shops():
