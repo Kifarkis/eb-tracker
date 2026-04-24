@@ -409,7 +409,7 @@ body {{
   margin: 0; padding: 32px 24px 64px;
   font-size: 14px; line-height: 1.5;
 }}
-.sas-container {{ max-width: 1200px; margin: 0 auto; }}
+.sas-container {{ max-width: 1500px; margin: 0 auto; }}
 .sas-header {{ display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; }}
 .sas-title {{ font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 4px 0; }}
 .sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; }}
@@ -428,6 +428,8 @@ body {{
 .sas-search:focus {{ outline: none; border-color: var(--border-strong); }}
 
 .sas-section-label {{ font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 32px 0 14px 0; }}
+.sas-section-header {{ display: flex; justify-content: space-between; align-items: center; margin: 32px 0 14px 0; }}
+.sas-section-header .sas-section-label {{ margin: 0; }}
 .sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }}
 .sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; text-decoration: none; color: inherit; transition: border-color 0.12s, transform 0.12s; }}
 .sas-card:hover {{ border-color: var(--border-strong); transform: translateY(-1px); }}
@@ -517,9 +519,9 @@ body {{
     <div class="sas-grid" id="campaign-grid">{campaign_cards or '<div class="sas-empty">Inga aktiva kampanjer just nu.</div>'}</div>
   </section>
 
-  <section data-section="all-shops">
-    <div class="sas-section-label">Alla butiker</div>
-    <div class="sas-list-controls">
+<section data-section="all-shops">
+    <div class="sas-section-header">
+      <div class="sas-section-label">Alla butiker</div>
       <div class="sas-list-sort">
         <span>Sortera</span>
         <select id="sort-select">
