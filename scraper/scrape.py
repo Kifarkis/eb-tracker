@@ -815,8 +815,7 @@ return /\b(1 dag|1 day|1 dage|idag|today|timme|timmar|hour|hours|timer|time)\b/.
   // --- Render pipeline ---
   function getDataset() {{ return DATA[country] || Object.values(DATA)[0]; }}
 
-  function buildShopList(ds) {{
-  function buildShopList(ds) {{
+   function buildShopList(ds) {{
     if (state.view === 'gone') {{
       return ds.shops
         .filter(function(s) {{ return s.status === 'gone'; }})
@@ -864,7 +863,6 @@ return /\b(1 dag|1 day|1 dage|idag|today|timme|timmar|hour|hours|timer|time)\b/.
 
     return shops;
   }}  
-      }}
 
   function renderJumper(shops) {{
     var jumper = document.getElementById('jumper');
