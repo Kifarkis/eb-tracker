@@ -236,7 +236,6 @@ def today_iso():
 
 
 def best_logo(shop):
-    """Prefer image_url (the branded production image), fall back to logo, then None."""
     return shop.get("image_url") or shop.get("logo")
 
 
@@ -251,7 +250,6 @@ def translate_ends_en(text):
 
 
 def sanitize_description(raw_html):
-    """Light-weight sanitization: strip scripts/iframes/on-handlers, preserve basic formatting."""
     if not raw_html:
         return ""
     cleaned = re.sub(
@@ -482,6 +480,7 @@ def render_html(datasets):
   --text: #1a1a1a; --text-muted: #6b6b6b; --text-faint: #9a9a9a;
   --accent: #1f6feb; --accent-bg: rgba(31, 111, 235, 0.08);
   --warn: #b85c00;
+  --shadow-sticky: 0 4px 12px rgba(0, 0, 0, 0.06);
 }}
 html[data-theme="dark"] {{
   --bg: #0f0f10; --surface: #1a1a1c;
@@ -489,17 +488,29 @@ html[data-theme="dark"] {{
   --text: #ededed; --text-muted: #a0a0a0; --text-faint: #666666;
   --accent: #6ea8ff; --accent-bg: rgba(110, 168, 255, 0.14);
   --warn: #f0a66c;
+  --shadow-sticky: 0 4px 16px rgba(0, 0, 0, 0.4);
 }}
 * {{ box-sizing: border-box; }}
 body {{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   background: var(--bg); color: var(--text);
-  margin: 0; padding: 32px 24px 64px;
+  margin: 0; padding: 0 0 64px;
   font-size: 14px; line-height: 1.5;
 }}
-.sas-container {{ max-width: 1500px; margin: 0 auto; }}
+.sas-container {{ max-width: 1500px; margin: 0 auto; padding: 0 24px; }}
+
+/* Sticky controls cluster */
+.sas-sticky-wrap {{ background: var(--bg); transition: box-shadow 0.2s ease, border-color 0.2s ease; padding-top: 32px; }}
+.sas-sticky-wrap.is-stuck {{ box-shadow: var(--shadow-sticky); border-bottom: 0.5px solid var(--border); padding-top: 16px; padding-bottom: 8px; }}
+@media (min-width: 641px) {{
+  .sas-sticky-wrap {{ position: sticky; top: 0; z-index: 50; }}
+}}
+
 .sas-header {{ display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; }}
-.sas-title {{ font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 4px 0; }}
+.sas-sticky-wrap.is-stuck .sas-header {{ margin-bottom: 12px; }}
+.sas-sticky-wrap.is-stuck .sas-meta {{ display: none; }}
+.sas-title {{ font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 4px 0; transition: font-size 0.2s ease; }}
+.sas-sticky-wrap.is-stuck .sas-title {{ font-size: 20px; }}
 .sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; }}
 .sas-header-controls {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
 .sas-header-select {{ font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }}
@@ -515,6 +526,7 @@ body {{
 .sas-category-select:hover {{ border-color: var(--border-strong); }}
 
 .sas-search {{ width: 100%; font-size: 16px; padding: 13px 18px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font-family: inherit; margin-bottom: 28px; }}
+.sas-sticky-wrap.is-stuck .sas-search {{ margin-bottom: 0; padding: 10px 14px; font-size: 14px; }}
 .sas-search:focus {{ outline: none; border-color: var(--border-strong); }}
 
 .sas-section-label {{ font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); }}
@@ -560,7 +572,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
 
 .sas-list {{ display: flex; flex-direction: column; }}
-.sas-list-row {{ display: grid; grid-template-columns: 40px 1fr 80px auto auto; gap: 16px; align-items: center; padding: 14px 4px; border-bottom: 0.5px solid var(--border); color: inherit; scroll-margin-top: 20px; cursor: pointer; }}
+.sas-list-row {{ display: grid; grid-template-columns: 40px 1fr 80px auto auto; gap: 16px; align-items: center; padding: 14px 4px; border-bottom: 0.5px solid var(--border); color: inherit; scroll-margin-top: 220px; cursor: pointer; }}
 .sas-list-row:hover .sas-list-name {{ color: var(--accent); }}
 .sas-list-row-gone {{ opacity: 0.55; cursor: default; }}
 .sas-list-logo-wrap {{ width: 40px; height: 40px; }}
@@ -605,7 +617,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 .sas-footer-right {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
 
 @media (max-width: 640px) {{
-  body {{ padding: 20px 14px 48px; }}
+  body {{ padding: 0 0 48px; }}
+  .sas-container {{ padding: 0 14px; }}
+  .sas-sticky-wrap {{ padding-top: 20px; }}
   .sas-list-row {{ grid-template-columns: 36px 1fr auto; gap: 12px; }}
   .sas-list-level, .sas-list-bar {{ display: none; }}
   .sas-list-logo-wrap {{ width: 36px; height: 36px; }}
@@ -620,28 +634,32 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 </style>
 </head>
 <body>
+<div class="sas-sticky-wrap" id="sticky-wrap">
+  <div class="sas-container">
+    <div class="sas-header">
+      <div>
+        <h1 class="sas-title" id="title-text">EuroBonus Shopping</h1>
+        <div class="sas-meta" id="meta-text"></div>
+      </div>
+      <div class="sas-header-controls">
+        <select class="sas-header-select" id="country-select" aria-label="Country"></select>
+        <select class="sas-header-select" id="language-select" aria-label="Language"></select>
+        <button class="sas-toggle" id="theme-toggle">Dark mode</button>
+      </div>
+    </div>
+
+    <div class="sas-filter-row">
+      <div id="view-filters" style="display: flex; gap: 8px; flex-wrap: wrap;"></div>
+      <div class="sas-category-wrap">
+        <select id="category-select" class="sas-category-select" aria-label="Category"></select>
+      </div>
+    </div>
+
+    <input class="sas-search" id="search-box" type="search">
+  </div>
+</div>
+
 <div class="sas-container">
-  <div class="sas-header">
-    <div>
-      <h1 class="sas-title" id="title-text">EuroBonus Shopping</h1>
-      <div class="sas-meta" id="meta-text"></div>
-    </div>
-    <div class="sas-header-controls">
-      <select class="sas-header-select" id="country-select" aria-label="Country"></select>
-      <select class="sas-header-select" id="language-select" aria-label="Language"></select>
-      <button class="sas-toggle" id="theme-toggle">Dark mode</button>
-    </div>
-  </div>
-
-  <div class="sas-filter-row">
-    <div id="view-filters" style="display: flex; gap: 8px; flex-wrap: wrap;"></div>
-    <div class="sas-category-wrap">
-      <select id="category-select" class="sas-category-select" aria-label="Category"></select>
-    </div>
-  </div>
-
-  <input class="sas-search" id="search-box" type="search">
-
   <section data-section="campaigns">
     <div class="sas-section-label" id="campaigns-label"></div>
     <div class="sas-grid" id="campaign-grid"></div>
@@ -1170,6 +1188,20 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     state.sort = e.target.value;
     sortRows();
   }});
+
+  // Sticky scroll detection
+  var stickyWrap = document.getElementById('sticky-wrap');
+  var ticking = false;
+  function updateSticky() {{
+    if (!ticking) {{
+      window.requestAnimationFrame(function() {{
+        stickyWrap.classList.toggle('is-stuck', window.scrollY > 20);
+        ticking = false;
+      }});
+      ticking = true;
+    }}
+  }}
+  window.addEventListener('scroll', updateSticky, {{ passive: true }});
 
   updateUrl();
   render();
