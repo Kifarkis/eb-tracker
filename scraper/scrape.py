@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""
-SAS EuroBonus Shopping tracker — multi-country edition.
-"""
-import html
+"""SAS EuroBonus Shopping tracker — multi-country edition."""
 import json
 import re
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
+
+# --- Configuration ---
 
 COUNTRIES = [
     {"code": "SE", "local_lang": "sv", "name": "Sverige", "languages": ["sv", "en"]},
@@ -17,201 +16,135 @@ COUNTRIES = [
     {"code": "FI", "local_lang": "en", "name": "Suomi",   "languages": ["en"]},
 ]
 
-SHOPS_URL_TMPL = (
-    "https://onlineshopping.loyaltykey.com/api/v1/shops"
-    "?filter[channel]=SAS"
-    "&filter[language]={lang}"
-    "&filter[country]={country}"
-    "&filter[amount]=5000"
-)
-CATEGORIES_URL_TMPL = (
-    "https://onlineshopping.loyaltykey.com/api/v1/shops/categories"
-    "?filter[language]={lang}"
-)
+API_BASE = "https://onlineshopping.loyaltykey.com/api/v1"
+SHOPS_URL = API_BASE + "/shops?filter[channel]=SAS&filter[language]={lang}&filter[country]={country}&filter[amount]=5000"
+CATEGORIES_URL = API_BASE + "/shops/categories?filter[language]={lang}"
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 HTML_FILE = REPO_ROOT / "docs" / "index.html"
 
+CLOUDFLARE_TOKEN = "c0d97a34f9524bd18f638693155d6704"
+
+# --- Translations ---
 
 STRINGS = {
     "sv": {
         "title": "EuroBonus Shopping",
-        "shops_label": "Butiker",
-        "gone_label": "Butiker som försvunnit",
-        "filter_all": "Alla",
-        "filter_campaigns": "Kampanjer",
-        "filter_ending": "Slutar snart",
-        "filter_gone": "Borta",
+        "filter_all": "Alla", "filter_campaigns": "Kampanjer",
+        "filter_ending": "Slutar snart", "filter_gone": "Borta",
         "category_all": "Alla kategorier",
-        "category_label": "Kategori",
-        "sort_label": "Sortera",
-        "sort_az": "A–Ö",
-        "sort_za": "Ö–A",
-        "sort_recent": "Senast tillagd",
+        "sort_az": "A–Ö", "sort_za": "Ö–A", "sort_recent": "Senast tillagd",
         "sort_best_eb_fixed": "Bäst EB-poäng — fast",
         "sort_best_eb_variable": "Bäst EB-poäng — rörlig",
         "sort_best_level_fixed": "Bäst nivåpoäng — fast",
         "sort_best_level_variable": "Bäst nivåpoäng — rörlig",
         "search_placeholder": "Sök butik — t.ex. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktiva kampanjer · {new} nya denna vecka · {shops} butiker · uppdaterad {ts}",
-        "dark_mode": "Dark mode",
-        "light_mode": "Light mode",
+        "dark_mode": "Dark mode", "light_mode": "Light mode",
         "no_shops": "Inga butiker matchar.",
         "no_gone": "Inga försvunna butiker ännu.",
-        "level_label": "Nivå",
-        "level_short": "nivå",
-        "points_short": "p",
-        "unit_per_purchase": "/ köp",
-        "unit_per_hundred": "/ 100 kr",
-        "new_campaign_title": "Ny kampanj",
-        "gone_since": "borta sedan",
+        "level_label": "Nivå", "points_short": "p",
+        "unit_per_purchase": "/ köp", "unit_per_hundred": "/ 100 kr",
+        "new_campaign_title": "Ny kampanj", "gone_since": "borta sedan",
         "footer_unaffiliated": "Oberoende sida, inte ansluten till SAS eller EuroBonus.",
-        "footer_about": "Om sidan",
-        "footer_privacy": "Integritet",
-        "modal_shop_at": "Handla hos",
-        "modal_close": "Stäng",
-        "modal_campaign_period": "Kampanjperiod",
-        "modal_campaign_ends": "Slutar",
+        "footer_about": "Om sidan", "footer_privacy": "Integritet",
+        "modal_shop_at": "Handla hos", "modal_close": "Stäng",
+        "modal_campaign_period": "Kampanjperiod", "modal_campaign_ends": "Slutar",
         "modal_open_external": "Öppna direkt",
     },
     "en": {
         "title": "EuroBonus Shopping",
-        "shops_label": "Shops",
-        "gone_label": "Shops that disappeared",
-        "filter_all": "All",
-        "filter_campaigns": "Campaigns",
-        "filter_ending": "Ending soon",
-        "filter_gone": "Gone",
+        "filter_all": "All", "filter_campaigns": "Campaigns",
+        "filter_ending": "Ending soon", "filter_gone": "Gone",
         "category_all": "All categories",
-        "category_label": "Category",
-        "sort_label": "Sort",
-        "sort_az": "A–Z",
-        "sort_za": "Z–A",
-        "sort_recent": "Recently added",
+        "sort_az": "A–Z", "sort_za": "Z–A", "sort_recent": "Recently added",
         "sort_best_eb_fixed": "Best EB points — flat",
         "sort_best_eb_variable": "Best EB points — variable",
         "sort_best_level_fixed": "Best level points — flat",
         "sort_best_level_variable": "Best level points — variable",
         "search_placeholder": "Search shops — e.g. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} active campaigns · {new} new this week · {shops} shops · updated {ts}",
-        "dark_mode": "Dark mode",
-        "light_mode": "Light mode",
+        "dark_mode": "Dark mode", "light_mode": "Light mode",
         "no_shops": "No shops match.",
         "no_gone": "No disappeared shops yet.",
-        "level_label": "Level",
-        "level_short": "lvl",
-        "points_short": "p",
-        "unit_per_purchase": "/ purchase",
-        "unit_per_hundred": "/ 100",
-        "new_campaign_title": "New campaign",
-        "gone_since": "gone since",
+        "level_label": "Level", "points_short": "p",
+        "unit_per_purchase": "/ purchase", "unit_per_hundred": "/ 100",
+        "new_campaign_title": "New campaign", "gone_since": "gone since",
         "footer_unaffiliated": "Independent site, not affiliated with SAS or EuroBonus.",
-        "footer_about": "About",
-        "footer_privacy": "Privacy",
-        "modal_shop_at": "Shop at",
-        "modal_close": "Close",
-        "modal_campaign_period": "Campaign",
-        "modal_campaign_ends": "Ends",
+        "footer_about": "About", "footer_privacy": "Privacy",
+        "modal_shop_at": "Shop at", "modal_close": "Close",
+        "modal_campaign_period": "Campaign", "modal_campaign_ends": "Ends",
         "modal_open_external": "Open directly",
     },
     "da": {
         "title": "EuroBonus Shopping",
-        "shops_label": "Butikker",
-        "gone_label": "Butikker der er forsvundet",
-        "filter_all": "Alle",
-        "filter_campaigns": "Kampagner",
-        "filter_ending": "Slutter snart",
-        "filter_gone": "Væk",
+        "filter_all": "Alle", "filter_campaigns": "Kampagner",
+        "filter_ending": "Slutter snart", "filter_gone": "Væk",
         "category_all": "Alle kategorier",
-        "category_label": "Kategori",
-        "sort_label": "Sorter",
-        "sort_az": "A–Å",
-        "sort_za": "Å–A",
-        "sort_recent": "Senest tilføjet",
+        "sort_az": "A–Å", "sort_za": "Å–A", "sort_recent": "Senest tilføjet",
         "sort_best_eb_fixed": "Bedst EB-point — fast",
         "sort_best_eb_variable": "Bedst EB-point — variabel",
         "sort_best_level_fixed": "Bedst niveaupoint — fast",
         "sort_best_level_variable": "Bedst niveaupoint — variabel",
         "search_placeholder": "Søg butik — fx Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktive kampagner · {new} nye denne uge · {shops} butikker · opdateret {ts}",
-        "dark_mode": "Dark mode",
-        "light_mode": "Light mode",
+        "dark_mode": "Dark mode", "light_mode": "Light mode",
         "no_shops": "Ingen butikker matcher.",
         "no_gone": "Ingen forsvundne butikker endnu.",
-        "level_label": "Niveau",
-        "level_short": "nvl",
-        "points_short": "p",
-        "unit_per_purchase": "/ køb",
-        "unit_per_hundred": "/ 100 kr",
-        "new_campaign_title": "Ny kampagne",
-        "gone_since": "væk siden",
+        "level_label": "Niveau", "points_short": "p",
+        "unit_per_purchase": "/ køb", "unit_per_hundred": "/ 100 kr",
+        "new_campaign_title": "Ny kampagne", "gone_since": "væk siden",
         "footer_unaffiliated": "Uafhængig side, ikke tilknyttet SAS eller EuroBonus.",
-        "footer_about": "Om",
-        "footer_privacy": "Privatliv",
-        "modal_shop_at": "Køb hos",
-        "modal_close": "Luk",
-        "modal_campaign_period": "Kampagne",
-        "modal_campaign_ends": "Slutter",
+        "footer_about": "Om", "footer_privacy": "Privatliv",
+        "modal_shop_at": "Køb hos", "modal_close": "Luk",
+        "modal_campaign_period": "Kampagne", "modal_campaign_ends": "Slutter",
         "modal_open_external": "Åbn direkte",
     },
     "nb": {
         "title": "EuroBonus Shopping",
-        "shops_label": "Butikker",
-        "gone_label": "Butikker som har forsvunnet",
-        "filter_all": "Alle",
-        "filter_campaigns": "Kampanjer",
-        "filter_ending": "Slutter snart",
-        "filter_gone": "Borte",
+        "filter_all": "Alle", "filter_campaigns": "Kampanjer",
+        "filter_ending": "Slutter snart", "filter_gone": "Borte",
         "category_all": "Alle kategorier",
-        "category_label": "Kategori",
-        "sort_label": "Sorter",
-        "sort_az": "A–Å",
-        "sort_za": "Å–A",
-        "sort_recent": "Sist lagt til",
+        "sort_az": "A–Å", "sort_za": "Å–A", "sort_recent": "Sist lagt til",
         "sort_best_eb_fixed": "Best EB-poeng — fast",
         "sort_best_eb_variable": "Best EB-poeng — variabel",
         "sort_best_level_fixed": "Best nivåpoeng — fast",
         "sort_best_level_variable": "Best nivåpoeng — variabel",
         "search_placeholder": "Søk butikk — f.eks. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktive kampanjer · {new} nye denne uken · {shops} butikker · oppdatert {ts}",
-        "dark_mode": "Dark mode",
-        "light_mode": "Light mode",
+        "dark_mode": "Dark mode", "light_mode": "Light mode",
         "no_shops": "Ingen butikker matcher.",
         "no_gone": "Ingen forsvunne butikker ennå.",
-        "level_label": "Nivå",
-        "level_short": "nvå",
-        "points_short": "p",
-        "unit_per_purchase": "/ kjøp",
-        "unit_per_hundred": "/ 100 kr",
-        "new_campaign_title": "Ny kampanje",
-        "gone_since": "borte siden",
+        "level_label": "Nivå", "points_short": "p",
+        "unit_per_purchase": "/ kjøp", "unit_per_hundred": "/ 100 kr",
+        "new_campaign_title": "Ny kampanje", "gone_since": "borte siden",
         "footer_unaffiliated": "Uavhengig side, ikke tilknyttet SAS eller EuroBonus.",
-        "footer_about": "Om",
-        "footer_privacy": "Personvern",
-        "modal_shop_at": "Handle hos",
-        "modal_close": "Lukk",
-        "modal_campaign_period": "Kampanje",
-        "modal_campaign_ends": "Slutter",
+        "footer_about": "Om", "footer_privacy": "Personvern",
+        "modal_shop_at": "Handle hos", "modal_close": "Lukk",
+        "modal_campaign_period": "Kampanje", "modal_campaign_ends": "Slutter",
         "modal_open_external": "Åpne direkte",
     },
 }
 
-ENDS_TRANSLATIONS_EN = {
-    r"^om (\d+) dag$": r"in \1 day",
-    r"^om (\d+) dagar$": r"in \1 days",
-    r"^om (\d+) vecka$": r"in \1 week",
-    r"^om (\d+) veckor$": r"in \1 weeks",
-    r"^om (\d+) timmar$": r"in \1 hours",
-    r"^idag$": "today",
-    r"^om (\d+) dage$": r"in \1 days",
-    r"^om (\d+) uge$": r"in \1 week",
-    r"^om (\d+) uger$": r"in \1 weeks",
-    r"^om (\d+) timer$": r"in \1 hours",
-    r"^om (\d+) uke$": r"in \1 week",
-    r"^om (\d+) uker$": r"in \1 weeks",
-}
+# Pattern→replacement for the API's localized "campaign_ends" string → English.
+# Covers the most common Swedish, Danish, Norwegian variants.
+ENDS_PATTERNS_EN = [
+    (r"^om (\d+) dag$", r"in \1 day"),
+    (r"^om (\d+) dagar$", r"in \1 days"),
+    (r"^om (\d+) dage$", r"in \1 days"),
+    (r"^om (\d+) vecka$", r"in \1 week"),
+    (r"^om (\d+) veckor$", r"in \1 weeks"),
+    (r"^om (\d+) uge$", r"in \1 week"),
+    (r"^om (\d+) uger$", r"in \1 weeks"),
+    (r"^om (\d+) uke$", r"in \1 week"),
+    (r"^om (\d+) uker$", r"in \1 weeks"),
+    (r"^om (\d+) timmar$", r"in \1 hours"),
+    (r"^om (\d+) timer$", r"in \1 hours"),
+    (r"^idag$", "today"),
+]
 
+# --- Utilities ---
 
 def fetch_json(url):
     req = Request(url, headers={
@@ -223,12 +156,12 @@ def fetch_json(url):
 
 
 def load_json(path, default):
-    if path.exists():
-        try:
-            return json.loads(path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            return default
-    return default
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return default
 
 
 def save_json(path, data):
@@ -244,37 +177,44 @@ def today_iso():
 
 
 def best_logo(shop):
+    """Prefer the production branded image_url, fall back to logo, then None."""
     return shop.get("image_url") or shop.get("logo")
 
 
 def translate_ends_en(text):
     if not text:
         return text
-    for pattern, replacement in ENDS_TRANSLATIONS_EN.items():
-        m = re.match(pattern, text.strip(), re.IGNORECASE)
-        if m:
-            return re.sub(pattern, replacement, text.strip(), flags=re.IGNORECASE)
+    stripped = text.strip()
+    for pattern, replacement in ENDS_PATTERNS_EN:
+        if re.match(pattern, stripped, re.IGNORECASE):
+            return re.sub(pattern, replacement, stripped, flags=re.IGNORECASE)
     return text
 
 
+# Tags stripped entirely from API descriptions before rendering in the modal.
+_DESC_DANGER_TAGS = "(?:script|iframe|object|embed|style|form|input|button|link|meta)"
+_DESC_DANGER_BLOCK = re.compile(rf"<{_DESC_DANGER_TAGS}\b[^>]*>.*?</[^>]+>", re.IGNORECASE | re.DOTALL)
+_DESC_DANGER_VOID = re.compile(rf"<{_DESC_DANGER_TAGS}\b[^>]*/?>", re.IGNORECASE)
+_DESC_ON_HANDLER = re.compile(r'\son\w+\s*=\s*("[^"]*"|\'[^\']*\'|[^\s>]+)', re.IGNORECASE)
+_DESC_JS_HREF = re.compile(r'href\s*=\s*("javascript:[^"]*"|\'javascript:[^\']*\')', re.IGNORECASE)
+
+
 def sanitize_description(raw_html):
+    """Strip dangerous HTML; preserve formatting tags like <strong>, <p>, <ul>."""
     if not raw_html:
         return ""
-    cleaned = re.sub(
-        r"<(script|iframe|object|embed|style|form|input|button|link|meta)\b[^>]*>.*?</\1>",
-        "", raw_html, flags=re.IGNORECASE | re.DOTALL)
-    cleaned = re.sub(
-        r"<(script|iframe|object|embed|style|form|input|button|link|meta)\b[^>]*/?>",
-        "", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\son\w+\s*=\s*\"[^\"]*\"", "", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\son\w+\s*=\s*'[^']*'", "", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"\son\w+\s*=\s*[^\s>]+", "", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"href\s*=\s*\"javascript:[^\"]*\"", "", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"href\s*=\s*'javascript:[^']*'", "", cleaned, flags=re.IGNORECASE)
+    cleaned = _DESC_DANGER_BLOCK.sub("", raw_html)
+    cleaned = _DESC_DANGER_VOID.sub("", cleaned)
+    cleaned = _DESC_ON_HANDLER.sub("", cleaned)
+    cleaned = _DESC_JS_HREF.sub("", cleaned)
     return cleaned
 
 
+# --- State management ---
+
 def update_state(api_shops, shops_state, history):
+    """Merge the latest API snapshot into the persistent shop state.
+    Detects new campaigns, ended campaigns, new shops, gone shops."""
     today = today_iso()
     api_uuids = {s["uuid"] for s in api_shops}
     counts = {"new_shops": 0, "new_campaigns": 0, "ended_campaigns": 0, "gone_shops": 0}
@@ -290,6 +230,7 @@ def update_state(api_shops, shops_state, history):
         points_campaign = s.get("points_campaign") or 0
         points_channel = s.get("points_channel") or 0
 
+        # Track all-time-high points for future trend features.
         effective_max = max(current_points, points_campaign)
         prev_high = prev.get("all_time_high_points") or 0
         if effective_max > prev_high:
@@ -299,6 +240,7 @@ def update_state(api_shops, shops_state, history):
             all_time_high_points = prev_high
             all_time_high_date = prev.get("all_time_high_date") or today
 
+        # Update or close the active campaign record.
         active_campaign = prev.get("active_campaign")
         if has_campaign_now:
             ends_date = s.get("campaign_ends_date")
@@ -354,27 +296,29 @@ def update_state(api_shops, shops_state, history):
         if is_new:
             counts["new_shops"] += 1
 
+    # Mark shops absent from the latest API as gone.
     for uuid, shop in shops_state.items():
-        if uuid in api_uuids:
+        if uuid in api_uuids or shop.get("status") == "gone":
             continue
-        if shop.get("status") != "gone":
-            shop["status"] = "gone"
-            shop["gone_since"] = today
-            counts["gone_shops"] += 1
-            if shop.get("active_campaign"):
-                history.append({
-                    "uuid": uuid,
-                    "name": shop.get("name"),
-                    "started": shop["active_campaign"].get("started"),
-                    "ended": today,
-                    "points_campaign": shop["active_campaign"].get("points_campaign"),
-                    "points_channel": shop["active_campaign"].get("points_channel"),
-                    "note": "shop_disappeared",
-                })
-                shop["active_campaign"] = None
+        shop["status"] = "gone"
+        shop["gone_since"] = today
+        counts["gone_shops"] += 1
+        if shop.get("active_campaign"):
+            history.append({
+                "uuid": uuid,
+                "name": shop.get("name"),
+                "started": shop["active_campaign"].get("started"),
+                "ended": today,
+                "points_campaign": shop["active_campaign"].get("points_campaign"),
+                "points_channel": shop["active_campaign"].get("points_channel"),
+                "note": "shop_disappeared",
+            })
+            shop["active_campaign"] = None
 
     return shops_state, history, counts
 
+
+# --- Categories ---
 
 def category_slug_from_name(name):
     if not name:
@@ -388,46 +332,55 @@ def category_slug_from_name(name):
 
 
 def build_category_map(categories_data):
-    mapping = {}
+    """Return {category_id: {slug, name}} from the API response."""
     items = categories_data.get("data", []) if isinstance(categories_data, dict) else []
+    mapping = {}
     for cat in items:
         cid = cat.get("category_id") or cat.get("id")
+        if cid is None:
+            continue
         name = cat.get("name") or f"Category {cid}"
-        slug = cat.get("slug") or category_slug_from_name(name)
-        if cid is not None:
-            mapping[cid] = {"slug": slug, "name": name}
+        mapping[cid] = {
+            "slug": cat.get("slug") or category_slug_from_name(name),
+            "name": name,
+        }
     return mapping
 
 
+# --- Display helpers ---
+
 def points_display(shop):
-    ct = shop.get("commission_type")
-    unit_variable = ct == "variable"
+    """Compute the points/level/bonus to display for a shop, taking active campaigns into account."""
+    is_variable = shop.get("commission_type") == "variable"
     if shop.get("active_campaign"):
         camp = shop["active_campaign"]
         main = camp.get("points_campaign") or 0
         base = shop.get("current_points") or 0
-        bonus = max(main - base, 0)
         return {
-            "main": main, "bonus": bonus,
+            "main": main,
+            "bonus": max(main - base, 0),
             "level": camp.get("points_channel") or 0,
             "show_campaign": True,
-            "unit_variable": unit_variable,
+            "unit_variable": is_variable,
         }
     return {
         "main": shop.get("current_points") or 0,
         "bonus": 0,
         "level": shop.get("current_points_channel") or 0,
         "show_campaign": False,
-        "unit_variable": unit_variable,
+        "unit_variable": is_variable,
     }
 
 
 def prepare_country_dataset(shops_state, category_map):
+    """Serialize shop state into the compact JSON shape consumed by the frontend."""
     shops_out = []
     for uuid, s in shops_state.items():
         disp = points_display(s)
-        cid = s.get("category_id")
-        cat = category_map.get(cid, {"slug": "uncategorized", "name": "Uncategorized"})
+        cat = category_map.get(
+            s.get("category_id"),
+            {"slug": "uncategorized", "name": "Uncategorized"},
+        )
         ac = s.get("active_campaign") or {}
         shops_out.append({
             "uuid": uuid,
@@ -450,15 +403,16 @@ def prepare_country_dataset(shops_state, category_map):
             "gone_since": s.get("gone_since"),
         })
 
-    categories_in_use = sorted(
-        {(shops_state.get(u, {}).get("category_id")) for u in shops_state
-         if shops_state[u].get("status") == "active"} - {None}
+    # Only show categories that actually have at least one active shop.
+    used_cat_ids = {
+        s.get("category_id") for s in shops_state.values()
+        if s.get("status") == "active" and s.get("category_id") is not None
+    }
+    category_list = sorted(
+        ({"slug": category_map[cid]["slug"], "name": category_map[cid]["name"]}
+         for cid in used_cat_ids if cid in category_map),
+        key=lambda c: c["name"].lower(),
     )
-    category_list = [
-        {"slug": category_map[cid]["slug"], "name": category_map[cid]["name"]}
-        for cid in categories_in_use if cid in category_map
-    ]
-    category_list.sort(key=lambda c: c["name"].lower())
 
     return {
         "shops": shops_out,
@@ -467,14 +421,23 @@ def prepare_country_dataset(shops_state, category_map):
     }
 
 
-def render_html(datasets):
-    datasets_json = json.dumps(datasets, ensure_ascii=False)
-    strings_json = json.dumps(STRINGS, ensure_ascii=False)
-    countries_json = json.dumps(COUNTRIES, ensure_ascii=False)
-    default_country = "SE"
-    default_lang = "sv"
+# --- HTML rendering ---
 
-    return f"""<!DOCTYPE html>
+def render_html(datasets):
+    """Generate the full single-page HTML with embedded data and client-side rendering."""
+    payload = {
+        "datasets": json.dumps(datasets, ensure_ascii=False),
+        "strings": json.dumps(STRINGS, ensure_ascii=False),
+        "countries": json.dumps(COUNTRIES, ensure_ascii=False),
+        "default_country": "SE",
+        "default_lang": "sv",
+        "cf_token": CLOUDFLARE_TOKEN,
+    }
+
+    return _HTML_TEMPLATE.format(**payload)
+
+
+_HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="sv">
 <head>
 <meta charset="utf-8">
@@ -537,9 +500,8 @@ body {{
 .sas-sticky-wrap.is-stuck .sas-search {{ margin-bottom: 0; padding: 10px 14px; font-size: 14px; }}
 .sas-search:focus {{ outline: none; border-color: var(--border-strong); }}
 
-.sas-section-label {{ font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 24px 0 14px 0; }}
 .sas-jumper {{ display: flex; gap: 2px; padding: 6px 0 14px 0; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--text-faint); flex-wrap: wrap; }}
-.sas-jumper-letter {{ padding: 4px 8px; cursor: pointer; border-radius: 4px; user-select: none; scroll-margin-top: 220px; }}
+.sas-jumper-letter {{ padding: 4px 8px; cursor: pointer; border-radius: 4px; user-select: none; }}
 .sas-jumper-letter:hover {{ color: var(--text); }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
 
@@ -553,10 +515,10 @@ body {{
 .sas-card-external:hover {{ color: var(--text); background: var(--bg); }}
 .sas-card-external svg {{ width: 14px; height: 14px; }}
 
-.sas-logo-wrap-lg {{ display: flex; align-items: center; justify-content: center; background: #d1d5db; flex-shrink: 0; overflow: hidden; width: 48px; height: 48px; border-radius: 10px; }}
+.sas-logo-wrap {{ display: flex; align-items: center; justify-content: center; background: #d1d5db; flex-shrink: 0; overflow: hidden; width: 48px; height: 48px; border-radius: 10px; }}
 .sas-logo-img {{ width: 100%; height: 100%; object-fit: cover; }}
 .sas-logo-fallback {{ width: 100%; height: 100%; color: #555; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; letter-spacing: -0.02em; }}
-html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
+html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
 .sas-card-name {{ font-size: 17px; font-weight: 500; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 36px; }}
 .sas-new-dot {{ width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0; position: absolute; top: 22px; right: 48px; }}
@@ -585,7 +547,7 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 .sas-modal-handle {{ width: 36px; height: 4px; border-radius: 2px; background: var(--border-strong); margin: 10px auto 0; flex-shrink: 0; }}
 .sas-modal-body {{ overflow-y: auto; padding: 20px 24px 100px; flex: 1; }}
 .sas-modal-head {{ display: flex; gap: 14px; align-items: center; margin-bottom: 18px; }}
-.sas-modal-head .sas-logo-wrap-lg {{ width: 56px; height: 56px; border-radius: 12px; }}
+.sas-modal-head .sas-logo-wrap {{ width: 56px; height: 56px; border-radius: 12px; }}
 .sas-modal-title {{ font-size: 22px; font-weight: 500; letter-spacing: -0.01em; margin: 0 0 4px 0; }}
 .sas-modal-category {{ font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }}
 .sas-modal-stats {{ display: flex; flex-direction: column; gap: 10px; padding: 14px 16px; background: var(--bg); border-radius: 10px; margin-bottom: 18px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; }}
@@ -636,7 +598,6 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
         <button class="sas-toggle" id="theme-toggle">Dark mode</button>
       </div>
     </div>
-
     <div class="sas-filter-row">
       <div id="view-filters" style="display: flex; gap: 8px; flex-wrap: wrap;"></div>
       <div class="sas-controls-right">
@@ -644,7 +605,6 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
         <select id="sort-select" class="sas-list-control" aria-label="Sort"></select>
       </div>
     </div>
-
     <input class="sas-search" id="search-box" type="search">
   </div>
 </div>
@@ -653,16 +613,11 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
   <div class="sas-jumper" id="jumper"></div>
   <div class="sas-grid" id="shop-grid"></div>
   <div class="sas-empty sas-hidden" id="empty-state"></div>
-
   <footer class="sas-footer">
-    <div class="sas-footer-left">
-      <span id="footer-unaffiliated"></span>
-    </div>
+    <div><span id="footer-unaffiliated"></span></div>
     <div class="sas-footer-right">
-      <a href="about.html" id="footer-about">About</a>
-      ·
-      <a href="privacy.html" id="footer-privacy">Privacy</a>
-      ·
+      <a href="about.html" id="footer-about">About</a> ·
+      <a href="privacy.html" id="footer-privacy">Privacy</a> ·
       <span>© 2026 David Kifarkis</span>
     </div>
   </footer>
@@ -679,16 +634,15 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
   </div>
 </div>
 
-<script id="sas-data" type="application/json">{datasets_json}</script>
-<script id="sas-strings" type="application/json">{strings_json}</script>
-<script id="sas-countries" type="application/json">{countries_json}</script>
+<script id="sas-data" type="application/json">{datasets}</script>
+<script id="sas-strings" type="application/json">{strings}</script>
+<script id="sas-countries" type="application/json">{countries}</script>
 
 <script>
 (function() {{
   var DATA = JSON.parse(document.getElementById('sas-data').textContent);
   var STRINGS = JSON.parse(document.getElementById('sas-strings').textContent);
   var COUNTRIES = JSON.parse(document.getElementById('sas-countries').textContent);
-
   var DEFAULT_COUNTRY = '{default_country}';
   var DEFAULT_LANG = '{default_lang}';
 
@@ -699,19 +653,20 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
   if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
 
   var state = {{ view: 'all', category: 'all', query: '', sort: 'az' }};
+  var shopsByUuid = {{}};
 
+  // --- Theme ---
   var root = document.documentElement;
   var toggle = document.getElementById('theme-toggle');
   function prefersDark() {{ return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; }}
   function isDark() {{
     var t = root.getAttribute('data-theme');
-    if (t === 'dark') return true;
-    if (t === 'light') return false;
-    return prefersDark();
+    return t === 'dark' || (t !== 'light' && prefersDark());
   }}
-  var stored = null;
-  try {{ stored = localStorage.getItem('sas-theme'); }} catch (e) {{}}
-  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+  try {{
+    var stored = localStorage.getItem('sas-theme');
+    if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+  }} catch (e) {{}}
   toggle.addEventListener('click', function() {{
     var next = isDark() ? 'light' : 'dark';
     root.setAttribute('data-theme', next);
@@ -719,13 +674,11 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     setToggleLabel();
   }});
 
+  // --- Helpers ---
   function t(key) {{ return (STRINGS[lang] || STRINGS.en)[key] || key; }}
+  function setToggleLabel() {{ toggle.textContent = isDark() ? t('light_mode') : t('dark_mode'); }}
 
-  function setToggleLabel() {{
-    toggle.textContent = isDark() ? t('light_mode') : t('dark_mode');
-  }}
-
-  function initialsFromName(name) {{
+  function initials(name) {{
     var parts = (name || '?').split(/\\s+/).filter(Boolean);
     if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
     return (name || '?').substring(0, 2).toUpperCase();
@@ -733,14 +686,12 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 
   function logoHTML(shop) {{
     if (shop.logo) {{
-      return '<div class="sas-logo-wrap-lg"><img src="' + shop.logo + '" alt="" class="sas-logo-img" loading="lazy"></div>';
+      return '<div class="sas-logo-wrap"><img src="' + shop.logo + '" alt="" class="sas-logo-img" loading="lazy"></div>';
     }}
-    return '<div class="sas-logo-wrap-lg"><div class="sas-logo-fallback">' + initialsFromName(shop.name) + '</div></div>';
+    return '<div class="sas-logo-wrap"><div class="sas-logo-fallback">' + initials(shop.name) + '</div></div>';
   }}
 
-  function unit(shop) {{
-    return shop.unit_variable ? t('unit_per_hundred') : t('unit_per_purchase');
-  }}
+  function unit(shop) {{ return shop.unit_variable ? t('unit_per_hundred') : t('unit_per_purchase'); }}
 
   function endsText(shop) {{
     if (lang === 'en' && shop.campaign_ends_human_en) return shop.campaign_ends_human_en;
@@ -750,48 +701,42 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
   function isUrgent(text) {{
     if (!text) return false;
     var l = text.toLowerCase();
-    return l.indexOf('1 dag') !== -1 || l.indexOf('1 day') !== -1 ||
-           l.indexOf('1 dage') !== -1 ||
-           l.indexOf('idag') !== -1 || l.indexOf('today') !== -1 ||
-           l.indexOf('timmar') !== -1 || l.indexOf('hours') !== -1 ||
-           l.indexOf('timer') !== -1;
+    return /\\b(1 dag|1 day|1 dage|idag|today|timmar|hours|timer)\\b/.test(l);
   }}
 
   function shopUrl(uuid) {{
     return 'https://onlineshopping.flysas.com/sv-SE/butiker/about-you/' + encodeURIComponent(uuid);
   }}
 
+  function isVariableSort(s) {{ return s === 'best_eb_variable' || s === 'best_level_variable'; }}
+  function isFixedSort(s) {{ return s === 'best_eb_fixed' || s === 'best_level_fixed'; }}
+
+  // --- Modal ---
   var backdrop = document.getElementById('modal-backdrop');
-  var modal = document.getElementById('modal');
   var modalBody = document.getElementById('modal-body');
   var modalShopBtn = document.getElementById('modal-shop-btn');
   var modalClose = document.getElementById('modal-close');
 
   function openModal(shop) {{
-    var ends = '';
+    var rows = [];
+    rows.push('<div class="sas-modal-stat-row"><span>EB ' + unit(shop).replace('/', '').trim() + '</span><strong>' + shop.main + ' EB</strong></div>');
+    if (shop.bonus > 0) rows.push('<div class="sas-modal-stat-row"><span>Bonus</span><strong>+' + shop.bonus + ' EB</strong></div>');
+    rows.push('<div class="sas-modal-stat-row"><span>' + t('level_label') + '</span><strong>' + shop.level + ' ' + t('points_short') + '</strong></div>');
+
     if (shop.has_campaign && shop.campaign_started) {{
-      var endPart = shop.campaign_ends_date ? ' → ' + shop.campaign_ends_date : '';
-      ends = '<div class="sas-modal-stat-row"><span>' + t('modal_campaign_period') + '</span><strong>' + shop.campaign_started + endPart + '</strong></div>';
+      var range = shop.campaign_started + (shop.campaign_ends_date ? ' → ' + shop.campaign_ends_date : '');
+      rows.push('<div class="sas-modal-stat-row"><span>' + t('modal_campaign_period') + '</span><strong>' + range + '</strong></div>');
     }}
     var et = endsText(shop);
-    var endsHuman = (shop.has_campaign && et) ? '<div class="sas-modal-stat-row"><span>' + t('modal_campaign_ends') + '</span><strong>' + et + '</strong></div>' : '';
-    var bonusRow = shop.bonus > 0 ? '<div class="sas-modal-stat-row"><span>Bonus</span><strong>+' + shop.bonus + ' EB</strong></div>' : '';
+    if (shop.has_campaign && et) {{
+      rows.push('<div class="sas-modal-stat-row"><span>' + t('modal_campaign_ends') + '</span><strong>' + et + '</strong></div>');
+    }}
 
     modalBody.innerHTML =
-      '<div class="sas-modal-head">' +
-      '  ' + logoHTML(shop) +
-      '  <div>' +
-      '    <div class="sas-modal-category">' + (shop.category_name || '') + '</div>' +
-      '    <h2 class="sas-modal-title">' + shop.name + '</h2>' +
-      '  </div>' +
-      '</div>' +
-      '<div class="sas-modal-stats">' +
-      '  <div class="sas-modal-stat-row"><span>EB ' + unit(shop).replace('/', '').trim() + '</span><strong>' + shop.main + ' EB</strong></div>' +
-      bonusRow +
-      '  <div class="sas-modal-stat-row"><span>' + t('level_label') + '</span><strong>' + shop.level + ' ' + t('points_short') + '</strong></div>' +
-      ends +
-      endsHuman +
-      '</div>' +
+      '<div class="sas-modal-head">' + logoHTML(shop) +
+      '<div><div class="sas-modal-category">' + (shop.category_name || '') + '</div>' +
+      '<h2 class="sas-modal-title">' + shop.name + '</h2></div></div>' +
+      '<div class="sas-modal-stats">' + rows.join('') + '</div>' +
       '<div class="sas-modal-description">' + (shop.description || '') + '</div>';
 
     modalShopBtn.href = shopUrl(shop.uuid);
@@ -806,35 +751,21 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     document.body.style.overflow = '';
   }}
 
-  backdrop.addEventListener('click', function(e) {{
-    if (e.target === backdrop) closeModal();
-  }});
+  backdrop.addEventListener('click', function(e) {{ if (e.target === backdrop) closeModal(); }});
   modalClose.addEventListener('click', closeModal);
-  document.addEventListener('keydown', function(e) {{
-    if (e.key === 'Escape') closeModal();
-  }});
+  document.addEventListener('keydown', function(e) {{ if (e.key === 'Escape') closeModal(); }});
 
-  var shopsByUuid = {{}};
-
+  // --- Cards ---
   function cardHTML(shop, ds) {{
     var today = new Date(ds.updated.split(' ')[0]);
     var started = shop.campaign_started ? new Date(shop.campaign_started) : null;
     var daysAgo = started ? Math.floor((today - started) / 86400000) : null;
-    var discoveredRecently = shop.has_campaign && daysAgo !== null && daysAgo <= 2;
-    var campaignClass = shop.has_campaign ? ' campaign' : '';
-    var newDot = discoveredRecently ? '<div class="sas-new-dot" title="' + t('new_campaign_title') + '"></div>' : '';
-    var bonusPill = shop.bonus > 0 ? '<span class="sas-pill">+' + shop.bonus + '</span>' : '';
+    var isNew = shop.has_campaign && daysAgo !== null && daysAgo <= 2;
     var et = endsText(shop);
-    var daysHTML = '';
-    var urgent = false;
-    if (shop.has_campaign && et) {{
-      urgent = isUrgent(et);
-      daysHTML = '<span class="sas-days ' + (urgent ? 'urgent' : '') + '">' + et + '</span>';
-    }}
-    var footClass = 'sas-card-foot' + (daysHTML ? '' : ' empty');
+    var urgent = shop.has_campaign && et && isUrgent(et);
 
     var div = document.createElement('div');
-    div.className = 'sas-card' + campaignClass;
+    div.className = 'sas-card' + (shop.has_campaign ? ' campaign' : '');
     div.dataset.uuid = shop.uuid;
     div.dataset.name = (shop.name || '').toLowerCase();
     div.dataset.cat = shop.category_slug || '';
@@ -845,26 +776,24 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     div.dataset.unitVariable = shop.unit_variable ? '1' : '0';
     div.dataset.firstSeen = shop.first_seen || '';
     div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
+
+    var bonusPill = shop.bonus > 0 ? '<span class="sas-pill">+' + shop.bonus + '</span>' : '';
+    var newDot = isNew ? '<div class="sas-new-dot" title="' + t('new_campaign_title') + '"></div>' : '';
+    var daysHTML = (shop.has_campaign && et) ? '<span class="sas-days ' + (urgent ? 'urgent' : '') + '">' + et + '</span>' : '';
+    var footClass = 'sas-card-foot' + (daysHTML ? '' : ' empty');
+
     div.innerHTML =
-      '<button class="sas-card-external" title="' + t('modal_open_external') + '" aria-label="' + t('modal_open_external') + '" data-external-uuid="' + shop.uuid + '">' +
-      '  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
-      '</button>' +
-      newDot +
-      '<div class="sas-card-top">' +
-      '  <div class="sas-card-identity">' + logoHTML(shop) + '<div class="sas-card-name">' + shop.name + '</div></div>' +
-      '</div>' +
+      '<button class="sas-card-external" title="' + t('modal_open_external') + '" data-external-uuid="' + shop.uuid + '">' +
+      '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
+      '</button>' + newDot +
+      '<div class="sas-card-top"><div class="sas-card-identity">' + logoHTML(shop) +
+      '<div class="sas-card-name">' + shop.name + '</div></div></div>' +
       '<div class="sas-points-block">' +
-      '  <div class="sas-points-row">' +
-      '    <span class="sas-points-main">' + shop.main + '</span>' +
-      '    <span class="sas-eb-tag">EB</span>' +
-      '    ' + bonusPill +
-      '    <span class="sas-points-unit">' + unit(shop) + '</span>' +
-      '  </div>' +
-      '  <div class="sas-status-row">' +
-      '    <span class="sas-status-label">' + t('level_label') + '</span>' +
-      '    <span class="sas-status-val">' + shop.level + ' ' + t('points_short') + '</span>' +
-      '  </div>' +
-      '</div>' +
+      '<div class="sas-points-row"><span class="sas-points-main">' + shop.main + '</span>' +
+      '<span class="sas-eb-tag">EB</span>' + bonusPill +
+      '<span class="sas-points-unit">' + unit(shop) + '</span></div>' +
+      '<div class="sas-status-row"><span class="sas-status-label">' + t('level_label') + '</span>' +
+      '<span class="sas-status-val">' + shop.level + ' ' + t('points_short') + '</span></div></div>' +
       '<div class="' + footClass + '">' + daysHTML + '</div>';
     return div;
   }}
@@ -875,188 +804,58 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     div.dataset.uuid = shop.uuid;
     div.dataset.name = (shop.name || '').toLowerCase();
     div.dataset.cat = shop.category_slug || '';
-    div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
     div.innerHTML =
-      '<div class="sas-card-top">' +
-      '  <div class="sas-card-identity">' + logoHTML(shop) + '<div class="sas-card-name">' + shop.name + '</div></div>' +
-      '</div>' +
-      '<div class="sas-points-block">' +
-      '  <div class="sas-points-row"><span class="sas-points-main">' + t('gone_since') + ' ' + (shop.gone_since || '') + '</span></div>' +
-      '</div>';
+      '<div class="sas-card-top"><div class="sas-card-identity">' + logoHTML(shop) +
+      '<div class="sas-card-name">' + shop.name + '</div></div></div>' +
+      '<div class="sas-points-block"><div class="sas-points-row">' +
+      '<span class="sas-points-main">' + t('gone_since') + ' ' + (shop.gone_since || '') + '</span></div></div>';
     return div;
   }}
 
-  function isVariableSort(sortKey) {{
-    return sortKey === 'best_eb_variable' || sortKey === 'best_level_variable';
-  }}
-  function isFixedSort(sortKey) {{
-    return sortKey === 'best_eb_fixed' || sortKey === 'best_level_fixed';
-  }}
+  // --- Render pipeline ---
+  function getDataset() {{ return DATA[country] || Object.values(DATA)[0]; }}
 
-  function render() {{
-    var ds = DATA[country];
-    if (!ds) ds = Object.values(DATA)[0];
-
-    document.documentElement.lang = lang;
-    document.getElementById('title-text').textContent = t('title');
-    setToggleLabel();
-
-    shopsByUuid = {{}};
-    ds.shops.forEach(function(s) {{ shopsByUuid[s.uuid] = s; }});
-
-    var active = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
-    var gone = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
-    var campaigns = active.filter(function(s) {{ return s.has_campaign; }});
-
-    active.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
-    gone.sort(function(a, b) {{ return (b.gone_since || '').localeCompare(a.gone_since || ''); }});
-
-    var newThisWeek = campaigns.filter(function(s) {{
-      if (!s.campaign_started) return false;
-      var days = Math.floor((new Date(ds.updated.split(' ')[0]) - new Date(s.campaign_started)) / 86400000);
-      return days >= 0 && days <= 7;
-    }}).length;
-    document.getElementById('meta-text').textContent = t('meta_template')
-      .replace('{{campaigns}}', campaigns.length)
-      .replace('{{new}}', newThisWeek)
-      .replace('{{shops}}', active.length)
-      .replace('{{ts}}', ds.updated);
-    document.getElementById('search-box').placeholder = t('search_placeholder');
-    document.getElementById('footer-unaffiliated').textContent = t('footer_unaffiliated');
-    document.getElementById('footer-about').textContent = t('footer_about');
-    document.getElementById('footer-privacy').textContent = t('footer_privacy');
-
-    var sortSel = document.getElementById('sort-select');
-    sortSel.innerHTML = '';
-    [
-      ['az', t('sort_az')],
-      ['za', t('sort_za')],
-      ['recent', t('sort_recent')],
-      ['best_eb_fixed', t('sort_best_eb_fixed')],
-      ['best_eb_variable', t('sort_best_eb_variable')],
-      ['best_level_fixed', t('sort_best_level_fixed')],
-      ['best_level_variable', t('sort_best_level_variable')],
-    ].forEach(function(pair) {{
-      var o = document.createElement('option');
-      o.value = pair[0]; o.textContent = pair[1];
-      sortSel.appendChild(o);
-    }});
-    sortSel.value = state.sort;
-
-    var viewFilters = document.getElementById('view-filters');
-    viewFilters.innerHTML = '';
-    [
-      ['all', t('filter_all')], ['campaigns', t('filter_campaigns')],
-      ['ending', t('filter_ending')], ['gone', t('filter_gone') + ' (' + gone.length + ')'],
-    ].forEach(function(pair) {{
-      var b = document.createElement('button');
-      b.className = 'sas-chip' + (state.view === pair[0] ? ' active' : '');
-      b.dataset.view = pair[0];
-      b.textContent = pair[1];
-      b.addEventListener('click', function() {{
-        state.view = pair[0];
-        renderGrid();
-      }});
-      viewFilters.appendChild(b);
-    }});
-
-    var catSel = document.getElementById('category-select');
-    catSel.innerHTML = '<option value="all">' + t('category_all') + '</option>';
-    ds.categories.forEach(function(c) {{
-      var o = document.createElement('option');
-      o.value = c.slug; o.textContent = c.name;
-      catSel.appendChild(o);
-    }});
-    catSel.value = state.category;
-    catSel.onchange = function() {{ state.category = catSel.value; renderGrid(); }};
-
-    renderGrid();
-  }}
-
-  function renderGrid() {{
-    var ds = DATA[country];
-    if (!ds) ds = Object.values(DATA)[0];
-
-    var grid = document.getElementById('shop-grid');
-    var emptyState = document.getElementById('empty-state');
-    var sortSel = document.getElementById('sort-select');
-
-    document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
-      c.classList.toggle('active', c.dataset.view === state.view);
-    }});
-
-    var sortApplies = state.view !== 'gone';
-    sortSel.disabled = !sortApplies;
-
-    grid.innerHTML = '';
-
-    var shops;
+  function buildShopList(ds) {{
     if (state.view === 'gone') {{
-      shops = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
-      shops.sort(function(a, b) {{ return (b.gone_since || '').localeCompare(a.gone_since || ''); }});
-      shops.forEach(function(s) {{ grid.appendChild(goneCardHTML(s)); }});
-    }} else {{
-      shops = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
-
-      if (state.view === 'campaigns') {{
-        shops = shops.filter(function(s) {{ return s.has_campaign; }});
-      }} else if (state.view === 'ending') {{
-        shops = shops.filter(function(s) {{
-          return s.has_campaign && isUrgent(endsText(s));
-        }});
-      }}
-
-      if (isVariableSort(state.sort)) {{
-        shops = shops.filter(function(s) {{ return s.unit_variable; }});
-      }} else if (isFixedSort(state.sort)) {{
-        shops = shops.filter(function(s) {{ return !s.unit_variable; }});
-      }}
-
-      if (state.category !== 'all') {{
-        shops = shops.filter(function(s) {{ return s.category_slug === state.category; }});
-      }}
-
-      if (state.query) {{
-        shops = shops.filter(function(s) {{
-          return (s.name || '').toLowerCase().indexOf(state.query) !== -1;
-        }});
-      }}
-
-      if (state.sort === 'az') shops.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
-      else if (state.sort === 'za') shops.sort(function(a, b) {{ return (b.name || '').localeCompare(a.name || '', lang); }});
-      else if (state.sort === 'recent') shops.sort(function(a, b) {{ return (b.first_seen || '').localeCompare(a.first_seen || ''); }});
-      else if (state.sort === 'best_eb_fixed' || state.sort === 'best_eb_variable') shops.sort(function(a, b) {{ return b.main - a.main; }});
-      else if (state.sort === 'best_level_fixed' || state.sort === 'best_level_variable') shops.sort(function(a, b) {{ return b.level - a.level; }});
-
-      shops.forEach(function(s) {{ grid.appendChild(cardHTML(s, ds)); }});
+      return ds.shops.filter(function(s) {{ return s.status === 'gone'; }})
+        .sort(function(a, b) {{ return (b.gone_since || '').localeCompare(a.gone_since || ''); }});
     }}
 
-    if (grid.children.length === 0) {{
-      emptyState.classList.remove('sas-hidden');
-      emptyState.textContent = state.view === 'gone' ? t('no_gone') : t('no_shops');
-    }} else {{
-      emptyState.classList.add('sas-hidden');
-    }}
+    var shops = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
 
-    renderJumper(shops);
+    if (state.view === 'campaigns') shops = shops.filter(function(s) {{ return s.has_campaign; }});
+    else if (state.view === 'ending') shops = shops.filter(function(s) {{ return s.has_campaign && isUrgent(endsText(s)); }});
+
+    if (isVariableSort(state.sort)) shops = shops.filter(function(s) {{ return s.unit_variable; }});
+    else if (isFixedSort(state.sort)) shops = shops.filter(function(s) {{ return !s.unit_variable; }});
+
+    if (state.category !== 'all') shops = shops.filter(function(s) {{ return s.category_slug === state.category; }});
+    if (state.query) shops = shops.filter(function(s) {{ return (s.name || '').toLowerCase().indexOf(state.query) !== -1; }});
+
+    if (state.sort === 'az') shops.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
+    else if (state.sort === 'za') shops.sort(function(a, b) {{ return (b.name || '').localeCompare(a.name || '', lang); }});
+    else if (state.sort === 'recent') shops.sort(function(a, b) {{ return (b.first_seen || '').localeCompare(a.first_seen || ''); }});
+    else if (state.sort === 'best_eb_fixed' || state.sort === 'best_eb_variable') shops.sort(function(a, b) {{ return b.main - a.main; }});
+    else if (state.sort === 'best_level_fixed' || state.sort === 'best_level_variable') shops.sort(function(a, b) {{ return b.level - a.level; }});
+
+    return shops;
   }}
 
   function renderJumper(shops) {{
     var jumper = document.getElementById('jumper');
     jumper.innerHTML = '';
-
-    if (state.view === 'gone' || !shops || shops.length === 0) return;
+    if (state.view === 'gone' || !shops.length) return;
     if (state.sort !== 'az' && state.sort !== 'za') return;
 
-    var lettersSet = {{}};
+    var letters = {{}};
     shops.forEach(function(s) {{
       var ltr = (s.name || '#').charAt(0).toUpperCase();
-      if (/[A-ZÅÄÖ0-9]/.test(ltr)) lettersSet[ltr] = true;
+      if (/[A-ZÅÄÖ0-9]/.test(ltr)) letters[ltr] = true;
     }});
-    var letters = Object.keys(lettersSet).sort();
-    if (state.sort === 'za') letters.reverse();
+    var sorted = Object.keys(letters).sort();
+    if (state.sort === 'za') sorted.reverse();
 
-    letters.forEach(function(ltr) {{
+    sorted.forEach(function(ltr) {{
       var s = document.createElement('span');
       s.className = 'sas-jumper-letter';
       s.dataset.letter = ltr;
@@ -1076,6 +875,108 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     }});
   }}
 
+  function renderGrid() {{
+    var ds = getDataset();
+    var grid = document.getElementById('shop-grid');
+    var emptyState = document.getElementById('empty-state');
+    var sortSel = document.getElementById('sort-select');
+
+    document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
+      c.classList.toggle('active', c.dataset.view === state.view);
+    }});
+    sortSel.disabled = state.view === 'gone';
+
+    var shops = buildShopList(ds);
+    grid.innerHTML = '';
+    var renderFn = state.view === 'gone' ? goneCardHTML : function(s) {{ return cardHTML(s, ds); }};
+    shops.forEach(function(s) {{ grid.appendChild(renderFn(s)); }});
+
+    if (!shops.length) {{
+      emptyState.classList.remove('sas-hidden');
+      emptyState.textContent = state.view === 'gone' ? t('no_gone') : t('no_shops');
+    }} else {{
+      emptyState.classList.add('sas-hidden');
+    }}
+
+    renderJumper(shops);
+  }}
+
+  function render() {{
+    var ds = getDataset();
+    document.documentElement.lang = lang;
+    document.getElementById('title-text').textContent = t('title');
+    setToggleLabel();
+
+    shopsByUuid = {{}};
+    ds.shops.forEach(function(s) {{ shopsByUuid[s.uuid] = s; }});
+
+    var active = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
+    var gone = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
+    var campaigns = active.filter(function(s) {{ return s.has_campaign; }});
+    var newThisWeek = campaigns.filter(function(s) {{
+      if (!s.campaign_started) return false;
+      var days = Math.floor((new Date(ds.updated.split(' ')[0]) - new Date(s.campaign_started)) / 86400000);
+      return days >= 0 && days <= 7;
+    }}).length;
+
+    document.getElementById('meta-text').textContent = t('meta_template')
+      .replace('{{campaigns}}', campaigns.length)
+      .replace('{{new}}', newThisWeek)
+      .replace('{{shops}}', active.length)
+      .replace('{{ts}}', ds.updated);
+    document.getElementById('search-box').placeholder = t('search_placeholder');
+    document.getElementById('footer-unaffiliated').textContent = t('footer_unaffiliated');
+    document.getElementById('footer-about').textContent = t('footer_about');
+    document.getElementById('footer-privacy').textContent = t('footer_privacy');
+
+    // Sort options
+    var sortSel = document.getElementById('sort-select');
+    sortSel.innerHTML = '';
+    [
+      ['az', 'sort_az'], ['za', 'sort_za'], ['recent', 'sort_recent'],
+      ['best_eb_fixed', 'sort_best_eb_fixed'],
+      ['best_eb_variable', 'sort_best_eb_variable'],
+      ['best_level_fixed', 'sort_best_level_fixed'],
+      ['best_level_variable', 'sort_best_level_variable'],
+    ].forEach(function(pair) {{
+      var o = document.createElement('option');
+      o.value = pair[0]; o.textContent = t(pair[1]);
+      sortSel.appendChild(o);
+    }});
+    sortSel.value = state.sort;
+
+    // View filter chips
+    var viewFilters = document.getElementById('view-filters');
+    viewFilters.innerHTML = '';
+    [
+      ['all', t('filter_all')],
+      ['campaigns', t('filter_campaigns')],
+      ['ending', t('filter_ending')],
+      ['gone', t('filter_gone') + ' (' + gone.length + ')'],
+    ].forEach(function(pair) {{
+      var b = document.createElement('button');
+      b.className = 'sas-chip' + (state.view === pair[0] ? ' active' : '');
+      b.dataset.view = pair[0];
+      b.textContent = pair[1];
+      b.addEventListener('click', function() {{ state.view = pair[0]; renderGrid(); }});
+      viewFilters.appendChild(b);
+    }});
+
+    // Categories
+    var catSel = document.getElementById('category-select');
+    catSel.innerHTML = '<option value="all">' + t('category_all') + '</option>';
+    ds.categories.forEach(function(c) {{
+      var o = document.createElement('option');
+      o.value = c.slug; o.textContent = c.name;
+      catSel.appendChild(o);
+    }});
+    catSel.value = state.category;
+    catSel.onchange = function() {{ state.category = catSel.value; renderGrid(); }};
+
+    renderGrid();
+  }}
+
+  // --- Event delegation for cards ---
   document.addEventListener('click', function(e) {{
     var ext = e.target.closest('[data-external-uuid]');
     if (ext) {{
@@ -1086,11 +987,12 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     }}
     var card = e.target.closest('.sas-card[data-uuid]');
     if (card && !card.classList.contains('sas-card-gone')) {{
-      var sh2 = shopsByUuid[card.dataset.uuid];
-      if (sh2) openModal(sh2);
+      var sh = shopsByUuid[card.dataset.uuid];
+      if (sh) openModal(sh);
     }}
   }});
 
+  // --- Country and language selectors ---
   var countrySel = document.getElementById('country-select');
   COUNTRIES.forEach(function(c) {{
     var o = document.createElement('option');
@@ -1101,15 +1003,11 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 
   var langSel = document.getElementById('language-select');
   function rebuildLangSelector() {{
+    var labels = {{ en: 'English', sv: 'Svenska', da: 'Dansk', nb: 'Norsk', fi: 'Suomi' }};
     langSel.innerHTML = '';
     countryDef.languages.forEach(function(l) {{
       var o = document.createElement('option');
-      o.value = l;
-      o.textContent = l === 'en' ? 'English' :
-                      l === 'sv' ? 'Svenska' :
-                      l === 'da' ? 'Dansk' :
-                      l === 'nb' ? 'Norsk' :
-                      l === 'fi' ? 'Suomi' : l;
+      o.value = l; o.textContent = labels[l] || l;
       langSel.appendChild(o);
     }});
     langSel.value = lang;
@@ -1149,9 +1047,10 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
     renderGrid();
   }});
 
+  // --- Sticky scroll ---
   var stickyWrap = document.getElementById('sticky-wrap');
   var ticking = false;
-  function updateSticky() {{
+  window.addEventListener('scroll', function() {{
     if (!ticking) {{
       window.requestAnimationFrame(function() {{
         stickyWrap.classList.toggle('is-stuck', window.scrollY > 20);
@@ -1159,8 +1058,7 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
       }});
       ticking = true;
     }}
-  }}
-  window.addEventListener('scroll', updateSticky, {{ passive: true }});
+  }}, {{ passive: true }});
 
   updateUrl();
   render();
@@ -1168,7 +1066,7 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 </script>
 
 <!-- Cloudflare Web Analytics -->
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "c0d97a34f9524bd18f638693155d6704"}}'></script>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "{cf_token}"}}'></script>
 <!-- End Cloudflare Web Analytics -->
 
 </body>
@@ -1176,21 +1074,21 @@ html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 """
 
 
+# --- Main ---
+
 def main():
     datasets = {}
     all_succeeded = True
 
     for country in COUNTRIES:
-        country_code = country["code"]
-        local_lang = country["local_lang"]
-        country_data_dir = DATA_DIR / country_code.lower()
+        code = country["code"]
+        lang = country["local_lang"]
+        country_dir = DATA_DIR / code.lower()
 
-        print(f"\n=== {country_code} ({local_lang}) ===")
-        shops_url = SHOPS_URL_TMPL.format(lang=local_lang, country=country_code)
-        cats_url = CATEGORIES_URL_TMPL.format(lang=local_lang)
+        print(f"\n=== {code} ({lang}) ===")
 
         try:
-            shops_payload = fetch_json(shops_url)
+            shops_payload = fetch_json(SHOPS_URL.format(lang=lang, country=code))
         except Exception as e:
             print(f"  Shops fetch failed: {e}", file=sys.stderr)
             all_succeeded = False
@@ -1200,19 +1098,15 @@ def main():
         print(f"  Got {len(api_shops)} shops")
 
         try:
-            cats_payload = fetch_json(cats_url)
+            cats_payload = fetch_json(CATEGORIES_URL.format(lang=lang))
         except Exception as e:
             print(f"  Categories fetch failed ({e}); using fallback", file=sys.stderr)
             cats_payload = {"data": []}
 
         category_map = build_category_map(cats_payload)
 
-        shops_file = country_data_dir / "shops.json"
-        history_file = country_data_dir / "history.json"
-        categories_file = country_data_dir / "categories.json"
-
-        shops_state = load_json(shops_file, {})
-        history = load_json(history_file, [])
+        shops_state = load_json(country_dir / "shops.json", {})
+        history = load_json(country_dir / "history.json", [])
         shops_state, history, counts = update_state(api_shops, shops_state, history)
         print(
             f"  Transitions: {counts['new_shops']} new shops, "
@@ -1221,11 +1115,11 @@ def main():
             f"{counts['gone_shops']} newly gone"
         )
 
-        save_json(shops_file, shops_state)
-        save_json(history_file, history)
-        save_json(categories_file, cats_payload)
+        save_json(country_dir / "shops.json", shops_state)
+        save_json(country_dir / "history.json", history)
+        save_json(country_dir / "categories.json", cats_payload)
 
-        datasets[country_code] = prepare_country_dataset(shops_state, category_map)
+        datasets[code] = prepare_country_dataset(shops_state, category_map)
 
     HTML_FILE.parent.mkdir(parents=True, exist_ok=True)
     HTML_FILE.write_text(render_html(datasets), encoding="utf-8")
