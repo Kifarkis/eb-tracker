@@ -121,7 +121,6 @@ a:hover { text-decoration: underline; }
       current = current === 'sv' ? 'en' : 'sv';
       apply();
     });
-    // Light/dark storage shared with main site
     try {
       var stored = localStorage.getItem('sas-theme');
       if (stored === 'dark' || stored === 'light') {
@@ -130,8 +129,10 @@ a:hover { text-decoration: underline; }
     } catch (e) {}
   })();
 </script>
-  <!-- Cloudflare Web Analytics -->
+
+<!-- Cloudflare Web Analytics -->
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c0d97a34f9524bd18f638693155d6704"}'></script>
 <!-- End Cloudflare Web Analytics -->
+
 </body>
 </html>
