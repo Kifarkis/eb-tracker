@@ -37,8 +37,7 @@ HTML_FILE = REPO_ROOT / "docs" / "index.html"
 STRINGS = {
     "sv": {
         "title": "EuroBonus Shopping",
-        "active_campaigns_label": "Aktiva kampanjer",
-        "all_shops_label": "Alla butiker",
+        "shops_label": "Butiker",
         "gone_label": "Butiker som försvunnit",
         "filter_all": "Alla",
         "filter_campaigns": "Kampanjer",
@@ -58,9 +57,8 @@ STRINGS = {
         "meta_template": "{campaigns} aktiva kampanjer · {new} nya denna vecka · {shops} butiker · uppdaterad {ts}",
         "dark_mode": "Dark mode",
         "light_mode": "Light mode",
-        "no_campaigns": "Inga aktiva kampanjer just nu.",
+        "no_shops": "Inga butiker matchar.",
         "no_gone": "Inga försvunna butiker ännu.",
-        "no_results": "Inga butiker matchar.",
         "level_label": "Nivå",
         "level_short": "nivå",
         "points_short": "p",
@@ -79,8 +77,7 @@ STRINGS = {
     },
     "en": {
         "title": "EuroBonus Shopping",
-        "active_campaigns_label": "Active campaigns",
-        "all_shops_label": "All shops",
+        "shops_label": "Shops",
         "gone_label": "Shops that disappeared",
         "filter_all": "All",
         "filter_campaigns": "Campaigns",
@@ -100,9 +97,8 @@ STRINGS = {
         "meta_template": "{campaigns} active campaigns · {new} new this week · {shops} shops · updated {ts}",
         "dark_mode": "Dark mode",
         "light_mode": "Light mode",
-        "no_campaigns": "No active campaigns right now.",
+        "no_shops": "No shops match.",
         "no_gone": "No disappeared shops yet.",
-        "no_results": "No shops match.",
         "level_label": "Level",
         "level_short": "lvl",
         "points_short": "p",
@@ -121,8 +117,7 @@ STRINGS = {
     },
     "da": {
         "title": "EuroBonus Shopping",
-        "active_campaigns_label": "Aktive kampagner",
-        "all_shops_label": "Alle butikker",
+        "shops_label": "Butikker",
         "gone_label": "Butikker der er forsvundet",
         "filter_all": "Alle",
         "filter_campaigns": "Kampagner",
@@ -142,9 +137,8 @@ STRINGS = {
         "meta_template": "{campaigns} aktive kampagner · {new} nye denne uge · {shops} butikker · opdateret {ts}",
         "dark_mode": "Dark mode",
         "light_mode": "Light mode",
-        "no_campaigns": "Ingen aktive kampagner lige nu.",
+        "no_shops": "Ingen butikker matcher.",
         "no_gone": "Ingen forsvundne butikker endnu.",
-        "no_results": "Ingen butikker matcher.",
         "level_label": "Niveau",
         "level_short": "nvl",
         "points_short": "p",
@@ -163,8 +157,7 @@ STRINGS = {
     },
     "nb": {
         "title": "EuroBonus Shopping",
-        "active_campaigns_label": "Aktive kampanjer",
-        "all_shops_label": "Alle butikker",
+        "shops_label": "Butikker",
         "gone_label": "Butikker som har forsvunnet",
         "filter_all": "Alle",
         "filter_campaigns": "Kampanjer",
@@ -184,9 +177,8 @@ STRINGS = {
         "meta_template": "{campaigns} aktive kampanjer · {new} nye denne uken · {shops} butikker · oppdatert {ts}",
         "dark_mode": "Dark mode",
         "light_mode": "Light mode",
-        "no_campaigns": "Ingen aktive kampanjer akkurat nå.",
+        "no_shops": "Ingen butikker matcher.",
         "no_gone": "Ingen forsvunne butikker ennå.",
-        "no_results": "Ingen butikker matcher.",
         "level_label": "Nivå",
         "level_short": "nvå",
         "points_short": "p",
@@ -545,11 +537,14 @@ body {{
 .sas-sticky-wrap.is-stuck .sas-search {{ margin-bottom: 0; padding: 10px 14px; font-size: 14px; }}
 .sas-search:focus {{ outline: none; border-color: var(--border-strong); }}
 
-.sas-section-label {{ font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); }}
-.sas-section-header {{ display: flex; justify-content: space-between; align-items: center; margin: 32px 0 14px 0; }}
-.sas-section-header .sas-section-label {{ margin: 0; }}
-.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }}
-.sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; color: inherit; transition: border-color 0.12s, transform 0.12s; cursor: pointer; position: relative; }}
+.sas-section-label {{ font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 24px 0 14px 0; }}
+.sas-jumper {{ display: flex; gap: 2px; padding: 6px 0 14px 0; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--text-faint); flex-wrap: wrap; }}
+.sas-jumper-letter {{ padding: 4px 8px; cursor: pointer; border-radius: 4px; user-select: none; scroll-margin-top: 220px; }}
+.sas-jumper-letter:hover {{ color: var(--text); }}
+.sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
+
+.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }}
+.sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; color: inherit; transition: border-color 0.12s, transform 0.12s; cursor: pointer; position: relative; scroll-margin-top: 220px; }}
 .sas-card:hover {{ border-color: var(--border-strong); transform: translateY(-1px); }}
 .sas-card.campaign {{ border-color: var(--accent); }}
 .sas-card-top {{ display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }}
@@ -558,13 +553,10 @@ body {{
 .sas-card-external:hover {{ color: var(--text); background: var(--bg); }}
 .sas-card-external svg {{ width: 14px; height: 14px; }}
 
-.sas-logo-wrap-lg, .sas-logo-wrap-md {{ display: flex; align-items: center; justify-content: center; background: #d1d5db; flex-shrink: 0; overflow: hidden; }}
-.sas-logo-wrap-lg {{ width: 48px; height: 48px; border-radius: 10px; }}
-.sas-logo-wrap-md {{ width: 40px; height: 40px; border-radius: 8px; }}
+.sas-logo-wrap-lg {{ display: flex; align-items: center; justify-content: center; background: #d1d5db; flex-shrink: 0; overflow: hidden; width: 48px; height: 48px; border-radius: 10px; }}
 .sas-logo-img {{ width: 100%; height: 100%; object-fit: cover; }}
 .sas-logo-fallback {{ width: 100%; height: 100%; color: #555; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; letter-spacing: -0.02em; }}
-html[data-theme="dark"] .sas-logo-wrap-lg,
-html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
+html[data-theme="dark"] .sas-logo-wrap-lg {{ background: #9ca3af; }}
 
 .sas-card-name {{ font-size: 17px; font-weight: 500; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 36px; }}
 .sas-new-dot {{ width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0; position: absolute; top: 22px; right: 48px; }}
@@ -578,23 +570,10 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 .sas-status-label {{ color: var(--text-faint); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; }}
 .sas-status-val {{ color: var(--text-muted); }}
 .sas-card-foot {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; padding-top: 10px; border-top: 0.5px solid var(--border); margin-top: auto; min-height: 32px; display: flex; align-items: center; }}
+.sas-card-foot.empty {{ display: none; }}
 .sas-days.urgent {{ color: var(--warn); }}
-
-.sas-jumper {{ display: flex; gap: 2px; padding: 6px 0 14px 0; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--text-faint); flex-wrap: wrap; }}
-.sas-jumper-letter {{ padding: 4px 8px; cursor: pointer; border-radius: 4px; user-select: none; }}
-.sas-jumper-letter:hover {{ color: var(--text); }}
-.sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
-
-.sas-list {{ display: flex; flex-direction: column; }}
-.sas-list-row {{ display: grid; grid-template-columns: 40px 1fr 80px auto auto; gap: 16px; align-items: center; padding: 14px 4px; border-bottom: 0.5px solid var(--border); color: inherit; scroll-margin-top: 220px; cursor: pointer; }}
-.sas-list-row:hover .sas-list-name {{ color: var(--accent); }}
-.sas-list-row-gone {{ opacity: 0.55; cursor: default; }}
-.sas-list-logo-wrap {{ width: 40px; height: 40px; }}
-.sas-list-name {{ font-size: 16px; }}
-.sas-list-bar {{ height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; width: 80px; }}
-.sas-list-bar-fill {{ height: 100%; background: var(--text-muted); border-radius: 2px; opacity: 0.45; }}
-.sas-list-points {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 14px; font-weight: 500; color: var(--text-muted); min-width: 140px; text-align: right; }}
-.sas-list-level {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; color: var(--text-faint); min-width: 90px; text-align: right; }}
+.sas-card-gone {{ opacity: 0.55; cursor: default; }}
+.sas-card-gone .sas-points-main {{ font-size: 14px; }}
 
 .sas-hidden {{ display: none !important; }}
 .sas-empty {{ color: var(--text-faint); font-size: 14px; padding: 16px 0; }}
@@ -634,10 +613,6 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
   body {{ padding: 0 0 48px; }}
   .sas-container {{ padding: 0 14px; }}
   .sas-sticky-wrap {{ padding-top: 20px; }}
-  .sas-list-row {{ grid-template-columns: 36px 1fr auto; gap: 12px; }}
-  .sas-list-level, .sas-list-bar {{ display: none; }}
-  .sas-list-logo-wrap {{ width: 36px; height: 36px; }}
-  .sas-list-points {{ min-width: 110px; font-size: 13px; }}
   .sas-card {{ padding: 16px; min-height: 120px; }}
   .sas-points-main {{ font-size: 24px; }}
   .sas-controls-right {{ margin-left: 0; width: 100%; }}
@@ -675,23 +650,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 </div>
 
 <div class="sas-container">
-  <section data-section="campaigns">
-    <div class="sas-section-label" id="campaigns-label"></div>
-    <div class="sas-grid" id="campaign-grid"></div>
-  </section>
-
-  <section data-section="all-shops">
-    <div class="sas-section-header">
-      <div class="sas-section-label" id="all-shops-label"></div>
-    </div>
-    <div class="sas-jumper" id="jumper"></div>
-    <div class="sas-list" id="shop-list"></div>
-  </section>
-
-  <section data-section="gone" class="sas-hidden">
-    <div class="sas-section-label" id="gone-label"></div>
-    <div class="sas-list" id="gone-list"></div>
-  </section>
+  <div class="sas-jumper" id="jumper"></div>
+  <div class="sas-grid" id="shop-grid"></div>
+  <div class="sas-empty sas-hidden" id="empty-state"></div>
 
   <footer class="sas-footer">
     <div class="sas-footer-left">
@@ -770,12 +731,11 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     return (name || '?').substring(0, 2).toUpperCase();
   }}
 
-  function logoHTML(shop, sizeClass) {{
-    var wrapperClass = sizeClass === 'logo-lg' ? 'sas-logo-wrap-lg' : 'sas-logo-wrap-md';
+  function logoHTML(shop) {{
     if (shop.logo) {{
-      return '<div class="' + wrapperClass + '"><img src="' + shop.logo + '" alt="" class="sas-logo-img" loading="lazy"></div>';
+      return '<div class="sas-logo-wrap-lg"><img src="' + shop.logo + '" alt="" class="sas-logo-img" loading="lazy"></div>';
     }}
-    return '<div class="' + wrapperClass + '"><div class="sas-logo-fallback">' + initialsFromName(shop.name) + '</div></div>';
+    return '<div class="sas-logo-wrap-lg"><div class="sas-logo-fallback">' + initialsFromName(shop.name) + '</div></div>';
   }}
 
   function unit(shop) {{
@@ -819,7 +779,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 
     modalBody.innerHTML =
       '<div class="sas-modal-head">' +
-      '  ' + logoHTML(shop, 'logo-lg') +
+      '  ' + logoHTML(shop) +
       '  <div>' +
       '    <div class="sas-modal-category">' + (shop.category_name || '') + '</div>' +
       '    <h2 class="sas-modal-title">' + shop.name + '</h2>' +
@@ -860,7 +820,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     var today = new Date(ds.updated.split(' ')[0]);
     var started = shop.campaign_started ? new Date(shop.campaign_started) : null;
     var daysAgo = started ? Math.floor((today - started) / 86400000) : null;
-    var discoveredRecently = daysAgo !== null && daysAgo <= 2;
+    var discoveredRecently = shop.has_campaign && daysAgo !== null && daysAgo <= 2;
     var campaignClass = shop.has_campaign ? ' campaign' : '';
     var newDot = discoveredRecently ? '<div class="sas-new-dot" title="' + t('new_campaign_title') + '"></div>' : '';
     var bonusPill = shop.bonus > 0 ? '<span class="sas-pill">+' + shop.bonus + '</span>' : '';
@@ -871,6 +831,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       urgent = isUrgent(et);
       daysHTML = '<span class="sas-days ' + (urgent ? 'urgent' : '') + '">' + et + '</span>';
     }}
+    var footClass = 'sas-card-foot' + (daysHTML ? '' : ' empty');
 
     var div = document.createElement('div');
     div.className = 'sas-card' + campaignClass;
@@ -879,13 +840,18 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     div.dataset.cat = shop.category_slug || '';
     div.dataset.campaign = shop.has_campaign ? '1' : '0';
     div.dataset.urgent = urgent ? '1' : '0';
+    div.dataset.points = shop.main;
+    div.dataset.level = shop.level;
+    div.dataset.unitVariable = shop.unit_variable ? '1' : '0';
+    div.dataset.firstSeen = shop.first_seen || '';
+    div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
     div.innerHTML =
       '<button class="sas-card-external" title="' + t('modal_open_external') + '" aria-label="' + t('modal_open_external') + '" data-external-uuid="' + shop.uuid + '">' +
       '  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
       '</button>' +
       newDot +
       '<div class="sas-card-top">' +
-      '  <div class="sas-card-identity">' + logoHTML(shop, 'logo-lg') + '<div class="sas-card-name">' + shop.name + '</div></div>' +
+      '  <div class="sas-card-identity">' + logoHTML(shop) + '<div class="sas-card-name">' + shop.name + '</div></div>' +
       '</div>' +
       '<div class="sas-points-block">' +
       '  <div class="sas-points-row">' +
@@ -899,40 +865,25 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       '    <span class="sas-status-val">' + shop.level + ' ' + t('points_short') + '</span>' +
       '  </div>' +
       '</div>' +
-      '<div class="sas-card-foot">' + daysHTML + '</div>';
+      '<div class="' + footClass + '">' + daysHTML + '</div>';
     return div;
   }}
 
-  function listRowHTML(shop, barPct) {{
+  function goneCardHTML(shop) {{
     var div = document.createElement('div');
-    div.className = 'sas-list-row';
+    div.className = 'sas-card sas-card-gone';
     div.dataset.uuid = shop.uuid;
     div.dataset.name = (shop.name || '').toLowerCase();
     div.dataset.cat = shop.category_slug || '';
     div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
-    div.dataset.points = shop.main;
-    div.dataset.level = shop.level;
-    div.dataset.unitVariable = shop.unit_variable ? '1' : '0';
-    div.dataset.firstSeen = shop.first_seen || '';
     div.innerHTML =
-      '<div class="sas-list-logo-wrap">' + logoHTML(shop, 'logo-md') + '</div>' +
-      '<div class="sas-list-name">' + shop.name + '</div>' +
-      '<div class="sas-list-bar"><div class="sas-list-bar-fill" style="width: ' + barPct + '%;"></div></div>' +
-      '<div class="sas-list-points">' + shop.main + ' EB ' + unit(shop) + '</div>' +
-      '<div class="sas-list-level">' + shop.level + ' ' + t('level_short') + '</div>';
+      '<div class="sas-card-top">' +
+      '  <div class="sas-card-identity">' + logoHTML(shop) + '<div class="sas-card-name">' + shop.name + '</div></div>' +
+      '</div>' +
+      '<div class="sas-points-block">' +
+      '  <div class="sas-points-row"><span class="sas-points-main">' + t('gone_since') + ' ' + (shop.gone_since || '') + '</span></div>' +
+      '</div>';
     return div;
-  }}
-
-  function goneRowHTML(shop) {{
-    var d = document.createElement('div');
-    d.className = 'sas-list-row sas-list-row-gone';
-    d.innerHTML =
-      '<div class="sas-list-logo-wrap">' + logoHTML(shop, 'logo-md') + '</div>' +
-      '<div class="sas-list-name">' + shop.name + '</div>' +
-      '<div class="sas-list-bar"></div>' +
-      '<div class="sas-list-points">' + t('gone_since') + ' ' + (shop.gone_since || '') + '</div>' +
-      '<div class="sas-list-level"></div>';
-    return d;
   }}
 
   function isVariableSort(sortKey) {{
@@ -956,18 +907,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     var active = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
     var gone = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
     var campaigns = active.filter(function(s) {{ return s.has_campaign; }});
-    var nonCampaign = active.filter(function(s) {{ return !s.has_campaign; }});
 
-    campaigns.sort(function(a, b) {{
-      if (a.unit_variable !== b.unit_variable) return a.unit_variable ? 1 : -1;
-      if (b.main !== a.main) return b.main - a.main;
-      return (a.name || '').localeCompare(b.name || '', lang);
-    }});
-    nonCampaign.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
+    active.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
     gone.sort(function(a, b) {{ return (b.gone_since || '').localeCompare(a.gone_since || ''); }});
-
-    var maxFixed = Math.max.apply(null, nonCampaign.filter(function(s) {{ return !s.unit_variable; }}).map(function(s) {{ return s.main; }}).concat([1]));
-    var maxVariable = Math.max.apply(null, nonCampaign.filter(function(s) {{ return s.unit_variable; }}).map(function(s) {{ return s.main; }}).concat([1]));
 
     var newThisWeek = campaigns.filter(function(s) {{
       if (!s.campaign_started) return false;
@@ -979,9 +921,6 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       .replace('{{new}}', newThisWeek)
       .replace('{{shops}}', active.length)
       .replace('{{ts}}', ds.updated);
-    document.getElementById('campaigns-label').textContent = t('active_campaigns_label');
-    document.getElementById('all-shops-label').textContent = t('all_shops_label');
-    document.getElementById('gone-label').textContent = t('gone_label');
     document.getElementById('search-box').placeholder = t('search_placeholder');
     document.getElementById('footer-unaffiliated').textContent = t('footer_unaffiliated');
     document.getElementById('footer-about').textContent = t('footer_about');
@@ -1016,7 +955,7 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       b.textContent = pair[1];
       b.addEventListener('click', function() {{
         state.view = pair[0];
-        applyFilters();
+        renderGrid();
       }});
       viewFilters.appendChild(b);
     }});
@@ -1029,40 +968,100 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       catSel.appendChild(o);
     }});
     catSel.value = state.category;
-    catSel.onchange = function() {{ state.category = catSel.value; applyFilters(); }};
+    catSel.onchange = function() {{ state.category = catSel.value; renderGrid(); }};
 
-    var grid = document.getElementById('campaign-grid');
+    renderGrid();
+  }}
+
+  function renderGrid() {{
+    var ds = DATA[country];
+    if (!ds) ds = Object.values(DATA)[0];
+
+    var grid = document.getElementById('shop-grid');
+    var emptyState = document.getElementById('empty-state');
+    var sortSel = document.getElementById('sort-select');
+
+    document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
+      c.classList.toggle('active', c.dataset.view === state.view);
+    }});
+
+    var sortApplies = state.view !== 'gone';
+    sortSel.disabled = !sortApplies;
+
     grid.innerHTML = '';
-    if (campaigns.length === 0) {{
-      grid.innerHTML = '<div class="sas-empty">' + t('no_campaigns') + '</div>';
+
+    var shops;
+    if (state.view === 'gone') {{
+      shops = ds.shops.filter(function(s) {{ return s.status === 'gone'; }});
+      shops.sort(function(a, b) {{ return (b.gone_since || '').localeCompare(a.gone_since || ''); }});
+      shops.forEach(function(s) {{ grid.appendChild(goneCardHTML(s)); }});
     }} else {{
-      campaigns.forEach(function(s) {{ grid.appendChild(cardHTML(s, ds)); }});
+      shops = ds.shops.filter(function(s) {{ return s.status === 'active'; }});
+
+      // Apply view filter
+      if (state.view === 'campaigns') {{
+        shops = shops.filter(function(s) {{ return s.has_campaign; }});
+      }} else if (state.view === 'ending') {{
+        shops = shops.filter(function(s) {{
+          return s.has_campaign && isUrgent(endsText(s));
+        }});
+      }}
+
+      // Apply sort-type filter (variable/fixed)
+      if (isVariableSort(state.sort)) {{
+        shops = shops.filter(function(s) {{ return s.unit_variable; }});
+      }} else if (isFixedSort(state.sort)) {{
+        shops = shops.filter(function(s) {{ return !s.unit_variable; }});
+      }}
+
+      // Apply category filter
+      if (state.category !== 'all') {{
+        shops = shops.filter(function(s) {{ return s.category_slug === state.category; }});
+      }}
+
+      // Apply search
+      if (state.query) {{
+        shops = shops.filter(function(s) {{
+          return (s.name || '').toLowerCase().indexOf(state.query) !== -1;
+        }});
+      }}
+
+      // Sort
+      if (state.sort === 'az') shops.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
+      else if (state.sort === 'za') shops.sort(function(a, b) {{ return (b.name || '').localeCompare(a.name || '', lang); }});
+      else if (state.sort === 'recent') shops.sort(function(a, b) {{ return (b.first_seen || '').localeCompare(a.first_seen || ''); }});
+      else if (state.sort === 'best_eb_fixed' || state.sort === 'best_eb_variable') shops.sort(function(a, b) {{ return b.main - a.main; }});
+      else if (state.sort === 'best_level_fixed' || state.sort === 'best_level_variable') shops.sort(function(a, b) {{ return b.level - a.level; }});
+
+      shops.forEach(function(s) {{ grid.appendChild(cardHTML(s, ds)); }});
     }}
 
-    var listEl = document.getElementById('shop-list');
-    listEl.innerHTML = '';
-    nonCampaign.forEach(function(s) {{
-      var m = s.unit_variable ? maxVariable : maxFixed;
-      var pct = m ? Math.round(Math.min(100, (s.main / m) * 100)) : 0;
-      listEl.appendChild(listRowHTML(s, pct));
-    }});
-
-    var goneEl = document.getElementById('gone-list');
-    goneEl.innerHTML = '';
-    if (gone.length === 0) {{
-      goneEl.innerHTML = '<div class="sas-empty">' + t('no_gone') + '</div>';
+    // Empty state
+    if (grid.children.length === 0) {{
+      emptyState.classList.remove('sas-hidden');
+      emptyState.textContent = state.view === 'gone' ? t('no_gone') : t('no_shops');
     }} else {{
-      gone.forEach(function(s) {{ goneEl.appendChild(goneRowHTML(s)); }});
+      emptyState.classList.add('sas-hidden');
     }}
 
-    var lettersSet = {{}};
-    nonCampaign.forEach(function(s) {{
-      var ltr = (s.name || '#').charAt(0).toUpperCase();
-      if (/[A-ZÅÄÖ]/.test(ltr)) lettersSet[ltr] = true;
-    }});
-    var letters = Object.keys(lettersSet).sort();
+    renderJumper(shops);
+  }}
+
+  function renderJumper(shops) {{
     var jumper = document.getElementById('jumper');
     jumper.innerHTML = '';
+
+    if (state.view === 'gone' || !shops || shops.length === 0) return;
+    if (state.sort !== 'az' && state.sort !== 'za') return;
+
+    var lettersSet = {{}};
+    shops.forEach(function(s) {{
+      var ltr = (s.name || '#').charAt(0).toUpperCase();
+      if (/[A-ZÅÄÖ0-9]/.test(ltr)) lettersSet[ltr] = true;
+    }});
+    var letters = Object.keys(lettersSet).sort();
+    if (state.sort === 'za') letters.reverse();
+
     letters.forEach(function(ltr) {{
       var s = document.createElement('span');
       s.className = 'sas-jumper-letter';
@@ -1071,20 +1070,16 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       s.addEventListener('click', function() {{
         document.querySelectorAll('#jumper .sas-jumper-letter').forEach(function(x) {{ x.classList.remove('active'); }});
         s.classList.add('active');
-        var rows = document.querySelectorAll('#shop-list .sas-list-row');
-        for (var i = 0; i < rows.length; i++) {{
-          if (rows[i].style.display === 'none') continue;
-          if ((rows[i].dataset.name || '').charAt(0).toUpperCase() === ltr) {{
-            rows[i].scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+        var cards = document.querySelectorAll('#shop-grid .sas-card');
+        for (var i = 0; i < cards.length; i++) {{
+          if ((cards[i].dataset.letter || '').toUpperCase() === ltr) {{
+            cards[i].scrollIntoView({{ behavior: 'smooth', block: 'start' }});
             break;
           }}
         }}
       }});
       jumper.appendChild(s);
     }});
-
-    applyFilters();
-    sortRows();
   }}
 
   document.addEventListener('click', function(e) {{
@@ -1095,76 +1090,12 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       if (sh) window.open(shopUrl(sh.uuid), '_blank', 'noopener');
       return;
     }}
-    var card = e.target.closest('.sas-card[data-uuid], .sas-list-row[data-uuid]');
-    if (card) {{
+    var card = e.target.closest('.sas-card[data-uuid]');
+    if (card && !card.classList.contains('sas-card-gone')) {{
       var sh2 = shopsByUuid[card.dataset.uuid];
-      if (sh2 && sh2.status !== 'gone') openModal(sh2);
+      if (sh2) openModal(sh2);
     }}
   }});
-
-  function applyFilters() {{
-    var campaignsSection = document.querySelector('[data-section="campaigns"]');
-    var allShopsSection = document.querySelector('[data-section="all-shops"]');
-    var goneSection = document.querySelector('[data-section="gone"]');
-    var sortSel = document.getElementById('sort-select');
-
-    campaignsSection.classList.remove('sas-hidden');
-    allShopsSection.classList.remove('sas-hidden');
-    goneSection.classList.add('sas-hidden');
-
-    document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
-      c.classList.toggle('active', c.dataset.view === state.view);
-    }});
-
-    var sortApplies = state.view === 'all';
-    sortSel.disabled = !sortApplies;
-
-    if (state.view === 'gone') {{
-      campaignsSection.classList.add('sas-hidden');
-      allShopsSection.classList.add('sas-hidden');
-      goneSection.classList.remove('sas-hidden');
-      return;
-    }}
-    if (state.view === 'campaigns' || state.view === 'ending') {{
-      allShopsSection.classList.add('sas-hidden');
-    }}
-
-    var matchQ = function(el) {{
-      if (!state.query) return true;
-      return (el.dataset.name || '').indexOf(state.query) !== -1;
-    }};
-    var matchC = function(el) {{
-      if (state.category === 'all') return true;
-      return el.dataset.cat === state.category;
-    }};
-    var matchSortType = function(el) {{
-      if (isVariableSort(state.sort)) return el.dataset.unitVariable === '1';
-      if (isFixedSort(state.sort)) return el.dataset.unitVariable === '0';
-      return true;
-    }};
-
-    document.querySelectorAll('#campaign-grid .sas-card').forEach(function(c) {{
-      var show = matchQ(c) && matchC(c);
-      if (state.view === 'ending') show = show && c.dataset.urgent === '1';
-      c.style.display = show ? '' : 'none';
-    }});
-
-    document.querySelectorAll('#shop-list .sas-list-row').forEach(function(r) {{
-      var show = matchQ(r) && matchC(r) && matchSortType(r);
-      r.style.display = show ? '' : 'none';
-    }});
-  }}
-
-  function sortRows() {{
-    var listEl = document.getElementById('shop-list');
-    var rows = Array.prototype.slice.call(listEl.querySelectorAll('.sas-list-row'));
-    if (state.sort === 'az') rows.sort(function(a, b) {{ return a.dataset.name.localeCompare(b.dataset.name, lang); }});
-    else if (state.sort === 'za') rows.sort(function(a, b) {{ return b.dataset.name.localeCompare(a.dataset.name, lang); }});
-    else if (state.sort === 'recent') rows.sort(function(a, b) {{ return (b.dataset.firstSeen || '').localeCompare(a.dataset.firstSeen || ''); }});
-    else if (state.sort === 'best_eb_fixed' || state.sort === 'best_eb_variable') rows.sort(function(a, b) {{ return Number(b.dataset.points) - Number(a.dataset.points); }});
-    else if (state.sort === 'best_level_fixed' || state.sort === 'best_level_variable') rows.sort(function(a, b) {{ return Number(b.dataset.level) - Number(a.dataset.level); }});
-    rows.forEach(function(r) {{ listEl.appendChild(r); }});
-  }}
 
   var countrySel = document.getElementById('country-select');
   COUNTRIES.forEach(function(c) {{
@@ -1217,12 +1148,11 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
 
   document.getElementById('search-box').addEventListener('input', function(e) {{
     state.query = e.target.value.trim().toLowerCase();
-    applyFilters();
+    renderGrid();
   }});
   document.getElementById('sort-select').addEventListener('change', function(e) {{
     state.sort = e.target.value;
-    applyFilters();
-    sortRows();
+    renderGrid();
   }});
 
   var stickyWrap = document.getElementById('sticky-wrap');
@@ -1309,7 +1239,3 @@ def main():
 
     if not all_succeeded:
         sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
