@@ -140,7 +140,13 @@ ENDS_PATTERNS_EN = [
     (r"^om (\d+) uke$", r"in \1 week"),
     (r"^om (\d+) uker$", r"in \1 weeks"),
     (r"^om (\d+) timmar$", r"in \1 hours"),
+    (r"^om (\d+) timme$", r"in \1 hour"),
     (r"^om (\d+) timer$", r"in \1 hours"),
+    (r"^om (\d+) time$", r"in \1 hour"),
+    (r"^om (\d+) minuter$", r"in \1 minutes"),
+    (r"^om (\d+) minutter$", r"in \1 minutes"),
+    (r"^om (\d+) minut$", r"in \1 minute"),
+    (r"^om (\d+) minutt$", r"in \1 minute"),
     (r"^idag$", "today"),
 ]
 
@@ -701,7 +707,12 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   function isUrgent(text) {{
     if (!text) return false;
     var l = text.toLowerCase();
-return /\b(1 dag|1 day|1 dage|idag|today|timme|timmar|hour|hours|timer|time)\b/.test(l);
+    // Note: \\b, \\d, \\w are double-escaped because this template is a plain
+    // Python triple-quoted string (not raw, not f-string). Python interprets
+    // a single \\b as ASCII backspace (0x08), which silently breaks the regex.
+    // minut\\w* covers Swedish (minut/minuter), Danish/Norwegian (minutt/minutter),
+    // and English (minute/minutes) — all minute-scale strings are urgent.
+    return /\\b(\\d+ time|\\d+ timer|timme|timmar|hour|hours|minut\\w*|1 dag|1 day|1 dage|idag|today)\\b/.test(l);
   }}
 
   function shopUrl(uuid) {{
