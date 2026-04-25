@@ -50,9 +50,10 @@ STRINGS = {
         "sort_az": "A–Ö",
         "sort_za": "Ö–A",
         "sort_recent": "Senast tillagd",
-        "sort_best_fixed": "Bäst fast intjäning",
-        "sort_best_variable": "Bäst rörlig intjäning",
-        "sort_best_fixed_level": "Bäst fast nivåpoäng",
+        "sort_best_eb_fixed": "Bäst EB-poäng — fast",
+        "sort_best_eb_variable": "Bäst EB-poäng — rörlig",
+        "sort_best_level_fixed": "Bäst nivåpoäng — fast",
+        "sort_best_level_variable": "Bäst nivåpoäng — rörlig",
         "search_placeholder": "Sök butik — t.ex. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktiva kampanjer · {new} nya denna vecka · {shops} butiker · uppdaterad {ts}",
         "dark_mode": "Dark mode",
@@ -91,9 +92,10 @@ STRINGS = {
         "sort_az": "A–Z",
         "sort_za": "Z–A",
         "sort_recent": "Recently added",
-        "sort_best_fixed": "Best per-purchase points",
-        "sort_best_variable": "Best per-100 kr rate",
-        "sort_best_fixed_level": "Best fixed bonus level",
+        "sort_best_eb_fixed": "Best EB points — flat",
+        "sort_best_eb_variable": "Best EB points — variable",
+        "sort_best_level_fixed": "Best level points — flat",
+        "sort_best_level_variable": "Best level points — variable",
         "search_placeholder": "Search shops — e.g. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} active campaigns · {new} new this week · {shops} shops · updated {ts}",
         "dark_mode": "Dark mode",
@@ -132,9 +134,10 @@ STRINGS = {
         "sort_az": "A–Å",
         "sort_za": "Å–A",
         "sort_recent": "Senest tilføjet",
-        "sort_best_fixed": "Bedst fast indtjening",
-        "sort_best_variable": "Bedst variabel indtjening",
-        "sort_best_fixed_level": "Bedst faste niveaupoint",
+        "sort_best_eb_fixed": "Bedst EB-point — fast",
+        "sort_best_eb_variable": "Bedst EB-point — variabel",
+        "sort_best_level_fixed": "Bedst niveaupoint — fast",
+        "sort_best_level_variable": "Bedst niveaupoint — variabel",
         "search_placeholder": "Søg butik — fx Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktive kampagner · {new} nye denne uge · {shops} butikker · opdateret {ts}",
         "dark_mode": "Dark mode",
@@ -173,9 +176,10 @@ STRINGS = {
         "sort_az": "A–Å",
         "sort_za": "Å–A",
         "sort_recent": "Sist lagt til",
-        "sort_best_fixed": "Best fast inntjening",
-        "sort_best_variable": "Best variabel inntjening",
-        "sort_best_fixed_level": "Best faste nivåpoeng",
+        "sort_best_eb_fixed": "Best EB-poeng — fast",
+        "sort_best_eb_variable": "Best EB-poeng — variabel",
+        "sort_best_level_fixed": "Best nivåpoeng — fast",
+        "sort_best_level_variable": "Best nivåpoeng — variabel",
         "search_placeholder": "Søk butikk — f.eks. Lenovo, Amazon, Ellos…",
         "meta_template": "{campaigns} aktive kampanjer · {new} nye denne uken · {shops} butikker · oppdatert {ts}",
         "dark_mode": "Dark mode",
@@ -932,10 +936,10 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
   }}
 
   function isVariableSort(sortKey) {{
-    return sortKey === 'best_variable';
+    return sortKey === 'best_eb_variable' || sortKey === 'best_level_variable';
   }}
   function isFixedSort(sortKey) {{
-    return sortKey === 'best_fixed' || sortKey === 'best_fixed_level';
+    return sortKey === 'best_eb_fixed' || sortKey === 'best_level_fixed';
   }}
 
   function render() {{
@@ -989,9 +993,10 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       ['az', t('sort_az')],
       ['za', t('sort_za')],
       ['recent', t('sort_recent')],
-      ['best_fixed', t('sort_best_fixed')],
-      ['best_variable', t('sort_best_variable')],
-      ['best_fixed_level', t('sort_best_fixed_level')],
+      ['best_eb_fixed', t('sort_best_eb_fixed')],
+      ['best_eb_variable', t('sort_best_eb_variable')],
+      ['best_level_fixed', t('sort_best_level_fixed')],
+      ['best_level_variable', t('sort_best_level_variable')],
     ].forEach(function(pair) {{
       var o = document.createElement('option');
       o.value = pair[0]; o.textContent = pair[1];
@@ -1144,11 +1149,9 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
       c.style.display = show ? '' : 'none';
     }});
 
-    var visibleRowCount = 0;
     document.querySelectorAll('#shop-list .sas-list-row').forEach(function(r) {{
       var show = matchQ(r) && matchC(r) && matchSortType(r);
       r.style.display = show ? '' : 'none';
-      if (show) visibleRowCount++;
     }});
   }}
 
@@ -1158,9 +1161,8 @@ html[data-theme="dark"] .sas-logo-wrap-md {{ background: #9ca3af; }}
     if (state.sort === 'az') rows.sort(function(a, b) {{ return a.dataset.name.localeCompare(b.dataset.name, lang); }});
     else if (state.sort === 'za') rows.sort(function(a, b) {{ return b.dataset.name.localeCompare(a.dataset.name, lang); }});
     else if (state.sort === 'recent') rows.sort(function(a, b) {{ return (b.dataset.firstSeen || '').localeCompare(a.dataset.firstSeen || ''); }});
-    else if (state.sort === 'best_fixed') rows.sort(function(a, b) {{ return Number(b.dataset.points) - Number(a.dataset.points); }});
-    else if (state.sort === 'best_variable') rows.sort(function(a, b) {{ return Number(b.dataset.points) - Number(a.dataset.points); }});
-    else if (state.sort === 'best_fixed_level') rows.sort(function(a, b) {{ return Number(b.dataset.level) - Number(a.dataset.level); }});
+    else if (state.sort === 'best_eb_fixed' || state.sort === 'best_eb_variable') rows.sort(function(a, b) {{ return Number(b.dataset.points) - Number(a.dataset.points); }});
+    else if (state.sort === 'best_level_fixed' || state.sort === 'best_level_variable') rows.sort(function(a, b) {{ return Number(b.dataset.level) - Number(a.dataset.level); }});
     rows.forEach(function(r) {{ listEl.appendChild(r); }});
   }}
 
