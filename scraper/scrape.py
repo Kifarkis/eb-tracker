@@ -479,7 +479,7 @@ body {{
 .sas-jumper-letter:hover {{ color: var(--text); }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
 
-.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }}
+.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; min-height: 80vh; }}
 .sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; color: inherit; transition: border-color 0.12s, transform 0.12s; cursor: pointer; position: relative; scroll-margin-top: 220px; }}
 .sas-card:hover {{ border-color: var(--border-strong); transform: translateY(-1px); }}
 .sas-card.campaign {{ border-color: var(--accent); }}
