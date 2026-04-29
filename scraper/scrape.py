@@ -444,18 +444,18 @@ body {{
 }}
 .sas-container {{ max-width: 1500px; margin: 0 auto; padding: 0 24px; }}
 
-.sas-sticky-wrap {{ background: var(--bg); transition: box-shadow 0.2s ease, border-color 0.2s ease; padding-top: 32px; }}
+.sas-sticky-wrap {{ background: var(--bg); transition: box-shadow 0.2s ease, border-color 0.2s ease, padding-top 0.2s ease, padding-bottom 0.2s ease; padding-top: 32px; }}
 .sas-sticky-wrap.is-stuck {{ box-shadow: var(--shadow-sticky); border-bottom: 0.5px solid var(--border); padding-top: 16px; padding-bottom: 8px; }}
 @media (min-width: 641px) {{
   .sas-sticky-wrap {{ position: sticky; top: 0; z-index: 50; }}
 }}
 
-.sas-header {{ display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; }}
+.sas-header {{ display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; transition: margin-bottom 0.2s ease; }}
 .sas-sticky-wrap.is-stuck .sas-header {{ margin-bottom: 12px; }}
-.sas-sticky-wrap.is-stuck .sas-meta {{ display: none; }}
+.sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; max-height: 40px; opacity: 1; overflow: hidden; transition: max-height 0.2s ease, opacity 0.2s ease, margin 0.2s ease; }}
+.sas-sticky-wrap.is-stuck .sas-meta {{ max-height: 0; opacity: 0; margin: 0; }}
 .sas-title {{ font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 4px 0; transition: font-size 0.2s ease; }}
 .sas-sticky-wrap.is-stuck .sas-title {{ font-size: 20px; }}
-.sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; }}
 .sas-header-controls {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
 .sas-header-select {{ font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }}
 .sas-toggle {{ background: none; border: 0.5px solid var(--border-strong); color: var(--text-muted); padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; font-family: inherit; }}
