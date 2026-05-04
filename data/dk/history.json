@@ -150,5 +150,77 @@
     "points_channel": 1000,
     "started": "2026-04-24",
     "uuid": "0189630d-1649-7204-bea4-2cb52d72ef26"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Helsegrossisten",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-04-24",
+    "uuid": "0189630f-a5eb-73e6-9be7-41a7fb921f47"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Jotex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Matas",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-24",
+    "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Proshop",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-04-27",
+    "uuid": "0189630a-1d99-7246-aa7c-e2c26d4ee5e0"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Ray-Ban",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "SACKit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-04-27",
+    "uuid": "0189630f-ddfb-7229-b484-9d9d4e6f6cb8"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Sephora",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-04-27",
+    "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Under Armour",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
   }
 ]

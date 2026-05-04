@@ -166,5 +166,85 @@
     "points_channel": 100,
     "started": "2026-04-24",
     "uuid": "019bc664-90ed-7386-a14b-4ee847a35168"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "ELSKLING",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-04-27",
+    "uuid": "0189630f-5536-7329-883b-ceffb426d426"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Farmasiet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Jotex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "KICKS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-01",
+    "uuid": "01932f75-1211-7244-b60c-0fe79fd03b46"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "LYKO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Proshop",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-04-27",
+    "uuid": "0189630a-1d99-7246-aa7c-e2c26d4ee5e0"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Ray-Ban",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "Under Armour",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
+  },
+  {
+    "ended": "2026-05-04",
+    "name": "ZOO.no",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-27",
+    "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
   }
 ]
