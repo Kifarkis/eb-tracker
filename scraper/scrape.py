@@ -426,7 +426,7 @@ _HTML_TEMPLATE = r"""<!DOCTYPE html>
 :root {{
   --bg: #faf9f7; --surface: #ffffff;
   --border: rgba(0, 0, 0, 0.08); --border-strong: rgba(0, 0, 0, 0.16);
-  --text: #1a1a1a; --text-muted: #595959; --text-faint: #9a9a9a;
+  --text: #1a1a1a; --text-muted: #595959; --text-faint: #707070;
   --accent: #1f6feb; --accent-bg: rgba(31, 111, 235, 0.08);
   --warn: #b85c00;
   --shadow-sticky: 0 4px 12px rgba(0, 0, 0, 0.06);
@@ -434,7 +434,7 @@ _HTML_TEMPLATE = r"""<!DOCTYPE html>
 html[data-theme="dark"] {{
   --bg: #0f0f10; --surface: #1a1a1c;
   --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
-  --text: #ededed; --text-muted: #b3b3b3; --text-faint: #666666;
+  --text: #ededed; --text-muted: #b3b3b3; --text-faint: #8a8a8a;
   --accent: #6ea8ff; --accent-bg: rgba(110, 168, 255, 0.14);
   --warn: #f0a66c;
   --shadow-sticky: 0 4px 16px rgba(0, 0, 0, 0.4);
