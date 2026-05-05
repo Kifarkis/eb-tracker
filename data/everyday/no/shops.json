@@ -1,7 +1,7 @@
 {
   "country": "no",
-  "updated": "2026-05-05T09:55:25.919264+00:00",
-  "shop_count": 416,
+  "updated": "2026-05-05T16:20:43.874303+00:00",
+  "shop_count": 415,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel",
@@ -11397,33 +11397,6 @@
       "status": "active"
     },
     {
-      "uuid": "sayso-by-nikita-bergen-asane-horisont-2",
-      "name": "Sayso by Nikita Bergen Åsane Horisont",
-      "country": "no",
-      "city": "Nyborg",
-      "postcode": "5130",
-      "address": "Myrdalsvegen 2",
-      "lat": 60.469441,
-      "lng": 5.3208516,
-      "mode": "onsite",
-      "category_id": 2,
-      "points_per_100": 30,
-      "currency": "NOK",
-      "website": "https://nikita.no/vare-samarbeidspartnere/sas-eurobonus/",
-      "phone": "+47 95 48 87 73",
-      "email": "kirsti.kjellin@raise.no",
-      "description": "Nikita Hair is the Nordic region's largest and leading hairdressing chain. Through 30 years of doing hair, we have had several million customer visits, and our skilled hairdressers all over the country are ready every day with scissors, combs and good advice to give you \"a great feeling!\" In 1984, Elton John's super hit \"Nikita\" ravaged the radio stations in Norway, and he is thus considered the godfather of the hairy adventure that started with a single hairdressing salon in the town of Tverlandet, outside Bodø. <br/><br/>Nikita Hair's founder, Inger Ellen Nicolaisen, has with courage, enthusiasm and passion for building people created history's greatest adventure in Hair & Beauty.",
-      "cards_accepted": [],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2026-04-24 11:59:25",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
       "uuid": "sayso-by-nikita-harstad-kanebogen",
       "name": "Sayso by Nikita Harstad Kanebogen",
       "country": "no",
@@ -12493,6 +12466,34 @@
       "created_at": "2022-09-22 09:32:36",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "sayso-by-nikita-bergen-asane-horisont-2",
+      "name": "Sayso by Nikita Bergen Åsane Horisont",
+      "country": "no",
+      "city": "Nyborg",
+      "postcode": "5130",
+      "address": "Myrdalsvegen 2",
+      "lat": 60.469441,
+      "lng": 5.3208516,
+      "mode": "onsite",
+      "category_id": 2,
+      "points_per_100": 30,
+      "currency": "NOK",
+      "website": "https://nikita.no/vare-samarbeidspartnere/sas-eurobonus/",
+      "phone": "+47 95 48 87 73",
+      "email": "kirsti.kjellin@raise.no",
+      "description": "Nikita Hair is the Nordic region's largest and leading hairdressing chain. Through 30 years of doing hair, we have had several million customer visits, and our skilled hairdressers all over the country are ready every day with scissors, combs and good advice to give you \"a great feeling!\" In 1984, Elton John's super hit \"Nikita\" ravaged the radio stations in Norway, and he is thus considered the godfather of the hairy adventure that started with a single hairdressing salon in the town of Tverlandet, outside Bodø. <br/><br/>Nikita Hair's founder, Inger Ellen Nicolaisen, has with courage, enthusiasm and passion for building people created history's greatest adventure in Hair & Beauty.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-04-24 11:59:25",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-05-05"
     }
   ]
 }
