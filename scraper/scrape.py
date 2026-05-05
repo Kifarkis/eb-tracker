@@ -575,7 +575,54 @@ def prepare_everyday_dataset(country_code):
 
 
 def render_html(online_datasets, everyday_datasets):
-    """Generate the full single-page HTML with both datasets embedded."""
+    """Generate the full single-page HTML with both datasets embedded.
+
+    Pre-renders content for the default country/language directly into the
+    HTML so that elements aren't empty on first paint. Without this, the
+    A-Z jumper, meta line, and tab labels start as empty divs that JS
+    fills after page load — causing layout shift (CLS). JS still rebuilds
+    these on country/language change.
+    """
+    default_country = "SE"
+    default_lang = "sv"
+    sv = STRINGS[default_lang]
+    ds = online_datasets[default_country]
+
+    # Pre-render: A-Z jumper letters from active shop names
+    active = [s for s in ds["shops"] if s.get("status") == "active"]
+    letters = sorted({(s.get("name") or "#")[0].upper() for s in active})
+    jumper_letters = "".join(
+        f'<span class="sas-jumper-letter" data-letter="{l}">{l}</span>'
+        for l in letters
+    )
+
+    # Pre-render: meta line (campaigns count + new this week + total + updated)
+    campaigns = [s for s in active if s.get("has_campaign")]
+    try:
+        from datetime import datetime as _dt
+        upd_date = _dt.strptime(ds["updated"].split(" ")[0], "%Y-%m-%d")
+    except Exception:
+        upd_date = None
+    new_this_week = 0
+    if upd_date:
+        for s in campaigns:
+            cs = s.get("campaign_started")
+            if not cs:
+                continue
+            try:
+                started = _dt.strptime(cs, "%Y-%m-%d")
+                days = (upd_date - started).days
+                if 0 <= days <= 7:
+                    new_this_week += 1
+            except Exception:
+                pass
+
+    meta_text = (sv["meta_template"]
+        .replace("{campaigns}", str(len(campaigns)))
+        .replace("{new}", str(new_this_week))
+        .replace("{shops}", str(len(active)))
+        .replace("{ts}", ds["updated"]))
+
     payload = {
         "datasets": json.dumps(online_datasets, ensure_ascii=False),
         "everyday_datasets": json.dumps(everyday_datasets, ensure_ascii=False),
@@ -583,8 +630,13 @@ def render_html(online_datasets, everyday_datasets):
         "countries": json.dumps(COUNTRIES, ensure_ascii=False),
         "everyday_countries": json.dumps(EVERYDAY_COUNTRIES, ensure_ascii=False),
         "everyday_categories": json.dumps(EVERYDAY_CATEGORIES, ensure_ascii=False),
-        "default_country": "SE",
-        "default_lang": "sv",
+        "default_country": default_country,
+        "default_lang": default_lang,
+        "default_jumper": jumper_letters,
+        "default_meta_text": meta_text,
+        "default_tab_online": sv["tab_online"],
+        "default_tab_everyday": sv["tab_everyday"],
+        "default_search_placeholder": sv["search_placeholder"],
         "cf_token": CLOUDFLARE_TOKEN,
     }
 
@@ -786,10 +838,10 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
         <h1 class="sas-title" id="title-text">EuroBonus Shopping</h1>
         <div class="sas-meta-row">
           <div class="sas-tab-pill" role="tablist">
-            <button class="sas-tab-btn active" id="tab-online" data-tab="online" role="tab"></button>
-            <button class="sas-tab-btn" id="tab-everyday" data-tab="everyday" role="tab"></button>
+            <button class="sas-tab-btn active" id="tab-online" data-tab="online" role="tab">{default_tab_online}</button>
+            <button class="sas-tab-btn" id="tab-everyday" data-tab="everyday" role="tab">{default_tab_everyday}</button>
           </div>
-          <div class="sas-meta" id="meta-text"></div>
+          <div class="sas-meta" id="meta-text">{default_meta_text}</div>
         </div>
       </div>
       <div class="sas-header-controls">
@@ -805,12 +857,12 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
         <select id="sort-select" class="sas-list-control" aria-label="Sort"></select>
       </div>
     </div>
-    <input class="sas-search" id="search-box" type="search">
+    <input class="sas-search" id="search-box" type="search" placeholder="{default_search_placeholder}">
   </div>
 </div>
 
 <main class="sas-container">
-  <div class="sas-jumper" id="jumper"></div>
+  <div class="sas-jumper" id="jumper">{default_jumper}</div>
   <div class="sas-near-error sas-hidden" id="near-error"></div>
   <div class="sas-grid" id="shop-grid"></div>
   <div class="sas-empty sas-hidden" id="empty-state"></div>
