@@ -65,6 +65,13 @@ STRINGS = {
         "modal_visit": "Öppna webbplats", "modal_directions": "Vägbeskrivning",
         "modal_phone": "Telefon", "modal_cards": "Betalkort", "modal_address": "Adress",
         "points_disclaimer": "Intjänade poäng överförs till ditt EuroBonus-konto mellan 3 och 40 dagar efter köpet, beroende på typ av handlare. Vid retur dras de intjänade poängen av.",
+        "filter_near_me": "Nära mig", "near_me_off": "Stäng av",
+        "near_loading": "Hämtar din position…",
+        "near_denied": "Position nekad. Aktivera platsdelning i webbläsaren för att använda Nära mig.",
+        "near_unavailable": "Det gick inte att hämta din position just nu. Försök igen.",
+        "near_unsupported": "Din webbläsare stöder inte platsdelning.",
+        "sort_az_everyday": "A–Ö", "sort_za_everyday": "Ö–A",
+        "sort_points_everyday": "Mest poäng", "sort_distance_everyday": "Närmast först",
     },
     "en": {
         "title": "EuroBonus Shopping",
@@ -98,6 +105,13 @@ STRINGS = {
         "modal_visit": "Open website", "modal_directions": "Directions",
         "modal_phone": "Phone", "modal_cards": "Cards", "modal_address": "Address",
         "points_disclaimer": "Earned points are transferred to your EuroBonus account between 3 and 40 days after the purchase, depending on the merchant type. Returned items reverse the earned points.",
+        "filter_near_me": "Near me", "near_me_off": "Turn off",
+        "near_loading": "Getting your location…",
+        "near_denied": "Location denied. Enable location sharing in your browser to use Near me.",
+        "near_unavailable": "Could not get your location right now. Try again.",
+        "near_unsupported": "Your browser does not support location sharing.",
+        "sort_az_everyday": "A–Z", "sort_za_everyday": "Z–A",
+        "sort_points_everyday": "Most points", "sort_distance_everyday": "Nearest first",
     },
     "da": {
         "title": "EuroBonus Shopping",
@@ -131,6 +145,13 @@ STRINGS = {
         "modal_visit": "Åbn hjemmeside", "modal_directions": "Rutevejledning",
         "modal_phone": "Telefon", "modal_cards": "Betalingskort", "modal_address": "Adresse",
         "points_disclaimer": "Optjente point overføres til din EuroBonus-konto mellem 3 og 40 dage efter købet, afhængigt af butikstypen. Returneres varen, fratrækkes de optjente point.",
+        "filter_near_me": "Nær mig", "near_me_off": "Slå fra",
+        "near_loading": "Henter din position…",
+        "near_denied": "Position nægtet. Aktivér placeringsdeling i din browser for at bruge Nær mig.",
+        "near_unavailable": "Kunne ikke hente din position lige nu. Prøv igen.",
+        "near_unsupported": "Din browser understøtter ikke placeringsdeling.",
+        "sort_az_everyday": "A–Å", "sort_za_everyday": "Å–A",
+        "sort_points_everyday": "Flest point", "sort_distance_everyday": "Nærmest først",
     },
     "nb": {
         "title": "EuroBonus Shopping",
@@ -164,6 +185,13 @@ STRINGS = {
         "modal_visit": "Åpne nettside", "modal_directions": "Veibeskrivelse",
         "modal_phone": "Telefon", "modal_cards": "Betalingskort", "modal_address": "Adresse",
         "points_disclaimer": "Opptjente poeng overføres til din EuroBonus-konto mellom 3 og 40 dager etter kjøpet, avhengig av butikktypen. Ved retur trekkes opptjente poeng fra.",
+        "filter_near_me": "Nær meg", "near_me_off": "Slå av",
+        "near_loading": "Henter posisjonen din…",
+        "near_denied": "Posisjon nektet. Aktiver posisjonsdeling i nettleseren for å bruke Nær meg.",
+        "near_unavailable": "Kunne ikke hente posisjonen din akkurat nå. Prøv igjen.",
+        "near_unsupported": "Nettleseren din støtter ikke posisjonsdeling.",
+        "sort_az_everyday": "A–Å", "sort_za_everyday": "Å–A",
+        "sort_points_everyday": "Flest poeng", "sort_distance_everyday": "Nærmest først",
     },
 }
 
@@ -616,7 +644,7 @@ body {{
 .sas-jumper-letter:hover {{ color: var(--text); }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
 
-.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; min-height: 150vh; }}
+.sas-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; min-height: 150vh; align-content: start; }}
 .sas-card {{ background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 140px; color: inherit; transition: border-color 0.12s, transform 0.12s; cursor: pointer; position: relative; scroll-margin-top: 220px; }}
 .sas-card:hover {{ border-color: var(--border-strong); transform: translateY(-1px); }}
 .sas-card.campaign {{ border-color: var(--accent); }}
@@ -689,11 +717,15 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 .sas-tab-btn:hover {{ color: var(--text); }}
 .sas-tab-btn.active {{ background: var(--accent); color: #fff; }}
 
-/* Everyday card layout (no logo, leads with city, two CTAs) */
+/* Everyday card layout mirrors online card structure: identity row (mode icon + name) on top */
 .sas-card-everyday {{ min-height: 200px; }}
-.sas-eyebrow {{ font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); display: flex; align-items: center; gap: 8px; }}
+.sas-eyebrow {{ font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); display: flex; align-items: center; gap: 8px; min-height: 14px; }}
 .sas-eyebrow-tag {{ background: var(--accent-bg); color: var(--accent); padding: 2px 8px; border-radius: 999px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 10px; letter-spacing: 0.04em; }}
 .sas-card-everyday .sas-card-name {{ white-space: normal; padding-right: 0; font-size: 17px; }}
+.sas-mode-icon {{ width: 48px; height: 48px; border-radius: 10px; background: var(--accent-bg); color: var(--accent); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
+.sas-mode-icon svg {{ width: 22px; height: 22px; }}
+.sas-distance {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--accent); margin-left: auto; }}
+.sas-near-error {{ font-size: 13px; color: var(--warn); padding: 10px 14px; margin-bottom: 12px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--surface); }}
 .sas-card-address {{ font-size: 13px; color: var(--text-muted); line-height: 1.4; }}
 .sas-points-row-everyday {{ display: flex; align-items: baseline; gap: 6px; margin-top: auto; padding-top: 8px; }}
 .sas-points-main-everyday {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 22px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; }}
@@ -757,6 +789,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
 <main class="sas-container">
   <div class="sas-jumper" id="jumper"></div>
+  <div class="sas-near-error sas-hidden" id="near-error"></div>
   <div class="sas-grid" id="shop-grid"></div>
   <div class="sas-empty sas-hidden" id="empty-state"></div>
 </main>
@@ -812,7 +845,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   country = countryDef.code;
   if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
 
-  var state = {{ view: 'all', category: 'all', query: '', sort: 'az', mode: 'all' }};
+  var state = {{ view: 'all', category: 'all', query: '', sort: 'az', mode: 'all', sortEveryday: 'az', nearMe: false, userPos: null }};
   var shopsByUuid = {{}};
 
   var root = document.documentElement;
@@ -1075,6 +1108,31 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   function iconMap() {{
     return '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 14s5-4 5-8a5 5 0 10-10 0c0 4 5 8 5 8z"/><circle cx="8" cy="6" r="2"/></svg>';
   }}
+  function iconStorefront() {{
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M3 9v11h18V9"/><path d="M3 9c0 1.5 1 2.5 2.5 2.5S8 10.5 8 9c0 1.5 1 2.5 2.5 2.5S13 10.5 13 9c0 1.5 1 2.5 2.5 2.5S18 10.5 18 9c0 1.5 1 2.5 2.5 2.5S23 10.5 23 9"/><path d="M9 20v-5h6v5"/></svg>';
+  }}
+  function iconGlobe() {{
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg>';
+  }}
+
+  // Haversine — returns distance in km between two lat/lng pairs
+  function distanceKm(lat1, lng1, lat2, lng2) {{
+    var R = 6371;
+    var toRad = function(d) {{ return d * Math.PI / 180; }};
+    var dLat = toRad(lat2 - lat1);
+    var dLng = toRad(lng2 - lng1);
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+            Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }}
+
+  function fmtDistance(km) {{
+    if (km == null) return '';
+    if (km < 1) return Math.round(km * 1000) + ' m';
+    if (km < 10) return km.toFixed(1) + ' km';
+    return Math.round(km) + ' km';
+  }}
 
   function everydayEyebrowText(shop) {{
     if (shop.mode === 'online') return t('online_only');
@@ -1109,6 +1167,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     div.className = 'sas-card sas-card-everyday' + (shop.has_campaign ? ' campaign' : '');
     div.dataset.uuid = shop.uuid;
     div.dataset.mode = shop.mode;
+    div.dataset.letter = (shop.name || '#').charAt(0).toUpperCase();
 
     var addr = everydayAddressLine(shop);
     var unit = escapeHtml(t('points_per_100_unit'));
@@ -1119,15 +1178,19 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
       ? '<a class="sas-card-btn" href="' + escapeHtml(shop.maps_url) + '" target="_blank" rel="noopener" data-stop>' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></a>'
       : '<button class="sas-card-btn" aria-disabled="true">' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></button>';
 
-    var eyebrow = '<div class="sas-eyebrow">' +
-      (shop.mode === 'online'
-        ? '<span class="sas-eyebrow-tag">' + escapeHtml(t('online_only')) + '</span>'
-        : escapeHtml(everydayEyebrowText(shop))) +
-      '</div>';
+    var distance = (shop._distanceKm != null) ? '<span class="sas-distance">' + escapeHtml(fmtDistance(shop._distanceKm)) + '</span>' : '';
+    var eyebrowInner = (shop.mode === 'online')
+      ? '<span class="sas-eyebrow-tag">' + escapeHtml(t('online_only')) + '</span>'
+      : escapeHtml(everydayEyebrowText(shop));
+    var eyebrow = '<div class="sas-eyebrow">' + eyebrowInner + distance + '</div>';
+
+    var modeIcon = '<div class="sas-mode-icon" aria-hidden="true">' +
+      (shop.mode === 'online' ? iconGlobe() : iconStorefront()) + '</div>';
 
     div.innerHTML =
       eyebrow +
-      '<h2 class="sas-card-name">' + escapeHtml(shop.name) + '</h2>' +
+      '<div class="sas-card-top"><div class="sas-card-identity">' + modeIcon +
+      '<div class="sas-card-name">' + escapeHtml(shop.name) + '</div></div></div>' +
       (addr ? '<div class="sas-card-address">' + escapeHtml(addr) + '</div>' : '') +
       '<div class="sas-points-row-everyday"><span class="sas-points-main-everyday">' + shop.points + '</span><span class="sas-points-unit">' + unit + '</span></div>' +
       '<div class="sas-card-actions">' + visitBtn + mapsBtn + '</div>';
@@ -1187,25 +1250,137 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     document.body.style.overflow = 'hidden';
   }}
 
+  function renderEverydayJumper(shops) {{
+    var jumper = document.getElementById('jumper');
+    jumper.innerHTML = '';
+    if (!shops.length) return;
+    if (state.sortEveryday !== 'az' && state.sortEveryday !== 'za') return;
+
+    var letters = {{}};
+    shops.forEach(function(s) {{
+      var ltr = (s.name || '#').charAt(0).toUpperCase();
+      if (/[A-ZÅÄÖÆØ0-9]/.test(ltr)) letters[ltr] = true;
+    }});
+    var sorted = Object.keys(letters).sort();
+    if (state.sortEveryday === 'za') sorted.reverse();
+
+    sorted.forEach(function(ltr) {{
+      var s = document.createElement('span');
+      s.className = 'sas-jumper-letter';
+      s.dataset.letter = ltr;
+      s.textContent = ltr;
+      s.addEventListener('click', function() {{
+        document.querySelectorAll('#jumper .sas-jumper-letter').forEach(function(x) {{ x.classList.remove('active'); }});
+        s.classList.add('active');
+        var cards = document.querySelectorAll('#shop-grid .sas-card');
+        for (var i = 0; i < cards.length; i++) {{
+          if ((cards[i].dataset.letter || '').toUpperCase() === ltr) {{
+            cards[i].scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+            break;
+          }}
+        }}
+      }});
+      jumper.appendChild(s);
+    }});
+  }}
+
+  function showNearError(key) {{
+    var box = document.getElementById('near-error');
+    box.textContent = t(key);
+    box.classList.remove('sas-hidden');
+  }}
+  function hideNearError() {{
+    document.getElementById('near-error').classList.add('sas-hidden');
+  }}
+
+  function requestUserPosition() {{
+    return new Promise(function(resolve, reject) {{
+      if (!('geolocation' in navigator)) {{ reject({{ kind: 'unsupported' }}); return; }}
+      navigator.geolocation.getCurrentPosition(
+        function(pos) {{ resolve({{ lat: pos.coords.latitude, lng: pos.coords.longitude }}); }},
+        function(err) {{
+          if (err && err.code === 1) reject({{ kind: 'denied' }});
+          else reject({{ kind: 'unavailable' }});
+        }},
+        {{ enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }}
+      );
+    }});
+  }}
+
+  function activateNearMe() {{
+    hideNearError();
+    showNearError('near_loading');
+    requestUserPosition().then(function(pos) {{
+      state.userPos = pos;
+      state.nearMe = true;
+      state.sortEveryday = 'distance';
+      hideNearError();
+      renderEveryday();
+    }}).catch(function(err) {{
+      state.nearMe = false;
+      state.userPos = null;
+      var key = err && err.kind === 'unsupported' ? 'near_unsupported'
+              : err && err.kind === 'denied' ? 'near_denied'
+              : 'near_unavailable';
+      showNearError(key);
+      renderEveryday();
+    }});
+  }}
+
+  function deactivateNearMe() {{
+    state.nearMe = false;
+    state.userPos = null;
+    if (state.sortEveryday === 'distance') state.sortEveryday = 'az';
+    hideNearError();
+    renderEveryday();
+  }}
+
   function renderEverydayGrid() {{
     var ds = getDataset();
     var grid = document.getElementById('shop-grid');
     var emptyState = document.getElementById('empty-state');
     grid.innerHTML = '';
-    document.getElementById('jumper').innerHTML = '';
 
     document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
-      c.classList.toggle('active', c.dataset.view === state.mode);
+      if (c.dataset.view === 'near-me') c.classList.toggle('active', state.nearMe);
+      else c.classList.toggle('active', !state.nearMe && c.dataset.view === state.mode);
     }});
 
+    // Build filtered list. Near-me forces onsite-only with valid coords.
     var filtered = ds.shops.filter(function(s) {{
-      if (state.mode !== 'all' && s.mode !== state.mode) return false;
+      if (state.nearMe) {{
+        if (s.mode !== 'onsite') return false;
+        if (s.lat == null || s.lng == null) return false;
+      }} else if (state.mode !== 'all' && s.mode !== state.mode) {{
+        return false;
+      }}
       if (state.query) {{
         var hay = ((s.name || '') + ' ' + (s.city || '') + ' ' + (s.address || '') + ' ' + (s.postcode || '')).toLowerCase();
         if (hay.indexOf(state.query) === -1) return false;
       }}
       return true;
     }});
+
+    // Decorate with distance when in near-me mode
+    if (state.nearMe && state.userPos) {{
+      filtered.forEach(function(s) {{
+        s._distanceKm = distanceKm(state.userPos.lat, state.userPos.lng, s.lat, s.lng);
+      }});
+    }} else {{
+      filtered.forEach(function(s) {{ s._distanceKm = null; }});
+    }}
+
+    // Sort
+    var sortKey = state.nearMe ? 'distance' : state.sortEveryday;
+    if (sortKey === 'distance') {{
+      filtered.sort(function(a, b) {{ return (a._distanceKm || 0) - (b._distanceKm || 0); }});
+    }} else if (sortKey === 'za') {{
+      filtered.sort(function(a, b) {{ return (b.name || '').localeCompare(a.name || '', lang); }});
+    }} else if (sortKey === 'points') {{
+      filtered.sort(function(a, b) {{ return (b.points || 0) - (a.points || 0); }});
+    }} else {{
+      filtered.sort(function(a, b) {{ return (a.name || '').localeCompare(b.name || '', lang); }});
+    }}
 
     if (!filtered.length) {{
       emptyState.classList.remove('sas-hidden');
@@ -1217,6 +1392,8 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     var frag = document.createDocumentFragment();
     filtered.forEach(function(s) {{ frag.appendChild(everydayCardHTML(s)); }});
     grid.appendChild(frag);
+
+    renderEverydayJumper(filtered);
   }}
 
   function renderEveryday() {{
@@ -1238,24 +1415,61 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     document.getElementById('footer-about').textContent = t('footer_about');
     document.getElementById('footer-privacy').textContent = t('footer_privacy');
 
-    // Hide online-only controls
-    document.getElementById('sort-select').style.display = 'none';
+    // Hide categories — everyday has no category names yet
     document.getElementById('category-select').style.display = 'none';
+
+    // Show sort with everyday-specific options
+    var sortSel = document.getElementById('sort-select');
+    sortSel.style.display = '';
+    sortSel.innerHTML = '';
+    [
+      ['az', 'sort_az_everyday'],
+      ['za', 'sort_za_everyday'],
+      ['points', 'sort_points_everyday'],
+    ].forEach(function(pair) {{
+      var o = document.createElement('option');
+      o.value = pair[0]; o.textContent = t(pair[1]);
+      sortSel.appendChild(o);
+    }});
+    if (state.nearMe) {{
+      var o = document.createElement('option');
+      o.value = 'distance'; o.textContent = t('sort_distance_everyday');
+      sortSel.appendChild(o);
+      sortSel.value = 'distance';
+      sortSel.disabled = true;
+    }} else {{
+      sortSel.value = state.sortEveryday;
+      sortSel.disabled = false;
+    }}
 
     var viewFilters = document.getElementById('view-filters');
     viewFilters.innerHTML = '';
-    [
+    var chips = [
       ['all', t('filter_all')],
       ['onsite', t('filter_onsite') + ' (' + (ds.onsite_count || 0) + ')'],
       ['online', t('filter_online') + ' (' + (ds.online_count || 0) + ')'],
-    ].forEach(function(pair) {{
+    ];
+    chips.forEach(function(pair) {{
       var b = document.createElement('button');
-      b.className = 'sas-chip' + (state.mode === pair[0] ? ' active' : '');
+      b.className = 'sas-chip' + (!state.nearMe && state.mode === pair[0] ? ' active' : '');
       b.dataset.view = pair[0];
       b.textContent = pair[1];
-      b.addEventListener('click', function() {{ state.mode = pair[0]; renderEverydayGrid(); }});
+      b.addEventListener('click', function() {{
+        if (state.nearMe) {{ deactivateNearMe(); state.mode = pair[0]; return; }}
+        state.mode = pair[0]; renderEverydayGrid();
+      }});
       viewFilters.appendChild(b);
     }});
+    // Near-me chip
+    var near = document.createElement('button');
+    near.className = 'sas-chip' + (state.nearMe ? ' active' : '');
+    near.dataset.view = 'near-me';
+    near.textContent = state.nearMe ? (t('filter_near_me') + ' · ' + t('near_me_off')) : t('filter_near_me');
+    near.addEventListener('click', function() {{
+      if (state.nearMe) deactivateNearMe();
+      else activateNearMe();
+    }});
+    viewFilters.appendChild(near);
 
     renderEverydayGrid();
   }}
@@ -1412,6 +1626,10 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     state.category = 'all';
     state.query = '';
     state.sort = 'az';
+    state.sortEveryday = 'az';
+    state.nearMe = false;
+    state.userPos = null;
+    hideNearError();
     document.getElementById('search-box').value = '';
     rebuildCountrySelector();
     countryDef = activeCountries().find(function(c) {{ return c.code === country; }}) || activeCountries()[0];
@@ -1430,6 +1648,10 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     rebuildLangSelector();
     state.category = 'all';
     state.query = '';
+    // Country change invalidates near-me — different region
+    state.nearMe = false;
+    state.userPos = null;
+    hideNearError();
     document.getElementById('search-box').value = '';
     updateUrl();
     render();
@@ -1446,8 +1668,13 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     else renderGrid();
   }});
   document.getElementById('sort-select').addEventListener('change', function(e) {{
-    state.sort = e.target.value;
-    renderGrid();
+    if (tab === 'everyday') {{
+      state.sortEveryday = e.target.value;
+      renderEverydayGrid();
+    }} else {{
+      state.sort = e.target.value;
+      renderGrid();
+    }}
   }});
 
   var stickyWrap = document.getElementById('sticky-wrap');
