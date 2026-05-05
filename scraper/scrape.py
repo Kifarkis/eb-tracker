@@ -21,6 +21,22 @@ EVERYDAY_COUNTRIES = COUNTRIES + [
     {"code": "FO", "local_lang": "da", "name": "Føroyar", "languages": ["da", "en"]},
 ]
 
+# Everyday category names per language, keyed by category_id (1-12).
+# Sourced from eurobonus.shopping's category dropdown in each language.
+# IDs 7 and 10 are not represented in observed data and may be unused.
+EVERYDAY_CATEGORIES = {
+    1:  {"sv": "Hotell, Kryssning",      "da": "Hotel, Krydstogt",     "nb": "Hotell, Cruise",       "en": "Hotel, Cruise"},
+    2:  {"sv": "Hälsa, Wellness",        "da": "Sundhed, Wellness",    "nb": "Helse, velvære",       "en": "Health, Wellness"},
+    3:  {"sv": "Event",                  "da": "Event",                "nb": "Event",                "en": "Event"},
+    4:  {"sv": "Sport och Fritid",       "da": "Sport, Fritid",        "nb": "Sport, Fritid",        "en": "Sports and Leisure"},
+    5:  {"sv": "Heminredning",           "da": "Bolig",                "nb": "Bolig",                "en": "Home, Interiors"},
+    6:  {"sv": "Bilar, Elbilsladdning",  "da": "Biler, Elbilopladning","nb": "Biler, Elbillading",   "en": "Auto, EV Charging"},
+    8:  {"sv": "Kläder, mode",           "da": "Tøj, Mode",            "nb": "Klær, Mote",           "en": "Clothes, Fashion"},
+    9:  {"sv": "Livsmedel",              "da": "Dagligvarer",          "nb": "Dagligvare",           "en": "Grocery"},
+    11: {"sv": "Restaurant, Bar, Café",  "da": "Restaurant, Bar, Café","nb": "Restaurant, Bar, Kafé","en": "Restaurant, Bar, Café"},
+    12: {"sv": "Annat",                  "da": "Anden",                "nb": "Annet",                "en": "Other"},
+}
+
 API_BASE = "https://onlineshopping.loyaltykey.com/api/v1"
 SHOPS_URL = API_BASE + "/shops?filter[channel]=SAS&filter[language]={lang}&filter[country]={country}&filter[amount]=5000"
 CATEGORIES_URL = API_BASE + "/shops/categories?filter[language]={lang}"
@@ -535,6 +551,7 @@ def prepare_everyday_dataset(country_code):
             "lat": s.get("lat"),
             "lng": s.get("lng"),
             "mode": s.get("mode") or "onsite",
+            "category_id": s.get("category_id"),
             "points": s.get("points_per_100") or 0,
             "currency": s.get("currency") or "",
             "website": normalize_url(s.get("website")),
@@ -565,6 +582,7 @@ def render_html(online_datasets, everyday_datasets):
         "strings": json.dumps(STRINGS, ensure_ascii=False),
         "countries": json.dumps(COUNTRIES, ensure_ascii=False),
         "everyday_countries": json.dumps(EVERYDAY_COUNTRIES, ensure_ascii=False),
+        "everyday_categories": json.dumps(EVERYDAY_CATEGORIES, ensure_ascii=False),
         "default_country": "SE",
         "default_lang": "sv",
         "cf_token": CLOUDFLARE_TOKEN,
@@ -722,7 +740,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
 /* Everyday card layout mirrors online card structure: identity row (mode icon + name) on top */
 .sas-card-everyday {{ min-height: 200px; }}
-.sas-eyebrow {{ font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); display: flex; align-items: center; gap: 8px; min-height: 14px; }}
+.sas-eyebrow {{ font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); display: flex; align-items: center; gap: 8px; min-height: 14px; padding-right: 32px; }}
 .sas-eyebrow-tag {{ background: var(--accent-bg); color: var(--accent); padding: 2px 8px; border-radius: 999px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 10px; letter-spacing: 0.04em; }}
 .sas-card-everyday .sas-card-name {{ white-space: normal; padding-right: 0; font-size: 17px; }}
 .sas-mode-icon {{ width: 48px; height: 48px; border-radius: 10px; background: var(--accent-bg); color: var(--accent); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
@@ -827,6 +845,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 <script id="sas-strings" type="application/json">{strings}</script>
 <script id="sas-countries" type="application/json">{countries}</script>
 <script id="sas-everyday-countries" type="application/json">{everyday_countries}</script>
+<script id="sas-everyday-categories" type="application/json">{everyday_categories}</script>
 
 <script>
 (function() {{
@@ -835,6 +854,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   var STRINGS = JSON.parse(document.getElementById('sas-strings').textContent);
   var COUNTRIES = JSON.parse(document.getElementById('sas-countries').textContent);
   var EVERYDAY_COUNTRIES = JSON.parse(document.getElementById('sas-everyday-countries').textContent);
+  var EVERYDAY_CATEGORIES = JSON.parse(document.getElementById('sas-everyday-categories').textContent);
   var DEFAULT_COUNTRY = '{default_country}';
   var DEFAULT_LANG = '{default_lang}';
 
@@ -978,11 +998,13 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     var newDot = isNew ? '<div class="sas-new-dot" title="' + t('new_campaign_title') + '"></div>' : '';
     var daysHTML = (shop.has_campaign && et) ? '<span class="sas-days ' + (urgent ? 'urgent' : '') + '">' + et + '</span>' : '';
     var footClass = 'sas-card-foot' + (daysHTML ? '' : ' empty');
+    var eyebrowHTML = shop.category_name ? '<div class="sas-eyebrow">' + shop.category_name + '</div>' : '';
 
     div.innerHTML =
       '<button class="sas-card-external" title="' + t('modal_open_external') + '" data-external-uuid="' + shop.uuid + '">' +
       '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
       '</button>' + newDot +
+      eyebrowHTML +
       '<div class="sas-card-top"><div class="sas-card-identity">' + logoHTML(shop) +
       '<div class="sas-card-name">' + shop.name + '</div></div></div>' +
       '<div class="sas-points-block">' +
@@ -1139,6 +1161,13 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     return Math.round(km) + ' km';
   }}
 
+  function everydayCategoryName(shop) {{
+    if (!shop.category_id) return '';
+    var entry = EVERYDAY_CATEGORIES[shop.category_id];
+    if (!entry) return '';
+    return entry[lang] || entry.en || '';
+  }}
+
   function everydayEyebrowText(shop) {{
     if (shop.mode === 'online') return t('online_only');
     return shop.city || '';
@@ -1184,9 +1213,15 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
       : '<button class="sas-card-btn" aria-disabled="true">' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></button>';
 
     var distance = (shop._distanceKm != null) ? '<span class="sas-distance">' + escapeHtml(fmtDistance(shop._distanceKm)) + '</span>' : '';
-    var eyebrowInner = (shop.mode === 'online')
-      ? '<span class="sas-eyebrow-tag">' + escapeHtml(t('online_only')) + '</span>'
-      : escapeHtml(everydayEyebrowText(shop));
+    var catName = everydayCategoryName(shop);
+    var eyebrowInner;
+    if (catName) {{
+      eyebrowInner = escapeHtml(catName);
+    }} else if (shop.mode === 'online') {{
+      eyebrowInner = '<span class="sas-eyebrow-tag">' + escapeHtml(t('online_only')) + '</span>';
+    }} else {{
+      eyebrowInner = escapeHtml(shop.city || '');
+    }}
     var eyebrow = '<div class="sas-eyebrow">' + eyebrowInner + distance + '</div>';
 
     var modeIcon = '<div class="sas-mode-icon" aria-hidden="true">' +
