@@ -45,6 +45,7 @@ STRINGS = {
         "modal_visit": "Öppna webbplats", "modal_directions": "Vägbeskrivning",
         "modal_close": "Stäng", "modal_phone": "Telefon", "modal_cards": "Betalkort",
         "modal_address": "Adress", "modal_campaign": "Kampanj",
+        "points_disclaimer": "Intjänade poäng överförs till ditt EuroBonus-konto mellan 3 och 40 dagar efter köpet, beroende på typ av handlare. Vid retur dras de intjänade poängen av.",
         "footer_unaffiliated": "Oberoende sida, inte ansluten till SAS eller EuroBonus.",
         "footer_about": "Om sidan", "footer_privacy": "Integritet",
     },
@@ -61,6 +62,7 @@ STRINGS = {
         "modal_visit": "Open website", "modal_directions": "Directions",
         "modal_close": "Close", "modal_phone": "Phone", "modal_cards": "Cards",
         "modal_address": "Address", "modal_campaign": "Campaign",
+        "points_disclaimer": "Earned points are transferred to your EuroBonus account between 3 and 40 days after the purchase, depending on the merchant type. Returned items reverse the earned points.",
         "footer_unaffiliated": "Independent site, not affiliated with SAS or EuroBonus.",
         "footer_about": "About", "footer_privacy": "Privacy",
     },
@@ -77,6 +79,7 @@ STRINGS = {
         "modal_visit": "Åbn hjemmeside", "modal_directions": "Rutevejledning",
         "modal_close": "Luk", "modal_phone": "Telefon", "modal_cards": "Betalingskort",
         "modal_address": "Adresse", "modal_campaign": "Kampagne",
+        "points_disclaimer": "Optjente point overføres til din EuroBonus-konto mellem 3 og 40 dage efter købet, afhængigt af butikstypen. Returneres varen, fratrækkes de optjente point.",
         "footer_unaffiliated": "Uafhængig side, ikke tilknyttet SAS eller EuroBonus.",
         "footer_about": "Om", "footer_privacy": "Privatliv",
     },
@@ -93,6 +96,7 @@ STRINGS = {
         "modal_visit": "Åpne nettside", "modal_directions": "Veibeskrivelse",
         "modal_close": "Lukk", "modal_phone": "Telefon", "modal_cards": "Betalingskort",
         "modal_address": "Adresse", "modal_campaign": "Kampanje",
+        "points_disclaimer": "Opptjente poeng overføres til din EuroBonus-konto mellom 3 og 40 dager etter kjøpet, avhengig av butikktypen. Ved retur trekkes opptjente poeng fra.",
         "footer_unaffiliated": "Uavhengig side, ikke tilknyttet SAS eller EuroBonus.",
         "footer_about": "Om", "footer_privacy": "Personvern",
     },
@@ -318,6 +322,7 @@ body {{
 .sas-modal-description {{ font-size: 14px; line-height: 1.6; color: var(--text-muted); }}
 .sas-modal-description p {{ margin: 0 0 10px 0; }}
 .sas-modal-description br + br {{ display: none; }}
+.sas-modal-disclaimer {{ font-size: 12px; line-height: 1.5; color: var(--text-faint); padding: 12px 14px; margin-top: 18px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--bg); }}
 .sas-modal-footer {{ position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 20px calc(14px + env(safe-area-inset-bottom, 0px)); background: var(--surface); border-top: 0.5px solid var(--border); display: flex; gap: 10px; }}
 .sas-modal-primary {{ flex: 1; background: var(--accent); color: #fff; padding: 13px; border: 0; border-radius: 10px; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; text-align: center; font-family: inherit; }}
 .sas-modal-primary:hover {{ opacity: 0.9; }}
@@ -499,6 +504,8 @@ body {{
     if (shop.description) {{
       html += '<div class="sas-modal-description" style="margin-top: 16px;">' + shop.description + '</div>';
     }}
+
+    html += '<div class="sas-modal-disclaimer">' + escapeHtml(t('points_disclaimer')) + '</div>';
 
     modalBody.innerHTML = html;
 
