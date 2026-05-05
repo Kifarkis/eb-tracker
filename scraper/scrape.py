@@ -493,13 +493,16 @@ def normalize_url(value):
 
 
 def maps_url_for(shop):
+    """Google Maps directions URL with destination only.
+    Maps fills in the user's current location as origin automatically.
+    """
     if shop.get("lat") is not None and shop.get("lng") is not None:
-        return f"https://www.google.com/maps/search/?api=1&query={shop['lat']},{shop['lng']}"
+        return f"https://www.google.com/maps/dir/?api=1&destination={shop['lat']},{shop['lng']}"
     parts = [shop.get("name"), shop.get("address"), shop.get("city"), shop.get("postcode")]
     parts = [p for p in parts if p and p != "."]
     if not parts:
         return ""
-    return "https://www.google.com/maps/search/?api=1&query=" + quote(", ".join(parts))
+    return "https://www.google.com/maps/dir/?api=1&destination=" + quote(", ".join(parts))
 
 
 def _clean_str(value):
@@ -725,6 +728,8 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 .sas-mode-icon {{ width: 48px; height: 48px; border-radius: 10px; background: var(--accent-bg); color: var(--accent); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
 .sas-mode-icon svg {{ width: 22px; height: 22px; }}
 .sas-distance {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--accent); margin-left: auto; }}
+.sas-cards-row {{ display: flex; gap: 6px; flex-wrap: wrap; padding-top: 4px; }}
+.sas-card-pill-net {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 10px; letter-spacing: 0.04em; color: var(--text-faint); padding: 2px 7px; border: 0.5px solid var(--border); border-radius: 4px; }}
 .sas-near-error {{ font-size: 13px; color: var(--warn); padding: 10px 14px; margin-bottom: 12px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--surface); }}
 .sas-card-address {{ font-size: 13px; color: var(--text-muted); line-height: 1.4; }}
 .sas-points-row-everyday {{ display: flex; align-items: baseline; gap: 6px; margin-top: auto; padding-top: 8px; }}
@@ -1187,12 +1192,20 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     var modeIcon = '<div class="sas-mode-icon" aria-hidden="true">' +
       (shop.mode === 'online' ? iconGlobe() : iconStorefront()) + '</div>';
 
+    var cardsRow = '';
+    if (shop.cards_accepted && shop.cards_accepted.length) {{
+      cardsRow = '<div class="sas-cards-row">' +
+        shop.cards_accepted.map(function(c) {{ return '<span class="sas-card-pill-net">' + escapeHtml(c) + '</span>'; }}).join('') +
+        '</div>';
+    }}
+
     div.innerHTML =
       eyebrow +
       '<div class="sas-card-top"><div class="sas-card-identity">' + modeIcon +
       '<div class="sas-card-name">' + escapeHtml(shop.name) + '</div></div></div>' +
       (addr ? '<div class="sas-card-address">' + escapeHtml(addr) + '</div>' : '') +
       '<div class="sas-points-row-everyday"><span class="sas-points-main-everyday">' + shop.points + '</span><span class="sas-points-unit">' + unit + '</span></div>' +
+      cardsRow +
       '<div class="sas-card-actions">' + visitBtn + mapsBtn + '</div>';
     return div;
   }}
