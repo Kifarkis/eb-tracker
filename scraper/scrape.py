@@ -638,16 +638,16 @@ body {{
 
 .sas-header {{ display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; transition: margin-bottom 0.2s ease; }}
 .sas-sticky-wrap.is-stuck .sas-header {{ margin-bottom: 12px; }}
-.sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; max-height: 40px; opacity: 1; overflow: hidden; transition: max-height 0.2s ease, opacity 0.2s ease, margin 0.2s ease; }}
+.sas-meta {{ font-size: 14px; color: var(--text-muted); font-family: ui-monospace, "SF Mono", Menlo, monospace; min-height: 20px; max-height: 40px; opacity: 1; overflow: hidden; transition: max-height 0.2s ease, opacity 0.2s ease, margin 0.2s ease; }}
 .sas-sticky-wrap.is-stuck .sas-meta {{ max-height: 0; opacity: 0; margin: 0; }}
 .sas-title {{ font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 4px 0; transition: font-size 0.2s ease; }}
 .sas-sticky-wrap.is-stuck .sas-title {{ font-size: 20px; }}
 .sas-header-controls {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
-.sas-header-select {{ font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }}
+.sas-header-select {{ font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; min-width: 96px; }}
 .sas-toggle {{ background: none; border: 0.5px solid var(--border-strong); color: var(--text-muted); padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; font-family: inherit; }}
 .sas-toggle:hover {{ color: var(--text); }}
 
-.sas-filter-row {{ display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }}
+.sas-filter-row {{ display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; min-height: 36px; }}
 .sas-chip {{ font-size: 14px; padding: 8px 16px; border: 0.5px solid var(--border); border-radius: 999px; background: transparent; color: var(--text-muted); cursor: pointer; font-family: inherit; white-space: nowrap; }}
 .sas-chip:hover {{ color: var(--text); }}
 .sas-chip.active {{ background: var(--surface); color: var(--text); border-color: var(--border-strong); }}
@@ -660,7 +660,7 @@ body {{
 .sas-sticky-wrap.is-stuck .sas-search {{ margin-bottom: 0; padding: 10px 14px; font-size: 14px; }}
 .sas-search:focus {{ outline: none; border-color: var(--border-strong); }}
 
-.sas-jumper {{ display: flex; gap: 2px; padding: 6px 0 14px 0; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--text-faint); flex-wrap: wrap; }}
+.sas-jumper {{ display: flex; gap: 2px; padding: 6px 0 14px 0; min-height: 44px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--text-faint); flex-wrap: wrap; }}
 .sas-jumper-letter {{ padding: 4px 8px; cursor: pointer; border-radius: 4px; user-select: none; }}
 .sas-jumper-letter:hover {{ color: var(--text); }}
 .sas-jumper-letter.active {{ color: var(--text); background: var(--surface); }}
@@ -733,8 +733,8 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
 /* === Tabs + everyday-only styles === */
 .sas-meta-row {{ display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }}
-.sas-tab-pill {{ display: inline-flex; gap: 0; border: 0.5px solid var(--border-strong); border-radius: 999px; padding: 3px; background: var(--surface); flex-shrink: 0; }}
-.sas-tab-btn {{ font-family: inherit; font-size: 13px; padding: 5px 14px; border: 0; border-radius: 999px; background: transparent; color: var(--text-muted); cursor: pointer; }}
+.sas-tab-pill {{ display: inline-flex; gap: 0; border: 0.5px solid var(--border-strong); border-radius: 999px; padding: 3px; background: var(--surface); flex-shrink: 0; min-width: 140px; }}
+.sas-tab-btn {{ font-family: inherit; font-size: 13px; padding: 5px 14px; border: 0; border-radius: 999px; background: transparent; color: var(--text-muted); cursor: pointer; flex: 1; }}
 .sas-tab-btn:hover {{ color: var(--text); }}
 .sas-tab-btn.active {{ background: var(--accent); color: #fff; }}
 
