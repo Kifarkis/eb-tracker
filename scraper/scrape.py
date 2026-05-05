@@ -5,6 +5,7 @@ import re
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 COUNTRIES = [
@@ -14,12 +15,19 @@ COUNTRIES = [
     {"code": "FI", "local_lang": "en", "name": "Suomi",   "languages": ["en"]},
 ]
 
+# Everyday adds Faroes (Danish per spec) and is the canonical full country list
+# for the combined page country picker. Online data won't have FO entries.
+EVERYDAY_COUNTRIES = COUNTRIES + [
+    {"code": "FO", "local_lang": "da", "name": "Føroyar", "languages": ["da", "en"]},
+]
+
 API_BASE = "https://onlineshopping.loyaltykey.com/api/v1"
 SHOPS_URL = API_BASE + "/shops?filter[channel]=SAS&filter[language]={lang}&filter[country]={country}&filter[amount]=5000"
 CATEGORIES_URL = API_BASE + "/shops/categories?filter[language]={lang}"
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
+EVERYDAY_DATA_DIR = REPO_ROOT / "data" / "everyday"
 HTML_FILE = REPO_ROOT / "docs" / "index.html"
 
 CLOUDFLARE_TOKEN = "c0d97a34f9524bd18f638693155d6704"
@@ -48,6 +56,15 @@ STRINGS = {
         "modal_shop_at": "Handla hos", "modal_close": "Stäng",
         "modal_campaign_period": "Kampanjperiod", "modal_campaign_ends": "Slutar",
         "modal_open_external": "Öppna direkt",
+        "tab_online": "Online", "tab_everyday": "I butik",
+        "meta_template_everyday": "{shops} ställen · {onsite} i butik · {online_count} online · uppdaterad {ts}",
+        "filter_onsite": "I butik", "filter_online": "Online",
+        "search_placeholder_everyday": "Sök butik, stad eller adress…",
+        "no_shops_everyday": "Inga ställen matchar.",
+        "online_only": "Online", "points_per_100_unit": "p / 100 kr",
+        "modal_visit": "Öppna webbplats", "modal_directions": "Vägbeskrivning",
+        "modal_phone": "Telefon", "modal_cards": "Betalkort", "modal_address": "Adress",
+        "points_disclaimer": "Intjänade poäng överförs till ditt EuroBonus-konto mellan 3 och 40 dagar efter köpet, beroende på typ av handlare. Vid retur dras de intjänade poängen av.",
     },
     "en": {
         "title": "EuroBonus Shopping",
@@ -72,6 +89,15 @@ STRINGS = {
         "modal_shop_at": "Shop at", "modal_close": "Close",
         "modal_campaign_period": "Campaign", "modal_campaign_ends": "Ends",
         "modal_open_external": "Open directly",
+        "tab_online": "Online", "tab_everyday": "In store",
+        "meta_template_everyday": "{shops} places · {onsite} in store · {online_count} online · updated {ts}",
+        "filter_onsite": "In store", "filter_online": "Online",
+        "search_placeholder_everyday": "Search shop, city, or address…",
+        "no_shops_everyday": "No places match.",
+        "online_only": "Online", "points_per_100_unit": "p / 100",
+        "modal_visit": "Open website", "modal_directions": "Directions",
+        "modal_phone": "Phone", "modal_cards": "Cards", "modal_address": "Address",
+        "points_disclaimer": "Earned points are transferred to your EuroBonus account between 3 and 40 days after the purchase, depending on the merchant type. Returned items reverse the earned points.",
     },
     "da": {
         "title": "EuroBonus Shopping",
@@ -96,6 +122,15 @@ STRINGS = {
         "modal_shop_at": "Køb hos", "modal_close": "Luk",
         "modal_campaign_period": "Kampagne", "modal_campaign_ends": "Slutter",
         "modal_open_external": "Åbn direkte",
+        "tab_online": "Online", "tab_everyday": "I butik",
+        "meta_template_everyday": "{shops} steder · {onsite} i butik · {online_count} online · opdateret {ts}",
+        "filter_onsite": "I butik", "filter_online": "Online",
+        "search_placeholder_everyday": "Søg butik, by eller adresse…",
+        "no_shops_everyday": "Ingen steder matcher.",
+        "online_only": "Online", "points_per_100_unit": "p / 100 kr",
+        "modal_visit": "Åbn hjemmeside", "modal_directions": "Rutevejledning",
+        "modal_phone": "Telefon", "modal_cards": "Betalingskort", "modal_address": "Adresse",
+        "points_disclaimer": "Optjente point overføres til din EuroBonus-konto mellem 3 og 40 dage efter købet, afhængigt af butikstypen. Returneres varen, fratrækkes de optjente point.",
     },
     "nb": {
         "title": "EuroBonus Shopping",
@@ -120,6 +155,15 @@ STRINGS = {
         "modal_shop_at": "Handle hos", "modal_close": "Lukk",
         "modal_campaign_period": "Kampanje", "modal_campaign_ends": "Slutter",
         "modal_open_external": "Åpne direkte",
+        "tab_online": "Online", "tab_everyday": "I butikk",
+        "meta_template_everyday": "{shops} steder · {onsite} i butikk · {online_count} online · oppdatert {ts}",
+        "filter_onsite": "I butikk", "filter_online": "Online",
+        "search_placeholder_everyday": "Søk butikk, by eller adresse…",
+        "no_shops_everyday": "Ingen steder matcher.",
+        "online_only": "Online", "points_per_100_unit": "p / 100 kr",
+        "modal_visit": "Åpne nettside", "modal_directions": "Veibeskrivelse",
+        "modal_phone": "Telefon", "modal_cards": "Betalingskort", "modal_address": "Adresse",
+        "points_disclaimer": "Opptjente poeng overføres til din EuroBonus-konto mellom 3 og 40 dager etter kjøpet, avhengig av butikktypen. Ved retur trekkes opptjente poeng fra.",
     },
 }
 
@@ -395,12 +439,101 @@ def prepare_country_dataset(shops_state, category_map):
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
 
-def render_html(datasets):
-    """Generate the full single-page HTML with embedded data and client-side rendering."""
+# === Everyday data layer ===
+# Reads per-country JSON produced by scrape_everyday.py and shapes it for the
+# combined frontend. Defensive markdown-link unwrap remains here — the source
+# data has been known to ship [text](url) for some entries.
+
+_MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+|www\.[^)\s]+)\)")
+
+
+def unwrap_md_url(value):
+    if not value:
+        return ""
+    text = value.strip()
+    m = _MARKDOWN_LINK_RE.search(text)
+    return m.group(2).strip() if m else text
+
+
+def normalize_url(value):
+    v = unwrap_md_url(value)
+    if not v:
+        return ""
+    if v.startswith(("http://", "https://")):
+        return v
+    return "https://" + v
+
+
+def maps_url_for(shop):
+    if shop.get("lat") is not None and shop.get("lng") is not None:
+        return f"https://www.google.com/maps/search/?api=1&query={shop['lat']},{shop['lng']}"
+    parts = [shop.get("name"), shop.get("address"), shop.get("city"), shop.get("postcode")]
+    parts = [p for p in parts if p and p != "."]
+    if not parts:
+        return ""
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(", ".join(parts))
+
+
+def _clean_str(value):
+    s = (value or "").strip()
+    return "" if s == "." else s
+
+
+def load_everyday_country(code):
+    path = EVERYDAY_DATA_DIR / code.lower() / "shops.json"
+    if not path.exists():
+        return {"shops": [], "updated": None}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {"shops": [], "updated": None}
+
+
+def prepare_everyday_dataset(country_code):
+    raw = load_everyday_country(country_code)
+    out = []
+    for s in raw.get("shops", []):
+        if s.get("status") != "active":
+            continue
+        out.append({
+            "uuid": s.get("uuid"),
+            "name": s.get("name"),
+            "city": _clean_str(s.get("city")),
+            "address": _clean_str(s.get("address")),
+            "postcode": _clean_str(s.get("postcode")),
+            "lat": s.get("lat"),
+            "lng": s.get("lng"),
+            "mode": s.get("mode") or "onsite",
+            "points": s.get("points_per_100") or 0,
+            "currency": s.get("currency") or "",
+            "website": normalize_url(s.get("website")),
+            "phone": (s.get("phone") or "").strip(),
+            "description": s.get("description") or "",
+            "cards_accepted": s.get("cards_accepted") or [],
+            "has_campaign": bool(s.get("has_campaign")),
+            "campaign_title": s.get("campaign_title"),
+            "campaign_description": s.get("campaign_description"),
+            "maps_url": maps_url_for(s),
+        })
+    out.sort(key=lambda x: (x["name"] or "").lower())
+    onsite = sum(1 for x in out if x["mode"] == "onsite")
+    online = sum(1 for x in out if x["mode"] == "online")
+    return {
+        "shops": out,
+        "onsite_count": onsite,
+        "online_count": online,
+        "updated": raw.get("updated"),
+    }
+
+
+def render_html(online_datasets, everyday_datasets):
+    """Generate the full single-page HTML with both datasets embedded."""
     payload = {
-        "datasets": json.dumps(datasets, ensure_ascii=False),
+        "datasets": json.dumps(online_datasets, ensure_ascii=False),
+        "everyday_datasets": json.dumps(everyday_datasets, ensure_ascii=False),
         "strings": json.dumps(STRINGS, ensure_ascii=False),
         "countries": json.dumps(COUNTRIES, ensure_ascii=False),
+        "everyday_countries": json.dumps(EVERYDAY_COUNTRIES, ensure_ascii=False),
         "default_country": "SE",
         "default_lang": "sv",
         "cf_token": CLOUDFLARE_TOKEN,
@@ -549,6 +682,35 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 .sas-footer a:hover {{ color: var(--text); text-decoration: underline; }}
 .sas-footer-right {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
 
+/* === Tabs + everyday-only styles === */
+.sas-meta-row {{ display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }}
+.sas-tab-pill {{ display: inline-flex; gap: 0; border: 0.5px solid var(--border-strong); border-radius: 999px; padding: 3px; background: var(--surface); flex-shrink: 0; }}
+.sas-tab-btn {{ font-family: inherit; font-size: 13px; padding: 5px 14px; border: 0; border-radius: 999px; background: transparent; color: var(--text-muted); cursor: pointer; }}
+.sas-tab-btn:hover {{ color: var(--text); }}
+.sas-tab-btn.active {{ background: var(--accent); color: #fff; }}
+
+/* Everyday card layout (no logo, leads with city, two CTAs) */
+.sas-card-everyday {{ min-height: 200px; }}
+.sas-eyebrow {{ font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); display: flex; align-items: center; gap: 8px; }}
+.sas-eyebrow-tag {{ background: var(--accent-bg); color: var(--accent); padding: 2px 8px; border-radius: 999px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 10px; letter-spacing: 0.04em; }}
+.sas-card-everyday .sas-card-name {{ white-space: normal; padding-right: 0; font-size: 17px; }}
+.sas-card-address {{ font-size: 13px; color: var(--text-muted); line-height: 1.4; }}
+.sas-points-row-everyday {{ display: flex; align-items: baseline; gap: 6px; margin-top: auto; padding-top: 8px; }}
+.sas-points-main-everyday {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 22px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; }}
+.sas-card-actions {{ display: flex; gap: 8px; padding-top: 8px; border-top: 0.5px solid var(--border); }}
+.sas-card-btn {{ flex: 1; font-family: inherit; font-size: 12px; font-weight: 500; padding: 8px 10px; border: 0.5px solid var(--border-strong); border-radius: 8px; background: transparent; color: var(--text); cursor: pointer; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; }}
+.sas-card-btn:hover {{ background: var(--accent-bg); color: var(--accent); border-color: var(--accent); }}
+.sas-card-btn[aria-disabled="true"] {{ opacity: 0.4; pointer-events: none; }}
+.sas-card-btn svg {{ width: 12px; height: 12px; flex-shrink: 0; }}
+
+/* Everyday modal extras */
+.sas-modal-eyebrow {{ font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }}
+.sas-modal-disclaimer {{ font-size: 12px; line-height: 1.5; color: var(--text-faint); padding: 12px 14px; margin-top: 18px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--bg); }}
+.sas-modal-stat-row a {{ color: var(--accent); text-decoration: none; }}
+.sas-modal-stat-row a:hover {{ text-decoration: underline; }}
+.sas-modal-secondary {{ flex: 1; background: transparent; color: var(--text); padding: 13px; border: 0.5px solid var(--border-strong); border-radius: 10px; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; text-align: center; font-family: inherit; }}
+.sas-modal-secondary:hover {{ background: var(--accent-bg); color: var(--accent); border-color: var(--accent); }}
+
 @media (max-width: 640px) {{
   body {{ padding: 0 0 48px; }}
   .sas-container {{ padding: 0 14px; }}
@@ -568,7 +730,13 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     <div class="sas-header">
       <div>
         <h1 class="sas-title" id="title-text">EuroBonus Shopping</h1>
-        <div class="sas-meta" id="meta-text"></div>
+        <div class="sas-meta-row">
+          <div class="sas-tab-pill" role="tablist">
+            <button class="sas-tab-btn active" id="tab-online" data-tab="online" role="tab"></button>
+            <button class="sas-tab-btn" id="tab-everyday" data-tab="everyday" role="tab"></button>
+          </div>
+          <div class="sas-meta" id="meta-text"></div>
+        </div>
       </div>
       <div class="sas-header-controls">
         <select class="sas-header-select" id="country-select" aria-label="Country"></select>
@@ -610,30 +778,41 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     <div class="sas-modal-body" id="modal-body"></div>
     <div class="sas-modal-footer">
       <a class="sas-modal-primary" id="modal-shop-btn" target="_blank" rel="noopener"></a>
+      <a class="sas-modal-secondary" id="modal-directions-btn" target="_blank" rel="noopener" style="display:none"></a>
       <button class="sas-modal-close" id="modal-close" aria-label="Close"></button>
     </div>
   </div>
 </div>
 
 <script id="sas-data" type="application/json">{datasets}</script>
+<script id="sas-everyday-data" type="application/json">{everyday_datasets}</script>
 <script id="sas-strings" type="application/json">{strings}</script>
 <script id="sas-countries" type="application/json">{countries}</script>
+<script id="sas-everyday-countries" type="application/json">{everyday_countries}</script>
 
 <script>
 (function() {{
   var DATA = JSON.parse(document.getElementById('sas-data').textContent);
+  var EVERYDAY_DATA = JSON.parse(document.getElementById('sas-everyday-data').textContent);
   var STRINGS = JSON.parse(document.getElementById('sas-strings').textContent);
   var COUNTRIES = JSON.parse(document.getElementById('sas-countries').textContent);
+  var EVERYDAY_COUNTRIES = JSON.parse(document.getElementById('sas-everyday-countries').textContent);
   var DEFAULT_COUNTRY = '{default_country}';
   var DEFAULT_LANG = '{default_lang}';
 
   var params = new URLSearchParams(window.location.search);
+  var tab = (params.get('t') === 'everyday') ? 'everyday' : 'online';
   var country = (params.get('c') || DEFAULT_COUNTRY).toUpperCase();
   var lang = params.get('l') || DEFAULT_LANG;
-  var countryDef = COUNTRIES.find(function(c) {{ return c.code === country; }}) || COUNTRIES[0];
+
+  function activeCountries() {{ return tab === 'everyday' ? EVERYDAY_COUNTRIES : COUNTRIES; }}
+  function activeData() {{ return tab === 'everyday' ? EVERYDAY_DATA : DATA; }}
+
+  var countryDef = activeCountries().find(function(c) {{ return c.code === country; }}) || activeCountries()[0];
+  country = countryDef.code;
   if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
 
-  var state = {{ view: 'all', category: 'all', query: '', sort: 'az' }};
+  var state = {{ view: 'all', category: 'all', query: '', sort: 'az', mode: 'all' }};
   var shopsByUuid = {{}};
 
   var root = document.documentElement;
@@ -719,6 +898,9 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
     modalShopBtn.href = shopUrl(shop.uuid);
     modalShopBtn.textContent = t('modal_shop_at') + ' ' + shop.name;
+    modalShopBtn.style.display = '';
+    var directionsBtn = document.getElementById('modal-directions-btn');
+    if (directionsBtn) directionsBtn.style.display = 'none';
     modalClose.textContent = t('modal_close');
     backdrop.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -789,7 +971,10 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     return div;
   }}
 
-  function getDataset() {{ return DATA[country] || Object.values(DATA)[0]; }}
+  function getDataset() {{
+    var src = activeData();
+    return src[country] || Object.values(src)[0] || {{ shops: [], updated: '' }};
+  }}
 
   function buildShopList(ds) {{
     if (state.view === 'gone') {{
@@ -877,7 +1062,217 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     renderJumper(shops);
   }}
 
+  // === Everyday rendering ===
+  function escapeHtml(s) {{
+    return (s == null ? '' : String(s)).replace(/[&<>"']/g, function(c) {{
+      return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"}}[c];
+    }});
+  }}
+
+  function iconExt() {{
+    return '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H4a1 1 0 00-1 1v8a1 1 0 001 1h8a1 1 0 001-1v-2"/><path d="M9 3h4v4M13 3L7 9"/></svg>';
+  }}
+  function iconMap() {{
+    return '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 14s5-4 5-8a5 5 0 10-10 0c0 4 5 8 5 8z"/><circle cx="8" cy="6" r="2"/></svg>';
+  }}
+
+  function everydayEyebrowText(shop) {{
+    if (shop.mode === 'online') return t('online_only');
+    return shop.city || '';
+  }}
+
+  function everydayAddressLine(shop) {{
+    if (shop.mode === 'online') return '';
+    var bits = [];
+    if (shop.address) bits.push(shop.address);
+    if (shop.postcode || shop.city) {{
+      var pc = [shop.postcode, shop.city].filter(Boolean).join(' ');
+      if (pc) bits.push(pc);
+    }}
+    return bits.join(' · ');
+  }}
+
+  function fmtTs(iso) {{
+    if (!iso) return '';
+    try {{
+      var d = new Date(iso);
+      return d.getUTCFullYear() + '-' +
+        String(d.getUTCMonth() + 1).padStart(2, '0') + '-' +
+        String(d.getUTCDate()).padStart(2, '0') + ' ' +
+        String(d.getUTCHours()).padStart(2, '0') + ':' +
+        String(d.getUTCMinutes()).padStart(2, '0') + ' UTC';
+    }} catch (e) {{ return iso; }}
+  }}
+
+  function everydayCardHTML(shop) {{
+    var div = document.createElement('div');
+    div.className = 'sas-card sas-card-everyday' + (shop.has_campaign ? ' campaign' : '');
+    div.dataset.uuid = shop.uuid;
+    div.dataset.mode = shop.mode;
+
+    var addr = everydayAddressLine(shop);
+    var unit = escapeHtml(t('points_per_100_unit'));
+    var visitBtn = shop.website
+      ? '<a class="sas-card-btn" href="' + escapeHtml(shop.website) + '" target="_blank" rel="noopener" data-stop>' + iconExt() + '<span>' + escapeHtml(t('modal_visit')) + '</span></a>'
+      : '<button class="sas-card-btn" aria-disabled="true">' + iconExt() + '<span>' + escapeHtml(t('modal_visit')) + '</span></button>';
+    var mapsBtn = (shop.maps_url && shop.mode !== 'online')
+      ? '<a class="sas-card-btn" href="' + escapeHtml(shop.maps_url) + '" target="_blank" rel="noopener" data-stop>' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></a>'
+      : '<button class="sas-card-btn" aria-disabled="true">' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></button>';
+
+    var eyebrow = '<div class="sas-eyebrow">' +
+      (shop.mode === 'online'
+        ? '<span class="sas-eyebrow-tag">' + escapeHtml(t('online_only')) + '</span>'
+        : escapeHtml(everydayEyebrowText(shop))) +
+      '</div>';
+
+    div.innerHTML =
+      eyebrow +
+      '<h2 class="sas-card-name">' + escapeHtml(shop.name) + '</h2>' +
+      (addr ? '<div class="sas-card-address">' + escapeHtml(addr) + '</div>' : '') +
+      '<div class="sas-points-row-everyday"><span class="sas-points-main-everyday">' + shop.points + '</span><span class="sas-points-unit">' + unit + '</span></div>' +
+      '<div class="sas-card-actions">' + visitBtn + mapsBtn + '</div>';
+    return div;
+  }}
+
+  function openEverydayModal(shop) {{
+    var rows = [];
+    rows.push('<div class="sas-modal-stat-row"><span>EB</span><strong>' + shop.points + ' ' + escapeHtml(t('points_per_100_unit')) + '</strong></div>');
+    if (shop.cards_accepted && shop.cards_accepted.length) {{
+      rows.push('<div class="sas-modal-stat-row"><span>' + escapeHtml(t('modal_cards')) + '</span><strong>' + shop.cards_accepted.map(escapeHtml).join(' · ') + '</strong></div>');
+    }}
+    if (shop.phone) {{
+      rows.push('<div class="sas-modal-stat-row"><span>' + escapeHtml(t('modal_phone')) + '</span><strong><a href="tel:' + encodeURIComponent(shop.phone) + '">' + escapeHtml(shop.phone) + '</a></strong></div>');
+    }}
+    var addr = everydayAddressLine(shop);
+    if (addr) {{
+      rows.push('<div class="sas-modal-stat-row"><span>' + escapeHtml(t('modal_address')) + '</span><strong>' + escapeHtml(addr) + '</strong></div>');
+    }}
+
+    var html = '<div class="sas-modal-eyebrow">' + escapeHtml(everydayEyebrowText(shop)) + '</div>' +
+      '<h2 class="sas-modal-title">' + escapeHtml(shop.name) + '</h2>' +
+      '<div class="sas-modal-stats">' + rows.join('') + '</div>';
+
+    if (shop.has_campaign && (shop.campaign_title || shop.campaign_description)) {{
+      html += '<div class="sas-modal-eyebrow" style="margin-top:14px">' + escapeHtml(t('modal_campaign_period')) + '</div>';
+      if (shop.campaign_title) html += '<div class="sas-modal-description"><strong>' + escapeHtml(shop.campaign_title) + '</strong></div>';
+      if (shop.campaign_description) html += '<div class="sas-modal-description">' + shop.campaign_description + '</div>';
+    }}
+
+    if (shop.description) {{
+      html += '<div class="sas-modal-description" style="margin-top: 16px;">' + shop.description + '</div>';
+    }}
+
+    html += '<div class="sas-modal-disclaimer">' + escapeHtml(t('points_disclaimer')) + '</div>';
+
+    modalBody.innerHTML = html;
+
+    var primary = document.getElementById('modal-shop-btn');
+    var secondary = document.getElementById('modal-directions-btn');
+    if (shop.website) {{
+      primary.href = shop.website;
+      primary.textContent = t('modal_visit');
+      primary.style.display = '';
+    }} else {{
+      primary.style.display = 'none';
+    }}
+    if (shop.maps_url && shop.mode !== 'online') {{
+      secondary.href = shop.maps_url;
+      secondary.textContent = t('modal_directions');
+      secondary.style.display = '';
+    }} else {{
+      secondary.style.display = 'none';
+    }}
+    document.getElementById('modal-close').textContent = t('modal_close');
+    backdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }}
+
+  function renderEverydayGrid() {{
+    var ds = getDataset();
+    var grid = document.getElementById('shop-grid');
+    var emptyState = document.getElementById('empty-state');
+    grid.innerHTML = '';
+    document.getElementById('jumper').innerHTML = '';
+
+    document.querySelectorAll('#view-filters .sas-chip').forEach(function(c) {{
+      c.classList.toggle('active', c.dataset.view === state.mode);
+    }});
+
+    var filtered = ds.shops.filter(function(s) {{
+      if (state.mode !== 'all' && s.mode !== state.mode) return false;
+      if (state.query) {{
+        var hay = ((s.name || '') + ' ' + (s.city || '') + ' ' + (s.address || '') + ' ' + (s.postcode || '')).toLowerCase();
+        if (hay.indexOf(state.query) === -1) return false;
+      }}
+      return true;
+    }});
+
+    if (!filtered.length) {{
+      emptyState.classList.remove('sas-hidden');
+      emptyState.textContent = t('no_shops_everyday');
+    }} else {{
+      emptyState.classList.add('sas-hidden');
+    }}
+
+    var frag = document.createDocumentFragment();
+    filtered.forEach(function(s) {{ frag.appendChild(everydayCardHTML(s)); }});
+    grid.appendChild(frag);
+  }}
+
+  function renderEveryday() {{
+    var ds = getDataset();
+    document.documentElement.lang = lang;
+    document.getElementById('title-text').textContent = t('title');
+    setToggleLabel();
+
+    shopsByUuid = {{}};
+    ds.shops.forEach(function(s) {{ shopsByUuid[s.uuid] = s; }});
+
+    document.getElementById('meta-text').textContent = t('meta_template_everyday')
+      .replace('{{shops}}', ds.shops.length)
+      .replace('{{onsite}}', ds.onsite_count || 0)
+      .replace('{{online_count}}', ds.online_count || 0)
+      .replace('{{ts}}', fmtTs(ds.updated));
+    document.getElementById('search-box').placeholder = t('search_placeholder_everyday');
+    document.getElementById('footer-unaffiliated').textContent = t('footer_unaffiliated');
+    document.getElementById('footer-about').textContent = t('footer_about');
+    document.getElementById('footer-privacy').textContent = t('footer_privacy');
+
+    // Hide online-only controls
+    document.getElementById('sort-select').style.display = 'none';
+    document.getElementById('category-select').style.display = 'none';
+
+    var viewFilters = document.getElementById('view-filters');
+    viewFilters.innerHTML = '';
+    [
+      ['all', t('filter_all')],
+      ['onsite', t('filter_onsite') + ' (' + (ds.onsite_count || 0) + ')'],
+      ['online', t('filter_online') + ' (' + (ds.online_count || 0) + ')'],
+    ].forEach(function(pair) {{
+      var b = document.createElement('button');
+      b.className = 'sas-chip' + (state.mode === pair[0] ? ' active' : '');
+      b.dataset.view = pair[0];
+      b.textContent = pair[1];
+      b.addEventListener('click', function() {{ state.mode = pair[0]; renderEverydayGrid(); }});
+      viewFilters.appendChild(b);
+    }});
+
+    renderEverydayGrid();
+  }}
+
   function render() {{
+    // Update tab pill state every render
+    document.getElementById('tab-online').classList.toggle('active', tab === 'online');
+    document.getElementById('tab-everyday').classList.toggle('active', tab === 'everyday');
+    document.getElementById('tab-online').textContent = t('tab_online');
+    document.getElementById('tab-everyday').textContent = t('tab_everyday');
+
+    if (tab === 'everyday') {{ renderEveryday(); return; }}
+
+    // Restore online-only controls if user came back from everyday
+    document.getElementById('sort-select').style.display = '';
+    document.getElementById('category-select').style.display = '';
+
     var ds = getDataset();
     document.documentElement.lang = lang;
     document.getElementById('title-text').textContent = t('title');
@@ -950,6 +1345,7 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   }}
 
   document.addEventListener('click', function(e) {{
+    if (e.target.closest('[data-stop]')) return; // let card action buttons (visit/maps) pass through
     var ext = e.target.closest('[data-external-uuid]');
     if (ext) {{
       e.stopPropagation();
@@ -960,17 +1356,30 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     var card = e.target.closest('.sas-card[data-uuid]');
     if (card && !card.classList.contains('sas-card-gone')) {{
       var sh = shopsByUuid[card.dataset.uuid];
-      if (sh) openModal(sh);
+      if (!sh) return;
+      if (tab === 'everyday') openEverydayModal(sh);
+      else openModal(sh);
     }}
   }});
 
   var countrySel = document.getElementById('country-select');
-  COUNTRIES.forEach(function(c) {{
-    var o = document.createElement('option');
-    o.value = c.code; o.textContent = c.name;
-    countrySel.appendChild(o);
-  }});
-  countrySel.value = country;
+  function rebuildCountrySelector() {{
+    countrySel.innerHTML = '';
+    activeCountries().forEach(function(c) {{
+      var o = document.createElement('option');
+      o.value = c.code; o.textContent = c.name;
+      countrySel.appendChild(o);
+    }});
+    // If current country isn't valid for this tab, fall back to first available
+    var match = activeCountries().find(function(c) {{ return c.code === country; }});
+    if (!match) {{
+      countryDef = activeCountries()[0];
+      country = countryDef.code;
+      if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
+    }}
+    countrySel.value = country;
+  }}
+  rebuildCountrySelector();
 
   var langSel = document.getElementById('language-select');
   function rebuildLangSelector() {{
@@ -989,12 +1398,34 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
     var url = new URL(window.location);
     url.searchParams.set('c', country);
     url.searchParams.set('l', lang);
+    if (tab === 'everyday') url.searchParams.set('t', 'everyday');
+    else url.searchParams.delete('t');
     window.history.replaceState({{}}, '', url);
   }}
 
+  function switchTab(newTab) {{
+    if (newTab === tab) return;
+    tab = newTab;
+    // Reset filter/search state on tab change so chips don't carry over
+    state.view = 'all';
+    state.mode = 'all';
+    state.category = 'all';
+    state.query = '';
+    state.sort = 'az';
+    document.getElementById('search-box').value = '';
+    rebuildCountrySelector();
+    countryDef = activeCountries().find(function(c) {{ return c.code === country; }}) || activeCountries()[0];
+    if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
+    rebuildLangSelector();
+    updateUrl();
+    render();
+  }}
+  document.getElementById('tab-online').addEventListener('click', function() {{ switchTab('online'); }});
+  document.getElementById('tab-everyday').addEventListener('click', function() {{ switchTab('everyday'); }});
+
   countrySel.addEventListener('change', function() {{
     country = countrySel.value;
-    countryDef = COUNTRIES.find(function(c) {{ return c.code === country; }});
+    countryDef = activeCountries().find(function(c) {{ return c.code === country; }}) || activeCountries()[0];
     if (countryDef.languages.indexOf(lang) === -1) lang = countryDef.local_lang;
     rebuildLangSelector();
     state.category = 'all';
@@ -1011,7 +1442,8 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
   document.getElementById('search-box').addEventListener('input', function(e) {{
     state.query = e.target.value.trim().toLowerCase();
-    renderGrid();
+    if (tab === 'everyday') renderEverydayGrid();
+    else renderGrid();
   }});
   document.getElementById('sort-select').addEventListener('change', function(e) {{
     state.sort = e.target.value;
@@ -1092,9 +1524,18 @@ def main():
 
         datasets[code] = prepare_country_dataset(shops_state, category_map)
 
+    # Load everyday datasets (already scraped + saved by scrape_everyday.py).
+    # We just read from disk; no API calls here.
+    everyday_datasets = {}
+    for country in EVERYDAY_COUNTRIES:
+        code = country["code"]
+        everyday_datasets[code] = prepare_everyday_dataset(code)
+    everyday_total = sum(len(d["shops"]) for d in everyday_datasets.values())
+    print(f"\nLoaded everyday data: {everyday_total} shops across {len(everyday_datasets)} countries")
+
     HTML_FILE.parent.mkdir(parents=True, exist_ok=True)
-    HTML_FILE.write_text(render_html(datasets), encoding="utf-8")
-    print(f"\nWrote {HTML_FILE} with {len(datasets)} country datasets")
+    HTML_FILE.write_text(render_html(datasets, everyday_datasets), encoding="utf-8")
+    print(f"\nWrote {HTML_FILE} with {len(datasets)} online + {len(everyday_datasets)} everyday country datasets")
 
     if not all_succeeded:
         sys.exit(1)
