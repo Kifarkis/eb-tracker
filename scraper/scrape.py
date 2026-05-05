@@ -772,6 +772,9 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
   .sas-list-control {{ flex: 1; }}
   .sas-footer {{ flex-direction: column; align-items: flex-start; gap: 8px; }}
   .sas-modal {{ max-height: 90vh; }}
+  .sas-meta {{ min-height: 40px; }}
+  .sas-jumper {{ min-height: 80px; }}
+  .sas-filter-row {{ min-height: 84px; }}
 }}
 </style>
 </head>
