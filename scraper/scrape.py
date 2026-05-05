@@ -750,13 +750,9 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 .sas-card-pill-net {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 10px; letter-spacing: 0.04em; color: var(--text-faint); padding: 2px 7px; border: 0.5px solid var(--border); border-radius: 4px; }}
 .sas-near-error {{ font-size: 13px; color: var(--warn); padding: 10px 14px; margin-bottom: 12px; border: 0.5px solid var(--border); border-radius: 8px; background: var(--surface); }}
 .sas-card-address {{ font-size: 13px; color: var(--text-muted); line-height: 1.4; }}
-.sas-points-row-everyday {{ display: flex; align-items: baseline; gap: 6px; margin-top: auto; padding-top: 8px; }}
+.sas-points-row-everyday {{ display: flex; align-items: baseline; gap: 6px; padding-top: 8px; }}
 .sas-points-main-everyday {{ font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 22px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; }}
-.sas-card-actions {{ display: flex; gap: 8px; padding-top: 8px; border-top: 0.5px solid var(--border); }}
-.sas-card-btn {{ flex: 1; font-family: inherit; font-size: 12px; font-weight: 500; padding: 8px 10px; border: 0.5px solid var(--border-strong); border-radius: 8px; background: transparent; color: var(--text); cursor: pointer; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; }}
-.sas-card-btn:hover {{ background: var(--accent-bg); color: var(--accent); border-color: var(--accent); }}
-.sas-card-btn[aria-disabled="true"] {{ opacity: 0.4; pointer-events: none; }}
-.sas-card-btn svg {{ width: 12px; height: 12px; flex-shrink: 0; }}
+.sas-card-foot-address {{ display: block; line-height: 1.4; font-size: 13px; }}
 
 /* Everyday modal extras */
 .sas-modal-eyebrow {{ font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }}
@@ -1205,12 +1201,6 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
 
     var addr = everydayAddressLine(shop);
     var unit = escapeHtml(t('points_per_100_unit'));
-    var visitBtn = shop.website
-      ? '<a class="sas-card-btn" href="' + escapeHtml(shop.website) + '" target="_blank" rel="noopener" data-stop>' + iconExt() + '<span>' + escapeHtml(t('modal_visit')) + '</span></a>'
-      : '<button class="sas-card-btn" aria-disabled="true">' + iconExt() + '<span>' + escapeHtml(t('modal_visit')) + '</span></button>';
-    var mapsBtn = (shop.maps_url && shop.mode !== 'online')
-      ? '<a class="sas-card-btn" href="' + escapeHtml(shop.maps_url) + '" target="_blank" rel="noopener" data-stop>' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></a>'
-      : '<button class="sas-card-btn" aria-disabled="true">' + iconMap() + '<span>' + escapeHtml(t('modal_directions')) + '</span></button>';
 
     var distance = (shop._distanceKm != null) ? '<span class="sas-distance">' + escapeHtml(fmtDistance(shop._distanceKm)) + '</span>' : '';
     var catName = everydayCategoryName(shop);
@@ -1234,14 +1224,27 @@ html[data-theme="dark"] .sas-logo-wrap {{ background: #9ca3af; }}
         '</div>';
     }}
 
+    // External link icon top-right, mirrors online cards. Direct shortcut to
+    // the website; uses data-stop so the global click handler doesn't also
+    // fire the modal.
+    var externalBtn = shop.website
+      ? '<a class="sas-card-external" href="' + escapeHtml(shop.website) + '" target="_blank" rel="noopener" title="' + escapeHtml(t('modal_visit')) + '" data-stop>' +
+          '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M10 3h3v3"/><path d="M8 8l5-5"/></svg>' +
+        '</a>'
+      : '';
+
+    // Footer holds address (parallels online cards' campaign-info footer slot).
+    // Empty for online-only shops with no usable address.
+    var footHTML = addr ? '<div class="sas-card-foot"><span class="sas-card-foot-address">' + escapeHtml(addr) + '</span></div>' : '<div class="sas-card-foot empty"></div>';
+
     div.innerHTML =
+      externalBtn +
       eyebrow +
       '<div class="sas-card-top"><div class="sas-card-identity">' + modeIcon +
       '<div class="sas-card-name">' + escapeHtml(shop.name) + '</div></div></div>' +
-      (addr ? '<div class="sas-card-address">' + escapeHtml(addr) + '</div>' : '') +
       '<div class="sas-points-row-everyday"><span class="sas-points-main-everyday">' + shop.points + '</span><span class="sas-points-unit">' + unit + '</span></div>' +
       cardsRow +
-      '<div class="sas-card-actions">' + visitBtn + mapsBtn + '</div>';
+      footHTML;
     return div;
   }}
 
