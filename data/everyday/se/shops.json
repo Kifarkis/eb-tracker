@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-05-06T06:25:19.600334+00:00",
-  "shop_count": 457,
+  "updated": "2026-05-07T06:30:08.180751+00:00",
+  "shop_count": 456,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -2454,33 +2454,6 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2016-02-03 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
-      "uuid": "lassie",
-      "name": "Lassie",
-      "country": "se",
-      "city": ".",
-      "postcode": ".",
-      "address": "www.lassie.co",
-      "lat": null,
-      "lng": null,
-      "mode": "online",
-      "category_id": 12,
-      "points_per_100": 100,
-      "currency": "SEK",
-      "website": "https://www.lassie.co/eurobonus?eCodsId=qgmSv9z0VIj3U4Txd0U5%2Bg%3D%3D",
-      "phone": "+4610183981",
-      "email": "sandra@lassie.co",
-      "description": "LASSIE – THE PET INSURANCE THAT GIVES YOU 100 POINTS / 100 SEK<br><br>Insure your dog or cat with Lassie and earn 100 points for every 100 SEK spent during the first year. Lassie is Sweden’s first preventive pet insurance and is there for you and your pet both before and after an injury occurs.<br><br>If your insurance, for example, costs 150 SEK per month, you’ll receive 150 points each month when you pay for your insurance. Make sure to enter your EuroBonus number when signing up for the insurance. To earn EuroBonus Bonus Points, simply type your membership number in the EuroBonus field during registration. EuroBonus points are earnt during the first 12 months of insuring your pet with Lassie.",
-      "cards_accepted": [],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2022-05-12 08:10:06",
       "first_seen": "2026-05-05",
       "status": "active"
     },
@@ -13852,6 +13825,34 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "lassie",
+      "name": "Lassie",
+      "country": "se",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.lassie.co",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 12,
+      "points_per_100": 100,
+      "currency": "SEK",
+      "website": "https://www.lassie.co/eurobonus?eCodsId=qgmSv9z0VIj3U4Txd0U5%2Bg%3D%3D",
+      "phone": "+4610183981",
+      "email": "sandra@lassie.co",
+      "description": "LASSIE – THE PET INSURANCE THAT GIVES YOU 100 POINTS / 100 SEK<br><br>Insure your dog or cat with Lassie and earn 100 points for every 100 SEK spent during the first year. Lassie is Sweden’s first preventive pet insurance and is there for you and your pet both before and after an injury occurs.<br><br>If your insurance, for example, costs 150 SEK per month, you’ll receive 150 points each month when you pay for your insurance. Make sure to enter your EuroBonus number when signing up for the insurance. To earn EuroBonus Bonus Points, simply type your membership number in the EuroBonus field during registration. EuroBonus points are earnt during the first 12 months of insuring your pet with Lassie.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2022-05-12 08:10:06",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-05-07"
     }
   ]
 }
