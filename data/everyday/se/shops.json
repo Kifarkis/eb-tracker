@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-05-07T06:30:08.180751+00:00",
-  "shop_count": 456,
+  "updated": "2026-05-08T05:52:01.039471+00:00",
+  "shop_count": 457,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -3442,6 +3442,33 @@
       "campaign_description": null,
       "created_at": "2017-09-26 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "millesgarden-museum",
+      "name": "Millesgården Museum",
+      "country": "se",
+      "city": "Lidingö",
+      "postcode": "18150",
+      "address": "Herserudsvägen 32",
+      "lat": 59.3586815,
+      "lng": 18.1224329,
+      "mode": "onsite",
+      "category_id": 3,
+      "points_per_100": 100,
+      "currency": "SEK",
+      "website": "https://useeum.com/sites/da/museums/millesgaarden-museum/?discount=sas",
+      "phone": "+46 (0)8 446 75 90",
+      "email": "rasmus@useeum.com",
+      "description": "Buy your tickets at www.useeum.com, add your EuroBonus number during checkout and earn 100 points pr. 100 DKK.<br><br>Millesgården is one of Sweden’s most unique destinations, featuring an inspiring artist’s home, a spectacular sculpture park, and an art gallery for temporary exhibitions in art and design. Here, art, history, architecture, and nature come together in a setting that attracts and fascinates visitors from all over the world.<br><br>Millesgården was created by the world-renowned Swedish sculptor Carl Milles and his wife, the artist Olga Milles, who built their home and studios here in the early 20th century.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-05-07 12:33:43",
+      "first_seen": "2026-05-08",
       "status": "active"
     },
     {
