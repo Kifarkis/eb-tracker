@@ -5818,12 +5818,7 @@
     "uuid": "01896311-fdf4-7247-b1bb-5c8c3a02ff39"
   },
   "01896312-0ca9-7128-bf2d-ba943845b4c3": {
-    "active_campaign": {
-      "ends_date": "2026-05-10",
-      "points_campaign": 50,
-      "points_channel": 10,
-      "started": "2026-04-24"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
     "campaign_ends_human": "om 1 dag",
@@ -5836,11 +5831,12 @@
     "current_points_channel": 10,
     "description": "<div>Living Flowers grundades av familjen Graugaard Overgaard och producerar miljövänliga buketter med lång hållbarhet av hög kvalitet. Du får därmed en unik möjlighet att göra goda och klimatvänliga val i vardagen utan att kompromissa på vare sig kvalitet, köppreferenser eller estetik.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-08",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/oQVZOPhrfViaFH94kXFhF00QApAPQS5dgEPWdkg6.png",
     "name": "Living Flowers",
     "slug": "living-flowers",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896312-0ca9-7128-bf2d-ba943845b4c3"
   },
   "01896312-0e40-70d5-ac09-6efad095edc9": {
@@ -9117,7 +9113,7 @@
     "current_points": 2500,
     "current_points_campaign": 0,
     "current_points_channel": 500,
-    "description": "<div>E.ON är ett av Europas ledande energibolag och levererar el, värme och energilösningar till miljontals kunder. I Norden förser E.ON både hushåll och företag med energi och är en stark drivkraft i utvecklingen av förnybar elproduktion, smarta elnät och hållbara energitjänster. Med fokus på innovation, kundnytta och konkurrenskraftiga elavtal är E.ON ett tryggt och välkänt val på energimarknaden.</div><div><br></div><h1>Villkor för denna partner</h1><div>Den här kampanjen kan bara användas en gång per Eurobonus-medlem, och gäller endast nya kunder. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du tjänar poäng för \"fast\", \"rörligt\" och \"timpris\". Du måste ha varit kund i minst 3 månader innan poäng betalas ut, med verkan från den dag ditt avtal träder i kraft.<br><br>Erbjudandet på 8 000 poäng gäller endast om du bor i villa/hus. Om du bokar for lägenhet kommer dina poäng att justeras till 4 000.</div>",
+    "description": "<div>E.ON är ett av Europas ledande energibolag och levererar el, värme och energilösningar till miljontals kunder. I Norden förser E.ON både hushåll och företag med energi och är en stark drivkraft i utvecklingen av förnybar elproduktion, smarta elnät och hållbara energitjänster. Med fokus på innovation, kundnytta och konkurrenskraftiga elavtal är E.ON ett tryggt och välkänt val på energimarknaden.</div><div><br></div><h1>Villkor för denna partner</h1><div>Den här kampanjen kan bara användas en gång per Eurobonus-medlem, och gäller endast nya kunder. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du tjänar poäng för \"fast\", \"rörligt\" och \"timpris\". Du måste ha varit kund i minst 3 månader innan poäng betalas ut, med verkan från den dag ditt avtal träder i kraft.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/zIsrbOBAoqBvWBJQvH48WoMiGXCLUORxiLdhHa3Z.png",

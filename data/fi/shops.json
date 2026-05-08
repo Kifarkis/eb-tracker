@@ -391,11 +391,12 @@
     "current_points_channel": 5,
     "description": "<p>Sweden's best sneakers store since 1999 offering popular brands such as&nbsp;Nike, Adidas, Converse, Puma, New Balance and&nbsp;Carhartt.&nbsp;</p>\n\n<p><br></p>\n\n<p><strong>Please note:&nbsp;</strong>Points are not earned when purchasing \"Limited Edition\" products.<br></p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-08",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sneakersnstuff-1689583680.jpg",
     "name": "Sneakersnstuff",
     "slug": "sneakersnstuff",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896308-f50b-7352-aaee-e20a3702dfd3"
   },
   "01896309-6afb-717f-a16c-254f0156ba71": {

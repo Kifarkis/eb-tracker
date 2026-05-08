@@ -583,5 +583,14 @@
     "points_channel": 10,
     "started": "2026-04-27",
     "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
+  },
+  {
+    "ended": "2026-05-08",
+    "name": "Living Flowers",
+    "note": "shop_disappeared",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-04-24",
+    "uuid": "01896312-0ca9-7128-bf2d-ba943845b4c3"
   }
 ]

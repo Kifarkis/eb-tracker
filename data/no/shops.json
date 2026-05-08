@@ -674,11 +674,12 @@
     "current_points_channel": 5,
     "description": "<p>Sveriges beste sneaker butikk siden 1999. Nike, Adidas, Converse, Puma, New Balance, Carhartt og mer.</p>\n\n<p><br></p>\n\n<p><strong>Vennligst merk:: </strong>Poeng oppnås ikke når du kjøper \"Limited Edition\" produkter.<br></p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-08",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sneakersnstuff-1689583679.jpg",
     "name": "Sneakersnstuff",
     "slug": "sneakersnstuff",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896308-f50b-7352-aaee-e20a3702dfd3"
   },
   "01896309-1356-70ef-9d7f-f03e87d2ee25": {

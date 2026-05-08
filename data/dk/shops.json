@@ -553,11 +553,12 @@
     "current_points_channel": 5,
     "description": "<div>Sveriges bedste sneakersbutik siden 1999. Her finder du bl.a. Nike, Adidas, Converse, Puma, New Balance, Carhartt og meget mere.</div><div><br></div><div><strong>Bemærk venligst: </strong>Der optjenes ikke ved køb af \"Limited Edition\" produkter.&nbsp;</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-08",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sneakersnstuff-1689583679.jpg",
     "name": "Sneakersnstuff",
     "slug": "sneakersnstuff",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896308-f50b-7352-aaee-e20a3702dfd3"
   },
   "01896309-1356-70ef-9d7f-f03e87d2ee25": {
@@ -4341,11 +4342,12 @@
     "current_points_channel": 5,
     "description": "<p>Living Flowers er grundlagt af familien Graugaard Overgaard og producerer bæredygtige og langtidsholdbare buketter af høj kvalitet.&nbsp;</p><p>Dermed får du en unik mulighed for at træffe de gode og klimavenlige valg i hverdagen, uden at du skal gå på kompromis med kvalitet, forbrug og æstetik. Vores buketter er på den måde med til at skabe wow-effekten i dit hjem og indretning, som du ikke har set før.<br></p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-08",
     "last_seen": "2026-05-08",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Living_Flowers-1689584274.jpg",
     "name": "Living Flowers",
     "slug": "living-flowers",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896312-0ca9-7128-bf2d-ba943845b4c3"
   },
   "01896312-0e40-70d5-ac09-6efad095edc9": {
