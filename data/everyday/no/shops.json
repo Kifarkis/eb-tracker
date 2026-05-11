@@ -1,6 +1,6 @@
 {
   "country": "no",
-  "updated": "2026-05-10T06:29:29.797936+00:00",
+  "updated": "2026-05-11T06:59:39.244641+00:00",
   "shop_count": 415,
   "shops": [
     {
@@ -5428,7 +5428,7 @@
       "lng": 10.5205397,
       "mode": "onsite",
       "category_id": 11,
-      "points_per_100": 100,
+      "points_per_100": 50,
       "currency": "NOK",
       "website": "www.johnnyrockets.no",
       "phone": "+4740888094",
@@ -5459,7 +5459,7 @@
       "lng": 10.7721449,
       "mode": "onsite",
       "category_id": 11,
-      "points_per_100": 100,
+      "points_per_100": 50,
       "currency": "NOK",
       "website": "www.johnnyrockets.no",
       "phone": "+4746674145",
