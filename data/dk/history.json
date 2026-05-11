@@ -222,5 +222,141 @@
     "points_channel": 10,
     "started": "2026-04-27",
     "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-04",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Ase a-kasse",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-04-24",
+    "uuid": "01909142-1013-7009-832e-9bdf53f0b900"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "BetterFeast",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-05-04",
+    "uuid": "01896310-2e87-724b-8e38-231cdf71b372"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "BookBeat",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-04-29",
+    "uuid": "0189630d-af8b-717b-b0cb-1f385bd015f5"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Bottle Hero",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "019a112d-87ab-730e-9bb7-101330a28267"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-05-04",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "CyberGhost VPN",
+    "points_campaign": 200,
+    "points_channel": 40,
+    "started": "2026-05-04",
+    "uuid": "0189630f-56ec-7037-a266-17d4ee2e4b44"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Disneyland Paris",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-04",
+    "uuid": "01896308-31bb-71d4-a2af-72cc58523665"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Farnell",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630e-3572-7186-9686-3ccd8ac6130b"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Ideal of Sweden",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-04",
+    "uuid": "0189630f-4b89-721d-88e7-5b4e2b299f5f"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Mofibo",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-05-04",
+    "uuid": "01896309-3382-7064-8492-7a9697ea0367"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Power Fuel",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-04-24",
+    "uuid": "019a0c33-cdd4-721d-aba5-3c89e8b38e1d"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Puma",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896311-6dc5-71e3-913b-755e3e93a3f2"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "SmartBuyGlasses",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630c-0772-7321-9da9-387a0ee95590"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Viator",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-04-27",
+    "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
   }
 ]

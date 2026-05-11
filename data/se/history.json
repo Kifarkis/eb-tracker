@@ -592,5 +592,173 @@
     "points_channel": 10,
     "started": "2026-04-24",
     "uuid": "01896312-0ca9-7128-bf2d-ba943845b4c3"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-04",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Agood Company",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-04",
+    "uuid": "01896311-c762-72e7-8110-9489cd35dfb2"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "BookBeat",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-04-29",
+    "uuid": "0189630d-af8b-717b-b0cb-1f385bd015f5"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-05-04",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "CyberGhost VPN",
+    "points_campaign": 200,
+    "points_channel": 40,
+    "started": "2026-05-04",
+    "uuid": "0189630f-56ec-7037-a266-17d4ee2e4b44"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Farnell",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630e-3572-7186-9686-3ccd8ac6130b"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Hamphi",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-05",
+    "uuid": "0199c410-ed9b-72f0-ae61-3e87d9179fc8"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "HelloFresh",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-05-04",
+    "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Hemköp",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-05",
+    "uuid": "0189630f-4008-70ef-8d6f-88f1537517ac"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Ideal of Sweden",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-04",
+    "uuid": "0189630f-4b89-721d-88e7-5b4e2b299f5f"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Lampconcept",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-04",
+    "uuid": "019df363-f965-703f-99d8-87cb0a60cf6b"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Lounge by Zalando",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "018abc11-7ec7-73a0-bb3a-428c1b239d7d"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Marshall",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630a-f1ba-7387-8740-900309744638"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Nordiska Galleriet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896311-818d-7114-be42-ed67319052a1"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Puma",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896311-6dc5-71e3-913b-755e3e93a3f2"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "SmartBuyGlasses",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "0189630c-0772-7321-9da9-387a0ee95590"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Telinet",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-05-04",
+    "uuid": "018e5102-89f1-70d3-b184-bfb0de1ae948"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "VetZoo",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-04",
+    "uuid": "01896309-eb6b-71bc-b887-5602e27dd701"
+  },
+  {
+    "ended": "2026-05-11",
+    "name": "Viator",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-04-27",
+    "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
   }
 ]
