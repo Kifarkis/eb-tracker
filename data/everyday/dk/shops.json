@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-05-12T06:32:36.804571+00:00",
+  "updated": "2026-05-13T06:43:11.694035+00:00",
   "shop_count": 364,
   "shops": [
     {
@@ -4905,6 +4905,7 @@
       "email": "klinikken@hiklin.dk",
       "description": "Do you have back pain, stiff neck or your legs sore, stiff and tired after sport? Physical surgical massage, children's massage, pregnancy massage, psychotherapy and reflexology, or do you just need be spoiled? We have many forms of treatment in the house. Go in and see all our treatments. Please note that the treatment must be booked with Jan Nordkvist and that you must provide your Eurobonus number when paying.",
       "cards_accepted": [
+        "MC",
         "VISA"
       ],
       "has_fixed_reward": false,
