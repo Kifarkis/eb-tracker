@@ -358,5 +358,13 @@
     "points_channel": 6,
     "started": "2026-04-27",
     "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
+  },
+  {
+    "ended": "2026-05-15",
+    "name": "Krifa",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-04-30",
+    "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
   }
 ]
