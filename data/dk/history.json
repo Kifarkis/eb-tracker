@@ -366,5 +366,141 @@
     "points_channel": 1000,
     "started": "2026-04-30",
     "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "3 Internet",
+    "points_campaign": 6000,
+    "points_channel": 1200,
+    "started": "2026-05-04",
+    "uuid": "01916acc-a2d2-7262-84cd-9b7d1b90e047"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-12",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-05-11",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Den sidste flaske",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "0189630e-9cd3-73ca-b2d1-a6b5fb31abe6"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Disneyland Paris",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-11",
+    "uuid": "01896308-31bb-71d4-a2af-72cc58523665"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Dyson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Factor",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-05-04",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "GANT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896312-beb2-7051-a0a1-ff2121e0dee9"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "HUGO BOSS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896310-13a3-7209-99fa-b9b39702de45"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Interflora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-13",
+    "uuid": "0189630a-26b4-72dd-ac2d-920f3deae927"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Jotex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Lenovo",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-11",
+    "uuid": "01896311-859b-70f9-876a-a52c61ec5e5a"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Matas",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Nespresso",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-11",
+    "uuid": "0199c347-a9d7-725b-9687-0cb0917347ce"
+  },
+  {
+    "ended": "2026-05-18",
+    "name": "Watery",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
   }
 ]
