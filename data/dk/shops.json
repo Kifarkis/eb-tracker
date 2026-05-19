@@ -4741,17 +4741,22 @@
     "uuid": "018dc0bf-9b3b-71df-a0a4-d3de102934e6"
   },
   "018e3812-d948-725c-b796-8c3e17bf12d4": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "31.05.2026",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-05-19"
+    },
     "all_time_high_date": "2026-05-04",
     "all_time_high_points": 30,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 14,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 15,
-    "current_points_campaign": 0,
-    "current_points_channel": 3,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
     "description": "<div>Agoda er en online rejseplatform, der giver værdifulde og givende rejseoplevelser til mennesker over hele verden gennem Agoda-appen og Agoda-webstedet. Vores mission er at give alle mulighed for at være rejsende ved at tilbyde overkommelige hoteltilbud med en bookingoplevelse fra Agoda, der er problemfri fra start til slut.<br><br></div><h1>Betingelser for denne partner</h1><div>Du optjener kun point på hoteller, værelser og ophold booket via hjemmesiden. Du kan ikke optjene point på ordrer booket via deres app. Point udbetales først efter endt ophold.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-05-19",
