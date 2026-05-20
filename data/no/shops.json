@@ -4388,12 +4388,7 @@
     "uuid": "01932f75-1211-7244-b60c-0fe79fd03b46"
   },
   "01935438-5e6b-7013-9f9d-da93e98bf438": {
-    "active_campaign": {
-      "ends_date": "20.05.2026",
-      "points_campaign": 75,
-      "points_channel": 15,
-      "started": "2026-05-18"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-05-18",
     "all_time_high_points": 75,
     "campaign_ends_human": "4 timer siden",
@@ -4406,11 +4401,12 @@
     "current_points_channel": 15,
     "description": "<div>Maanesten er for alle – og til alle. Siden starten har vi skapt de smykkene vi selv drømmer om, i et fortryllende og spirituelt univers der kreativiteten ikke har noen grenser.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-20",
     "last_seen": "2026-05-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/XNg6wctYVnEh4fK3OihICjUrIljId7NKhXWYKDWj.png",
     "name": "Maanesten",
     "slug": "maanesten",
-    "status": "active",
+    "status": "gone",
     "uuid": "01935438-5e6b-7013-9f9d-da93e98bf438"
   },
   "019377df-d9a3-7347-a95e-9334e52d7b2d": {

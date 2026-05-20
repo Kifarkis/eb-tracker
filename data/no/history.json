@@ -494,5 +494,14 @@
     "points_channel": 10,
     "started": "2026-05-11",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-05-20",
+    "name": "Maanesten",
+    "note": "shop_disappeared",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-18",
+    "uuid": "01935438-5e6b-7013-9f9d-da93e98bf438"
   }
 ]

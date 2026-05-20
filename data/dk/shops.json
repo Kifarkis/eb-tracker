@@ -5105,11 +5105,12 @@
     "current_points_channel": 5,
     "description": "<div>Maanesten er for alle - og til alle. Siden starten har vi skabt de smykker, vi selv drømmer om, i et fortryllende og spirituelt univers, hvor kreativiteten ikke har nogen grænser.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-20",
     "last_seen": "2026-05-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/77oSdKsh2dVO66hlghIxqSTc6WkUe9MCCMCSl3y1.png",
     "name": "Maanesten",
     "slug": "maanesten",
-    "status": "active",
+    "status": "gone",
     "uuid": "01935438-5e6b-7013-9f9d-da93e98bf438"
   },
   "019377df-d9a3-7347-a95e-9334e52d7b2d": {
@@ -5974,5 +5975,31 @@
     "slug": "husqvarna",
     "status": "active",
     "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  "019e4465-abe2-7069-a495-477ebb1168ba": {
+    "active_campaign": {
+      "ends_date": "24.05.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-05-20"
+    },
+    "all_time_high_date": "2026-05-20",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 3 dage",
+    "campaign_ends_human_en": "in 3 days",
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>SharkNinja er en innovativ producent af husholdningsapparater, kendt for mærkerne Shark og Ninja. Virksomheden fokuserer på at udvikle smarte og brugervenlige produkter til hjemmet gennem avanceret teknologi, kreativt design og stærk forbrugerindsigt.</div>",
+    "first_seen": "2026-05-20",
+    "last_seen": "2026-05-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/nCPBel2NG4EAG7ZpfMZdp4fGb7EfhX0Yj2BT4fCG.png",
+    "name": "SharkNinja",
+    "slug": "sharkninja",
+    "status": "active",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
   }
 }

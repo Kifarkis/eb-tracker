@@ -9736,5 +9736,31 @@
     "slug": "lampconcept",
     "status": "active",
     "uuid": "019df363-f965-703f-99d8-87cb0a60cf6b"
+  },
+  "019e4465-abe2-7069-a495-477ebb1168ba": {
+    "active_campaign": {
+      "ends_date": "2026-05-24",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-05-20"
+    },
+    "all_time_high_date": "2026-05-20",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 3 dagar",
+    "campaign_ends_human_en": "in 3 days",
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>SharkNinja är en innovativ tillverkare av hushållsapparater, känd för varumärkena Shark och Ninja. Företaget fokuserar på att utveckla smarta och användarvänliga produkter för hemmet genom avancerad teknik, kreativ design och stark konsumentinsikt.</div>",
+    "first_seen": "2026-05-20",
+    "last_seen": "2026-05-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/jXUrbxfFMAn97yIJP35K7kI2AnnN1zZYoyhZpDJw.png",
+    "name": "SharkNinja",
+    "slug": "sharkninja",
+    "status": "active",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
   }
 }
