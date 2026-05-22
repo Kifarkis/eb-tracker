@@ -3710,6 +3710,27 @@
     "status": "active",
     "uuid": "01896312-2e1b-73b3-ac23-db4b5803a8ad"
   },
+  "01896312-535c-73f5-9520-e146c104138d": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-05-22",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 9,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Er du en ekspert innen din idrett, eller skal du prøve deg på din første aktivitet noensinne? Vår lidenskap på Sportshopen er å skape riktige forutsetninger for en aktiv livsstil. Dette gjør vi ved å tilby kvalitetsvarer fra både kjente og egne merkevarer til virkelig gode priser.</div>",
+    "first_seen": "2026-05-22",
+    "last_seen": "2026-05-22",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/YaeFvl9qhY7EYZpDvqQJ7PsS7NHQjaA54egerLVt.png",
+    "name": "Sportshopen",
+    "slug": "sportshopen",
+    "status": "active",
+    "uuid": "01896312-535c-73f5-9520-e146c104138d"
+  },
   "01896312-5ad6-728c-816e-b50fd3b1f767": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
