@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-05-26T07:37:07.135163+00:00",
+  "updated": "2026-05-27T07:56:29.335494+00:00",
   "shop_count": 456,
   "shops": [
     {
@@ -4810,6 +4810,7 @@
       "email": "kirsti.berg@raise.no",
       "description": "Nikita Hair is the Nordic region's largest and leading hairdressing chain. Through 30 years of doing hair, we have had several million customer visits, and our skilled hairdressers all over the country are ready every day with scissors, combs and good advice to give you \"a great feeling!\" In 1984, Elton John's super hit \"Nikita\" ravaged the radio stations in Norway, and he is thus considered the godfather of the hairy adventure that started with a single hairdressing salon in the town of Tverlandet, outside Bodø. Nikita Hair's founder, Inger Ellen Nicolaisen, has with courage, enthusiasm and passion for building people created history's greatest adventure in Hair & Beauty.",
       "cards_accepted": [
+        "MC",
         "VISA"
       ],
       "has_fixed_reward": false,

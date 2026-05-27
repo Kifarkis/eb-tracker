@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-05-26T07:37:07.104646+00:00",
-  "shop_count": 364,
+  "updated": "2026-05-27T07:56:29.306121+00:00",
+  "shop_count": 365,
   "shops": [
     {
       "uuid": "8-eren",
@@ -7015,6 +7015,36 @@
       "campaign_description": null,
       "created_at": "2019-11-05 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "nozomi-3",
+      "name": "Nozomi",
+      "country": "dk",
+      "city": "København S",
+      "postcode": "2300",
+      "address": "Martha Christensens Vej 26",
+      "lat": 55.6378104,
+      "lng": 12.5820671,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 100,
+      "currency": "DKK",
+      "website": "https://nozomi.dk/",
+      "phone": "+4533253030",
+      "email": "info@nozomi.dk",
+      "description": "Welcome to Nozomi, where you can eat sushi in Martha Christensens Vej, in pleasant surroundings. We are looking forward to welcome you at our restaurant.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-05-26 13:22:47",
+      "first_seen": "2026-05-27",
       "status": "active"
     },
     {
