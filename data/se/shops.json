@@ -8371,11 +8371,12 @@
     "current_points_channel": 10,
     "description": "<div>Vi levererar professionell utrustning för skogsbruk, jakt och friluftsliv. Vi kombinerar högkvalitativa produkter med expertrådgivning och snabba leveranser för att du alltid ska få det bästa. I skogen sätts utrustningen på prov varje dag. Därför är kvalitet och säkerhet avgörande, särskilt för professionella användare. Väder, maskiner och naturens krafter ställer höga krav, och vi erbjuder skyddskläder och utrustning som uppfyller alla säkerhetsstandarder.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-27",
     "last_seen": "2026-05-27",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/5XQSzHG7ee78FkkXKwL9MxS9b9IPwrKvyRqu9eNt.png",
     "name": "Skogma",
     "slug": "skogma",
-    "status": "active",
+    "status": "gone",
     "uuid": "0197c117-82d8-70b3-92e3-968f2028e2c1"
   },
   "0197ef5b-0676-7274-947a-b1665e2ce639": {
@@ -9688,17 +9689,22 @@
     "uuid": "019dafb9-e034-7101-acb5-862c125d8cf3"
   },
   "019db4fa-41e2-73ff-b5d3-7c9ab69de23d": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-06-30",
+      "points_campaign": 75,
+      "points_channel": 15,
+      "started": "2026-05-27"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 månad",
+    "campaign_ends_human_en": "om 1 månad",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 75,
+    "current_points_channel": 15,
     "description": "<div>Hos Weibulls hittar du trädgårdsprodukter av hög kvalitet såsom fröer till blommor och grönsaker, jord till alla trädgårdens behov, gödsel, näring, bekämpning, verktyg och gräsfrö från svenska bönder.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-05-27",
