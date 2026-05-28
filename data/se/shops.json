@@ -6159,17 +6159,22 @@
     "uuid": "01896312-8569-725c-bfe6-5efbd5b1b2df"
   },
   "01896312-874a-732c-a16e-33ad6b422841": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-06-07",
+      "points_campaign": 1000,
+      "points_channel": 200,
+      "started": "2026-05-28"
+    },
     "all_time_high_date": "2026-05-18",
     "all_time_high_points": 1000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "SEK",
     "current_points": 500,
-    "current_points_campaign": 0,
-    "current_points_channel": 100,
+    "current_points_campaign": 1000,
+    "current_points_channel": 200,
     "description": "<div>Albert är en app-baserad läroplattform för barn i åldrarna 3-16 år. Vi erbjuder digitala utbildningstjänster på prenumerationsbasis i matematik, svenska, engelska, programmering och geografi. Sedan starten har vi hjälpt över 300 000 familjer med deras barns utbildning – ett förtroende som vi är mycket stolta över! Vår vision är att hjälpa varje barn att lära sig på sitt eget sätt utifrån sin egen kunskapsnivå.&nbsp;</div><div><br></div><div><br></div><h1>Villkor för denna partner</h1><div>Denna kampanj kan endast användas en gång per kund och gäller endast för nya skapelser. Om du avbryter din prenumeration inom 5 dagar kommer din beställning att annulleras.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-05-28",
