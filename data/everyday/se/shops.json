@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-05-27T07:56:29.335494+00:00",
-  "shop_count": 456,
+  "updated": "2026-05-28T07:48:53.412141+00:00",
+  "shop_count": 457,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -8471,6 +8471,33 @@
       "campaign_description": null,
       "created_at": "2018-11-22 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "spritmuseum",
+      "name": "Spritmuseum",
+      "country": "se",
+      "city": "Stockholm",
+      "postcode": "115 21",
+      "address": "Djurgårdsstrand 9",
+      "lat": 59.323327,
+      "lng": 18.1108602,
+      "mode": "onsite",
+      "category_id": 3,
+      "points_per_100": 10,
+      "currency": "SEK",
+      "website": "https://useeum.com/sites/sv/museums/spritmuseum/?discount=sas",
+      "phone": "+46 (0)8 121 31 300",
+      "email": "rasmus@useeum.com",
+      "description": "Buy your tickets at www.useeum.com, add your EuroBonus number during checkout and earn 100 points pr. 100 DKK.<br><br>Welcome to Spritmuseum on Djurgården in Stockholm, a unique destination where you can discover Swedish drinking culture in an inspiring and vibrant setting.<br><br>Here, history, art, and flavor come together in interactive exhibitions that engage all your senses.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-05-27 13:30:05",
+      "first_seen": "2026-05-28",
       "status": "active"
     },
     {
