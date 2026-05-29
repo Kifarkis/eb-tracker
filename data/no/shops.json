@@ -2611,11 +2611,12 @@
     "current_points_channel": 5,
     "description": "<p>Skarpe farger, grafiske utskrifter og sofistikert lek er kjennetegnene på Kate Spade New York. Fra vesker og klær til smykker, motetilbehør, duft, briller, sko, badetøy, boliginnredning, skrivebordstilbehør, skrivesaker og gaver. Den sprudlende tilnærmingen til hverdagen oppmuntrer til personlig stil med et snev av glødende sjarm. Vi kaller det å leve fargerikt.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-05-29",
     "last_seen": "2026-05-29",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kate_Spade-1689584067.jpg",
     "name": "Kate Spade",
     "slug": "kate-spade",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630e-de91-732d-baf8-54bd0aad79fc"
   },
   "0189630e-e559-73fb-8554-d9a161d6ff4e": {
