@@ -6764,17 +6764,22 @@
     "uuid": "018ce8ef-9005-73b2-9eab-aa62d65c537a"
   },
   "018ce8f7-77f7-70b7-b578-41395c215f4d": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-06-14",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-05-29"
+    },
     "all_time_high_date": "2026-04-27",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 veckor",
+    "campaign_ends_human_en": "in 2 weeks",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>LEXINGTON® Company är ett globalt, premium-livsstilsvarumärke som grundades i Sverige 1997. Inspirerat av New England-livsstilen, men med en skandinavisk twist, har vi erbjudit fyra tidlösa hemkollektioner per år under de senaste 25 åren. Sedan 2008 har vi sålt två modekollektioner per år.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-05-29",
