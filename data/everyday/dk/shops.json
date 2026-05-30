@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-05-29T07:46:58.215736+00:00",
-  "shop_count": 365,
+  "updated": "2026-05-30T06:41:03.658973+00:00",
+  "shop_count": 364,
   "shops": [
     {
       "uuid": "8-eren",
@@ -6700,36 +6700,6 @@
       "status": "active"
     },
     {
-      "uuid": "mudan",
-      "name": "Mudan",
-      "country": "dk",
-      "city": "Frederiksberg",
-      "postcode": "2000",
-      "address": "Dirch Passers Allé 30-32",
-      "lat": 55.6843806,
-      "lng": 12.503769,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 100,
-      "currency": "DKK",
-      "website": "www.mudan.dk",
-      "phone": "+4538888821",
-      "email": "ying.014@hotmail.com",
-      "description": "The menu at Mudan is inspired by the best and most classic dishes from the Chinese regions Sichuan, Hangzhou, Beijing and North-East China. We guarantee an authentic Chinese experience and a diverse selection of dishes with something for every taste-bud.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2018-08-23 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
       "uuid": "museum-for-papirkunst",
       "name": "Museum for Papirkunst",
       "country": "dk",
@@ -10731,6 +10701,37 @@
       "created_at": "2020-10-29 10:23:33",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "mudan",
+      "name": "Mudan",
+      "country": "dk",
+      "city": "Frederiksberg",
+      "postcode": "2000",
+      "address": "Dirch Passers Allé 30-32",
+      "lat": 55.6843806,
+      "lng": 12.503769,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 100,
+      "currency": "DKK",
+      "website": "www.mudan.dk",
+      "phone": "+4538888821",
+      "email": "ying.014@hotmail.com",
+      "description": "The menu at Mudan is inspired by the best and most classic dishes from the Chinese regions Sichuan, Hangzhou, Beijing and North-East China. We guarantee an authentic Chinese experience and a diverse selection of dishes with something for every taste-bud.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2018-08-23 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-05-30"
     },
     {
       "uuid": "hadsund-egnssamling-mollehistorisk-samling",
