@@ -631,5 +631,165 @@
     "points_channel": 10,
     "started": "2026-05-18",
     "uuid": "019c66f8-8151-7274-bf0b-ddf7bca7de59"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-19",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Autodoc",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "01896310-e823-72b0-8d74-6b3da56a30e3"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Db Journey",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Dyson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "ELSKLING",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-05-25",
+    "uuid": "0189630f-5536-7329-883b-ceffb426d426"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Euroflorist",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Farmasiet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Fortum Strøm",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-05-25",
+    "uuid": "019e3b10-50e5-7328-907c-a44723c5beb0"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "HelloFresh",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-05-18",
+    "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-18",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Kärcher",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "0191bc56-6ced-715e-abb2-cb27acc9aa66"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Memira",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-05-19",
+    "uuid": "01896310-a12c-72d3-94cf-a00f63cc73ed"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Norli",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-18",
+    "uuid": "0189630a-a084-73fb-a865-8fda2d897a29"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Polarn O. Pyret",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "0189630a-4f00-71b4-b13a-6a93082439a9"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Rum21",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "01896309-733c-72e9-b89a-e36db36d144c"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Telia",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-05-04",
+    "uuid": "0189630b-94d9-73d6-9d65-2f31fd21738c"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Under Armour",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Vakre Vene",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "019be5ba-a3a8-7123-9165-fc4aa24f2604"
   }
 ]

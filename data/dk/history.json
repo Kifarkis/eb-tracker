@@ -630,5 +630,93 @@
     "points_channel": 15,
     "started": "2026-05-18",
     "uuid": "01896311-0958-725c-b6df-4d2efeaf54c9"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-05-19",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Db Journey",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Dyson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Euroflorist",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-25",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "HelloFresh",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-05-13",
+    "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-25",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Matas",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-06-01",
+    "name": "Under Armour",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
   }
 ]
