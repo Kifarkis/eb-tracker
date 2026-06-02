@@ -9560,8 +9560,8 @@
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": "om 11 timmar",
-    "campaign_ends_human_en": "in 11 hours",
+    "campaign_ends_human": "om 6 timmar",
+    "campaign_ends_human_en": "in 6 hours",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
@@ -9578,11 +9578,16 @@
     "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
   },
   "019dafb9-e034-7101-acb5-862c125d8cf3": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-06-14",
+      "points_campaign": 3000,
+      "points_channel": 600,
+      "started": "2026-06-02"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 3000,
-    "campaign_ends_human": "för 10 timmar sedan",
-    "campaign_ends_human_en": "för 10 timmar sedan",
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 4,
     "commission_type": "fixed",
     "currency": "SEK",
@@ -9591,12 +9596,11 @@
     "current_points_channel": 600,
     "description": "<div>Miss Hosting - Sveriges snabbast växande webbhotell, grundades 2014 och är ett internationellt webbhotell som erbjuder en rad hosting-relaterade tjänster till förmånliga priser som webbhotell, domänregistrering, sitebuilder, VPS, dedikerade servrar, e-post m.m.<br><br></div><h1>Villkor för denna partner</h1><div>Du tjänar bara poäng för att boka webbhotell. Du kan tjäna poäng för maximalt 3 webbhoteller per månad.</div>",
     "first_seen": "2026-04-24",
-    "gone_since": "2026-04-30",
-    "last_seen": "2026-04-30",
+    "last_seen": "2026-06-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Vf5iG8dfJNNKXhVO834bLdzNpYyeJSIEB5Jm8bb2.png",
     "name": "Miss Hosting",
     "slug": "miss-hosting",
-    "status": "gone",
+    "status": "active",
     "uuid": "019dafb9-e034-7101-acb5-862c125d8cf3"
   },
   "019db4fa-41e2-73ff-b5d3-7c9ab69de23d": {
