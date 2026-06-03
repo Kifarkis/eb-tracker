@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-06-02T08:21:15.549719+00:00",
+  "updated": "2026-06-03T08:48:22.915553+00:00",
   "shop_count": 364,
   "shops": [
     {
@@ -34,36 +34,6 @@
       "status": "active"
     },
     {
-      "uuid": "ac-perchs-thehandel-3",
-      "name": "A.C. Perchs Thehandel",
-      "country": "dk",
-      "city": "København K",
-      "postcode": "1114",
-      "address": "Kronprinsensgade 5",
-      "lat": 55.6806622,
-      "lng": 12.5788515,
-      "mode": "onsite",
-      "category_id": 9,
-      "points_per_100": 75,
-      "currency": "DKK",
-      "website": "www.perchs.dk",
-      "phone": "+4533155356",
-      "email": "christian@perchs.dk",
-      "description": "We have put together a large selection of quality teas from around the world. A. C. Perch Teashop import tea from the best plantations and gardens around the world. You will also find a large selection of accessories for tea, such as; jugs, cups, cakes, jam and chocolate etc. We look forward to provide you with the best products from the world of tea.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2017-06-08 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
       "uuid": "ac-perchs-thehandel-2",
       "name": "A.C. Perchs Thehandel",
       "country": "dk",
@@ -84,6 +54,36 @@
         "MC",
         "VISA",
         "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2017-06-08 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "ac-perchs-thehandel-3",
+      "name": "A.C. Perchs Thehandel",
+      "country": "dk",
+      "city": "København K",
+      "postcode": "1114",
+      "address": "Kronprinsensgade 5",
+      "lat": 55.6806622,
+      "lng": 12.5788515,
+      "mode": "onsite",
+      "category_id": 9,
+      "points_per_100": 75,
+      "currency": "DKK",
+      "website": "www.perchs.dk",
+      "phone": "+4533155356",
+      "email": "christian@perchs.dk",
+      "description": "We have put together a large selection of quality teas from around the world. A. C. Perch Teashop import tea from the best plantations and gardens around the world. You will also find a large selection of accessories for tea, such as; jugs, cups, cakes, jam and chocolate etc. We look forward to provide you with the best products from the world of tea.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
       ],
       "has_fixed_reward": false,
       "coming_soon": false,
@@ -7062,7 +7062,7 @@
       "currency": "DKK",
       "website": "www.cafeokko.dk",
       "phone": "+4533338808",
-      "email": "info@cafeokko.dk",
+      "email": "info@okkocph.dk",
       "description": "With a location in the heart of Copenhagen K, Okko welcomes you inside our café, for an incredible experience. Whether you need a hot drink, a refreshing cold beer, or something to eat from our wonderful menu, you are welcome to side both inside our warm dining room or outside under our heat lamps, on Copenhagen's coziest sidewalk.",
       "cards_accepted": [
         "MC",
