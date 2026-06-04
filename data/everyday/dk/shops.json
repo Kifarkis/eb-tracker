@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-06-03T08:48:22.915553+00:00",
-  "shop_count": 364,
+  "updated": "2026-06-04T08:13:00.671455+00:00",
+  "shop_count": 365,
   "shops": [
     {
       "uuid": "8-eren",
@@ -7015,6 +7015,33 @@
       "campaign_description": null,
       "created_at": "2026-05-26 13:22:47",
       "first_seen": "2026-05-27",
+      "status": "active"
+    },
+    {
+      "uuid": "norre-vosborg",
+      "name": "Nørre Vosborg",
+      "country": "dk",
+      "city": "Vemb",
+      "postcode": "7570",
+      "address": "Vembvej 35",
+      "lat": 56.32656780000001,
+      "lng": 8.3292086,
+      "mode": "onsite",
+      "category_id": 3,
+      "points_per_100": 100,
+      "currency": "DKK",
+      "website": "https://useeum.com/sites/da/museums/norre-vosborg/",
+      "phone": "+45 97 48 48 97",
+      "email": "rasmus@useeum.com",
+      "description": "Buy your tickets at www.useeum.com, add your EuroBonus number during checkout and earn 100 points pr. 100 DKK.<br><br>Step inside the 700-year-old manor of Nørre Vosborg, where history comes alive among moats, ramparts, and the whitewashed main building in the West Jutland landscape.<br><br>Guests are welcomed into beautifully preserved rooms filled with stories from the past. Explore the old dungeon and discover tales of notable visitors such as Hans Christian Andersen.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-06-04 07:43:34",
+      "first_seen": "2026-06-04",
       "status": "active"
     },
     {

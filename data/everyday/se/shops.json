@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-06-03T08:48:22.944500+00:00",
-  "shop_count": 456,
+  "updated": "2026-06-04T08:13:00.702140+00:00",
+  "shop_count": 455,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -4909,37 +4909,6 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2023-01-26 14:42:14",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
-      "uuid": "nya-carnegiebryggeriet",
-      "name": "Nya Carnegiebryggeriet",
-      "country": "se",
-      "city": "Stockholm",
-      "postcode": "12064",
-      "address": "Ljusslingen 17",
-      "lat": 59.305388,
-      "lng": 18.0983583,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 50,
-      "currency": "SEK",
-      "website": "www.nyacarnegiebryggeriet.se",
-      "phone": "+46851065082",
-      "email": "steve@ncb.se",
-      "description": "It's hard for us to describe Nya Carnegiebryggeriet in few words, as it is too dear to us, but we'll try: We are a new brewery, a shiny new restaurant, a new experience, built and brewed by true passion, right in the midst of Stockholm. For us Nya Carnegiebryggeriet is simply a dream come true.<br/><br/>Together with our handpicked brewer, we seek to provide our customers with exciting, innovative and fun beers that appeal to everyone.<br/><br/>From the beginning our vision was to create a utopia for beer lovers, so please come and visit us if you, like us, love beer!",
-      "cards_accepted": [
-        "MC",
-        "VISA",
-        "AMEX"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2017-02-15 00:00:00",
       "first_seen": "2026-05-05",
       "status": "active"
     },
@@ -13823,6 +13792,38 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "nya-carnegiebryggeriet",
+      "name": "Nya Carnegiebryggeriet",
+      "country": "se",
+      "city": "Stockholm",
+      "postcode": "12064",
+      "address": "Ljusslingen 17",
+      "lat": 59.305388,
+      "lng": 18.0983583,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "www.nyacarnegiebryggeriet.se",
+      "phone": "+46851065082",
+      "email": "steve@ncb.se",
+      "description": "It's hard for us to describe Nya Carnegiebryggeriet in few words, as it is too dear to us, but we'll try: We are a new brewery, a shiny new restaurant, a new experience, built and brewed by true passion, right in the midst of Stockholm. For us Nya Carnegiebryggeriet is simply a dream come true.<br/><br/>Together with our handpicked brewer, we seek to provide our customers with exciting, innovative and fun beers that appeal to everyone.<br/><br/>From the beginning our vision was to create a utopia for beer lovers, so please come and visit us if you, like us, love beer!",
+      "cards_accepted": [
+        "MC",
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2017-02-15 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-06-04"
     },
     {
       "uuid": "chioi",
