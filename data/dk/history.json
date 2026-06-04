@@ -718,5 +718,13 @@
     "points_channel": 10,
     "started": "2026-05-25",
     "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
+  },
+  {
+    "ended": "2026-06-04",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
   }
 ]
