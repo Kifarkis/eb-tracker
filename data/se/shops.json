@@ -6552,17 +6552,22 @@
     "uuid": "018abc11-ca8c-71da-9bfa-e439defd6324"
   },
   "018abc11-cf42-731d-a74c-99b0c7398eef": {
-    "active_campaign": null,
-    "all_time_high_date": "2026-04-24",
-    "all_time_high_points": 750,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "active_campaign": {
+      "ends_date": "2026-06-30",
+      "points_campaign": 2500,
+      "points_channel": 500,
+      "started": "2026-06-05"
+    },
+    "all_time_high_date": "2026-06-05",
+    "all_time_high_points": 2500,
+    "campaign_ends_human": "om 3 veckor",
+    "campaign_ends_human_en": "in 3 weeks",
     "category_id": 6,
     "commission_type": "fixed",
     "currency": "SEK",
     "current_points": 750,
-    "current_points_campaign": 0,
-    "current_points_channel": 150,
+    "current_points_campaign": 2500,
+    "current_points_channel": 500,
     "description": "<div>Tibber är framtidens sätt att köpa, sälja och spara energi. Genom smart teknik arbetar vi för att våra kunder ska förbruka mindre el, och till skillnad från de flesta eljättarna vill vi inte heller tjäna på din elförbrukning. Hos oss kan du därför räkna med att få både fossilfri el och ett av marknadens lägsta pris per kWh – plus möjlighet att genom smarta tjänster få ned din elräkning ännu mer!&nbsp;<br><br>Genom Tibbers app och funktioner som smartladdning, värmestyrning och Grid Rewards, tjänar du automatiskt pengar på din elförbrukning genom att vara med och stötta elnätet. Allt för bara 49 kronor per månad. Tibber har varken bindningstid eller dolda avgifter - allt för att det ska vara enkelt för dig att testa ett smart elavtal</div><div><strong><br>Vänligen notera:</strong> Den här kampanjen kan bara användas en gång per Eurobonus-medlem. Du tjänar bara poäng när du tecknar ett elavtal.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-06-05",
@@ -7905,11 +7910,12 @@
     "current_points_channel": 10,
     "description": "<div>Dunken har ett brett utbud av kläder från etablerade varumärken. Företaget började som en leverantör av partyprylar och roliga T-shirts, men har sedan dess utvecklats till en fullfjädrad klädbutik online.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-06-05",
     "last_seen": "2026-06-05",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/DcVmwXeyyxX4uaki6dC185wiZSekhfbVPEwm2ghA.png",
     "name": "Dunken",
     "slug": "dunken",
-    "status": "active",
+    "status": "gone",
     "uuid": "019624fb-bfd9-71c2-b3f4-2e0ae8e2bb06"
   },
   "019662cf-bd3a-73ba-840e-37bb81369e8e": {
@@ -9776,5 +9782,31 @@
     "slug": "dina-forsakringar",
     "status": "active",
     "uuid": "019e91ed-f117-707f-9de7-2643468118f6"
+  },
+  "019e9785-274b-7017-8bd8-61fb7372192e": {
+    "active_campaign": {
+      "ends_date": "2026-06-30",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-06-05"
+    },
+    "all_time_high_date": "2026-06-05",
+    "all_time_high_points": 30,
+    "campaign_ends_human": "om 3 veckor",
+    "campaign_ends_human_en": "in 3 weeks",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 15,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
+    "description": "<div>Outl1.se är en av Sveriges största e-handlare inom trädgård, hushåll och fritid. Hos oss hittar du allt från växthus, utemöbler, trädgårdsmaskiner, ovanmarkpooler och spabad - till grillar, badrumsinredning, träningsmaskiner, elcyklar och mycket mer.</div>",
+    "first_seen": "2026-06-05",
+    "last_seen": "2026-06-05",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/lP8QsmcJTsv01jgwoxb0DuaHtq1mYU0Pa6O1s2Rm.png",
+    "name": "outl1",
+    "slug": "outl1",
+    "status": "active",
+    "uuid": "019e9785-274b-7017-8bd8-61fb7372192e"
   }
 }

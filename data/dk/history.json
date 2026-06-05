@@ -726,5 +726,14 @@
     "points_channel": 10,
     "started": "2026-06-01",
     "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-06-05",
+    "name": "Ewii",
+    "note": "shop_disappeared",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-06-04",
+    "uuid": "018caabe-91fe-71c5-ae25-f8455fa39c8d"
   }
 ]

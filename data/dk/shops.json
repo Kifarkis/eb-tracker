@@ -4631,12 +4631,7 @@
     "uuid": "018abc11-bf2f-7341-a9fe-46704d307460"
   },
   "018caabe-91fe-71c5-ae25-f8455fa39c8d": {
-    "active_campaign": {
-      "ends_date": "30.06.2026",
-      "points_campaign": 4000,
-      "points_channel": 800,
-      "started": "2026-06-04"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-06-04",
     "all_time_high_points": 4000,
     "campaign_ends_human": "om 3 uger",
@@ -4649,11 +4644,12 @@
     "current_points_channel": 800,
     "description": "<div>Der er flere gode grunde til, at du bør vælge internet via fiberbredbånd, næste gang du skifter internetabonnement. For det første adskiller fibernet sig fra andre internetteknologier ved at være en direkte internetforbindelse helt ind i din bolig. Fibernet sikrer dig altså et hurtigt og stabilt internet via fiberbredbånd, fordi du ikke deler kabler med naboen ude i vejen.<br><br><strong>Bemærk venligst:</strong> Denne kampagne kan kun bruges en gang pr. kunde og gælder kun nye kunder. Du optjener ved at tilmelde dig en aftale med enten Internet eller el. Du skal være betalende kunde i minimum 3 måneder at at kunne benytte tilbuddet.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-06-05",
     "last_seen": "2026-06-05",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/nQyqDiud7JVtzkJD1zYubb99i7dHWt2LMBGrkfRt.jpg",
     "name": "Ewii",
     "slug": "ewii",
-    "status": "active",
+    "status": "gone",
     "uuid": "018caabe-91fe-71c5-ae25-f8455fa39c8d"
   },
   "018ce8ef-9005-73b2-9eab-aa62d65c537a": {
@@ -5283,17 +5279,22 @@
     "uuid": "01966793-deeb-724b-beba-5e3b0ca9a36b"
   },
   "01967b86-7869-7008-b00b-fbfc7b989001": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "30.06.2026",
+      "points_campaign": 1000,
+      "points_channel": 200,
+      "started": "2026-06-05"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 1000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 uger",
+    "campaign_ends_human_en": "in 3 weeks",
     "category_id": 50,
     "commission_type": "fixed",
     "currency": "DKK",
     "current_points": 500,
-    "current_points_campaign": 0,
-    "current_points_channel": 100,
+    "current_points_campaign": 1000,
+    "current_points_channel": 200,
     "description": "<div>Saxo Premium er for dig elsker lydbøger og podcasts. Du kan endda dele medlemskabet med en, du holder af, og købe fysiske bøger til medlemspris. Du kan streame lydbøger 10 timer pr. måned, har fri adgang til podcasts og fri fragt på bøger.<br><br>Som EuroBonus-medlem kan du prøve Saxo Premium 1 måned helt gratis og stadig optjene point.<br><br></div><div><strong>Bemærk venligst:</strong> Denne kampagne kan kun bruges en gang pr. kunde og gælder kun nye danske kunder.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-06-05",
