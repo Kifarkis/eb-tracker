@@ -6997,6 +6997,27 @@
     "status": "active",
     "uuid": "018ec799-772e-72ea-9d9f-2eaba3974874"
   },
+  "018ed256-54b3-70e0-b99a-1728d7806e52": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-06-05",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 8,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>Hej! Vi är Estrid, det prisbelönta varumärket för vegan hårborttagning och kroppsvård som har ett uppdrag att göra det möjligt för alla att känna sig trygga i sin egen kropp. Grundat i Stockholm, Sverige 2019, har vi åtagit oss att ge varje kropp möjlighet att omfamna sitt autentiska jag och skapa en personlig egenvårdsritual på deras villkor.</div>",
+    "first_seen": "2026-06-05",
+    "last_seen": "2026-06-05",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/6PG2FYa5C7vQJ6UXOhKV38IaT9rQLFKNJWFoOeiU.jpg",
+    "name": "ESTRID",
+    "slug": "estrid",
+    "status": "active",
+    "uuid": "018ed256-54b3-70e0-b99a-1728d7806e52"
+  },
   "018ee1d2-896a-729f-932c-e9664dc0c907": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
