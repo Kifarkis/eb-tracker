@@ -799,5 +799,109 @@
     "points_channel": 10,
     "started": "2026-06-01",
     "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Albert",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-05-28",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Farmasiet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Fortum Strøm",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-06-01",
+    "uuid": "019e3b10-50e5-7328-907c-a44723c5beb0"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-06-01",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "L'Occitane",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "019600e6-28a1-717b-aa0b-efdf752d8702"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Lenovo",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "01896311-859b-70f9-876a-a52c61ec5e5a"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Lensway",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-25",
+    "uuid": "01896307-db4b-7046-b660-cca58f3d53f2"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Lindex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-26",
+    "uuid": "0189630a-9780-71c1-a269-e72cab65f2a4"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Miinto",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "01896308-a975-7164-aa9c-41b2ec9d89e2"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "Siemens Home",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-06-01",
+    "uuid": "0199c3f9-87a4-73df-9412-b69270133dab"
+  },
+  {
+    "ended": "2026-06-08",
+    "name": "ZOO.no",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
   }
 ]
