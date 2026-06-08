@@ -1868,7 +1868,7 @@ def main():
     everyday_total = sum(len(d["shops"]) for d in everyday_datasets.values())
     print(f"\nLoaded everyday data: {everyday_total} shops across {len(everyday_datasets)} countries")
 
-if "SE" not in datasets:
+    if "SE" not in datasets:
         print(
             "  Default country SE missing after fetch failures; "
             "leaving the existing site in place and exiting non-zero.",
