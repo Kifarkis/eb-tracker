@@ -586,6 +586,8 @@ def render_html(online_datasets, everyday_datasets):
     default_country = "SE"
     default_lang = "sv"
     sv = STRINGS[default_lang]
+    if default_country not in online_datasets:
+        default_country = next(iter(online_datasets))
     ds = online_datasets[default_country]
 
     # Pre-render: A-Z jumper letters from active shop names
@@ -1865,6 +1867,14 @@ def main():
         everyday_datasets[code] = prepare_everyday_dataset(code)
     everyday_total = sum(len(d["shops"]) for d in everyday_datasets.values())
     print(f"\nLoaded everyday data: {everyday_total} shops across {len(everyday_datasets)} countries")
+
+if "SE" not in datasets:
+        print(
+            "  Default country SE missing after fetch failures; "
+            "leaving the existing site in place and exiting non-zero.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     HTML_FILE.parent.mkdir(parents=True, exist_ok=True)
     HTML_FILE.write_text(render_html(datasets, everyday_datasets), encoding="utf-8")
