@@ -2290,17 +2290,22 @@
     "uuid": "0189630d-fb5b-7045-9d21-b6efc2c4643d"
   },
   "0189630e-0077-7365-979b-baa2f08a1bc7": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "14.06.2026",
+      "points_campaign": 3000,
+      "points_channel": 600,
+      "started": "2026-06-09"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 5000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 4 dager",
+    "campaign_ends_human_en": "om 4 dager",
     "category_id": 11,
     "commission_type": "fixed",
     "currency": "NOK",
     "current_points": 500,
-    "current_points_campaign": 0,
-    "current_points_channel": 100,
+    "current_points_campaign": 3000,
+    "current_points_channel": 600,
     "description": "<div>Nyt større smaksopplevelser enn noensinne med spennende oppskrifter fra verdenskjøkkenet. Dra på en smaksreise og spar opptil 1109 kr på de første 5 kassene dine og få en skjærefjøl av eik med første bestilling.</div><div><br></div><h1>Vilkår for denne partneren</h1><div>Denne kampanjen kan kun brukes én gang per medlem og gjelder kun nye kunder med norsk adresse. Du tjener kun poeng én gang og kun ved bestilling av minimum 3 ukers måltider. Du fortsetter å tjene poeng selv om en automatisk rabattkode er satt inn.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-06-09",
