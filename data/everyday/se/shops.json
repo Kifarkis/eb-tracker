@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-06-09T07:38:11.588377+00:00",
+  "updated": "2026-06-10T08:00:59.187592+00:00",
   "shop_count": 455,
   "shops": [
     {
@@ -813,14 +813,14 @@
       "country": "se",
       "city": ".",
       "postcode": ".",
-      "address": "www.dryft.se",
+      "address": "www.dryft.se/eurobonus-extern/",
       "lat": null,
       "lng": null,
       "mode": "online",
       "category_id": 5,
       "points_per_100": 10,
       "currency": "SEK",
-      "website": "www.dryft.se",
+      "website": "https://dryft.se/eurobonus-extern/",
       "phone": "+46 (0)10 122 17",
       "email": "kasper.engesvik@dryft.se",
       "description": "Earn EuroBonus points when quoting your EuroBonus number upon booking.<br/><br/>Dryft is your partner for renovation and home improvement — providing skilled craftsmen, project management, and material all in one place. From small fixes to complete kitchen and bathroom renovations, we help make your project smooth and successful.",
