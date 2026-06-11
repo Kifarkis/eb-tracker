@@ -5239,5 +5239,26 @@
     "slug": "badno",
     "status": "active",
     "uuid": "019ea661-c4a1-73ab-b30f-241205d56b6e"
+  },
+  "019eb5c9-49c4-701b-826f-3e4d45f62b43": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-06-11",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 13,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Dyrekassen.no er en nettbutikk for deg som vil gjøre hverdagen enklere for både hund og katt. Her finner du kvalitetsfôr, godbiter, leker, utstyr og pleieprodukter til hund, valp, katt og kattunge fra kjente merkevarer. Nettbutikken gjør det enkelt å handle alt du trenger på ett sted, med et bredt utvalg tilpasset ulike behov, raser og livsfaser.&nbsp;</div>",
+    "first_seen": "2026-06-11",
+    "last_seen": "2026-06-11",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/B5gd63K2dcK0TlR81xviAgDMO3WInLuwn7vAfcTB.png",
+    "name": "Dyrekassen",
+    "slug": "dyrekassen",
+    "status": "active",
+    "uuid": "019eb5c9-49c4-701b-826f-3e4d45f62b43"
   }
 }
