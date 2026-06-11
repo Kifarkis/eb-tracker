@@ -326,15 +326,15 @@
   },
   "01896308-04c2-718c-bf92-8d593bc940be": {
     "active_campaign": {
-      "ends_date": "2026-06-14",
+      "ends_date": "2026-06-16",
       "points_campaign": 20,
       "points_channel": 4,
       "started": "2026-06-09"
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 20,
-    "campaign_ends_human": "om 2 dagar",
-    "campaign_ends_human_en": "in 2 days",
+    "campaign_ends_human": "om 4 dagar",
+    "campaign_ends_human_en": "in 4 days",
     "category_id": 4,
     "commission_type": "variable",
     "currency": "%",
@@ -8301,17 +8301,22 @@
     "uuid": "0197c107-cebd-72fa-a046-e400b8d63285"
   },
   "0197c10c-695d-734a-80cb-afa6b257734f": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-06-21",
+      "points_campaign": 100,
+      "points_channel": 20,
+      "started": "2026-06-11"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 100,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 50,
-    "current_points_campaign": 0,
-    "current_points_channel": 10,
+    "current_points_campaign": 100,
+    "current_points_channel": 20,
     "description": "<div>Trendcarpet erbjuder ett brett och varierat sortiment där alla kunder skall kunna hitta en matta som passar i heminredningen. Våra inköpare är noga med att lyssna in vad vår kundkrets efterfrågar, vårt fokus ligger alltid på att tillfredsställa flera smakinriktningar och behov.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-06-11",
