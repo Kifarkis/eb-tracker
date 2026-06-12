@@ -4785,6 +4785,27 @@
     "status": "active",
     "uuid": "0199c410-ed9b-72f0-ae61-3e87d9179fc8"
   },
+  "019a5e2b-866b-702d-b295-e28101b5ba41": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-06-12",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 9,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Revolution Race kombinerer slidstærke materialer, god pasform og praktiske detaljer, så du kan bevæge dig frit i naturen uanset vejr. Sortimentet rummer blant annet turbukser, jakker, fleece, undertøy og tilbehør til både menn og kvinner. RevolutionRace er kjent for fargerike design, høy komfort og produkter som tåler mye bruk. Målet er å gjøre kvalitetsutstyr mer tilgjengelig for alle som liker friluftsliv, enten du skal på fjelltur, gåtur i skogen eller bare ønsker klær som fungerer i en aktiv livsstil.</div>",
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/gDogh93ayUwPfq7oV3w1Bu5qjIw4LODH9kLFVA4r.png",
+    "name": "Revolution Race",
+    "slug": "revolution-race",
+    "status": "active",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
   "019acabe-1ceb-72e7-88b5-ef434d15ce09": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
