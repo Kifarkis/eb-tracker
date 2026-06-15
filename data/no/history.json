@@ -903,5 +903,165 @@
     "points_channel": 10,
     "started": "2026-06-01",
     "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-08",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Björn Borg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "CAIA Cosmetics",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "019b939e-7e05-71c0-a5c6-2fb15815f053"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-06-08",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Guttelus",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "019ea62f-5c27-71c4-b406-8227bbee4cab"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Gymgrossisten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "01896307-c0a0-73c3-bb34-1854292ab161"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "HelloFresh",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-06-09",
+    "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-06-08",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "iPhonehuset",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "0189630a-fa9b-7234-a4ac-8518c60e5deb"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Jotex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Kokkeglede",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-06-08",
+    "uuid": "019c9e5b-4248-7122-8cf8-20e9b93bff42"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "L'Occitane",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "019600e6-28a1-717b-aa0b-efdf752d8702"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "PlussMobil",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-06-01",
+    "uuid": "01896310-a654-73e1-a4f7-591156fc522f"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "SAMSUNG",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-09",
+    "uuid": "018f3367-2401-704c-900c-526d7eecfc51"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "Sonos",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-01",
+    "uuid": "0189630e-a751-7311-930d-de861b1a0c5d"
+  },
+  {
+    "ended": "2026-06-15",
+    "name": "WEEKDAY",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-01",
+    "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
   }
 ]
