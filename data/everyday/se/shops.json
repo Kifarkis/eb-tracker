@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-06-14T08:09:03.402212+00:00",
-  "shop_count": 455,
+  "updated": "2026-06-15T09:52:57.917024+00:00",
+  "shop_count": 454,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -452,36 +452,6 @@
       "campaign_title": "BREAKFAST AND LUNCH OFFER AT BRASSERIE MAKALÖS",
       "campaign_description": "At Brasserie Makalös you can experience French cuisine out of the ordinary. And right now you even earn 100 Bonus points per 100 SEK you dine for at breakfast between 7:30 and 10:00 Monday to Friday. Or earn 150 Bonus points per 100 SEK you dine for at lunch between 13:00 and 16:00 Monday to Friday! The normal bonus of 50 Bonus points per 100 SEK applies for all purchases made outside of the breakfast and lunch offers.",
       "created_at": "2018-01-18 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
-      "uuid": "brod-och-vanner",
-      "name": "Bröd och Vänner",
-      "country": "se",
-      "city": "Malmö",
-      "postcode": "21344",
-      "address": "Nobelvägen 44a",
-      "lat": 55.5922948,
-      "lng": 13.0189676,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 50,
-      "currency": "SEK",
-      "website": "www.brodochvanner.se",
-      "phone": "+46761969400",
-      "email": "info@brodochvanner.se",
-      "description": "If you are a private person or company, who want to order Malmo tastiest sandwiches and pies, you have come to the right place. We look forward to welcome you at Bröd och Vänner.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2016-07-19 00:00:00",
       "first_seen": "2026-05-05",
       "status": "active"
     },
@@ -13792,6 +13762,37 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "brod-och-vanner",
+      "name": "Bröd och Vänner",
+      "country": "se",
+      "city": "Malmö",
+      "postcode": "21344",
+      "address": "Nobelvägen 44a",
+      "lat": 55.5922948,
+      "lng": 13.0189676,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "www.brodochvanner.se",
+      "phone": "+46761969400",
+      "email": "info@brodochvanner.se",
+      "description": "If you are a private person or company, who want to order Malmo tastiest sandwiches and pies, you have come to the right place. We look forward to welcome you at Bröd och Vänner.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2016-07-19 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-06-15"
     },
     {
       "uuid": "nya-carnegiebryggeriet",
