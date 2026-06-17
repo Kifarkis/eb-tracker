@@ -1920,5 +1920,13 @@
     "points_channel": 500,
     "started": "2026-06-08",
     "uuid": "0198511f-cddd-705e-8f63-7df64aa4f3af"
+  },
+  {
+    "ended": "2026-06-17",
+    "name": "Webhallen",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-06-09",
+    "uuid": "01896308-04c2-718c-bf92-8d593bc940be"
   }
 ]
