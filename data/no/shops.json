@@ -2004,11 +2004,12 @@
     "current_points_channel": 5,
     "description": "<p>Drømmerom - Barne og temasenger<strong>&nbsp;</strong>er en norsk nettbutikk med landets største utvalg av temasenger for barn. Her finner man unike senger av fransk design og høy kvalitet - både Frozen sledeseng til prinsesserommet og racerbilseng for prinsen.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-06-18",
     "last_seen": "2026-06-18",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Drømmerom-1689583954.jpg",
     "name": "Drømmerom",
     "slug": "drømmerom",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-28a5-73c7-a5b0-38ad1f3cbe90"
   },
   "0189630d-2d48-7330-b48c-4658f8ebb237": {
