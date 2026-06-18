@@ -6039,5 +6039,26 @@
     "slug": "sharkninja",
     "status": "active",
     "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
+  },
+  "019eda5d-3529-7322-ad1a-5e48a90c686f": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-06-18",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Suitableshop.dk er en dansk webshop med fokus på stilfuldt herretøj af høj kvalitet. Sortimentet omfatter alt fra skjorter, jakkesæt og blazere til jeans, chinos, strik, jakker, sko og accessories. Butikken henvender sig til mænd, der ønsker et moderne og velklædt udtryk til både arbejde, fritid og festlige lejligheder. Her findes et bredt udvalg af kendte mærker samt klassiske og tidløse designs, der kombinerer komfort med elegant stil.</div>",
+    "first_seen": "2026-06-18",
+    "last_seen": "2026-06-18",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/hwSfj3KsRCYatNuvcubGVwwM1C25kQ6tCyLf1cFP.png",
+    "name": "Suitable",
+    "slug": "suitable",
+    "status": "active",
+    "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
   }
 }
