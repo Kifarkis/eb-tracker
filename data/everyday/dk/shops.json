@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-06-18T08:31:14.790359+00:00",
+  "updated": "2026-06-19T08:58:49.699696+00:00",
   "shop_count": 364,
   "shops": [
     {
@@ -1652,6 +1652,7 @@
       "description": "Have your car gotten a glass damage? Save money and time by having it repaired by Carglass and earn EuroBonus points on your repair.<br/><br/>Regardless of which car youve got, Carglass can help you. They are specialized in glass damages and can repair stone chips as well as replacing all types of car windows and windscreens. If you have got a damaged glass, Carglass always recommend you to get it repaired. If you do nothing, your window might crack, and you will have to spend money on replacing the entire window. Replacing a window instead of repairing it, is also bad for the environment. At Carglass you can choose among one of the many nationwide repair shops, or you can book Carglass to come to you to save time.",
       "cards_accepted": [
         "MC",
+        "VISA",
         "AMEX"
       ],
       "has_fixed_reward": false,
