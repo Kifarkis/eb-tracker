@@ -333,11 +333,12 @@
     "current_points_channel": 2,
     "description": "<div>Webhallen är en av Sveriges ledande återförsäljare av TV- och dataspel, hemelektronik, datorer och datortillbehör. Webhallen är kända för låga priser, snabba leveranser och god service.</div><div><br></div><h1><strong>Villkor för denna partner</strong></h1><div>Du kan inte tjäna poäng på Apple, presentkort, fyndvaror och förbokningar som ej hämtas ut inom 10-dagar från bokningstillfället i butik.</div><div><br></div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-06-19",
     "last_seen": "2026-06-19",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Webhallen-1689583617.jpg",
     "name": "Webhallen",
     "slug": "webhallen",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896308-04c2-718c-bf92-8d593bc940be"
   },
   "01896308-35e5-7100-9665-4122177f0b78": {
@@ -2059,11 +2060,12 @@
     "current_points_channel": 5,
     "description": "<p>Hos Happy Angler kan du köpa billiga fiskeutrustning och förmånliga fiskeredskap från Nordens största sportfiskebutik på nätet. Sportfiske till lägre priser.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-06-19",
     "last_seen": "2026-06-19",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Happy_Angler-1689583820.jpg",
     "name": "Happy Angler",
     "slug": "happy-angler",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-1c57-708f-8cf9-24ed5e62e904"
   },
   "0189630b-1e55-726d-acfc-98c7c3b15c39": {
@@ -9897,17 +9899,22 @@
     "uuid": "019ecab4-f7e9-70cd-8ad1-3206144d5178"
   },
   "019eda5d-3529-7322-ad1a-5e48a90c686f": {
-    "active_campaign": null,
-    "all_time_high_date": "2026-06-18",
-    "all_time_high_points": 25,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "active_campaign": {
+      "ends_date": "2026-06-30",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-06-19"
+    },
+    "all_time_high_date": "2026-06-19",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>SuitableShop.se är en svensk nätbutik som erbjuder stilrena och kvalitativa kläder för män. Sortimentet omfattar allt från skjortor, kostymer och kavajer till jeans, chinos, stickade tröjor, jackor, skor och accessoarer. Butiken riktar sig till män som vill kombinera modern design med hög komfort, oavsett om det gäller arbete, vardag eller festliga tillfällen.</div>",
     "first_seen": "2026-06-18",
     "last_seen": "2026-06-19",
