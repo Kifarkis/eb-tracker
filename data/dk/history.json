@@ -1047,5 +1047,22 @@
     "points_channel": 10,
     "started": "2026-06-15",
     "uuid": "0189630c-0772-7321-9da9-387a0ee95590"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Björn Borg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-22",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Norlys",
+    "note": "shop_disappeared",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-06-04",
+    "uuid": "01896311-fc34-708f-a8fb-b1300521dcb4"
   }
 ]
