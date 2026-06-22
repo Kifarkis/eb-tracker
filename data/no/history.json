@@ -1063,5 +1063,133 @@
     "points_channel": 10,
     "started": "2026-06-01",
     "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Albert",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-06-15",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Bosch Home",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-06-15",
+    "uuid": "018e3827-6f29-71e6-beae-2be3af85c068"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Bubbleroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "01896309-b8ae-7129-9039-516c2dbedf13"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Dyson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Euroflorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "LYKO",
+    "points_campaign": 49,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Makeup Mekka",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-06-15",
+    "uuid": "0197a72c-6e7d-7200-b949-a127880137d2"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "NordVPN",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-06-15",
+    "uuid": "0189630e-2ae5-7184-adab-1a84e70c6254"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Norli",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630a-a084-73fb-a865-8fda2d897a29"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Rains",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630e-e559-73fb-8554-d9a161d6ff4e"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "Ray-Ban",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
+  },
+  {
+    "ended": "2026-06-22",
+    "name": "SmartBuyGlasses",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "0189630c-0772-7321-9da9-387a0ee95590"
   }
 ]
