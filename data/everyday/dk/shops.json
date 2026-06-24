@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-06-23T07:40:11.414856+00:00",
-  "shop_count": 364,
+  "updated": "2026-06-24T07:33:24.642940+00:00",
+  "shop_count": 363,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel-2",
@@ -5655,36 +5655,6 @@
       "status": "active"
     },
     {
-      "uuid": "kihong-north-europe",
-      "name": "Kihong North Europe",
-      "country": "dk",
-      "city": "København S",
-      "postcode": "2300",
-      "address": "Amagerbrogade 44 st.",
-      "lat": 55.6634913,
-      "lng": 12.6010042,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 50,
-      "currency": "DKK",
-      "website": "http://magasasa.dk/",
-      "phone": "+4532979999",
-      "email": "kihongcph@gmail.com",
-      "description": "We look forward to welcoming you in our restaurant.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2019-05-16 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
       "uuid": "kitchenette",
       "name": "Kitchenette",
       "country": "dk",
@@ -10701,6 +10671,37 @@
       "created_at": "2020-10-29 10:23:33",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "kihong-north-europe",
+      "name": "Kihong North Europe",
+      "country": "dk",
+      "city": "København S",
+      "postcode": "2300",
+      "address": "Amagerbrogade 44 st.",
+      "lat": 55.6634913,
+      "lng": 12.6010042,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "DKK",
+      "website": "http://magasasa.dk/",
+      "phone": "+4532979999",
+      "email": "kihongcph@gmail.com",
+      "description": "We look forward to welcoming you in our restaurant.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2019-05-16 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-06-24"
     },
     {
       "uuid": "8-eren",
