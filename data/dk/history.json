@@ -1184,5 +1184,14 @@
     "points_channel": 10,
     "started": "2026-06-22",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-06-29",
+    "name": "Gardin Lis",
+    "note": "shop_disappeared",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-06-24",
+    "uuid": "019cc363-e417-7181-b2a8-9d1188d2ab0e"
   }
 ]
