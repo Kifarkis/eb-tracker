@@ -2480,5 +2480,125 @@
     "points_channel": 10,
     "started": "2026-06-22",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "A Retro Tale",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-09",
+    "uuid": "019716f7-b841-708c-94f7-aa0db57db557"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Bad & Stil",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "019c7b32-49d5-70b2-b1c1-a7ba8153a087"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Dina Försäkringar",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-06-04",
+    "uuid": "019e91ed-f117-707f-9de7-2643468118f6"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "ESTRID",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-06-10",
+    "uuid": "018ed256-54b3-70e0-b99a-1728d7806e52"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Hemköp",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-09",
+    "uuid": "0189630f-4008-70ef-8d6f-88f1537517ac"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "J. Lindeberg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-09",
+    "uuid": "019363db-290f-7080-8385-8759d1562ff1"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Lindskrog parkering Arlanda",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-06-08",
+    "uuid": "0199710b-f1ca-707f-b9b0-6e55f41c1f81"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "North Trampoline",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-15",
+    "uuid": "019ecab4-f7e9-70cd-8ad1-3206144d5178"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "outl1",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-05",
+    "uuid": "019e9785-274b-7017-8bd8-61fb7372192e"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Suitable",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-19",
+    "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Teknikdelar",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-18",
+    "uuid": "0199f128-133f-7374-94b1-8df80e9804b0"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Tibber",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-06-05",
+    "uuid": "018abc11-cf42-731d-a74c-99b0c7398eef"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "TV4 Play",
+    "points_campaign": 250,
+    "points_channel": 50,
+    "started": "2026-06-12",
+    "uuid": "018abc11-d0cc-728d-8d49-a2b6817b5660"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Vinkylen",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Weibulls",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-05-27",
+    "uuid": "019db4fa-41e2-73ff-b5d3-7c9ab69de23d"
   }
 ]

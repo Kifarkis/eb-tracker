@@ -1193,5 +1193,69 @@
     "points_channel": 400,
     "started": "2026-06-24",
     "uuid": "019cc363-e417-7181-b2a8-9d1188d2ab0e"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Allente",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-06-22",
+    "uuid": "0189630c-d887-72b0-889d-aec1f78825e4"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "BIVA",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-12",
+    "uuid": "0189630e-faae-70a9-93d6-a553e8a2b3c7"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "CA A-kasse",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-06-04",
+    "uuid": "01961a6d-c7d7-712f-aa28-6f8fee6da492"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Magasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-05-11",
+    "uuid": "01896310-cff7-730e-a0e8-c319ca656c74"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Mofibo",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-05-25",
+    "uuid": "01896309-3382-7064-8492-7a9697ea0367"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Saxo Premium",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-06-05",
+    "uuid": "01967b86-7869-7008-b00b-fbfc7b989001"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Skagenfood",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-05-28",
+    "uuid": "0195c822-fa45-739f-bb70-98d57db79ff0"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Suitable",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-19",
+    "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
   }
 ]

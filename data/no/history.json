@@ -1335,5 +1335,53 @@
     "points_channel": 10,
     "started": "2026-06-22",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Bad & Stil",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-08",
+    "uuid": "019c7b32-49d5-70b2-b1c1-a7ba8153a087"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Go Nordic Cruiseline",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-08",
+    "uuid": "019ea65a-1842-727b-9ed2-0e4088e7259b"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Nordic Print",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-05-28",
+    "uuid": "0189630f-e7ef-728b-81eb-be251fef4eb5"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Safira",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-05",
+    "uuid": "0192958a-3d0c-73f6-8808-283b59ffe62b"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "Suitable",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-19",
+    "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
+  },
+  {
+    "ended": "2026-07-01",
+    "name": "VOLT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-05",
+    "uuid": "019e970d-0495-7157-9e54-8ca85e468634"
   }
 ]
