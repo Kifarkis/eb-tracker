@@ -5256,5 +5256,26 @@
     "slug": "suitable",
     "status": "active",
     "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
+  },
+  "019f1dc6-1a6f-712c-9f9d-8b832b053cc4": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-01",
+    "all_time_high_points": 10,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 4,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 10,
+    "current_points_campaign": 0,
+    "current_points_channel": 2,
+    "description": "<div>Foto.no er en ledende norsk nettportal for fotografer og fotoentusiaster. Nettstedet tilbyr nyheter, tester av kameraer og objektiver, guider, tips og inspirasjon for både nybegynnere og erfarne fotografer. I tillegg har Foto.no et aktivt forum hvor brukere kan stille spørsmål, dele erfaringer og få tilbakemeldinger på bildene sine.<br><br><br></div><h1>Vilkår for denne partneren</h1><div>Foto.no kan avslå bestillinger for Klikk &amp; Hent som ikke hentes innen 10 dager fra bestillingstidspunktet. Varer som har en leveringstid på mer enn 14 dager kan også bli avvist.</div>",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/H6eqe1gAXJmrcGYQYncBWlRLMGcRYTGGMwJzpNUK.png",
+    "name": "Foto.no",
+    "slug": "fotono",
+    "status": "active",
+    "uuid": "019f1dc6-1a6f-712c-9f9d-8b832b053cc4"
   }
 }

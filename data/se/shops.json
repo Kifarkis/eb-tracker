@@ -1286,17 +1286,22 @@
     "uuid": "01896309-e045-7007-a420-f96ef113a52e"
   },
   "01896309-eb6b-71bc-b887-5602e27dd701": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-07-05",
+      "points_campaign": 75,
+      "points_channel": 15,
+      "started": "2026-07-01"
+    },
     "all_time_high_date": "2026-05-26",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 dagar",
+    "campaign_ends_human_en": "in 3 days",
     "category_id": 13,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 75,
+    "current_points_channel": 15,
     "description": "<p>Stort utbud av foder och tillbehör för hund, katt, kanin eller gnagare. Hemleverans till dörren på 1-3 dagar.&nbsp;</p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-07-01",
