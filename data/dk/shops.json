@@ -578,17 +578,22 @@
     "uuid": "01896309-1356-70ef-9d7f-f03e87d2ee25"
   },
   "01896309-3382-7064-8492-7a9697ea0367": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "12.07.2026",
+      "points_campaign": 2000,
+      "points_channel": 400,
+      "started": "2026-07-01"
+    },
     "all_time_high_date": "2026-05-04",
     "all_time_high_points": 2000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "DKK",
     "current_points": 500,
-    "current_points_campaign": 0,
-    "current_points_channel": 100,
+    "current_points_campaign": 2000,
+    "current_points_channel": 400,
     "description": "<div>Én app - tusindvis af bøger. Gå på eventyr i et kæmpe udvalg med mere end 600.000 titler indenfor alle genrer. Læs eller lyt ubegrænset på din smartphone og tablet, hvor i verden det passer dig. Du optjener stadig selvom du kun benytter dig af den gratis prøveperiode.</div><div><br></div><div><strong>Bemærk venligst:</strong> Denne kampagne kan kun bruges en gang pr. kunde og gælder kun nye kunder. Tilbuddet gælder for alle, der ikke har haft et Mofibo-abonnement inden for de seneste 6 måneder. I prøveperioden kan du lytte eller læse i op til 100 timer. Du optjener stadig selvom du kun benytter dig af den gratis prøveperiode.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-07-01",

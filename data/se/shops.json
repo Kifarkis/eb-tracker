@@ -4147,11 +4147,12 @@
     "current_points_channel": 3,
     "description": "<div>Hemköp finns där andra matälskare finns. Vi hälsar dig varmt välkommen i våra drygt 200 Hemköp-butiker runtom i landet, och i Sveriges enda e-handel för matälskare på hemköp.se. Mycket godare mat, på ett enklare och trevligare sätt.</div><div><br></div><div><strong>Vänligen notera:</strong> Du tjänar endast poäng vid köp online och inte i fysiska butiker. Du kan inte tjäna poäng på medicin, snus/tobak och presentkort.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-01",
     "last_seen": "2026-07-01",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Hemköp-1689584091.jpg",
     "name": "Hemköp",
     "slug": "hemkop",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630f-4008-70ef-8d6f-88f1537517ac"
   },
   "0189630f-41cb-714c-8b2f-cb2c7a900d0b": {
