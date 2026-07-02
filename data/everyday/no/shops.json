@@ -1,7 +1,7 @@
 {
   "country": "no",
-  "updated": "2026-07-01T08:04:04.211952+00:00",
-  "shop_count": 410,
+  "updated": "2026-07-02T07:00:30.264530+00:00",
+  "shop_count": 411,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel",
@@ -2533,6 +2533,33 @@
       "campaign_description": null,
       "created_at": "2024-07-30 13:27:54",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "fjordgull",
+      "name": "Fjordgull",
+      "country": "no",
+      "city": "Asker",
+      "postcode": "1383",
+      "address": "Smedsletta 4",
+      "lat": 59.8348972,
+      "lng": 10.4190994,
+      "mode": "onsite",
+      "category_id": 2,
+      "points_per_100": 100,
+      "currency": "NOK",
+      "website": "www.fjordgull.no",
+      "phone": "+47 90 50 76 78",
+      "email": "hakon@nordkrone.no",
+      "description": "when subscribing to Fjordgull and registering your EuroBonus number. Until September 30, 2026, all new customers earn and extra 2500 points upon sign-up.<br><br>Fjordgull delivers high-quality omega-3 products sourced from sustainably managed Norwegian waters. Produced entirely in Norway, each product is developed with a focus on purity, traceability, and effectiveness.<br><br>Drawing on Norway's world-renowned expertise in marine nutrition, Fjordgull offers a trusted way to support long-term health and wellbeing through the natural benefits of omega-3.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-06-25 08:32:03",
+      "first_seen": "2026-07-02",
       "status": "active"
     },
     {
