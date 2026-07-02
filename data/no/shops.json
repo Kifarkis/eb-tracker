@@ -759,11 +759,12 @@
     "current_points_channel": 5,
     "description": "<p>RUM21.no samarbeider med mange av Europas ledende designvaremerker og møbelprodusenter. Kjøp lamper, hagemøbler, sengeklær, sofaer, radioapparater, hyller, glass, tepper og mye mye mer direkte på nettet.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-02",
     "last_seen": "2026-07-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Rum21-1689583711.jpg",
     "name": "Rum21",
     "slug": "room21",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896309-733c-72e9-b89a-e36db36d144c"
   },
   "01896309-7c76-7237-921c-5ddc4d54199c": {
@@ -2223,11 +2224,12 @@
     "current_points_channel": 5,
     "description": "<p>Petsters&nbsp;mål er å tilby et bredt spekter av unike produkter for Hunder, Hester og Katter. De tilbyr også funksjonelle og komfortable utendørs klær til kvinner og menn.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-02",
     "last_seen": "2026-07-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Petster-1689583999.jpg",
     "name": "Petster",
     "slug": "petster",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-d608-71c5-a1d0-097db7774e63"
   },
   "0189630d-f2db-71f5-ba8d-da548207ca78": {
@@ -5269,7 +5271,7 @@
     "current_points": 10,
     "current_points_campaign": 0,
     "current_points_channel": 2,
-    "description": "<div>Foto.no er en ledende norsk nettportal for fotografer og fotoentusiaster. Nettstedet tilbyr nyheter, tester av kameraer og objektiver, guider, tips og inspirasjon for både nybegynnere og erfarne fotografer. I tillegg har Foto.no et aktivt forum hvor brukere kan stille spørsmål, dele erfaringer og få tilbakemeldinger på bildene sine.<br><br><br></div><h1>Vilkår for denne partneren</h1><div>Foto.no kan avslå bestillinger for Klikk &amp; Hent som ikke hentes innen 10 dager fra bestillingstidspunktet. Varer som har en leveringstid på mer enn 14 dager kan også bli avvist.</div>",
+    "description": "<div>Foto.no er en av Norges ledende aktører innen foto, video og visuell kommunikasjon. Hos oss finner du alt fra kameraer, objektiver og videoutstyr til tilbehør, studio- og lydprodukter – for både profesjonelle og entusiaster. Vi tilbyr ikke bare produkter, men også kompetanse og inspirasjon som gjør det enklere å lykkes med visuelt innhold.<br><br></div><h1>Vilkår for denne partneren</h1><div>Foto.no kan avslå bestillinger for Klikk &amp; Hent som ikke hentes innen 10 dager fra bestillingstidspunktet. Varer som har en leveringstid på mer enn 14 dager kan også bli avvist.</div>",
     "first_seen": "2026-07-01",
     "last_seen": "2026-07-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/H6eqe1gAXJmrcGYQYncBWlRLMGcRYTGGMwJzpNUK.png",

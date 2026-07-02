@@ -958,11 +958,12 @@
     "current_points_channel": 5,
     "description": "<p>Rum21.se samarbetar med många av Europas ledande designvarumärken och möbeltillverkare. Köp lampor, trädgårdsmöbler, sängkläder, stringhyllor, soffor, hyllor, glas, mattor och mycket mycket mer direkt på nätet.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-02",
     "last_seen": "2026-07-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Rum21-1689583711.jpg",
     "name": "Rum21",
     "slug": "room21",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896309-733c-72e9-b89a-e36db36d144c"
   },
   "01896309-7c76-7237-921c-5ddc4d54199c": {
@@ -3369,11 +3370,12 @@
     "current_points_channel": 5,
     "description": "<div>Petsters målsättning är att erbjuda ett brett sortiment och unika produkter till hundar, hästar och katter. De erbjuder även funktionella och bekväma utomhuskläder för kvinnor och män.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-02",
     "last_seen": "2026-07-02",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Petster-1689583998.jpg",
     "name": "Petster",
     "slug": "petster",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-d608-71c5-a1d0-097db7774e63"
   },
   "0189630d-d959-724a-a2a9-67369ef0cb4b": {
