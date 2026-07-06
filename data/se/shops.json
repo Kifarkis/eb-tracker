@@ -21,17 +21,22 @@
     "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
   },
   "01896307-a48e-7282-a8f3-2508750f0b14": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-07-19",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-07-06"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 8,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div></div>\r\n\r\n<p>Hos Bodystore hittar du över 10 000 artiklar inom hälsokost och hudvård. Kända varumärken som Dr Hauschka, Weleda, Shakti spikmatta, Urtekram, Mivitotal och många andra finns på Bodystore.com<br></p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div></div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-07-06",

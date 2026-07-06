@@ -6041,5 +6041,31 @@
     "slug": "suitable",
     "status": "active",
     "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
+  },
+  "019f3760-cd44-7292-951f-c1833f710916": {
+    "active_campaign": {
+      "ends_date": "31.07.2026",
+      "points_campaign": 75,
+      "points_channel": 15,
+      "started": "2026-07-06"
+    },
+    "all_time_high_date": "2026-07-06",
+    "all_time_high_points": 75,
+    "campaign_ends_human": "om 3 uger",
+    "campaign_ends_human_en": "in 3 weeks",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 75,
+    "current_points_channel": 15,
+    "description": "<div>Jørgsholm tilbyder eksklusivt køkkenudstyr udviklet med fokus på kvalitet, funktionalitet og elegant design. Sortimentet omfatter hybrid stegepander, gryder, knive og køkkengrej inspireret af professionel erfaring fra restaurationsbranchen. Produkterne er skabt til daglig madlavning med høj ydeevne, lang holdbarhed og brugervenlige løsninger til det moderne køkken.&nbsp;</div>",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/TDHVTPsidAyUmPxCyHydXCN8d4KJ41gYw5B4LslT.png",
+    "name": "Jørgsholm",
+    "slug": "jorgsholm",
+    "status": "active",
+    "uuid": "019f3760-cd44-7292-951f-c1833f710916"
   }
 }

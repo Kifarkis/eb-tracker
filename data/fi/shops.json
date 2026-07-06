@@ -770,11 +770,12 @@
     "current_points_channel": 12,
     "description": "<p>Jotex is the largest online store for home decor in Scandinavia. A great place for inspiration, trends and quality - to good prices.&nbsp;</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-06",
     "last_seen": "2026-07-06",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Jotex-1689583819.jpg",
     "name": "Jotex",
     "slug": "jotex",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
   },
   "0189630b-2578-73c9-9dcc-09994912d344": {
