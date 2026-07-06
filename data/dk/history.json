@@ -1257,5 +1257,77 @@
     "points_channel": 10,
     "started": "2026-06-19",
     "uuid": "019eda5d-3529-7322-ad1a-5e48a90c686f"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-06-29",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Albert",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-06-29",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Apopro",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "0192e872-2c1c-719e-b17a-40069c2aef26"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-06-29",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-07-06",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-06-29",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
   }
 ]
