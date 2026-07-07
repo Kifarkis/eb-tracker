@@ -2289,11 +2289,12 @@
     "current_points_channel": 5,
     "description": "<div>Drømmeland har butikker fordelt over hele landet. Du finder hele deres sortiment af kvalitetsmærker i deres webshop. De er Danmarks førende forhandler af elevationssenge, boksmadrasser og kontinentalsenge fra mærker som Auping, Magna, Nexus, Svane, Tempur og Masterbed. Find alt til dit soveværelse her.</div><div><br></div><div><strong>Bemærk venligst:</strong> Du optjener kun ved bestilling og betaling online. Der udbetales ikke ved køb af gavekort eller køb på afbetaling.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-07",
     "last_seen": "2026-07-07",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Drømmeland-1689583991.jpg",
     "name": "Drømmeland",
     "slug": "drømmeland",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-bab4-70bb-904e-c8d1e969643b"
   },
   "0189630d-c0ab-70c6-a253-b93355ec33e3": {
