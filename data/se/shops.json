@@ -7024,17 +7024,22 @@
     "uuid": "018ead91-a62a-71c0-b877-9faf0d120af4"
   },
   "018ec72b-d288-7262-acbe-3b258b4b7862": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-07-31",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-07-07"
+    },
     "all_time_high_date": "2026-05-25",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 veckor",
+    "campaign_ends_human_en": "in 3 weeks",
     "category_id": 14,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Mekonomen gör billivet enklare genom ett brett och lättillgängligt utbud av prisvärda och innovativa lösningar och produkter för konsumenter och företag. Vi erbjuder både service och reparation av din bil och ett stort utbud av produkter, här på webben och i våra butiker runt om i landet.<br><br><strong>Vänligen observera:</strong> Du tjänar bara poäng på beställningar där betalning sker online<br><br></div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-07-07",
