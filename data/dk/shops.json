@@ -97,11 +97,12 @@
     "current_points_channel": 5,
     "description": "Vi brænder for at gøre skønhed og kosmetik sjovere. Med over 20.000 produkter indenfor hårpleje, hudpleje, makeup og parfume kan vi stolt konstatere, at vi tilbyder alt indenfor skønhed.",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-09",
     "last_seen": "2026-07-09",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ml9Xi4vGpXSNyx4jvf4Ftr8uyAii4r5GIbMpZNhq.png",
     "name": "Bangerhead",
     "slug": "bangerhead",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896307-b78c-7310-b699-86959d5dfe0e"
   },
   "01896307-cb70-7078-96e6-9379b454803c": {

@@ -55,11 +55,12 @@
     "current_points_channel": 10,
     "description": "<div>Bangerhead sells different beauty products from exclusive brands such as Redken, Decléor, Clarins, Kerastase, TIGI, Biotherm, Bare Minerals, Lanza. Bangerhead has low prices, quick deliveries and is one of the fastest growing e-commerce sites in beauty, fragrance and hair care.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-09",
     "last_seen": "2026-07-09",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Naw8xbC4Fa9GidJ93pjglu2As7rHCyKsek2kHTVi.png",
     "name": "Bangerhead",
     "slug": "bangerhead",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896307-b78c-7310-b699-86959d5dfe0e"
   },
   "01896307-d65f-73b0-9501-e65458b28a12": {

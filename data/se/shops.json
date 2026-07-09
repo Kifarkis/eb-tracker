@@ -123,11 +123,12 @@
     "current_points_channel": 5,
     "description": "Bangerhead.se säljer och marknadsför skönhetsprodukter från exklusiva varumärken som Redken, Decléor, Clarins, Kérastase, TIGI, Biotherm, BareMinerals, Lanza och är idag en av Sveriges snabbast växande e-handelsplatser inom skönhet.",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-09",
     "last_seen": "2026-07-09",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/1r48ZRhdiBKJQmoYV3kXAPGQ5JmIG6QIcRqEyZtr.png",
     "name": "Bangerhead",
     "slug": "bangerhead",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896307-b78c-7310-b699-86959d5dfe0e"
   },
   "01896307-c0a0-73c3-bb34-1854292ab161": {
@@ -9036,17 +9037,22 @@
     "uuid": "019ac036-6a70-7088-bdc1-15e59b77c31f"
   },
   "019ad964-5fce-7380-ba91-5c4007d5ebbd": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-07-12",
+      "points_campaign": 5000,
+      "points_channel": 1000,
+      "started": "2026-07-09"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 5000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 dagar",
+    "campaign_ends_human_en": "in 2 days",
     "category_id": 6,
     "commission_type": "fixed",
     "currency": "SEK",
     "current_points": 2000,
-    "current_points_campaign": 0,
-    "current_points_channel": 400,
+    "current_points_campaign": 5000,
+    "current_points_channel": 1000,
     "description": "<div>Singular Society är ett medlemsbaserat varumärke som erbjuder kompromisslöst tillverkade premium-produkter för hemmet och garderoben, framtaget i nära samarbete med några av världens främsta tillverkare. Våra medlemmar får möjligheten att handla hela sortimentet till självkostnadspris, helt utan vinst-påslag och med full transparens.<br><br><strong>Vänligen notera: </strong>Detta erbjudande gäller endast en gång per EuroBonus medlem och är endast tillåtet för nya medlemmar, som inte är eller inte har varit medlem i Singular Society tidigare. Du tjänar poäng som betalande medlem i minst 1 år. Poäng betalas ut efter 3 månader.<br><br></div><h1>Uppsägning av medlemskap</h1><div>&nbsp;<br><strong>Månadsvis:</strong> Om du inte vill att medlemskapet ska förnyas efter 12 månader kan du säga upp det när som helst under medlemskapsperioden. Uppsägningstiden är en månad före nästa faktureringsperiod.<br> <br><strong>Inom 14 dagar:</strong> Medlemsskapet är bindande i 12 månader, du har möjlighet att avsluta ditt medlemskap inom 14 dagar från det datum du registrerade dig. Detta gäller dock bara om du inte har gjort några köp eller om du returnerar alla köp i samma skick som du fick dem. I så fall kommer du inte att tjäna poäng.<br> <br><strong>Efter 12 månader:</strong> När du har slutfört alla 12 betalningar kan du säga upp ditt medlemskap via din profil. Du kommer att få ett bekräftelsemejl när ditt medlemskap har avslutats.<br> <br><strong>Frågor:</strong> Om du har frågor om uppsägning kan du kontakta Singular Society på <a href=\"mailto:hello@singular-society.com\">hello@singular-society.com</a>&nbsp;</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-07-09",
