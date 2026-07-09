@@ -2150,15 +2150,15 @@
   },
   "0189630d-af8b-717b-b0cb-1f385bd015f5": {
     "active_campaign": {
-      "ends_date": "12.07.2026",
+      "ends_date": "19.07.2026",
       "points_campaign": 1000,
       "points_channel": 200,
       "started": "2026-07-06"
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 1000,
-    "campaign_ends_human": "om 2 dager",
-    "campaign_ends_human_en": "om 2 dager",
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "NOK",
