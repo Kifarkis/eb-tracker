@@ -575,15 +575,15 @@
   },
   "01896309-3382-7064-8492-7a9697ea0367": {
     "active_campaign": {
-      "ends_date": "12.07.2026",
+      "ends_date": "31.07.2026",
       "points_campaign": 2000,
       "points_channel": 400,
       "started": "2026-07-01"
     },
     "all_time_high_date": "2026-05-04",
     "all_time_high_points": 2000,
-    "campaign_ends_human": "om 1 dag",
-    "campaign_ends_human_en": "in 1 day",
+    "campaign_ends_human": "om 2 uger",
+    "campaign_ends_human_en": "in 2 weeks",
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "DKK",
@@ -4867,11 +4867,12 @@
     "current_points_channel": 5,
     "description": "<div>Ambitionen er at dække hele paletten af vine fra de let drikkelige følgesvende, der serveres til de nære samtaler mennesker imellem til de opmærksomhedskrævende og ambitiøse vine, der drager vinnydere dybere ind i vinens enorme forunderlige univers.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-10",
     "last_seen": "2026-07-10",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/lDsfxtqav3wZAwWSXMeTZ9zwLQOaoDTgb9QmOB3l.jpg",
     "name": "DH Wines",
     "slug": "dh-wines",
-    "status": "active",
+    "status": "gone",
     "uuid": "018f198e-a6ba-711a-b7e2-3dbcc7eea0c3"
   },
   "018f19a8-0f55-7106-88d2-86549ce57249": {
@@ -5876,6 +5877,27 @@
     "status": "active",
     "uuid": "019c471d-3226-72a8-b7fe-6d60a6668bfb"
   },
+  "019c472e-ad8b-703a-9abe-dd62e2e9519b": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>&nbsp;Reebok er et internationalt sports- og træningsbrand, der tilbyder sportstøj, sko og udstyr til fitness, løb, træning og aktiv livsstil for både mænd og kvinder.&nbsp;</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/6xF0MPMH6bXXnvS7JL50q5bVHgf3CVFXr0ebZS0E.png",
+    "name": "Reebok",
+    "slug": "reebok",
+    "status": "active",
+    "uuid": "019c472e-ad8b-703a-9abe-dd62e2e9519b"
+  },
   "019c9982-a557-7050-963f-ed75c89bc565": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
@@ -6070,5 +6092,26 @@
     "slug": "jorgsholm",
     "status": "active",
     "uuid": "019f3760-cd44-7292-951f-c1833f710916"
+  },
+  "019f4b21-c095-7222-9b6a-634440c4b032": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>Healthwell brænder for en sund livsstil med omtanke for både mennesker og miljø. Brandet tilbyder et bredt udvalg af naturlige produkter inden for sundhed, træning, kost og skønhed med fokus på at gøre det nemmere at træffe sunde valg i hverdagen.</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/TrXs6Oy6ieUum5nPO0oFb24my8VOEuXOTMJkpp6a.png",
+    "name": "Healthwell",
+    "slug": "healthwell",
+    "status": "active",
+    "uuid": "019f4b21-c095-7222-9b6a-634440c4b032"
   }
 }

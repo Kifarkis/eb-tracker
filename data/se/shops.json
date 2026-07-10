@@ -9964,5 +9964,26 @@
     "slug": "mytheresa",
     "status": "active",
     "uuid": "019edad6-5e38-7178-ae89-d222ff519417"
+  },
+  "019f4b17-a307-73b6-bb20-384bc9b4cb2d": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>The Perfume Brand gör högkvalitativa parfymer tillgängliga för fler genom att fokusera på det viktigaste, själva doften. Alla parfymer är cruelty free, 100 % veganska och tillverkade med noggrant utvalda ingredienser från Grasse i Frankrike, världens parfymhuvudstad.</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/RP3y45G00Y7iVCggNq63epKZy2OubArdbINnjbqB.png",
+    "name": "The Perfume Brand",
+    "slug": "the-perfume-brand",
+    "status": "active",
+    "uuid": "019f4b17-a307-73b6-bb20-384bc9b4cb2d"
   }
 }

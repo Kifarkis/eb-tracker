@@ -5404,5 +5404,26 @@
     "slug": "kost1",
     "status": "active",
     "uuid": "019f374b-74f0-73aa-82f5-e11c748d36c2"
+  },
+  "019f4b0f-a8c1-71dc-909b-e1fbbe655a13": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>Camilla Phil er et Oslo-basert motemerke grunnlagt av Camilla Pihl. Med fokus på tidløs femininitet, skandinavisk design og kvalitetsplagg tilbyr merket moderne garderobefavoritter til kvinner som ønsker en stilren og allsidig garderobe.</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/5OqcANm3FiNHbPRfadwwBECQEg33H1urZ3m5MyXO.png",
+    "name": "Camilla Phil",
+    "slug": "camilla-phil",
+    "status": "active",
+    "uuid": "019f4b0f-a8c1-71dc-909b-e1fbbe655a13"
   }
 }
