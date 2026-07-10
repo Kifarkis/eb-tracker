@@ -6113,5 +6113,26 @@
     "slug": "healthwell",
     "status": "active",
     "uuid": "019f4b21-c095-7222-9b6a-634440c4b032"
+  },
+  "019f4b70-2851-7273-a1d2-b910be3c0299": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Everlast Nordic er den officielle nordiske forhandler af Everlast og tilbyder et bredt udvalg af sportstøj, streetwear og bokseudstyr. Med rødder i Everlasts ikoniske boksearv kombinerer butikken kvalitet, funktionalitet og moderne design til både træning og hverdagsbrug.</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/XwhruqrAWloI9lMw3i5lnyJsDdoofjMPe0mQcpVr.png",
+    "name": "Everlast",
+    "slug": "everlast",
+    "status": "active",
+    "uuid": "019f4b70-2851-7273-a1d2-b910be3c0299"
   }
 }

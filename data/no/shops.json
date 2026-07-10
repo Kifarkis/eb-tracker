@@ -5425,5 +5425,26 @@
     "slug": "camilla-phil",
     "status": "active",
     "uuid": "019f4b0f-a8c1-71dc-909b-e1fbbe655a13"
+  },
+  "019f4b4d-3fc9-7184-a233-bc63156570b5": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-07-10",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": null,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>Bokia.no er Norges største nettbutikk for brukte bøker og gjør det enkelt å finne kvalitetsbøker til lave priser. Med et bredt utvalg av skjønnlitteratur, fagbøker, pensumbøker og barnebøker kombinerer Bokia.no rimelige priser med et sterkt fokus på gjenbruk og bærekraft.</div>",
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VUi2UhnCFG9tBx8FPYexf66BLRGRKiqyaxsmdCCj.png",
+    "name": "Bokia",
+    "slug": "bokia",
+    "status": "active",
+    "uuid": "019f4b4d-3fc9-7184-a233-bc63156570b5"
   }
 }
