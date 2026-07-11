@@ -1,6 +1,6 @@
 {
   "country": "no",
-  "updated": "2026-07-10T07:26:56.542423+00:00",
+  "updated": "2026-07-11T06:07:23.112357+00:00",
   "shop_count": 411,
   "shops": [
     {
@@ -2548,10 +2548,10 @@
       "category_id": 2,
       "points_per_100": 100,
       "currency": "NOK",
-      "website": "https://fjordgull.com/",
+      "website": "https://fjordgull.com/?utm_source=sas&utm_medium=partner&utm_campaign=eurobonus-shopping",
       "phone": "+47 90 50 76 78",
       "email": "hakon@nordkrone.no",
-      "description": "when subscribing to Fjordgull and registering your EuroBonus number. Until September 30, 2026, all new customers earn an extra 2500 points upon sign-up.<br><br>Fjordgull delivers high-quality omega-3 products sourced from sustainably managed Norwegian waters. Produced entirely in Norway, each product is developed with a focus on purity, traceability, and effectiveness.<br><br>Drawing on Norway's world-renowned expertise in marine nutrition, Fjordgull offers a trusted way to support long-term health and wellbeing through the natural benefits of omega-3.",
+      "description": "when subscribing to Fjordgull and registering your EuroBonus number. Until September 30, 2026, all new customers receive an extra 2,500 points. Points are credited within 40 days after your first box has been delivered (first deliveries ship September/October 2026).<br><br>Fjordgull offers premium high-concentration omega-3, produced entirely in Norway under GMP quality standards. Each daily dose provides 680 mg of omega-3, of which 590 mg EPA and DHA. Delivered to your door on a flexible subscription: one box every two months, cancel anytime.",
       "cards_accepted": [],
       "has_fixed_reward": false,
       "coming_soon": false,
