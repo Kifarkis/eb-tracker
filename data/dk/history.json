@@ -1329,5 +1329,53 @@
     "points_channel": 10,
     "started": "2026-06-29",
     "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Comforth Scandinavia",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-07-06",
+    "uuid": "01896312-2b46-7190-8308-27d42e9778ca"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Miinto",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896308-a975-7164-aa9c-41b2ec9d89e2"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Ray-Ban",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Sephora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
   }
 ]

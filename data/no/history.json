@@ -1479,5 +1479,85 @@
     "points_channel": 150,
     "started": "2026-06-29",
     "uuid": "0189630c-97b2-70fc-b190-002eaed90291"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-07-06",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Fortum Strøm",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-07-06",
+    "uuid": "019e3b10-50e5-7328-907c-a44723c5beb0"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Ideal of Sweden",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-07-06",
+    "uuid": "0189630f-4b89-721d-88e7-5b4e2b299f5f"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Makeup Mekka",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-07-06",
+    "uuid": "0197a72c-6e7d-7200-b949-a127880137d2"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Miinto",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896308-a975-7164-aa9c-41b2ec9d89e2"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "PetXL",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "019c7b24-6555-7109-9f9b-b6675d9f3abb"
+  },
+  {
+    "ended": "2026-07-13",
+    "name": "Ray-Ban",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
   }
 ]
