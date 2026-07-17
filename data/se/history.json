@@ -2928,5 +2928,13 @@
     "points_channel": 10,
     "started": "2026-07-06",
     "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
+  },
+  {
+    "ended": "2026-07-17",
+    "name": "Dashl Beauty",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-07-14",
+    "uuid": "019d255f-254f-72df-8940-6aea70418223"
   }
 ]
