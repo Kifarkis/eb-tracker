@@ -2936,5 +2936,13 @@
     "points_channel": 15,
     "started": "2026-07-14",
     "uuid": "019d255f-254f-72df-8940-6aea70418223"
+  },
+  {
+    "ended": "2026-07-18",
+    "name": "Nordiska Kompaniet",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-07-10",
+    "uuid": "019bc659-063f-7135-b5e6-2b3c841e9626"
   }
 ]

@@ -1377,5 +1377,13 @@
     "points_channel": 10,
     "started": "2026-07-06",
     "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-07-18",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-07-06",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
   }
 ]

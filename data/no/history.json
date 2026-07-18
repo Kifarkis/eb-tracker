@@ -1559,5 +1559,13 @@
     "points_channel": 10,
     "started": "2026-07-06",
     "uuid": "0189630e-5109-73dc-8c40-0ed3b9264c9c"
+  },
+  {
+    "ended": "2026-07-18",
+    "name": "Farmasiet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-10",
+    "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
   }
 ]
