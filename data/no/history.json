@@ -1567,5 +1567,133 @@
     "points_channel": 10,
     "started": "2026-07-10",
     "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Beautycos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-13",
+    "uuid": "01896309-dadd-714f-8f53-274cc4f14d01"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Bookbeat",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-07-06",
+    "uuid": "0189630d-af8b-717b-b0cb-1f385bd015f5"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Fabel",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-07-14",
+    "uuid": "0189630f-ef16-7364-aef4-32a7e20009b8"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Guttelus",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-14",
+    "uuid": "019ea62f-5c27-71c4-b406-8227bbee4cab"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Gymgrossisten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-13",
+    "uuid": "01896307-c0a0-73c3-bb34-1854292ab161"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-13",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Ideal of Sweden",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-07-13",
+    "uuid": "0189630f-4b89-721d-88e7-5b4e2b299f5f"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-07-13",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Kost1",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-06",
+    "uuid": "019f374b-74f0-73aa-82f5-e11c748d36c2"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-13",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Lensway",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-07-14",
+    "uuid": "01896307-db4b-7046-b660-cca58f3d53f2"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Oakley",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-13",
+    "uuid": "019d0b3a-53d6-73e2-9bb6-1136e90eaa28"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-14",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-07-14",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-07-20",
+    "name": "Storytel",
+    "points_campaign": 750,
+    "points_channel": 150,
+    "started": "2026-07-14",
+    "uuid": "0189630c-97b2-70fc-b190-002eaed90291"
   }
 ]
