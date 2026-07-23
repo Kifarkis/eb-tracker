@@ -2977,11 +2977,12 @@
     "current_points_channel": 5,
     "description": "<p>Devold of Norway AS er Norges ledende merkevare innen ullbekledning. Vår stolte historie strekker seg helt tilbake til 1853, og våre innovative produkter har vært en viktig del av utrustningen i mange store ekspedisjoner i både inn- og utland. Under merkevaren Devold® utvikles og produseres undertøy, mellombekledning, gensere, sokker og annet tilbehør i ull. Vi eier vår egen fabrikk i Europa, hvor innovasjon og bærekraftig produksjon er sentrale verdier.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-07-23",
     "last_seen": "2026-07-23",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Devold-1689584135.jpg",
     "name": "Devold",
     "slug": "devold",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630f-ec3f-7042-903a-2950e30dfb9c"
   },
   "0189630f-ef16-7364-aef4-32a7e20009b8": {
