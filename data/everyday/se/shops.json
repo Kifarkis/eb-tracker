@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-09-08T08:26:21.869346+00:00",
-  "shop_count": 443,
+  "updated": "2026-09-09T08:28:54.729649+00:00",
+  "shop_count": 444,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -2084,6 +2084,33 @@
       "campaign_description": null,
       "created_at": "2022-06-13 09:52:20",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "inovela",
+      "name": "Inovèla",
+      "country": "se",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.inovela.se",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 12,
+      "points_per_100": 100,
+      "currency": "SEK",
+      "website": "https://inovela.se/forhandsgranska/1e91db3f63dc14e06daf1d9d2bcba4ba2d7d2d76bd2c72a6",
+      "phone": "+46 (0)8 414 00 315",
+      "email": "charlie@inovela.se",
+      "description": "Earn 1 bonus point for every SEK you pay when you install a home battery, after the Green Technology tax deduction.<br><br>Store your solar energy and make your home more energy-efficient with a home battery from Inovèla. With experienced in-house experts, Inovèla supports you throughout the process, from advice and planning to installation and support.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-09-07 06:25:22",
+      "first_seen": "2026-09-09",
       "status": "active"
     },
     {
