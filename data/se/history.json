@@ -4704,5 +4704,13 @@
     "points_channel": 10,
     "started": "2026-08-31",
     "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
+  },
+  {
+    "ended": "2026-09-09",
+    "name": "E.ON",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-09-07",
+    "uuid": "019c1e6d-75f2-70c5-b79f-99971e427f75"
   }
 ]
