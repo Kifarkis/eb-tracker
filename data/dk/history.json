@@ -2105,5 +2105,165 @@
     "points_channel": 6,
     "started": "2026-08-31",
     "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-01",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Albert",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-09-01",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Allente",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-09-03",
+    "uuid": "0189630c-d887-72b0-889d-aec1f78825e4"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-01",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Dustin Erhverv",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0189630b-a1fd-7133-b07a-084f91874cd8"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-07",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Factor",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-09-07",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-07",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Hunkemöller",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-01",
+    "uuid": "0189630a-b3f1-7132-b07f-16beb096de9f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-04",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-04",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Mofibo",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-09-01",
+    "uuid": "01896309-3382-7064-8492-7a9697ea0367"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Nicehair",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-03",
+    "uuid": "01896311-cd52-7367-8aae-0c4b46a3188e"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Otto Suenson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-03",
+    "uuid": "01a061f3-cf1c-72ff-b6a6-d838f5ed65ed"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Rains",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630e-e559-73fb-8554-d9a161d6ff4e"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Sif Jakobs",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-03",
+    "uuid": "01896311-0958-725c-b6df-4d2efeaf54c9"
   }
 ]

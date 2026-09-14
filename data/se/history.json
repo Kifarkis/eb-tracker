@@ -4712,5 +4712,277 @@
     "points_channel": 1600,
     "started": "2026-09-07",
     "uuid": "019c1e6d-75f2-70c5-b79f-99971e427f75"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-01",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Agood Company",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-07",
+    "uuid": "01896311-c762-72e7-8110-9489cd35dfb2"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Albert",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-09-01",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "AstroSweden",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "018abc11-c737-72a5-9183-f13cd99b8a8f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Autodude",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "018f57d7-5ba2-735f-97f3-c511b00c38bb"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Becksöndergaard",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0192c34f-bcd5-707a-8d55-847ef279c784"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Bik Bok",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896309-6122-73a7-8776-d8d505e679d5"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-01",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Bright 1-2-3",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "018abc11-d400-7191-966d-c882cc05726f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Dustin Företag",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0189630b-a1fd-7133-b07a-084f91874cd8"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-07",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Efva Attling",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-01",
+    "uuid": "01896308-d3ef-7121-ad09-3d72c77b2715"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Hallbergs Guld",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630a-782d-73d5-bc0f-263fe1b1fa9f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-07",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Hudoteket",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896309-aa2d-71e5-9c48-248f03c79b6f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Hunkemöller",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-01",
+    "uuid": "0189630a-b3f1-7132-b07f-16beb096de9f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-04",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-04",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "MELIMELI",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-07",
+    "uuid": "019242b2-dd1b-7245-aa07-a6a671eb9271"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Mölndal Energi",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-09-07",
+    "uuid": "0192e751-0293-718b-ab91-d9ceaf7fcb1e"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Petson djurförsäkring",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-09-07",
+    "uuid": "0192ddc6-4608-72b2-8929-5403ce7b51ad"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "RAINS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630e-e559-73fb-8554-d9a161d6ff4e"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Relode",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-09",
+    "uuid": "01a085f3-f409-73f0-a62f-d2c23afb77f9"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "RevolutionRace",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-07",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Salming",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "0189630a-cbcc-7141-a37e-3b98650ae149"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Soffadirekt",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-01",
+    "uuid": "0189630a-1be2-707b-8a6f-d198c40fe2d9"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Sporttema",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-07",
+    "uuid": "01896308-f18d-71b5-9064-ffc3c373972f"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Telinet",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-09-07",
+    "uuid": "018e5102-89f1-70d3-b184-bfb0de1ae948"
+  },
+  {
+    "ended": "2026-09-14",
+    "name": "Trendcarpet",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-07",
+    "uuid": "0197c10c-695d-734a-80cb-afa6b257734f"
   }
 ]
