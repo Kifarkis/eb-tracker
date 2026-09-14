@@ -3446,14 +3446,13 @@
     "current_points": 2000,
     "current_points_campaign": 0,
     "current_points_channel": 400,
-    "description": "<div>Ishavskraft er en av Norges største kraftleverandører, med privat- og bedriftskunder i hele landet. Energibransjen er i endring og Ishavskraft er bare ved begynnelsen av deres reise!</div><div><br></div><div><strong>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder. Gjelder ikke kjøp i nettbutikken. Du må ha vært kunde i minst 3 måneder før poeng utbetales, med virkning fra den dagen avtalen din trer i kraft.</div><div><br></div>",
+    "description": "<div>Ishavskraft er en av Norges største kraftleverandører, med privat- og bedriftskunder i hele landet. Energibransjen er i endring og Ishavskraft er bare ved begynnelsen av deres reise!</div><div><br></div><h1><br>Vilkår for denne partneren</h1><div>Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder. Gjelder ikke kjøp i nettbutikken. Du må ha vært kunde i minst 3 måneder før poeng utbetales, med virkning fra den dagen avtalen din trer i kraft.</div><div><br></div>",
     "first_seen": "2026-04-24",
-    "gone_since": "2026-05-13",
-    "last_seen": "2026-05-13",
+    "last_seen": "2026-09-14",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ishavskraft_strøm-1689584227.jpg",
     "name": "Ishavskraft strøm",
     "slug": "ishavskraft-strøm",
-    "status": "gone",
+    "status": "active",
     "uuid": "01896311-52f1-73e7-808c-3b4e7aea9371"
   },
   "01896311-5664-7143-9c4f-2a783c0f8b17": {
