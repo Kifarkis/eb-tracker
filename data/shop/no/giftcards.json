@@ -2,7 +2,7 @@
   "region": "no",
   "collection": "giftcards",
   "currency": "NOK",
-  "updated": "2026-09-07T10:10:00.111588+00:00",
+  "updated": "2026-09-14T10:32:37.038844+00:00",
   "item_count": 37,
   "items": [
     {
@@ -39,10 +39,10 @@
       "points_price": 3190,
       "cash_price": 99.0,
       "cash_unit": "kr",
-      "accrual_points": 149,
+      "accrual_points": 99,
       "accrual_is_max": false,
       "max_earn_points": null,
-      "points_per_100": 151,
+      "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-08-17",
       "status": "active",
