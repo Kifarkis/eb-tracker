@@ -4918,6 +4918,27 @@
     "status": "active",
     "uuid": "0199c410-ed9b-72f0-ae61-3e87d9179fc8"
   },
+  "019a1174-de0b-7066-a09b-15833c2450d4": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-15",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 8,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Flowlife er en skandinavisk merkevare med fokus på restitusjon, prestasjon og velvære. Sortimentet kombinerer moderne teknologi og funksjonelt design innen blant annet massasje, kompresjon, rødlysterapi samt varme- og kuldeterapi. Produktene er utviklet for aktive mennesker som ønsker å gjøre restitusjon til en naturlig del av hverdagen.</div>",
+    "first_seen": "2026-09-15",
+    "last_seen": "2026-09-15",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/d3muN6NPA3y3M0C64u5IT5THlsLV0LbHnNSsZAmQ.png",
+    "name": "Flowlife",
+    "slug": "flowlife",
+    "status": "active",
+    "uuid": "019a1174-de0b-7066-a09b-15833c2450d4"
+  },
   "019a5e2b-866b-702d-b295-e28101b5ba41": {
     "active_campaign": null,
     "all_time_high_date": "2026-06-12",

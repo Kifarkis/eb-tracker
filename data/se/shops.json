@@ -8985,6 +8985,27 @@
     "status": "active",
     "uuid": "019a1142-a45a-71ce-9252-07d04060e743"
   },
+  "019a1174-de0b-7066-a09b-15833c2450d4": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-15",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 8,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Flowlife är ett skandinaviskt varumärke med fokus på återhämtning, prestation och välmående. Sortimentet kombinerar modern teknik med funktionell design inom bland annat massage, kompression, röd ljusterapi samt värme- och kylterapi. Produkterna riktar sig till aktiva människor som vill göra återhämtning till en naturlig del av sin vardag.</div>",
+    "first_seen": "2026-09-15",
+    "last_seen": "2026-09-15",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/rz4HyhsDyXAaFZdbtuM6xj46wajhb352VMCCZpRn.png",
+    "name": "Flowlife",
+    "slug": "flowlife",
+    "status": "active",
+    "uuid": "019a1174-de0b-7066-a09b-15833c2450d4"
+  },
   "019a5e2b-866b-702d-b295-e28101b5ba41": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-27",
@@ -9020,11 +9041,12 @@
     "current_points_channel": 10,
     "description": "<div>Hos Robotdammsugaren.se kompromissar vi aldrig med kvalitet. Därför hittar du bara noga utvalda robotdammsugare från de bästa tillverkarna på marknaden. Vi erbjuder modeller i alla prisklasser, så att du kan få intelligent städning oavsett budget.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-15",
     "last_seen": "2026-09-15",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VE3fUsiFy9LdypJSBA0sZbdfBfcbcpUJ7YhsgUqU.png",
     "name": "Robot-dammsugaren.se",
     "slug": "robot-dammsugarense",
-    "status": "active",
+    "status": "gone",
     "uuid": "019ac036-6a70-7088-bdc1-15e59b77c31f"
   },
   "019ad964-5fce-7380-ba91-5c4007d5ebbd": {
@@ -10245,11 +10267,12 @@
     "current_points_channel": 10,
     "description": "<div>Australian Bodycare är ett danskt hudvårdsmärke med fokus på tea tree oil-baserade produkter för hud, hår och personlig vård. Sortimentet omfattar bland annat ansiktsvård, kroppsvård, hår- och hårbottenprodukter, intimvård, fotvård och produkter för rakning. Produkterna är utvecklade med fokus på effektiv och enkel vård för olika behov.</div>",
     "first_seen": "2026-09-09",
+    "gone_since": "2026-09-15",
     "last_seen": "2026-09-15",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/UZgfQlYOcRCAsGReLSqrYlK3hpvpFnwNgN1L604Y.png",
     "name": "Australian Bodycare",
     "slug": "australian-bodycare",
-    "status": "active",
+    "status": "gone",
     "uuid": "01a085d7-0b36-732e-ab35-0a9d28aa74c0"
   },
   "01a085f3-f409-73f0-a62f-d2c23afb77f9": {
@@ -10314,5 +10337,26 @@
     "slug": "tennisshoppen",
     "status": "active",
     "uuid": "01a0902e-d2f4-737b-bc2b-87f23feb206e"
+  },
+  "01a0a563-eef8-7139-a69d-6a0ac6685905": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-15",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>J.LINDEBERG är ett svenskt varumärke, grundat i Stockholm, som kombinerar sport och mode med ett tydligt fokus på golf. Varumärket erbjuder moderna kollektioner för både män och kvinnor, där funktionella sportplagg möter skandinavisk design och en premiumkänsla. Sortimentet omfattar även ready-to-wear, racket och moderna livsstilsplagg.</div>",
+    "first_seen": "2026-09-15",
+    "last_seen": "2026-09-15",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/SWZbkgPctxMgRnh9vzacUTlkYpQiu42Y6rg9UxCr.png",
+    "name": "J.Lindeberg",
+    "slug": "jlindeberg",
+    "status": "active",
+    "uuid": "01a0a563-eef8-7139-a69d-6a0ac6685905"
   }
 }
