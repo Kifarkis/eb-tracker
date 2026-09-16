@@ -2375,17 +2375,22 @@
     "uuid": "0189630d-f9a9-7267-addf-d8fb053c5fc9"
   },
   "0189630e-0077-7365-979b-baa2f08a1bc7": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "29.09.2026",
+      "points_campaign": 6000,
+      "points_channel": 1200,
+      "started": "2026-09-16"
+    },
     "all_time_high_date": "2026-08-15",
     "all_time_high_points": 6000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 11,
     "commission_type": "fixed",
     "currency": "DKK",
     "current_points": 1000,
-    "current_points_campaign": 0,
-    "current_points_channel": 200,
+    "current_points_campaign": 6000,
+    "current_points_channel": 1200,
     "description": "<div>HelloFresh leverer måltidskasser direkte til døren med friske, portionsanrettede ingredienser og nemme opskrifter. Vælg mellem et stort udvalg af ugentlige retter, herunder vegetariske, familievenlige og hurtige måltider. HelloFresh gør det nemmere at planlægge aftensmaden, begrænse madspild og lave varieret hjemmelavet mad uden besværlig indkøbstur.</div><div><br></div><h1>Betingelser for denne partner</h1><div>Denne kampagne kan kun bruges en gang per medlem og gælder kun nye kunder med dansk adresse. Hvis du er eller har været kunde hos HelloFresh før kan du ikke benytte tilbudet. Du optjener kun én gang og kun ved bestilling af minimum 3 ugers måltider. Du optjener fortsat, selvom en automatisk rabatkode indsættes.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-16",

@@ -2321,17 +2321,22 @@
     "uuid": "0189630d-fb5b-7045-9d21-b6efc2c4643d"
   },
   "0189630e-0077-7365-979b-baa2f08a1bc7": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "29.09.2026",
+      "points_campaign": 6000,
+      "points_channel": 1200,
+      "started": "2026-09-16"
+    },
     "all_time_high_date": "2026-08-15",
     "all_time_high_points": 6000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 11,
     "commission_type": "fixed",
     "currency": "NOK",
     "current_points": 500,
-    "current_points_campaign": 0,
-    "current_points_channel": 100,
+    "current_points_campaign": 6000,
+    "current_points_channel": 1200,
     "description": "<div>HelloFresh leverer matkasser direkte hjem med ferske, porsjonerte ingredienser og enkle oppskrifter. Velg blant et stort utvalg ukentlige retter, inkludert vegetariske, familievennlige og raske måltider. HelloFresh gjør det enklere å planlegge middagen, redusere matsvinn og lage variert hjemmelaget mat uten behov for en omfattende handletur.</div><div><br></div><h1>Vilkår for denne partneren</h1><div>Denne kampanjen kan kun brukes én gang per medlem og gjelder kun nye kunder med norsk adresse. Du tjener kun poeng én gang og kun ved bestilling av minimum 3 ukers måltider. Du fortsetter å tjene poeng selv om en automatisk rabattkode er satt inn.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-16",

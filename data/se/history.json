@@ -4984,5 +4984,13 @@
     "points_channel": 20,
     "started": "2026-09-07",
     "uuid": "0197c10c-695d-734a-80cb-afa6b257734f"
+  },
+  {
+    "ended": "2026-09-16",
+    "name": "BetterFeast",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-08-24",
+    "uuid": "01896310-2e87-724b-8e38-231cdf71b372"
   }
 ]
