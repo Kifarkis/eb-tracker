@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-09-15T09:04:21.654869+00:00",
+  "updated": "2026-09-16T08:56:32.857587+00:00",
   "shop_count": 444,
   "shops": [
     {
@@ -2087,7 +2087,7 @@
       "status": "active"
     },
     {
-      "uuid": "inovela",
+      "uuid": "inovela-3a075a62-dea8-4288-8e87-20a0119110be",
       "name": "Inovèla",
       "country": "se",
       "city": ".",
@@ -2099,7 +2099,7 @@
       "category_id": 12,
       "points_per_100": 100,
       "currency": "SEK",
-      "website": "https://inovela.se/forhandsgranska/1e91db3f63dc14e06daf1d9d2bcba4ba2d7d2d76bd2c72a6",
+      "website": "https://inovela.se/kampanjer/eurobonus",
       "phone": "+46 (0)8 414 00 315",
       "email": "charlie@inovela.se",
       "description": "Earn 1 bonus point for every SEK you pay when you install a home battery, after the Green Technology tax deduction.<br><br>Store your solar energy and make your home more energy-efficient with a home battery from Inovèla. With experienced in-house experts, Inovèla supports you throughout the process, from advice and planning to installation and support.",
@@ -2110,7 +2110,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2026-09-07 06:25:22",
-      "first_seen": "2026-09-09",
+      "first_seen": "2026-09-16",
       "status": "active"
     },
     {
@@ -13449,6 +13449,34 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "inovela",
+      "name": "Inovèla",
+      "country": "se",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.inovela.se",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 12,
+      "points_per_100": 100,
+      "currency": "SEK",
+      "website": "https://inovela.se/forhandsgranska/1e91db3f63dc14e06daf1d9d2bcba4ba2d7d2d76bd2c72a6",
+      "phone": "+46 (0)8 414 00 315",
+      "email": "charlie@inovela.se",
+      "description": "Earn 1 bonus point for every SEK you pay when you install a home battery, after the Green Technology tax deduction.<br><br>Store your solar energy and make your home more energy-efficient with a home battery from Inovèla. With experienced in-house experts, Inovèla supports you throughout the process, from advice and planning to installation and support.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-09-07 06:25:22",
+      "first_seen": "2026-09-09",
+      "status": "gone",
+      "gone_since": "2026-09-16"
     },
     {
       "uuid": "knut-regeringsgatan",
