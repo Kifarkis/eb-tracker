@@ -5333,17 +5333,22 @@
     "uuid": "019e3b10-50e5-7328-907c-a44723c5beb0"
   },
   "019e970d-0495-7157-9e54-8ca85e468634": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "30.09.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-16"
+    },
     "all_time_high_date": "2026-06-05",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Volt er Nordens ledende multibrandkonsept for menn og tilbyr tidløse, moderne og velkledde plagg for alle anledninger. Selskapet ble etablert i 2006 og har i dag over 90 butikker i Norge, Sverige og Finland, i tillegg til en omfattende nettbutikk. Volt fører et nøye kuratert utvalg av nordiske og internasjonale merkevarer med fokus på klassisk design og høy kvalitet, og gjør det enkelt for menn å handle både hverdagsplagg og antrekk til livets store anledninger.<br><br></div><h1>Vilkår for denne partneren</h1><div>Du tjener kun poeng på nettbestillinger og ikke på kjøp i fysiske Volt-butikker. Du kan ikke tjene poeng på gavekort og forhåndsbestillinger.</div>",
     "first_seen": "2026-06-05",
     "last_seen": "2026-09-16",

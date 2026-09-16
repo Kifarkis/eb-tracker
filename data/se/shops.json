@@ -4973,11 +4973,12 @@
     "current_points_channel": 5,
     "description": "<p>Med ett sortiment från frö till växthus finns här allt för alla som gillar att odla oavsett kunskapsnivå och plats. Vi gör det enkelt att odla ute, inne och på balkongen och har allt som behövs för enkel och lyckad skötsel av din trädgård.&nbsp;Vår specialitet är utvalda produkter från svenska och internationella leverantörer med kvalitet för att göra det enkelt att lyckas oavsett om du är grön eller har gröna fingrar.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-16",
     "last_seen": "2026-09-16",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Wexthuset-1689584168.jpg",
     "name": "Wexthuset",
     "slug": "wexthuset",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896310-6da3-70aa-b91f-041b0b756ccb"
   },
   "01896310-6fe5-71d2-a915-4d9f58c8d27a": {
@@ -9560,17 +9561,22 @@
     "uuid": "019d1aba-8241-7318-920d-9c5103fdd012"
   },
   "019d1abe-ba9d-733e-b161-7d1ec18a46ef": {
-    "active_campaign": null,
-    "all_time_high_date": "2026-04-24",
-    "all_time_high_points": 15,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "active_campaign": {
+      "ends_date": "2026-09-30",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-09-16"
+    },
+    "all_time_high_date": "2026-09-16",
+    "all_time_high_points": 30,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": null,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 15,
-    "current_points_campaign": 0,
-    "current_points_channel": 3,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
     "description": "<div>Vi är specialiserade på att leverera Microsofts molntjänster för företag: Office 365, Azure och SharePoint. Vi är också en ledande leverantör av förstklassiga nätverks-, server-, programvaru- och IT-hårdvarulösningar för små och medelstora företag. Genom att kontinuerligt skaffa oss kunskap och erfarenhet kan vi effektivt tillgodose behoven hos kunder över hela världen.&nbsp;</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-16",
@@ -9853,6 +9859,32 @@
     "slug": "dina-forsakringar",
     "status": "active",
     "uuid": "019e91ed-f117-707f-9de7-2643468118f6"
+  },
+  "019e970d-0495-7157-9e54-8ca85e468634": {
+    "active_campaign": {
+      "ends_date": "2026-09-30",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-16"
+    },
+    "all_time_high_date": "2026-09-16",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Volt erbjuder ett noggrant utvalt sortiment av nordiska och internationella varumärken med fokus på klassisk design och hög kvalitet. Detta gör det enkelt för män att handla både vardagsplagg och kläder för livets stora tillfällen.</div>",
+    "first_seen": "2026-09-16",
+    "last_seen": "2026-09-16",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/f1a93prAOFoRG18dUs4onLVVPcuBDea9EoE2lLxU.png",
+    "name": "Volt",
+    "slug": "volt",
+    "status": "active",
+    "uuid": "019e970d-0495-7157-9e54-8ca85e468634"
   },
   "019e9785-274b-7017-8bd8-61fb7372192e": {
     "active_campaign": null,
