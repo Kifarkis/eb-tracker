@@ -237,17 +237,22 @@
     "uuid": "01896307-ce95-73ec-b705-8d5a7c4410b2"
   },
   "01896307-db4b-7046-b660-cca58f3d53f2": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-09-20",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-17"
+    },
     "all_time_high_date": "2026-07-14",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 dagar",
+    "campaign_ends_human_en": "in 2 days",
     "category_id": 8,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Lensway är en ledande nordisk nätbutik för kontaktlinser, glasögon och solglasögon. Sortimentet omfattar bland annat endagslinser, månadslinser, multifokala och toriska linser samt glasögonbågar och solglasögon. Lensway erbjuder konkurrenskraftiga priser, prisgaranti på kontaktlinser, snabb leverans och abonnemang, vilket gör det enkelt att beställa optikprodukter online.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-17",
@@ -6954,17 +6959,22 @@
     "uuid": "018e5133-91ac-711a-89f5-cecb1927e9f8"
   },
   "018ead91-a62a-71c0-b877-9faf0d120af4": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-09-20",
+      "points_campaign": 75,
+      "points_channel": 15,
+      "started": "2026-09-17"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 dagar",
+    "campaign_ends_human_en": "in 2 days",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 50,
-    "current_points_campaign": 0,
-    "current_points_channel": 10,
+    "current_points_campaign": 75,
+    "current_points_channel": 15,
     "description": "<div>Hitta precis det du letar efter på Amazon.se - en av världens största shoppingplattformar. Få snabb leverans, ett enormt utbud och fri frakt vid köp över 229. Naturligtvis erbjuder Amazon också enkla och bekväma returer. <br><br><strong>Viktigt:</strong> Läs igenom villkoren nedan för att tjäna poäng hos Amazon. Du kan inte tjäna poäng på köp via Amazon-appen!<br><br></div><div><strong>Så här fungerar det: </strong><br><br></div><div>1. Logga in och klicka på shoppa nu. Acceptera alltid Amazons cookies.<br><br></div><div>2. Slutför beställningen i samma session och besök inte andra webbplatser samtidigt. Har du redan varor i din Amazon-inköpskorg? Töm då din korg först. Endast varor som har lagts till efter att du har klickat på länken på onlineshopping.flysas.com är berättigade till att tjäna EuroBonus-poäng.&nbsp;<br><br></div><div>3. Välj de varor du vill köpa. Lägg dem i din korg och slutför utcheckningsprocessen.&nbsp;<br><br></div><div>4. Köpet registreras automatiskt och du får ett bekräftelse mail om poängintjäning när varorna har skickats.<br><br></div><div>&nbsp;<br><br></div><div><strong>Observera särskilda villkor för köp på Amazon:</strong><br><br>- Kom ihåg att du måste handla via den här sidan.<br><br>- Vi registrerar ditt köp först när din vara har skickats.</div><div><br>- Du kan inte tjäna poäng på spel, presentkort, frakt och moms.&nbsp;<br><br></div><div>- Om du handlar från flera kategorier kommer dina beställningar att visas som flera transaktioner.&nbsp;<br><br></div><div>- Du kommer inte att tjäna poäng på varor som redan finns i din varukorg.&nbsp;<br><br></div><div>- Du tjänar endast poäng för beställningar som levereras till Sverige.<br><br></div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-17",
@@ -10390,5 +10400,26 @@
     "slug": "jlindeberg",
     "status": "active",
     "uuid": "01a0a563-eef8-7139-a69d-6a0ac6685905"
+  },
+  "01a0afb5-50bc-719e-81d8-d8df4a035dc8": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-17",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Lampan.se är en svensk nätbutik specialiserad på lampor och belysning. Med över 10 000 produkter från fler än 20 välkända varumärken erbjuder butiken belysning för hemmets alla rum och även utomhusmiljöer. Sortimentet kombinerar funktion, kvalitet och skandinavisk design för olika stilar och behov.</div>",
+    "first_seen": "2026-09-17",
+    "last_seen": "2026-09-17",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/KepCpmBNV9wvdgLSyr24XyOjypJZbCroJMecTbz8.png",
+    "name": "Lampan",
+    "slug": "lampan",
+    "status": "active",
+    "uuid": "01a0afb5-50bc-719e-81d8-d8df4a035dc8"
   }
 }
