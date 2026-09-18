@@ -2363,6 +2363,27 @@
     "status": "active",
     "uuid": "0189630d-d0f2-738b-b2e1-8f0d7db8babe"
   },
+  "0189630d-de8e-70ab-86a4-6a9fa9db16c6": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-18",
+    "all_time_high_points": 1500,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 8,
+    "commission_type": "fixed",
+    "currency": "DKK",
+    "current_points": 1500,
+    "current_points_campaign": 0,
+    "current_points_channel": 300,
+    "description": "<div>Oslo Skin Lab er en nordisk beauty- og wellnessvirksomhed med fokus på hudpleje indefra. Brandet er især kendt for The Solution™ Beauty Collagen med 100 % hydrolyserede Verisol® kollagenpeptider. Produkterne er udviklet med fokus på dokumenterede ingredienser og en enkel, daglig skønhedsrutine.<br /><br /></div><h1>Vilkår for denne partner</h1><div>Kampagnen gælder kun for nye kunder, som ikke er eller tidligere har været kunder hos Oslo Skin Lab.</div>",
+    "first_seen": "2026-09-18",
+    "last_seen": "2026-09-18",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/WHh6voFM8qY13DQ8lx9p1LYPTqQuFny1N6YkgMna.png",
+    "name": "Oslo Skin Lab",
+    "slug": "oslo-skin-lab",
+    "status": "active",
+    "uuid": "0189630d-de8e-70ab-86a4-6a9fa9db16c6"
+  },
   "0189630d-f9a9-7267-addf-d8fb053c5fc9": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
@@ -4131,11 +4152,12 @@
     "current_points_channel": 5,
     "description": "<p>Danmarks hurtigst voksende forhandler af baby- og børneudstyr. Uanset om man er kommende forældre, nybagte eller har mange års erfaring på bagen, så kan man hos Pixizoo finde alt det, der gør livet med børn endnu sjovere og nemmere.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-18",
     "last_seen": "2026-09-18",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Pixizoo-1689584238.jpg",
     "name": "Pixizoo",
     "slug": "pixizoo-1",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896311-7fa4-73d5-b022-dea4434fc4fc"
   },
   "01896311-859b-70f9-876a-a52c61ec5e5a": {
@@ -6653,5 +6675,26 @@
     "slug": "skisport",
     "status": "active",
     "uuid": "01a085eb-4ff3-7170-937e-378bbbd986b0"
+  },
+  "01a0b373-9233-715c-8419-b59ff34813e6": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-18",
+    "all_time_high_points": 50,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 4,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 50,
+    "current_points_campaign": 0,
+    "current_points_channel": 10,
+    "description": "<div>Soundliving er et dansk brand, der kombinerer lydteknologi med moderne skandinavisk design. Sortimentet består blandt andet af in-ear og over-ear høretelefoner, earbuds, trådløse højtalere og lydtilbehør. Brandet har fokus på komfort, funktionalitet og et stilrent design, der passer til en moderne livsstil.</div>",
+    "first_seen": "2026-09-18",
+    "last_seen": "2026-09-18",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/SZgD1Gl2dLKfkrUzwaQwx3whlNN6uC7Qi2NfYnaH.png",
+    "name": "Soundliving",
+    "slug": "soundliving",
+    "status": "active",
+    "uuid": "01a0b373-9233-715c-8419-b59ff34813e6"
   }
 }

@@ -5850,5 +5850,26 @@
     "slug": "pace",
     "status": "active",
     "uuid": "01a0afae-eb49-7379-b85b-a13ca010d7fa"
+  },
+  "01a0b396-bcad-7228-b050-cc49a5084adb": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-18",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>PERGOLUX er en norsk merkevare som utvikler pergolaer og tilbehør for nordiske uteområder. Sortimentet inkluderer aluminiumspergolaer med manuelle eller motoriserte lamelltak, samt glassvegger, screens, LED-belysning og varmelamper. Produktene kombinerer skandinavisk design med funksjonelle løsninger for et mer komfortabelt og værbeskyttet uterom.</div>",
+    "first_seen": "2026-09-18",
+    "last_seen": "2026-09-18",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/AoMr8xdCa4Gkx065RUkoA6EviO7aU3OGtmE1HEWX.png",
+    "name": "Pergolux",
+    "slug": "pergolux",
+    "status": "active",
+    "uuid": "01a0b396-bcad-7228-b050-cc49a5084adb"
   }
 }
