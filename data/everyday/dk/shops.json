@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-09-17T09:01:07.091637+00:00",
-  "shop_count": 351,
+  "updated": "2026-09-18T08:36:32.932002+00:00",
+  "shop_count": 348,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel-3",
@@ -2083,36 +2083,6 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2026-04-13 08:05:50",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
-      "uuid": "den-bla-hund",
-      "name": "Den Blå Hund",
-      "country": "dk",
-      "city": "Frederiksberg",
-      "postcode": "2000",
-      "address": "Godthåbsvej 28",
-      "lat": 55.6865172,
-      "lng": 12.5341781,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 50,
-      "currency": "DKK",
-      "website": "www.denblaahund.dk",
-      "phone": "+4577772000",
-      "email": "info@cafedenblaahund.dk",
-      "description": "A place you come all day for brunch, lunch, coffee, dinner and delicious cocktails. We love to take care of our guests in cozy rooms. In the summer, we open up to Den Blå Hund at Aksel Møllers Have plass, where you can enjoy a cold glass of wine and one of our delicious dishes in the sun.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2020-10-29 10:23:35",
       "first_seen": "2026-05-05",
       "status": "active"
     },
@@ -10253,6 +10223,37 @@
       "status": "active"
     },
     {
+      "uuid": "den-bla-hund",
+      "name": "Den Blå Hund",
+      "country": "dk",
+      "city": "Frederiksberg",
+      "postcode": "2000",
+      "address": "Godthåbsvej 28",
+      "lat": 55.6865172,
+      "lng": 12.5341781,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "DKK",
+      "website": "www.denblaahund.dk",
+      "phone": "+4577772000",
+      "email": "info@cafedenblaahund.dk",
+      "description": "A place you come all day for brunch, lunch, coffee, dinner and delicious cocktails. We love to take care of our guests in cozy rooms. In the summer, we open up to Den Blå Hund at Aksel Møllers Have plass, where you can enjoy a cold glass of wine and one of our delicious dishes in the sun.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2020-10-29 10:23:35",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-09-18"
+    },
+    {
       "uuid": "zalt",
       "name": "Zalt",
       "country": "dk",
@@ -10280,7 +10281,8 @@
       "campaign_description": null,
       "created_at": "2020-10-29 10:23:34",
       "first_seen": "2026-05-05",
-      "status": "active"
+      "status": "gone",
+      "gone_since": "2026-09-18"
     },
     {
       "uuid": "zirup",
@@ -10307,7 +10309,8 @@
       "campaign_description": null,
       "created_at": "2020-10-29 10:23:33",
       "first_seen": "2026-05-05",
-      "status": "active"
+      "status": "gone",
+      "gone_since": "2026-09-18"
     },
     {
       "uuid": "aalborg-historiske-museum",

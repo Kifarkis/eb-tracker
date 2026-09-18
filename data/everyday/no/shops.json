@@ -1,7 +1,7 @@
 {
   "country": "no",
-  "updated": "2026-09-17T09:01:07.106849+00:00",
-  "shop_count": 412,
+  "updated": "2026-09-18T08:36:32.947360+00:00",
+  "shop_count": 413,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel",
@@ -972,6 +972,35 @@
       "campaign_description": null,
       "created_at": "2017-04-21 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "egon-gulskogen-5b7d91de-faac-4fc7-b138-82553d64adf5",
+      "name": "Egon Gulskogen",
+      "country": "no",
+      "city": "Drammen",
+      "postcode": "3048",
+      "address": "Guldlisten 35",
+      "lat": 59.7423248,
+      "lng": 10.1577108,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "NOK",
+      "website": "www.egon.no",
+      "phone": "+98203000",
+      "email": "Gulskogen@egon.no",
+      "description": "Make sure to also enroll the linked card in the Egon app so you won’t miss a point.<br/><br/>At Egon everyone belongs!<br/><br/>When you visit our Restaurants you'll experience a homely and warm atmosphere, friendly service and delicious food. This is our recipe for a joyful evening. This is why we have developed a passionate concept that helps us fulfill this recipe every single day. We have worked on our interior design, food and atmosphere for many years to ensure that you can enjoy your meal under the best circumstances possible.<br/><br/>We're looking forward to seeing you in the future at one of our many restaurants in Norway.",
+      "cards_accepted": [
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-09-17 14:40:19",
+      "first_seen": "2026-09-18",
       "status": "active"
     },
     {
