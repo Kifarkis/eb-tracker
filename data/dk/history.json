@@ -2361,5 +2361,13 @@
     "points_channel": 10,
     "started": "2026-09-14",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "H&M",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-17",
+    "uuid": "0189630c-ecb3-72e3-85ad-ca8b587c08df"
   }
 ]
