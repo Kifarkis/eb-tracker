@@ -4992,5 +4992,109 @@
     "points_channel": 1000,
     "started": "2026-08-24",
     "uuid": "01896310-2e87-724b-8e38-231cdf71b372"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Amazon",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-17",
+    "uuid": "018ead91-a62a-71c0-b877-9faf0d120af4"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Björn Borg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Db Journey",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-14",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "E.ON",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-09-14",
+    "uuid": "019c1e6d-75f2-70c5-b79f-99971e427f75"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "EuroFlorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "GANT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896312-beb2-7051-a0a1-ff2121e0dee9"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Gymgrossisten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896307-c0a0-73c3-bb34-1854292ab161"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-14",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Lensway",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-17",
+    "uuid": "01896307-db4b-7046-b660-cca58f3d53f2"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Lyko",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "MELIMELI",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-14",
+    "uuid": "019242b2-dd1b-7245-aa07-a6a671eb9271"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Sony",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0199b943-21ab-70fd-9417-c4e79b1b4446"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Watery",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
   }
 ]

@@ -2265,5 +2265,101 @@
     "points_channel": 15,
     "started": "2026-09-03",
     "uuid": "01896311-0958-725c-b6df-4d2efeaf54c9"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Björn Borg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Den sidste flaske",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-17",
+    "uuid": "0189630e-9cd3-73ca-b2d1-a6b5fb31abe6"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Euroflorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Factor",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-09-14",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "GANT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "01896312-beb2-7051-a0a1-ff2121e0dee9"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-14",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Lensway",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-17",
+    "uuid": "01896307-db4b-7046-b660-cca58f3d53f2"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Lyko",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Magasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-17",
+    "uuid": "01896310-cff7-730e-a0e8-c319ca656c74"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Sony",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-07",
+    "uuid": "0199b943-21ab-70fd-9417-c4e79b1b4446"
+  },
+  {
+    "ended": "2026-09-21",
+    "name": "Watery",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-14",
+    "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
   }
 ]
