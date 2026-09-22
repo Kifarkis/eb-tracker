@@ -2735,5 +2735,13 @@
     "points_channel": 10,
     "started": "2026-09-14",
     "uuid": "0189630e-696e-72ee-9f35-c16d8e6c5924"
+  },
+  {
+    "ended": "2026-09-22",
+    "name": "Ishavskraft strøm",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-09-21",
+    "uuid": "01896311-52f1-73e7-808c-3b4e7aea9371"
   }
 ]

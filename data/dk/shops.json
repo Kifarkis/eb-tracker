@@ -3601,11 +3601,12 @@
     "current_points_channel": 3,
     "description": "<p>Komplett.dk er butikken for alle, der synes, at hverdagen bliver lidt lettere og sjovere med elektronik. Hos os finder du alt fra gamingudstyr og dataudstyr til PC’er, mobiler, køkkenudstyr, TV, lyd og smart-produkter.</p>\r\n\r\n<p><br>Vi har leveret elektronik til danske hjem siden 2006. Komplett.dk er en del af Komplett Group, som er Nordens største inden for e-handel med i alt otte netbutikker i Skandinavien.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-22",
     "last_seen": "2026-09-22",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Komplett-1689584160.jpg",
     "name": "Komplett",
     "slug": "komplett-1",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896310-4cf5-73e3-ba30-14f26f67ddb9"
   },
   "01896310-5de4-71af-9cfa-190c9eebec97": {
@@ -3836,7 +3837,7 @@
     "current_points": 25,
     "current_points_campaign": 50,
     "current_points_channel": 10,
-    "description": "<div>Magasin er et dansk stormagasin og online shoppingunivers med et bredt udvalg af mode, beauty, bolig, accessories, design og livsstilsprodukter. På Magasin.dk finder du kendte danske og internationale brands inden for blandt andet tøj, sko, parfume, makeup, hudpleje, smykker, boligindretning og meget mere til hele familien.</div><div><strong><br>Bemærk venligst:</strong> Kampagnen gælder kun online, og ikke i Magasin's fysiske varehuse. Gælder ikke køb via App'en. Kampagnen gælder ikke på køb af gavekort.</div>",
+    "description": "<div>Magasin er et dansk stormagasin og online shoppingunivers med et bredt udvalg af mode, beauty, bolig, accessories, design og livsstilsprodukter. På Magasin.dk finder du kendte danske og internationale brands inden for blandt andet tøj, sko, parfume, makeup, hudpleje, smykker, boligindretning og meget mere til hele familien.</div><div><strong><br />Bemærk venligst:</strong> Kampagnen gælder kun online, og ikke i Magasin&#039;s fysiske varehuse. Gælder ikke køb via App&#039;en. Kampagnen gælder ikke på køb af gavekort. Du kan ikke optjene point hvis du benytter gavekort som betalingsmetode.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-22",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Magasin_Online_shop-1689584193.jpg",

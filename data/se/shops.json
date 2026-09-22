@@ -4939,11 +4939,12 @@
     "current_points_channel": 3,
     "description": "<div>Komplett är en ledande nordisk onlineåterförsäljare av elektronik med ett brett sortiment av datorer, PC-komponenter, gamingprodukter, skärmar, TV-apparater, vitvaror och tillbehör. Hos Komplett hittar du både färdigbyggda gamingdatorer och komponenter för att bygga din egen PC, tillsammans med produkter från välkända varumärken. Jämför enkelt modeller, priser och specifikationer.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-22",
     "last_seen": "2026-09-22",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Komplett-1689584160.jpg",
     "name": "Komplett",
     "slug": "komplett-1",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896310-4cf5-73e3-ba30-14f26f67ddb9"
   },
   "01896310-53fd-714f-a6f7-291cff7e7154": {
@@ -9326,7 +9327,7 @@
     "current_points": 2500,
     "current_points_campaign": 0,
     "current_points_channel": 500,
-    "description": "<div>E.ON är ett av Europas ledande energibolag och levererar el, värme och energilösningar till miljontals kunder. I Norden förser E.ON både hushåll och företag med energi och är en stark drivkraft i utvecklingen av förnybar elproduktion, smarta elnät och hållbara energitjänster. Med fokus på innovation, kundnytta och konkurrenskraftiga elavtal är E.ON ett tryggt och välkänt val på energimarknaden.<br><br></div><div><strong>Observera:</strong> Om du beställer ett elavtal för en lägenhet ändras dina poäng till 4 000.&nbsp;</div><div><br></div><h1>Villkor för denna partner</h1><div>Den här kampanjen kan bara användas en gång per Eurobonus-medlem, och gäller endast nya kunder. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du tjänar poäng för \"fast\", \"rörligt\" och \"timpris\". Du måste ha varit kund i minst 3 månader innan poäng betalas ut, med verkan från den dag ditt avtal träder i kraft.</div>",
+    "description": "<div>E.ON är ett av Europas ledande energibolag och levererar el, värme och energilösningar till miljontals kunder. I Norden förser E.ON både hushåll och företag med energi och är en stark drivkraft i utvecklingen av förnybar elproduktion, smarta elnät och hållbara energitjänster. Med fokus på innovation, kundnytta och konkurrenskraftiga elavtal är E.ON ett tryggt och välkänt val på energimarknaden.<br /><br /></div><div><br /></div><h1>Villkor för denna partner</h1><div>Den här kampanjen kan bara användas en gång per Eurobonus-medlem, och gäller endast nya kunder. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du tjänar poäng för &#34;fast&#34;, &#34;rörligt&#34; och &#34;timpris&#34;. Du måste ha varit kund i minst 3 månader innan poäng betalas ut, med verkan från den dag ditt avtal träder i kraft.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-22",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/zIsrbOBAoqBvWBJQvH48WoMiGXCLUORxiLdhHa3Z.png",
