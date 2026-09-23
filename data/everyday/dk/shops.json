@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-09-22T08:54:22.730204+00:00",
+  "updated": "2026-09-23T08:56:30.395507+00:00",
   "shop_count": 348,
   "shops": [
     {
@@ -7171,7 +7171,7 @@
       "status": "active"
     },
     {
-      "uuid": "restaurant-cap-horn",
+      "uuid": "restaurant-cap-horn-62da1a35-911b-4061-9ec7-e1280a201f1e",
       "name": "Restaurant Cap Horn",
       "country": "dk",
       "city": "København K",
@@ -7198,7 +7198,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2019-08-26 00:00:00",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-09-23",
       "status": "active"
     },
     {
@@ -7566,7 +7566,7 @@
       "status": "active"
     },
     {
-      "uuid": "restaurant-zeleste",
+      "uuid": "restaurant-zeleste-86d2ca45-5598-4fee-99f2-570cbce4014f",
       "name": "Restaurant Zeleste",
       "country": "dk",
       "city": "København K",
@@ -7593,7 +7593,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2019-08-26 00:00:00",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-09-23",
       "status": "active"
     },
     {
@@ -10221,6 +10221,70 @@
       "created_at": "2020-10-29 10:23:34",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "restaurant-cap-horn",
+      "name": "Restaurant Cap Horn",
+      "country": "dk",
+      "city": "København K",
+      "postcode": "1051",
+      "address": "Nyhavn 21",
+      "lat": 55.680411,
+      "lng": 12.5895464,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "DKK",
+      "website": "www.caphorn.dk",
+      "phone": "+4533128504",
+      "email": "pk@tholstrup.dk",
+      "description": "You will find Cap Horn a short walk down the cobblestone street of the charming quay, Nyhavn. The beautiful, old building, which used to be a favorite place for thirsty sailors on leave, was in the 1990's transformed into a restaurant with a focus on organic produce.<br/>Cap Horn has since maintained this organic mindset and all of our ingredients are carefully selected based on quality and with consideration for our climate.<br/>Every day our chefs prepare dishes based on the seasonal offerings of fresh produce. All of the ingredients must live up to a high standard of quality and we prefer to use organic produce. All of our basic ingredients are organic and we have a large selection of organic vegetables and meat. Our coffee, tea and the majority of our wine and beer selection also come from organic suppliers.",
+      "cards_accepted": [
+        "MC",
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2019-08-26 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-09-23"
+    },
+    {
+      "uuid": "restaurant-zeleste",
+      "name": "Restaurant Zeleste",
+      "country": "dk",
+      "city": "København K",
+      "postcode": "1255",
+      "address": "Store Strandstræde 6",
+      "lat": 55.6809231,
+      "lng": 12.588346,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "DKK",
+      "website": "www.zeleste.dk",
+      "phone": "+4533160606",
+      "email": "pk@tholstrup.dk",
+      "description": "Restaurant Zeleste is a true gem just a stone's throw from Nyhavn.<br/><br/>Zeleste's specialty is fish and shellfish such as succulent lobsters and fish from the Nordic seas. Zeleste serves the finest beef and during the hunting season also wild duck, wild boar and deer from the vast Swedish forests.<br/><br/>During the summer you can enjoy your meal sitting in a comfortable chair in front of a large open fireplace in our cobbled courtyard. When the evenings are chilly you can cuddle up in a blanket beneath a heating lamp and if raindrops start falling you will be shielded by our large awning.",
+      "cards_accepted": [
+        "MC",
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2019-08-26 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-09-23"
     },
     {
       "uuid": "den-bla-hund",
