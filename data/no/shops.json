@@ -5916,17 +5916,22 @@
     "uuid": "01a0b396-bcad-7228-b050-cc49a5084adb"
   },
   "01a0d2cd-44b6-70e0-9d09-7fa13f871050": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "04.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-24"
+    },
     "all_time_high_date": "2026-09-24",
-    "all_time_high_points": 25,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Aarke er et svensk designmerke som kombinerer funksjonalitet med skandinavisk estetikk i produkter for hjemmet. Merket er særlig kjent for elegante kullsyremaskiner og løsninger for vannrensing, med fokus på kvalitet, materialer og tidløs design.</div>",
     "first_seen": "2026-09-24",
     "last_seen": "2026-09-24",
@@ -5935,5 +5940,31 @@
     "slug": "aarke",
     "status": "active",
     "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  "01a0d331-5c4e-716e-8bb1-57f2cb9a47d7": {
+    "active_campaign": {
+      "ends_date": "04.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-24"
+    },
+    "all_time_high_date": "2026-09-24",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Steamery er et svensk merke innen moderne klespleie med røtter i Stockholm. Med skandinavisk design og funksjonelle løsninger gjør Steamery det enklere å ta vare på og forlenge levetiden til klærne dine. Sortimentet kombinerer smarte verktøy og gjennomtenkte produkter for vask, stryking og daglig klespleie.</div>",
+    "first_seen": "2026-09-24",
+    "last_seen": "2026-09-24",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/eycqVikxB26z2AV3YHVwt5BNehBZouytlZlEJ7a0.png",
+    "name": "Steamery",
+    "slug": "steamery",
+    "status": "active",
+    "uuid": "01a0d331-5c4e-716e-8bb1-57f2cb9a47d7"
   }
 }

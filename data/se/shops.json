@@ -1079,17 +1079,22 @@
     "uuid": "01896309-8d97-726b-baed-35342a0d0149"
   },
   "01896309-9aec-70c0-939a-ff07b252e81c": {
-    "active_campaign": null,
-    "all_time_high_date": "2026-04-24",
-    "all_time_high_points": 25,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "active_campaign": {
+      "ends_date": "2026-10-04",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-24"
+    },
+    "all_time_high_date": "2026-09-24",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<p>Lamp24 är en ledande återförsäljare av tilltalande lampor och ljuskällor på internet. Vårt sortiment består av produkter från kända tillverkare och designers, ovanliga designerlampor och ett brett urval av tillbehör.</p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-09-24",
@@ -10631,17 +10636,22 @@
     "uuid": "01a0c364-ca52-7396-8aa4-3db43170dd1f"
   },
   "01a0d2cd-44b6-70e0-9d09-7fa13f871050": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-10-04",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-24"
+    },
     "all_time_high_date": "2026-09-24",
-    "all_time_high_points": 25,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Aarke är ett svenskt designvarumärke som kombinerar funktionalitet och skandinavisk estetik i produkter för hemmet. Varumärket är särskilt känt för sina eleganta kolsyremaskiner och lösningar för vattenrening, utvecklade med fokus på kvalitet, material och tidlös design.</div>",
     "first_seen": "2026-09-24",
     "last_seen": "2026-09-24",
@@ -10650,5 +10660,31 @@
     "slug": "aarke",
     "status": "active",
     "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  "01a0d331-5c4e-716e-8bb1-57f2cb9a47d7": {
+    "active_campaign": {
+      "ends_date": "2026-10-04",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-09-24"
+    },
+    "all_time_high_date": "2026-09-24",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Steamery är ett svenskt varumärke inom modern klädvård med rötter i Stockholm. Med skandinavisk design och funktionella lösningar vill Steamery göra det enklare att ta hand om och förlänga livet på dina kläder. Sortimentet kombinerar smarta verktyg och genomtänkta produkter för tvätt, strykning och daglig klädvård.</div>",
+    "first_seen": "2026-09-24",
+    "last_seen": "2026-09-24",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ArYIaAgRqdZezm8mFXg4xcjOT7cL0Fok7dGeXr64.png",
+    "name": "Steamery",
+    "slug": "steamery",
+    "status": "active",
+    "uuid": "01a0d331-5c4e-716e-8bb1-57f2cb9a47d7"
   }
 }
