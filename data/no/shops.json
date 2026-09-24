@@ -5914,5 +5914,26 @@
     "slug": "pergolux",
     "status": "active",
     "uuid": "01a0b396-bcad-7228-b050-cc49a5084adb"
+  },
+  "01a0d2cd-44b6-70e0-9d09-7fa13f871050": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-24",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Aarke er et svensk designmerke som kombinerer funksjonalitet med skandinavisk estetikk i produkter for hjemmet. Merket er særlig kjent for elegante kullsyremaskiner og løsninger for vannrensing, med fokus på kvalitet, materialer og tidløs design.</div>",
+    "first_seen": "2026-09-24",
+    "last_seen": "2026-09-24",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/8C6KopjusmczcgA2MGSAAfYMSR9g420dus7Z8svC.png",
+    "name": "Aarke",
+    "slug": "aarke",
+    "status": "active",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
   }
 }
