@@ -6077,6 +6077,27 @@
     "status": "active",
     "uuid": "019b084a-3d32-7296-86b3-ad60516fa4d2"
   },
+  "019b11f5-2adc-72f3-96b1-3428a999ce72": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-25",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Partyking.dk er en dansk online festbutik med et stort udvalg til fester, fødselsdage og særlige lejligheder. Sortimentet kombinerer festpynt, kostumer og tilbehør til mange forskellige temaer og begivenheder. Uanset om du planlægger Halloween, fødselsdag, polterabend eller temafest, gør Partyking det nemt at skabe en festlig og personlig stemning.</div>",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/5nw93ZpBwk2zv1j5GYHZT2VJqnwB8tbZLT9OtRnG.png",
+    "name": "Partyking",
+    "slug": "partyking",
+    "status": "active",
+    "uuid": "019b11f5-2adc-72f3-96b1-3428a999ce72"
+  },
   "019c471d-3226-72a8-b7fe-6d60a6668bfb": {
     "active_campaign": {
       "ends_date": "30.09.2026",

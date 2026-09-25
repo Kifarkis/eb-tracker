@@ -4458,11 +4458,12 @@
     "current_points_channel": 5,
     "description": "<p>Netlingeri.se har sedan 2006 sålt underkläder till kvinnor online från märken som Prima Donna, Triumph, Chantelle, Marie Jo, Femilet, Sloggi och andra märken. Vi erbjuder 10% rabatt på första beställningen och har ett stort urval av behåar, trosor och badkläder.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-09-25",
     "last_seen": "2026-09-25",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Netlingeri.se-1689584110.jpg",
     "name": "Netlingeri",
     "slug": "netlingeri.se",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630f-89bd-7203-a3f0-9226d1c65f54"
   },
   "0189630f-8c89-7109-bea2-5145da18fd5e": {
@@ -9224,6 +9225,27 @@
     "slug": "muscle-house",
     "status": "active",
     "uuid": "019b084a-3d32-7296-86b3-ad60516fa4d2"
+  },
+  "019b11f5-2adc-72f3-96b1-3428a999ce72": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-09-25",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>PartyKungen är en svensk festbutik online med ett brett utbud för fester, kalas och olika högtider. Här kombineras festdekorationer, utklädnader och tillbehör med produkter för många olika teman och tillfällen. PartyKungen gör det enkelt att skapa en fest med personlig känsla, oavsett om det gäller födelsedag, Halloween eller studentfirande.</div>",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/GYH61fbH7vU7IyFCujLlGB1e1Xu41cMxrFWiUmFf.png",
+    "name": "Partykungen",
+    "slug": "partykungen",
+    "status": "active",
+    "uuid": "019b11f5-2adc-72f3-96b1-3428a999ce72"
   },
   "019b11fb-a101-7256-bb7b-59c01b55478c": {
     "active_campaign": null,
