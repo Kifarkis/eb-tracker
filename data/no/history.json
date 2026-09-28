@@ -2743,5 +2743,133 @@
     "points_channel": 800,
     "started": "2026-09-21",
     "uuid": "01896311-52f1-73e7-808c-3b4e7aea9371"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Adidas",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "0189630e-5d7e-709b-a148-a7237fda75ee"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Bubbleroom",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-21",
+    "uuid": "01896309-b8ae-7129-9039-516c2dbedf13"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "CDON.COM",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-09-21",
+    "uuid": "01896307-9887-73f5-9de4-b4d03486a38e"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "G-Star",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "018ce8ef-9005-73b2-9eab-aa62d65c537a"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Jakt & Friluft",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01896310-3933-7051-a2d0-a041a003871e"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "KICKS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01932f75-1211-7244-b60c-0fe79fd03b46"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Lenovo",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-09-21",
+    "uuid": "01896311-859b-70f9-876a-a52c61ec5e5a"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Lensway",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01896307-db4b-7046-b660-cca58f3d53f2"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Nextory",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-09-21",
+    "uuid": "0189630c-56c3-7074-8394-13e45ce5c745"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Polarn O. Pyret",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-21",
+    "uuid": "0189630a-4f00-71b4-b13a-6a93082439a9"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Proteinfabrikken",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "019c66f8-8151-7274-bf0b-ddf7bca7de59"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "SharkNinja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "SmartBuyGlasses",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "0189630c-0772-7321-9da9-387a0ee95590"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "Under Armour",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "0189630a-c0fe-73f3-8174-eaf25c05c750"
+  },
+  {
+    "ended": "2026-09-28",
+    "name": "ZOO.no",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
   }
 ]
