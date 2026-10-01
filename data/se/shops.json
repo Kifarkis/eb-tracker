@@ -9257,11 +9257,12 @@
     "current_points_channel": 5,
     "description": "<div>PartyKungen är en svensk festbutik online med ett brett utbud för fester, kalas och olika högtider. Här kombineras festdekorationer, utklädnader och tillbehör med produkter för många olika teman och tillfällen. PartyKungen gör det enkelt att skapa en fest med personlig känsla, oavsett om det gäller födelsedag, Halloween eller studentfirande.</div>",
     "first_seen": "2026-09-25",
+    "gone_since": "2026-10-01",
     "last_seen": "2026-10-01",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/GYH61fbH7vU7IyFCujLlGB1e1Xu41cMxrFWiUmFf.png",
     "name": "Partykungen",
     "slug": "partykungen",
-    "status": "active",
+    "status": "gone",
     "uuid": "019b11f5-2adc-72f3-96b1-3428a999ce72"
   },
   "019b11fb-a101-7256-bb7b-59c01b55478c": {
