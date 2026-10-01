@@ -2879,5 +2879,29 @@
     "points_channel": 1200,
     "started": "2026-09-16",
     "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Farmasiet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "0189630e-f90a-731d-84b2-1094d26349be"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Go Nordic Cruiseline",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-22",
+    "uuid": "019ea65a-1842-727b-9ed2-0e4088e7259b"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "VOLT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-16",
+    "uuid": "019e970d-0495-7157-9e54-8ca85e468634"
   }
 ]

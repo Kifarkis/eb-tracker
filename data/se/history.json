@@ -5296,5 +5296,61 @@
     "points_channel": 1200,
     "started": "2026-09-16",
     "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Bottle Hero",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "019a112d-87ab-730e-9bb7-101330a28267"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Elskling",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-09-21",
+    "uuid": "0189630f-5536-7329-883b-ceffb426d426"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "GLOWiD",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-21",
+    "uuid": "019fcd29-9ce6-7071-9fba-2e9c939d55fb"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Senetic",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-16",
+    "uuid": "019d1abe-ba9d-733e-b161-7d1ec18a46ef"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Volt",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-16",
+    "uuid": "019e970d-0495-7157-9e54-8ca85e468634"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Zmarta försäkring",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-09-21",
+    "uuid": "0198511f-cddd-705e-8f63-7df64aa4f3af"
   }
 ]

@@ -2497,5 +2497,21 @@
     "points_channel": 1200,
     "started": "2026-09-16",
     "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Lauridsen Vine",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-21",
+    "uuid": "019c471d-3226-72a8-b7fe-6d60a6668bfb"
+  },
+  {
+    "ended": "2026-10-01",
+    "name": "Picment",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-09-21",
+    "uuid": "019caee9-6c55-73b8-a1a0-d2744bdc1f29"
   }
 ]
