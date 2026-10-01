@@ -1,7 +1,7 @@
 {
   "country": "no",
-  "updated": "2026-09-30T10:06:19.598427+00:00",
-  "shop_count": 414,
+  "updated": "2026-10-01T10:34:31.481188+00:00",
+  "shop_count": 413,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel",
@@ -2347,36 +2347,6 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2017-06-08 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
-      "uuid": "festspillene-i-bergen",
-      "name": "Festspillene i Bergen",
-      "country": "no",
-      "city": "Bergen",
-      "postcode": "5014",
-      "address": "Vaskerelvsmauet 6",
-      "lat": null,
-      "lng": null,
-      "mode": "online",
-      "category_id": 3,
-      "points_per_100": 50,
-      "currency": "NOK",
-      "website": "www.fib.no",
-      "phone": "+47 55 21 06 30",
-      "email": "nina@fib.no",
-      "description": "when buying tickets for the festival on www.fib.no with a payment card that is linked to your EuroBonus membership.<br><br>The Bergen International Festival is one of the leading cultural festivals in the Nordic region, held annually in May and June in the city of Bergen. Established in 1953, the festival offers a diverse program of world-class music, theatre, dance, and art. Through both traditional and innovative performances, the festival brings together artists and audiences from around the globe for unforgettable cultural experiences in the heart of Western Norway.",
-      "cards_accepted": [
-        "MC",
-        "VISA"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2025-05-02 09:14:13",
       "first_seen": "2026-05-05",
       "status": "active"
     },
@@ -12432,6 +12402,37 @@
       "created_at": "2022-09-22 09:32:36",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "festspillene-i-bergen",
+      "name": "Festspillene i Bergen",
+      "country": "no",
+      "city": "Bergen",
+      "postcode": "5014",
+      "address": "Vaskerelvsmauet 6",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 3,
+      "points_per_100": 50,
+      "currency": "NOK",
+      "website": "www.fib.no",
+      "phone": "+47 55 21 06 30",
+      "email": "nina@fib.no",
+      "description": "when buying tickets for the festival on www.fib.no with a payment card that is linked to your EuroBonus membership.<br><br>The Bergen International Festival is one of the leading cultural festivals in the Nordic region, held annually in May and June in the city of Bergen. Established in 1953, the festival offers a diverse program of world-class music, theatre, dance, and art. Through both traditional and innovative performances, the festival brings together artists and audiences from around the globe for unforgettable cultural experiences in the heart of Western Norway.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2025-05-02 09:14:13",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-10-01"
     },
     {
       "uuid": "nikita-hair-sandnes-kvadrat-nord-vdressmann",
