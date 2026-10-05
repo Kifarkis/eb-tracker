@@ -2,9 +2,1593 @@
   "region": "no",
   "collection": "deals",
   "currency": "NOK",
-  "updated": "2026-09-28T11:38:38.027117+00:00",
-  "item_count": 141,
+  "updated": "2026-10-05T12:12:37.516090+00:00",
+  "item_count": 72,
   "items": [
+    {
+      "uuid": "no:multistyler-7-i-1",
+      "slug": "multistyler-7-i-1",
+      "name": "Multistyler 7-i-1",
+      "brand": "Tristar",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/multistyler-7-i-1",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61482.jpg",
+      "points_price": 12860,
+      "cash_price": 399.0,
+      "cash_unit": "kr",
+      "accrual_points": 399,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 12860,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:classic-advent-calendar-2026",
+      "slug": "classic-advent-calendar-2026",
+      "name": "Classic Advent Calendar 2026",
+      "brand": "Rituals",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/classic-advent-calendar-2026",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60373.jpg",
+      "points_price": 32650,
+      "cash_price": 1012.0,
+      "cash_unit": "kr",
+      "accrual_points": 1013,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 32650,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:hugger-backpack-25l-db",
+      "slug": "hugger-backpack-25l-db",
+      "name": "Hugger Backpack 25L Db",
+      "brand": "SAS",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/hugger-backpack-25l-db",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61272.jpg",
+      "points_price": 96860,
+      "cash_price": 3003.0,
+      "cash_unit": "kr",
+      "accrual_points": 3003,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 96860,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:skaftdammsugare-s-power-park-chill-hv-7178",
+      "slug": "skaftdammsugare-s-power-park-chill-hv-7178",
+      "name": "S-Power Park & Chill trådløs støvsuger HV 7178",
+      "brand": "Severin",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/skaftdammsugare-s-power-park-chill-hv-7178",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61344_1.jpg",
+      "points_price": 26380,
+      "cash_price": 818.0,
+      "cash_unit": "kr",
+      "accrual_points": 818,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 26380,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:solglasogon-boyfriend-black-green-pol",
+      "slug": "solglasogon-boyfriend-black-green-pol",
+      "name": "Solglasögon Boyfriend Black Green Pol",
+      "brand": "Ray-Ban",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/solglasogon-boyfriend-black-green-pol",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61285_1.jpg",
+      "points_price": 51920,
+      "cash_price": 1610.0,
+      "cash_unit": "kr",
+      "accrual_points": 1610,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 51920,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:knivset-2-delar-g-58-gs-38",
+      "slug": "knivset-2-delar-g-58-gs-38",
+      "name": "Knivsett med 2 deler G-58, GS-38",
+      "brand": "Global",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/knivset-2-delar-g-58-gs-38",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/5/9/59239_1.jpg",
+      "points_price": 28690,
+      "cash_price": 889.0,
+      "cash_unit": "kr",
+      "accrual_points": 890,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 28690,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:frost-forrattsbestick-8-delar-silver",
+      "slug": "frost-forrattsbestick-8-delar-silver",
+      "name": "Frost forrettsbestikk 8 deler Sølv",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/frost-forrattsbestick-8-delar-silver",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61358.jpg",
+      "points_price": 8820,
+      "cash_price": 273.0,
+      "cash_unit": "kr",
+      "accrual_points": 274,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.095,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 8820,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:kastrull-kroma-2-8-liter",
+      "slug": "kastrull-kroma-2-8-liter",
+      "name": "Kasserolle Kroma 2,8 liter",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/kastrull-kroma-2-8-liter",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61359.jpg",
+      "points_price": 21280,
+      "cash_price": 660.0,
+      "cash_unit": "kr",
+      "accrual_points": 660,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 21280,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:traktorpanna-kroma-28-cm",
+      "slug": "traktorpanna-kroma-28-cm",
+      "name": "Traktørpanne Kroma 28 cm",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/traktorpanna-kroma-28-cm",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61360.jpg",
+      "points_price": 23510,
+      "cash_price": 729.0,
+      "cash_unit": "kr",
+      "accrual_points": 729,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 23510,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:stekpanna-kroma-28-cm",
+      "slug": "stekpanna-kroma-28-cm",
+      "name": "Stekepanne Kroma 28 cm",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/stekpanna-kroma-28-cm",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61361.jpg",
+      "points_price": 20100,
+      "cash_price": 623.0,
+      "cash_unit": "kr",
+      "accrual_points": 624,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20100,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:gryta-kroma-4-liter",
+      "slug": "gryta-kroma-4-liter",
+      "name": "Gryte Kroma 4 liter",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/gryta-kroma-4-liter",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61362_1.jpg",
+      "points_price": 23060,
+      "cash_price": 715.0,
+      "cash_unit": "kr",
+      "accrual_points": 715,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 23060,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:harfon-s-style-speed-pro-ht0169",
+      "slug": "harfon-s-style-speed-pro-ht0169",
+      "name": "Hårføner S-Style Speed Pro HT0169",
+      "brand": "Severin",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/harfon-s-style-speed-pro-ht0169",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61288_1.jpg",
+      "points_price": 20770,
+      "cash_price": 644.0,
+      "cash_unit": "kr",
+      "accrual_points": 644,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20770,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:isak-lattviktsgryta-4-6-liter-svart",
+      "slug": "isak-lattviktsgryta-4-6-liter-svart",
+      "name": "Isak lettvektsgryte 4,6 liter svart",
+      "brand": "Sagaform",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/isak-lattviktsgryta-4-6-liter-svart",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61284_1.jpg",
+      "points_price": 13110,
+      "cash_price": 406.0,
+      "cash_unit": "kr",
+      "accrual_points": 407,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.097,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 13110,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:solar-gangljus-prietta",
+      "slug": "solar-gangljus-prietta",
+      "name": "Solcelle ganglys Prietta",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/solar-gangljus-prietta",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61128.jpg",
+      "points_price": 17460,
+      "cash_price": 541.0,
+      "cash_unit": "kr",
+      "accrual_points": 542,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 17460,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:portabel-bords-och-vagglampa-gombio-touchdimmer",
+      "slug": "portabel-bords-och-vagglampa-gombio-touchdimmer",
+      "name": "Portabel bord- og vegglampe Gombio, touchdimmer",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/portabel-bords-och-vagglampa-gombio-touchdimmer",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61129.jpg",
+      "points_price": 12570,
+      "cash_price": 390.0,
+      "cash_unit": "kr",
+      "accrual_points": 390,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 12570,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:led-vagglampa-tressanto-usb-laddning-fyrkant",
+      "slug": "led-vagglampa-tressanto-usb-laddning-fyrkant",
+      "name": "LED-vegglampe Tressanto USB-lading (firkantet)",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/led-vagglampa-tressanto-usb-laddning-fyrkant",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61130.jpg",
+      "points_price": 6880,
+      "cash_price": 213.0,
+      "cash_unit": "kr",
+      "accrual_points": 214,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.096,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 6880,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:led-vagglampa-tressanto-usb-laddning-rund",
+      "slug": "led-vagglampa-tressanto-usb-laddning-rund",
+      "name": "LED-vegglampe Tressanto USB-lading (rund)",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/led-vagglampa-tressanto-usb-laddning-rund",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61131.jpg",
+      "points_price": 6880,
+      "cash_price": 213.0,
+      "cash_unit": "kr",
+      "accrual_points": 214,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.096,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 6880,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:beanie-80yrs",
+      "slug": "beanie-80yrs",
+      "name": "Beanie 80yrs",
+      "brand": "SAS",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/beanie-80yrs",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61267.jpg",
+      "points_price": 8810,
+      "cash_price": 273.0,
+      "cash_unit": "kr",
+      "accrual_points": 274,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 8810,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:hugger-roller-bag-carry-on-40l-db",
+      "slug": "hugger-roller-bag-carry-on-40l-db",
+      "name": "Hugger Roller Bag Carry-on 40L Db",
+      "brand": "SAS",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/hugger-roller-bag-carry-on-40l-db",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61271.jpg",
+      "points_price": 112150,
+      "cash_price": 3477.0,
+      "cash_unit": "kr",
+      "accrual_points": 3477,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 112150,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:isak-lattviktsgryta-4-6-liter-beige",
+      "slug": "isak-lattviktsgryta-4-6-liter-beige",
+      "name": "Isak lettvektsgryte 4,6 liter beige",
+      "brand": "Sagaform",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/isak-lattviktsgryta-4-6-liter-beige",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61282_1.jpg",
+      "points_price": 13110,
+      "cash_price": 406.0,
+      "cash_unit": "kr",
+      "accrual_points": 407,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.097,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 13110,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:isak-lattviktsgryta-4-6-liter-vinrod",
+      "slug": "isak-lattviktsgryta-4-6-liter-vinrod",
+      "name": "Isak lettvektsgryte 4,6 liter vinrød",
+      "brand": "Sagaform",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/isak-lattviktsgryta-4-6-liter-vinrod",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/5/0/5018814_2_aw26.png",
+      "points_price": 13110,
+      "cash_price": 406.0,
+      "cash_unit": "kr",
+      "accrual_points": 407,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.097,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 13110,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:kastrull-kroma-1-6-liter",
+      "slug": "kastrull-kroma-1-6-liter",
+      "name": "Kasserolle Kroma 1,6 liter",
+      "brand": "Vargen & Thor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/kastrull-kroma-1-6-liter",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61364.jpg",
+      "points_price": 16330,
+      "cash_price": 506.0,
+      "cash_unit": "kr",
+      "accrual_points": 507,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 16330,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:bjorn-frantzen-champagneglas-28cl-2-pack",
+      "slug": "bjorn-frantzen-champagneglas-28cl-2-pack",
+      "name": "Björn Frantzén champagneglass 28cl 2-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/bjorn-frantzen-champagneglas-28cl-2-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61381.jpg",
+      "points_price": 11130,
+      "cash_price": 345.0,
+      "cash_unit": "kr",
+      "accrual_points": 346,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11130,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:more-wiskeyglas-19cl-4-pack",
+      "slug": "more-wiskeyglas-19cl-4-pack",
+      "name": "More whiskyglass 19cl 4-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/more-wiskeyglas-19cl-4-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61378.jpg",
+      "points_price": 11330,
+      "cash_price": 351.0,
+      "cash_unit": "kr",
+      "accrual_points": 352,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11330,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:kockpincett-30-cm-10005",
+      "slug": "kockpincett-30-cm-10005",
+      "name": "Kokkepinsett 30 cm",
+      "brand": "Scanpan",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/kockpincett-30-cm-10005",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61375.jpg",
+      "points_price": 6310,
+      "cash_price": 196.0,
+      "cash_unit": "kr",
+      "accrual_points": 196,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.106,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 6310,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:roaster-med-galler-42x26-cm-sts",
+      "slug": "roaster-med-galler-42x26-cm-sts",
+      "name": "Langpanne med rist 42x26 cm, STS",
+      "brand": "Scanpan",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/roaster-med-galler-42x26-cm-sts",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61367.jpg",
+      "points_price": 21770,
+      "cash_price": 675.0,
+      "cash_unit": "kr",
+      "accrual_points": 675,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 21770,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:skarbrada-ek-m",
+      "slug": "skarbrada-ek-m",
+      "name": "Skjærebrett i eik M",
+      "brand": "Global",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/skarbrada-ek-m",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61374.jpg",
+      "points_price": 60850,
+      "cash_price": 1886.0,
+      "cash_unit": "kr",
+      "accrual_points": 1887,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 60850,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:bjorn-frantzen-vitvinsglas-44cl-2-pack",
+      "slug": "bjorn-frantzen-vitvinsglas-44cl-2-pack",
+      "name": "Björn Frantzén hvitvinglass 44cl 2-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/bjorn-frantzen-vitvinsglas-44cl-2-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61382.jpg",
+      "points_price": 11130,
+      "cash_price": 345.0,
+      "cash_unit": "kr",
+      "accrual_points": 346,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11130,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:city-shotglas-5cl-2-pack",
+      "slug": "city-shotglas-5cl-2-pack",
+      "name": "City shotglass 5cl 2-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/city-shotglas-5cl-2-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61383.jpg",
+      "points_price": 4400,
+      "cash_price": 136.0,
+      "cash_unit": "kr",
+      "accrual_points": 137,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.091,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4400,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:bjorn-frantzen-rodvinglas-75cl-2-pack",
+      "slug": "bjorn-frantzen-rodvinglas-75cl-2-pack",
+      "name": "Björn Frantzén rødvinsglass 75cl 2-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/bjorn-frantzen-rodvinglas-75cl-2-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61380.jpg",
+      "points_price": 11130,
+      "cash_price": 345.0,
+      "cash_unit": "kr",
+      "accrual_points": 346,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11130,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:city-double-old-fashion-whiskyglas-34cl-2-pack",
+      "slug": "city-double-old-fashion-whiskyglas-34cl-2-pack",
+      "name": "City double old fashion Whiskyglas 34cl 2-pack",
+      "brand": "Orrefors",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/city-double-old-fashion-whiskyglas-34cl-2-pack",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61384.jpg",
+      "points_price": 4900,
+      "cash_price": 152.0,
+      "cash_unit": "kr",
+      "accrual_points": 152,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4900,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pro-poker-set-i-alu-vaska-200-marker",
+      "slug": "pro-poker-set-i-alu-vaska-200-marker",
+      "name": "Pro Poker-sett i Aluminiumskoffert (200 sjetonger)",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pro-poker-set-i-alu-vaska-200-marker",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60674.jpg",
+      "points_price": 13310,
+      "cash_price": 413.0,
+      "cash_unit": "kr",
+      "accrual_points": 413,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 13310,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhange-classic-stud-gold-chrysolite",
+      "slug": "orhange-classic-stud-gold-chrysolite",
+      "name": "Øredobber Classic Stud Gold Chrysolite",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhange-classic-stud-gold-chrysolite",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60752.jpg",
+      "points_price": 8360,
+      "cash_price": 259.0,
+      "cash_unit": "kr",
+      "accrual_points": 260,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 8360,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:halsband-petite-drop-gold-crystal",
+      "slug": "halsband-petite-drop-gold-crystal",
+      "name": "Halskjede Petite Drop Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/halsband-petite-drop-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60753.jpg",
+      "points_price": 16060,
+      "cash_price": 498.0,
+      "cash_unit": "kr",
+      "accrual_points": 498,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 16060,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:armband-mini-twisted-gold-crystal",
+      "slug": "armband-mini-twisted-gold-crystal",
+      "name": "Armbånd Mini Twisted Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/armband-mini-twisted-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60756.jpg",
+      "points_price": 11970,
+      "cash_price": 371.0,
+      "cash_unit": "kr",
+      "accrual_points": 372,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11970,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:armband-mini-twisted-gold-light-rose",
+      "slug": "armband-mini-twisted-gold-light-rose",
+      "name": "Armbånd Mini Twisted Gold Light rose",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/armband-mini-twisted-gold-light-rose",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60757.jpg",
+      "points_price": 11970,
+      "cash_price": 371.0,
+      "cash_unit": "kr",
+      "accrual_points": 372,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.099,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 11970,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:ring-natti-gold-crystal",
+      "slug": "ring-natti-gold-crystal",
+      "name": "Ring Natti Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/ring-natti-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60758.jpg",
+      "points_price": 7830,
+      "cash_price": 243.0,
+      "cash_unit": "kr",
+      "accrual_points": 243,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 7830,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pastamaskin",
+      "slug": "pastamaskin",
+      "name": "Pastamaskin",
+      "brand": "Funktion",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pastamaskin",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60821.jpg",
+      "points_price": 17720,
+      "cash_price": 549.0,
+      "cash_unit": "kr",
+      "accrual_points": 550,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 17720,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:bimble-bumble-hoptimist-s-oak",
+      "slug": "bimble-bumble-hoptimist-s-oak",
+      "name": "Bimble & Bumble Hoptimist S Oak",
+      "brand": "Hoptimist",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/bimble-bumble-hoptimist-s-oak",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60828.jpg",
+      "points_price": 20830,
+      "cash_price": 646.0,
+      "cash_unit": "kr",
+      "accrual_points": 646,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20830,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:hoptimist-soft-pe-lampa-hoptimist-xl-white",
+      "slug": "hoptimist-soft-pe-lampa-hoptimist-xl-white",
+      "name": "Hoptimist Soft PE-lampe Hoptimist XL White",
+      "brand": "Hoptimist",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/hoptimist-soft-pe-lampa-hoptimist-xl-white",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60829-2.jpg",
+      "points_price": 20830,
+      "cash_price": 646.0,
+      "cash_unit": "kr",
+      "accrual_points": 646,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20830,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:airfryer-5-liter-1500-watt",
+      "slug": "airfryer-5-liter-1500-watt",
+      "name": "Airfryer 5 liter 1500 watt",
+      "brand": "Nordic Sense",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/airfryer-5-liter-1500-watt",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60831.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhange-classic-stud-gold-crystal",
+      "slug": "orhange-classic-stud-gold-crystal",
+      "name": "Øredobber Classic Stud Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhange-classic-stud-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60751.jpg",
+      "points_price": 8360,
+      "cash_price": 259.0,
+      "cash_unit": "kr",
+      "accrual_points": 260,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 8360,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhange-mini-drop-clasp-gold-chrysolite",
+      "slug": "orhange-mini-drop-clasp-gold-chrysolite",
+      "name": "Øredobbene Mini Drop Clasp Gold Chrysolite",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhange-mini-drop-clasp-gold-chrysolite",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60750.jpg",
+      "points_price": 15190,
+      "cash_price": 471.0,
+      "cash_unit": "kr",
+      "accrual_points": 471,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 15190,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhange-mini-drop-clasp-gold-light-rose",
+      "slug": "orhange-mini-drop-clasp-gold-light-rose",
+      "name": "Øredobbene Mini Drop Clasp Gold Light Rose",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhange-mini-drop-clasp-gold-light-rose",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60749.jpg",
+      "points_price": 15190,
+      "cash_price": 471.0,
+      "cash_unit": "kr",
+      "accrual_points": 471,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 15190,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pusselmatta",
+      "slug": "pusselmatta",
+      "name": "Puslespillmatte",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pusselmatta",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60675-1.jpg",
+      "points_price": 4060,
+      "cash_price": 126.0,
+      "cash_unit": "kr",
+      "accrual_points": 126,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4060,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pussel-vintage-italy-1000-pcs",
+      "slug": "pussel-vintage-italy-1000-pcs",
+      "name": "Puslespill Vintage Italy 1000 pcs",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pussel-vintage-italy-1000-pcs",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60676-1.jpg",
+      "points_price": 3660,
+      "cash_price": 113.0,
+      "cash_unit": "kr",
+      "accrual_points": 114,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.087,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 3660,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pussel-vintage-cities-malibu-1000-pcs",
+      "slug": "pussel-vintage-cities-malibu-1000-pcs",
+      "name": "Puslespill Vintage Cities Malibu 1000 pcs",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pussel-vintage-cities-malibu-1000-pcs",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60677-1.jpg",
+      "points_price": 3660,
+      "cash_price": 113.0,
+      "cash_unit": "kr",
+      "accrual_points": 114,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.087,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 3660,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pussel-vintage-cities-tallinn-1000-pcs",
+      "slug": "pussel-vintage-cities-tallinn-1000-pcs",
+      "name": "Puslespill Vintage Cities Tallinn 1000 pcs",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pussel-vintage-cities-tallinn-1000-pcs",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60678-1.jpg",
+      "points_price": 3660,
+      "cash_price": 113.0,
+      "cash_unit": "kr",
+      "accrual_points": 114,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.087,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 3660,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:pussel-vintage-norway-1000-pcs",
+      "slug": "pussel-vintage-norway-1000-pcs",
+      "name": "Puslespill Vintage Norway 1000 pcs",
+      "brand": "Tactic",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/pussel-vintage-norway-1000-pcs",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60679-1.jpg",
+      "points_price": 3660,
+      "cash_price": 113.0,
+      "cash_unit": "kr",
+      "accrual_points": 114,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.087,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 3660,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:armband-mini-drop-gold-crystal",
+      "slug": "armband-mini-drop-gold-crystal",
+      "name": "Armbånd Mini drop Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/armband-mini-drop-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60745.jpg",
+      "points_price": 16720,
+      "cash_price": 518.0,
+      "cash_unit": "kr",
+      "accrual_points": 519,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 16720,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:armband-mini-drop-gold-light-rose",
+      "slug": "armband-mini-drop-gold-light-rose",
+      "name": "Armbånd Mini drop Gold Light Rose",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/armband-mini-drop-gold-light-rose",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60746.jpg",
+      "points_price": 16720,
+      "cash_price": 518.0,
+      "cash_unit": "kr",
+      "accrual_points": 519,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 16720,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:armband-mini-drop-gold-denim-blue",
+      "slug": "armband-mini-drop-gold-denim-blue",
+      "name": "Armbånd Mini drop Gold Denim Blue",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/armband-mini-drop-gold-denim-blue",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60747.jpg",
+      "points_price": 16720,
+      "cash_price": 518.0,
+      "cash_unit": "kr",
+      "accrual_points": 519,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.098,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 16720,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhange-mini-drop-clasp-gold-crystal",
+      "slug": "orhange-mini-drop-clasp-gold-crystal",
+      "name": "Øredobbene Mini Drop Clasp Gold Crystal",
+      "brand": "Caroline Svedbom",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhange-mini-drop-clasp-gold-crystal",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60748.jpg",
+      "points_price": 15190,
+      "cash_price": 471.0,
+      "cash_unit": "kr",
+      "accrual_points": 471,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 15190,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:paninigrill-1600-watt-stal-svart",
+      "slug": "paninigrill-1600-watt-stal-svart",
+      "name": "Paninigrill 1600 watt Stål/Svart",
+      "brand": "Nordic Sense",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/paninigrill-1600-watt-stal-svart",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60842.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:riskokare-1-8-liter",
+      "slug": "riskokare-1-8-liter",
+      "name": "Riskokere 1,8 liter",
+      "brand": "Nordic Sense",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/riskokare-1-8-liter",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60844.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:sous-videpaket-m-vakuumforpackare-fresh-4-rullar-9901",
+      "slug": "sous-videpaket-m-vakuumforpackare-fresh-4-rullar-9901",
+      "name": "Sous vide-pakke med vakuumpakker Fresh og 4 ruller",
+      "brand": "Champion",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/sous-videpaket-m-vakuumforpackare-fresh-4-rullar-9901",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60976.jpg",
+      "points_price": 58130,
+      "cash_price": 1802.0,
+      "cash_unit": "kr",
+      "accrual_points": 1803,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 58130,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:annli-plad-i-atervunnen-bomull",
+      "slug": "annli-plad-i-atervunnen-bomull",
+      "name": "Annli Pledd i Resirkulert Bomull",
+      "brand": "Bloomingville",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/annli-plad-i-atervunnen-bomull",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61105.jpg",
+      "points_price": 4640,
+      "cash_price": 144.0,
+      "cash_unit": "kr",
+      "accrual_points": 144,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4640,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:ljusslinga-800-led-varmvit-16-meter-utomhus-timer",
+      "slug": "ljusslinga-800-led-varmvit-16-meter-utomhus-timer",
+      "name": "Lysslynge 800 LED varmhvit, 16 meter, utendørs, timer",
+      "brand": "Star Trading",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/ljusslinga-800-led-varmvit-16-meter-utomhus-timer",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61120.jpg",
+      "points_price": 6630,
+      "cash_price": 206.0,
+      "cash_unit": "kr",
+      "accrual_points": 206,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.107,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 6630,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:solar-vagglampa-med-husnummer-conettimara",
+      "slug": "solar-vagglampa-med-husnummer-conettimara",
+      "name": "Solcelle vegglampe med husnummer Conettimara",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/solar-vagglampa-med-husnummer-conettimara",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61125.jpg",
+      "points_price": 8710,
+      "cash_price": 270.0,
+      "cash_unit": "kr",
+      "accrual_points": 271,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.1,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 8710,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:solar-vagglampa-frigento",
+      "slug": "solar-vagglampa-frigento",
+      "name": "Solcelle vegglampe Frigento",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/solar-vagglampa-frigento",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61126.jpg",
+      "points_price": 15240,
+      "cash_price": 472.0,
+      "cash_unit": "kr",
+      "accrual_points": 473,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.097,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 15240,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhangen-aglaia-silver",
+      "slug": "orhangen-aglaia-silver",
+      "name": "Øredobber Aglaia sølv",
+      "brand": "Pilgrim",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhangen-aglaia-silver",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60936.jpg",
+      "points_price": 4360,
+      "cash_price": 135.0,
+      "cash_unit": "kr",
+      "accrual_points": 136,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.096,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4360,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhangen-aglaia-guld",
+      "slug": "orhangen-aglaia-guld",
+      "name": "Øredobber Aglaia gull",
+      "brand": "Pilgrim",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhangen-aglaia-guld",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60935.jpg",
+      "points_price": 4360,
+      "cash_price": 135.0,
+      "cash_unit": "kr",
+      "accrual_points": 136,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 101,
+      "ore_per_point": 3.096,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 4360,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:gavoset-sanine-ringar-orhange-guld",
+      "slug": "gavoset-sanine-ringar-orhange-guld",
+      "name": "Gavesett Sanine, ringer & øredobber gull",
+      "brand": "Pilgrim",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/gavoset-sanine-ringar-orhange-guld",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60932-2.jpg",
+      "points_price": 10440,
+      "cash_price": 324.0,
+      "cash_unit": "kr",
+      "accrual_points": 324,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.103,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 10440,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:sladdlost-angstrykjarn-2400-watt-svart-gra",
+      "slug": "sladdlost-angstrykjarn-2400-watt-svart-gra",
+      "name": "Trådløst dampstrykejern 2400 watt Svart/Grå",
+      "brand": "Nordic Sense",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/sladdlost-angstrykjarn-2400-watt-svart-gra",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60847-2.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:stavmixerset-1200-watt",
+      "slug": "stavmixerset-1200-watt",
+      "name": "Stavmiksersett 1200 watt",
+      "brand": "Nordic Sense",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/stavmixerset-1200-watt",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60848.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:tartfat-pa-fot-d30cm-vit",
+      "slug": "tartfat-pa-fot-d30cm-vit",
+      "name": "Kakefat på fot, D30 cm, hvit",
+      "brand": "Pillivuyt",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/tartfat-pa-fot-d30cm-vit",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60850.jpg",
+      "points_price": 20830,
+      "cash_price": 646.0,
+      "cash_unit": "kr",
+      "accrual_points": 646,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20830,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:2-set-ugnsformar-31-x-23-cm-26-x-19-cm-vit-porslin",
+      "slug": "2-set-ugnsformar-31-x-23-cm-26-x-19-cm-vit-porslin",
+      "name": "2-pakning ovnsformer 31 × 23 cm + 26 × 19 cm, hvitt porselen",
+      "brand": "Pillivuyt",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/2-set-ugnsformar-31-x-23-cm-26-x-19-cm-vit-porslin",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60851.jpg",
+      "points_price": 20830,
+      "cash_price": 646.0,
+      "cash_unit": "kr",
+      "accrual_points": 646,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.101,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 20830,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:vivian-gryta-3-1-liter-indigo",
+      "slug": "vivian-gryta-3-1-liter-indigo",
+      "name": "Vivian Gryte 3,1 liter Indigo",
+      "brand": "Tareq Taylor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/vivian-gryta-3-1-liter-indigo",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60866.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:himalaya-salt-och-pepparkvarnset",
+      "slug": "himalaya-salt-och-pepparkvarnset",
+      "name": "Himalaya Salt- og pepperkvernsett",
+      "brand": "Tareq Taylor",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/himalaya-salt-och-pepparkvarnset",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60867.jpg",
+      "points_price": 19050,
+      "cash_price": 591.0,
+      "cash_unit": "kr",
+      "accrual_points": 591,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 19050,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhangen-kaisyn-guld",
+      "slug": "orhangen-kaisyn-guld",
+      "name": "Øredobber Kaisyn gull",
+      "brand": "Pilgrim",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhangen-kaisyn-guld",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60930.jpg",
+      "points_price": 7700,
+      "cash_price": 239.0,
+      "cash_unit": "kr",
+      "accrual_points": 239,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.104,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 7700,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:orhangen-solari-guld",
+      "slug": "orhangen-solari-guld",
+      "name": "Øredobber Solari gull",
+      "brand": "Pilgrim",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/orhangen-solari-guld",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/0/60931.jpg",
+      "points_price": 7700,
+      "cash_price": 239.0,
+      "cash_unit": "kr",
+      "accrual_points": 239,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.104,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 7700,
+      "lowest_points_date": "2026-10-05"
+    },
+    {
+      "uuid": "no:solar-vagglampa-prietta",
+      "slug": "solar-vagglampa-prietta",
+      "name": "Solcelle vegglampe Prietta",
+      "brand": "EGLO",
+      "collection": "deals",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/solar-vagglampa-prietta",
+      "image": "https://www.saseurobonusshop.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/6/1/61127.jpg",
+      "points_price": 12120,
+      "cash_price": 376.0,
+      "cash_unit": "kr",
+      "accrual_points": 376,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 100,
+      "ore_per_point": 3.102,
+      "first_seen": "2026-10-05",
+      "status": "active",
+      "lowest_points_price": 12120,
+      "lowest_points_date": "2026-10-05"
+    },
     {
       "uuid": "no:strandvaska-organic-herringbone-gron-vit-rand",
       "slug": "strandvaska-organic-herringbone-gron-vit-rand",
@@ -23,9 +1607,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 28450,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:strandhandduk-i-bomullsvelour-100x180-cm-gron-vit",
@@ -45,9 +1630,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19690,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:foaming-shower-gel-the-ritual-of-karma",
@@ -67,9 +1653,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.095,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3780,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:strandhandduk-i-bomullsvelour-100x180-cm-beige",
@@ -89,9 +1676,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19690,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:meta-vanguard-black-prizm-24k",
@@ -111,9 +1699,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 214070,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:the-quencher-h2-0-flowstate-tumbler-1-18-l-gron",
@@ -133,9 +1722,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19340,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:genua-pro-red-black-70-90-l",
@@ -155,9 +1745,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 17270,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:genua-pro-red-black-90-xl",
@@ -177,9 +1768,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 17270,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:genua-pro-red-black-50-70-m",
@@ -199,9 +1791,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 17270,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:essens-kabinvaska-55-cm-sage",
@@ -221,9 +1814,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 61820,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:essens-resvaska-69-cm-sage",
@@ -243,9 +1837,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 66760,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-compact-100-auto-30-110kg-vit",
@@ -265,9 +1860,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45460,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-winner-auto-40-150-kg-rod",
@@ -287,9 +1883,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 38350,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-compact-100-auto-30-110kg-svart",
@@ -309,9 +1906,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45460,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:rejoy-resvaska-68-cm-true-black",
@@ -331,9 +1929,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 23730,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:rejoy-resvaska-77-cm-true-black",
@@ -353,9 +1952,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 26900,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellsladdad-utomhustermometer-celsius",
@@ -375,9 +1975,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.109,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 2670,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:meta-wayfarer-matte-black-photochromic-clear-grey",
@@ -397,9 +1998,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 194810,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:meta-wayfarer-shiny-black-g-15-green",
@@ -419,9 +2021,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 163350,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:icons-rutigt-paslakan-i-percale-150x210-cm",
@@ -441,9 +2044,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 39480,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:doftstickor-the-ritual-of-karma",
@@ -463,9 +2067,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10220,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:doftljus-the-ritual-of-karma",
@@ -485,9 +2090,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.096,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 7880,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:k-mini-plus-eu",
@@ -507,9 +2113,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45760,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:softybag-chair-bla",
@@ -529,9 +2136,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-09-07",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12570,
-      "lowest_points_date": "2026-09-07"
+      "lowest_points_date": "2026-09-07",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:knivset-5-del-g-2-9-gs-5-11-38",
@@ -551,9 +2159,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 116660,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vide-vaska-weekend-bag-svart",
@@ -573,9 +2182,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.104,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10340,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:rpet-city-randig-kylvaska-stor-20-liter-svart-vit",
@@ -595,9 +2205,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.095,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 4750,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:rpet-city-randig-kylvaska-hog-9-liter-svart-vit",
@@ -617,9 +2228,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.092,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3460,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:picknickplad-svart-150x120-cm",
@@ -639,9 +2251,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.093,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 6530,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:city-kylvaska-stor-rpet-svart",
@@ -661,9 +2274,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10090,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hand-lotion-sunny-delight-350ml",
@@ -683,9 +2297,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 5840,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-slim-pro-50-70-kg-svart",
@@ -705,9 +2320,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 26510,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-slim-pro-70-90-kg-svart",
@@ -727,9 +2343,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 26510,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-slim-pro-90kg-svart",
@@ -749,9 +2366,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 26510,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hamburgarspatel",
@@ -771,9 +2389,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.106,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 4700,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:original-handduk-100x150-cm-vit-tan-randig",
@@ -793,9 +2412,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 15730,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:original-handduk-50x70-cm-vit-tan-randig",
@@ -815,9 +2435,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 5840,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:trail-run-vest-w-7l-loparvast-dam",
@@ -837,9 +2458,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 37100,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:the-easy-carry-outdoor-cooler-15-1l-frost-vit",
@@ -859,9 +2481,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-10",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45510,
-      "lowest_points_date": "2026-08-10"
+      "lowest_points_date": "2026-08-10",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:the-transit-flip-top-mug-0-35l-gron",
@@ -881,9 +2504,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12420,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:the-quencher-h2-0-flowstate-tumbler-1-18-l-svart",
@@ -903,9 +2527,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19340,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:peak-light-32l-langre-vandringar-svart",
@@ -925,9 +2550,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 78070,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:original-handduk-50x70-cm-vit-vintage-gron-randig",
@@ -947,9 +2573,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 5840,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:original-handduk-100x150-cm-vit-bla-randig",
@@ -969,9 +2596,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 15730,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hotel-percale-paslakan-150x210-cm-vit-bla",
@@ -991,9 +2619,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 43440,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vaffeljarn",
@@ -1013,9 +2642,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 17410,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:badlakan-rio-90x150-cm-gron-vit",
@@ -1035,9 +2665,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 6930,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:badlakan-rio-90x150-cm-bla-vit",
@@ -1057,9 +2688,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 6930,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:paracord-matte-black-prizm-sapphire",
@@ -1079,9 +2711,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45100,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:paracord-polished-clear-prizm-sapphire",
@@ -1101,9 +2734,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45100,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:shackle-olive-ink-prizm-jade",
@@ -1123,9 +2757,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45100,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:0rb4315-black-dark-green",
@@ -1145,9 +2780,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 38120,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:0rb4315-light-havana-b-15-brown",
@@ -1167,9 +2803,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-10",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 38120,
-      "lowest_points_date": "2026-08-10"
+      "lowest_points_date": "2026-08-10",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:upscape-resvaska-68-cm-climbing-ivy",
@@ -1189,9 +2826,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 74180,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:upscape-resvaska-75-cm-climbing-ivy",
@@ -1211,9 +2849,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 79130,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:upscape-kabinvaska-55-cm-exp-black",
@@ -1233,9 +2872,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 69240,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:2-pack-handdukar-rio-30x50-cm-bla-vit",
@@ -1255,9 +2895,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.117,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 2470,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:2-pack-handdukar-rio-30x50-cm-gron-vit",
@@ -1277,9 +2918,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.117,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 2470,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:duschskum-sport",
@@ -1299,9 +2941,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.095,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3780,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:icons-rutigt-orngott-i-percale-50x60-cm",
@@ -1321,9 +2964,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 8910,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vas-h-20-cm-ripple-black",
@@ -1343,9 +2987,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 11300,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vas-h-20-cm-ripple-white",
@@ -1365,9 +3010,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 11300,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vas-h-27-cm-verdigris-green",
@@ -1387,9 +3033,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13350,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:cut-it-pizza-board-w-34-cm-black",
@@ -1409,9 +3056,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 7290,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:led-solcellspollare-5-pack-svart",
@@ -1431,9 +3079,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.105,
       "first_seen": "2026-08-24",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 5990,
-      "lowest_points_date": "2026-08-24"
+      "lowest_points_date": "2026-08-24",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:round-metal-arista-g-15-0rb3447-001-53",
@@ -1453,9 +3102,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 40880,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:droppfri-karaff-100cl",
@@ -1475,9 +3125,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-24",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10740,
-      "lowest_points_date": "2026-08-24"
+      "lowest_points_date": "2026-08-24",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:termoskanna-1-0-l-sand",
@@ -1497,9 +3148,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-24",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14840,
-      "lowest_points_date": "2026-08-24"
+      "lowest_points_date": "2026-08-24",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:glow-lykta-18-cm-black",
@@ -1519,9 +3171,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13600,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:glow-lykta-23-5-cm-black",
@@ -1541,9 +3194,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19540,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:heatup-terrassvarmare",
@@ -1563,9 +3217,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 168210,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:pilastro-cocktail-shaker-clear",
@@ -1585,9 +3240,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9810,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:pilastro-karaff-med-dricksglas-1-l-clear",
@@ -1607,9 +3263,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9810,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:the-easy-carry-outdoor-cooler-15-1l-svart",
@@ -1629,9 +3286,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 45510,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:bruslettokniven-allround",
@@ -1651,9 +3309,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 19740,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:original-handduk-50x70-cm-vit-bla-randig",
@@ -1673,9 +3332,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 5840,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hotel-percale-orngott-50x60-cm-vit-bla",
@@ -1695,9 +3355,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10880,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:coffeebird-barista-espressomachine",
@@ -1717,9 +3378,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 23750,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:soundbird-cm-magnetisk-barbar-hogtalare",
@@ -1739,9 +3401,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 23750,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:powerbottle-bo5-vattenflaska-med-avtagbar-powerbank",
@@ -1761,9 +3424,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14100,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:arne-jacobsen-serveringsbricka-o-33-5-cm-steel",
@@ -1783,9 +3447,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 24290,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:arne-jacobsen-cocktail-shaker-0-75-l-steel",
@@ -1805,9 +3470,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 27270,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:pilastro-vinkylare-clear",
@@ -1827,9 +3493,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9810,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:vaggmonterad-heatup-terrassvarmare",
@@ -1849,9 +3516,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 123680,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:cornhole-original",
@@ -1871,9 +3539,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 15010,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:lightbird-campinglampa-bl10",
@@ -1893,9 +3562,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 16330,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:billaddare-chargebird-cc2",
@@ -1915,9 +3585,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3970,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:sittdyna-rullad-svart",
@@ -1937,9 +3608,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.106,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 2350,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:city-kylvaska-stor-rpet-gron",
@@ -1959,9 +3631,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10090,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:city-kylryggsack-rpet-svart",
@@ -1981,9 +3654,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13060,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:city-kylryggsack-rpet-gron",
@@ -2003,9 +3677,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 11840,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:stig-ihopfallbar-flaska-svart",
@@ -2025,9 +3700,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 4160,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:fredde-korvgaffel",
@@ -2047,9 +3723,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.086,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3240,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:softybag-original-gron",
@@ -2069,9 +3746,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12170,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:softybag-original-bla",
@@ -2091,9 +3769,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12170,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:softybag-chair-rod",
@@ -2113,9 +3792,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-09-07",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12570,
-      "lowest_points_date": "2026-09-07"
+      "lowest_points_date": "2026-09-07",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:kolarpanna-o-28-cm-hopfallbar",
@@ -2135,9 +3815,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13460,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:powerbank-10-000mah-20w",
@@ -2157,9 +3838,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 8910,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:powerbank-20-000mah-65w",
@@ -2179,9 +3861,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13260,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:beach-racket-set-original",
@@ -2201,9 +3884,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.096,
       "first_seen": "2026-09-21",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9850,
-      "lowest_points_date": "2026-09-21"
+      "lowest_points_date": "2026-09-21",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:croquet-original",
@@ -2223,9 +3907,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14790,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hopfallbar-kolgrill",
@@ -2245,9 +3930,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 20430,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:soundbird-b10-lantern-speaker-powerbank-10-000mah",
@@ -2267,9 +3953,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-24",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 16580,
-      "lowest_points_date": "2026-08-24"
+      "lowest_points_date": "2026-08-24",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:airbird-c7-pump-inflate-deflate",
@@ -2289,9 +3976,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 22910,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:airbird-c2-pump-camping-light-inflate-deflate",
@@ -2311,9 +3999,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.102,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10220,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:airbird-c4-pump-inflate-deflate",
@@ -2333,9 +4022,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 13070,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:kaffepanna-1-5-l",
@@ -2355,9 +4045,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 4640,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:aqiila-coffebird-portable-nesspressomaker",
@@ -2377,9 +4068,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 39880,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellsslinga-dew-drop-micro",
@@ -2399,9 +4091,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.096,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 3650,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:sunbird-p21-vikbar-solpanel-usb-c-ip67",
@@ -2421,9 +4114,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 23770,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:powerbird-bs10-vikbar-solar-powerbank-10-000mah-lampa",
@@ -2443,9 +4137,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 24560,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellsslinga-sunlight-8-light",
@@ -2465,9 +4160,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.096,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 12790,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:anni-fleeceplad-gra",
@@ -2487,9 +4183,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.105,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9500,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellsspotlight-lawnlight-3-pack",
@@ -2509,9 +4206,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.109,
       "first_seen": "2026-08-10",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 4310,
-      "lowest_points_date": "2026-08-10"
+      "lowest_points_date": "2026-08-10",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellslampa-sunlight",
@@ -2531,9 +4229,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10730,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:heavy-duty-stand-mixer-bowl-lift-6-6l-white",
@@ -2553,9 +4252,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 183250,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:stekhall-set-58-cm-v2",
@@ -2575,9 +4275,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 66340,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:split-front-barn-15-30-kg-orange",
@@ -2597,9 +4298,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 15580,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:split-front-baby-3-15-kg-orange",
@@ -2619,9 +4321,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 15580,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hundvast-mascot-3-8-kg-uv-gul-svart",
@@ -2641,9 +4344,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.103,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 10570,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hundvast-mascot-8-15-kg-uv-gul-svart",
@@ -2663,9 +4367,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14290,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:hundvast-mascot-15-40-kg-uv-gul-svart",
@@ -2685,9 +4390,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-17",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14290,
-      "lowest_points_date": "2026-08-17"
+      "lowest_points_date": "2026-08-17",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flytvast-poseidon-auto-sele-40-120kg-svart",
@@ -2707,9 +4413,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 73900,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:pacific-wp-backpack-30l-black",
@@ -2729,9 +4436,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14790,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:pitchman-r-polished-clear-prizm-sapphire",
@@ -2751,9 +4459,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 53490,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:solcellspinne-sunlight-path",
@@ -2773,9 +4482,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 6320,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:flora-ugnsform-beige",
@@ -2795,9 +4505,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.105,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9500,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:blanka-vas-vinkylare-ljuslykta-klar",
@@ -2817,9 +4528,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 8880,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:tagbird-smart-tracker-ios-andriod-4-p",
@@ -2839,9 +4551,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.097,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 16080,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:artisan-stand-mixer-premium-4-8-liter-rod",
@@ -2861,9 +4574,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.1,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 163170,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:tradlos-mini-matberedare-1-18-liter-gra",
@@ -2883,9 +4597,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 30120,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:to-go-bbq-kolgrill-army-stainless-steel",
@@ -2905,9 +4620,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 20530,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:chargebird-qi2-tradlos-laddare-med-bilfaste-15w",
@@ -2927,9 +4643,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 11330,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:tagbird-ringklocka-cykel-ios-android-1-p",
@@ -2949,9 +4666,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 8610,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:tagbird-monteringsholje-ios-android-1-p",
@@ -2971,9 +4689,10 @@
       "points_per_100": 101,
       "ore_per_point": 3.096,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 6330,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:airbird-p1-luftpump-mini",
@@ -2993,9 +4712,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 16330,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:to-go-bbq-gasolgrill-svart-stainless-steel",
@@ -3015,9 +4735,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 28510,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:nackkudde-med-huva-misty-grey",
@@ -3037,9 +4758,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.099,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 14520,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:baddset-arkipelag-blank-enkelt-vit-150x210cm",
@@ -3059,9 +4781,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.098,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 11170,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:bbq-multitool",
@@ -3081,9 +4804,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.096,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 9820,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:base-breeze-resvaska-exp-67-cm-black",
@@ -3103,9 +4827,10 @@
       "points_per_100": 100,
       "ore_per_point": 3.101,
       "first_seen": "2026-08-02",
-      "status": "active",
+      "status": "gone",
       "lowest_points_price": 51920,
-      "lowest_points_date": "2026-08-02"
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-10-05"
     },
     {
       "uuid": "no:strandhandduk-i-bomullsvelour-100x180-cm-bla-vit",
