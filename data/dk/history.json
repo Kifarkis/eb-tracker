@@ -2513,5 +2513,117 @@
     "points_channel": 15,
     "started": "2026-09-21",
     "uuid": "019caee9-6c55-73b8-a1a0-d2744bdc1f29"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Acer",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-28",
+    "uuid": "01896310-f77f-72c9-9b07-830ad79ad27f"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Albert",
+    "points_campaign": 1500,
+    "points_channel": 300,
+    "started": "2026-09-28",
+    "uuid": "01896312-874a-732c-a16e-33ad6b422841"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-28",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "E-Wheels",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-28",
+    "uuid": "01896310-1e04-7083-b83b-6a19deed1cf1"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Factor",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-10-02",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-28",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Interflora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-25",
+    "uuid": "0189630a-26b4-72dd-ac2d-920f3deae927"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Lampegiganten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-25",
+    "uuid": "01896309-a6d3-70f0-b920-314a0de651aa"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Lounge by Zalando",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-28",
+    "uuid": "018abc11-7ec7-73a0-bb3a-428c1b239d7d"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Magasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-21",
+    "uuid": "01896310-cff7-730e-a0e8-c319ca656c74"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Matas",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-28",
+    "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Miinto",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-28",
+    "uuid": "01896308-a975-7164-aa9c-41b2ec9d89e2"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Oslo Skin Lab",
+    "points_campaign": 1500,
+    "points_channel": 300,
+    "started": "2026-09-21",
+    "uuid": "0189630d-de8e-70ab-86a4-6a9fa9db16c6"
+  },
+  {
+    "ended": "2026-10-05",
+    "name": "Viator",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-09-28",
+    "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
   }
 ]
