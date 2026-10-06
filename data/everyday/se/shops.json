@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-10-05T10:59:11.964825+00:00",
-  "shop_count": 445,
+  "updated": "2026-10-06T10:54:36.534236+00:00",
+  "shop_count": 446,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -13417,6 +13417,36 @@
       "campaign_description": null,
       "created_at": "2025-09-02 13:29:31",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "vetathome-d42304b9-e1b9-444a-91be-8739b7224111",
+      "name": "VetAtHome",
+      "country": "se",
+      "city": "Stockholm",
+      "postcode": "11448",
+      "address": "Kommendörsgatan 16",
+      "lat": 59.3385412,
+      "lng": 18.0794568,
+      "mode": "onsite",
+      "category_id": 12,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "www.vetathome.se",
+      "phone": "+46 (0)8 25 99 68",
+      "email": "robert@vetathome.se",
+      "description": "VetAtHome makes veterinary care easier and less stressful for both you and your pet. Choose a convenient home visit, visit one of VetAtHome’s veterinary clinics, or receive advanced care at Djurkliniken Östermalm in Stockholm. From vaccinations and health checks to diagnostics and treatment, VetAtHome offers experienced veterinary care tailored to your pet’s needs.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-09-17 08:46:25",
+      "first_seen": "2026-10-06",
       "status": "active"
     },
     {
