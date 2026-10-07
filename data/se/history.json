@@ -5616,5 +5616,13 @@
     "points_channel": 10,
     "started": "2026-09-28",
     "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
+  },
+  {
+    "ended": "2026-10-07",
+    "name": "Amazon",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-05",
+    "uuid": "018ead91-a62a-71c0-b877-9faf0d120af4"
   }
 ]
