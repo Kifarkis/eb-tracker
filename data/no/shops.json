@@ -4670,6 +4670,27 @@
     "status": "gone",
     "uuid": "01935438-5e6b-7013-9f9d-da93e98bf438"
   },
+  "019363db-290f-7080-8385-8759d1562ff1": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-09",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 51,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>J. Lindeberg er et svensk motemerke som kombinerer skandinavisk design med moderne stil og funksjonalitet. Merket tilbyr klær, sko og tilbehør til både kvinner og menn, med kolleksjoner innen mote, golf og sport. J. Lindeberg er kjent for sine stilrene plagg, innovative materialer og elegante uttrykk, både på og utenfor golfbanen.</div>",
+    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-09",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/odWPqwVlIO3s0QJ7gUPeVWFD2ZTwfbaKSXDuJQN7.png",
+    "name": "J. Lindeberg",
+    "slug": "j-lindeberg",
+    "status": "active",
+    "uuid": "019363db-290f-7080-8385-8759d1562ff1"
+  },
   "019377df-d9a3-7347-a95e-9334e52d7b2d": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
