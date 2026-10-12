@@ -2625,5 +2625,93 @@
     "points_channel": 6,
     "started": "2026-09-28",
     "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Disneyland Paris",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-05",
+    "uuid": "01896308-31bb-71d4-a2af-72cc58523665"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-25",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Factor",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-10-05",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Gents",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630d-2220-726e-b99d-9a1e16f855da"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Nicehair",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896311-cd52-7367-8aae-0c4b46a3188e"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "NordVPN",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-10-05",
+    "uuid": "0189630e-2ae5-7184-adab-1a84e70c6254"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Soundliving",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-09-28",
+    "uuid": "01a0b373-9233-715c-8419-b59ff34813e6"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "WEEKDAY",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
   }
 ]

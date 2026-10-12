@@ -5624,5 +5624,189 @@
     "points_channel": 20,
     "started": "2026-10-05",
     "uuid": "018ead91-a62a-71c0-b877-9faf0d120af4"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Beijer Byggmaterial",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896309-f68e-71c7-b004-d82b22e6debb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Björn Borg",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-05",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "BookBeat",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-10-05",
+    "uuid": "0189630d-af8b-717b-b0cb-1f385bd015f5"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Dashl Beauty",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-05",
+    "uuid": "019d255f-254f-72df-8940-6aea70418223"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-25",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Evify",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-10-05",
+    "uuid": "01896312-b0fa-70cc-9292-50e7504899f2"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Factor",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-10-02",
+    "uuid": "01932560-06e4-7378-846c-17fc077c77eb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Florister i Sverige",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-05",
+    "uuid": "0189630e-1cbb-71c5-b96e-c639b69edd2f"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Gents",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630d-2220-726e-b99d-9a1e16f855da"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Junkyard",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "019c7b2a-0892-7181-9c77-ba7dee8b3d9f"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Lindex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630a-9780-71c1-a269-e72cab65f2a4"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Makeup Mekka",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0197a72c-6e7d-7200-b949-a127880137d2"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "NordVPN",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-10-05",
+    "uuid": "0189630e-2ae5-7184-adab-1a84e70c6254"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Singular Society",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-10-05",
+    "uuid": "019ad964-5fce-7380-ba91-5c4007d5ebbd"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Soffadirekt",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630a-1be2-707b-8a6f-d198c40fe2d9"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Telinet",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-10-05",
+    "uuid": "018e5102-89f1-70d3-b184-bfb0de1ae948"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "TV4 Play",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-10-01",
+    "uuid": "018abc11-d0cc-728d-8d49-a2b6817b5660"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "WEEKDAY",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
   }
 ]

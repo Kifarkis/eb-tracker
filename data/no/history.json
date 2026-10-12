@@ -3047,5 +3047,109 @@
     "points_channel": 6,
     "started": "2026-09-28",
     "uuid": "0189630e-3cfe-7166-9125-0e412743ab2c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-25",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Fabel",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-10-05",
+    "uuid": "0189630f-ef16-7364-aef4-32a7e20009b8"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Gents",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630d-2220-726e-b99d-9a1e16f855da"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "LEGO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896310-5de4-71af-9cfa-190c9eebec97"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Lindex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630a-9780-71c1-a269-e72cab65f2a4"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "LYKO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "NordVPN",
+    "points_campaign": 300,
+    "points_channel": 60,
+    "started": "2026-10-05",
+    "uuid": "0189630e-2ae5-7184-adab-1a84e70c6254"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "Telia",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-10-05",
+    "uuid": "0189630b-94d9-73d6-9d65-2f31fd21738c"
+  },
+  {
+    "ended": "2026-10-12",
+    "name": "WEEKDAY",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
   }
 ]
