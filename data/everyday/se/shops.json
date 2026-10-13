@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-10-12T11:27:58.589289+00:00",
+  "updated": "2026-10-13T11:17:16.695774+00:00",
   "shop_count": 446,
   "shops": [
     {
@@ -13424,15 +13424,15 @@
       "name": "VetAtHome",
       "country": "se",
       "city": "Stockholm",
-      "postcode": "11448",
-      "address": "Kommendörsgatan 16",
+      "postcode": "115 27",
+      "address": "Valhallavägen 184",
       "lat": 59.3385412,
       "lng": 18.0794568,
       "mode": "onsite",
       "category_id": 12,
       "points_per_100": 50,
       "currency": "SEK",
-      "website": "www.vetathome.se",
+      "website": "https://vetathome.se/sas-eurobonus/",
       "phone": "+46 (0)8 25 99 68",
       "email": "robert@vetathome.se",
       "description": "VetAtHome makes veterinary care easier and less stressful for both you and your pet. Choose a convenient home visit, visit one of VetAtHome’s veterinary clinics, or receive advanced care at Djurkliniken Östermalm in Stockholm. From vaccinations and health checks to diagnostics and treatment, VetAtHome offers experienced veterinary care tailored to your pet’s needs.",
