@@ -5808,5 +5808,13 @@
     "points_channel": 10,
     "started": "2026-10-05",
     "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
+  },
+  {
+    "ended": "2026-10-13",
+    "name": "Nextory",
+    "points_campaign": 499,
+    "points_channel": 100,
+    "started": "2026-10-05",
+    "uuid": "0189630c-56c3-7074-8394-13e45ce5c745"
   }
 ]

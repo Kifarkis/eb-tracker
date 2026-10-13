@@ -2490,22 +2490,17 @@
     "uuid": "0189630c-4ce6-7044-9ea1-fd1ac49aae97"
   },
   "0189630c-56c3-7074-8394-13e45ce5c745": {
-    "active_campaign": {
-      "ends_date": "2026-10-31",
-      "points_campaign": 499,
-      "points_channel": 100,
-      "started": "2026-10-05"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-10-05",
     "all_time_high_points": 499,
-    "campaign_ends_human": "om 2 veckor",
-    "campaign_ends_human_en": "in 2 weeks",
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "SEK",
     "current_points": 250,
-    "current_points_campaign": 499,
-    "current_points_channel": 100,
+    "current_points_campaign": 0,
+    "current_points_channel": 50,
     "description": "<div>Nextory har marknadens största utbud av e-böcker och man kan för en fast månadsavgift läsa och lyssna på så många böcker man vill. Vi har tusentals titlar, inklusive de senaste nyheterna. Man behöver inte vara uppkopplad mot Internet eller online för att läsa.&nbsp;<br><br>Som EuroBonus-medlem kan du prova Nextory gratis i 45 dagar (i vanliga fall 14 dagar). En perfekt reskamrat till din nästa flygresa med oss! Du tjänar EuroBonus-poäng även om du väljer att inte fortsätta med din prenumeration.</div><div><strong><br></strong><br></div><h1>Villkor för denna partner</h1><div>Detta erbjudande gäller endast en gång per EuroBonus medlem och är endast tillåtet för nya, svenska prenumeranter.&nbsp;</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-10-13",
@@ -3201,11 +3196,12 @@
     "current_points_channel": 10,
     "description": "<div>TheMobileStore.se vill erbjuda sina kunder ett så komplett sortiment av tillbehör till mobiltelefoner som möjligt. De säljer följande mobiltillbehör: Läderväskor, Dockstationer, Mirror /Shine Skärmskydd, Nödladdare, Silikonskydd etc.<br><br><strong>Vänligen notera:&nbsp;</strong>Det är inte möjligt att tjäna poäng på mobiler, surfplattor, smartklockor, Galaxy Buds och AirPods.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-10-13",
     "last_seen": "2026-10-13",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/TheMobileStore.se-1689583974.jpg",
     "name": "TheMobileStore.se",
     "slug": "themobilestore.se",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-7763-72ef-9465-0504889af58f"
   },
   "0189630d-7f2a-726e-829a-087102a2c6d5": {
