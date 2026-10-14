@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-10-13T11:17:16.695774+00:00",
-  "shop_count": 446,
+  "updated": "2026-10-14T09:08:48.444147+00:00",
+  "shop_count": 447,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -541,6 +541,36 @@
       "campaign_description": "Have you discovered how easy it is to earn up to 100 Bonus points for every 100 SEK/NOK spent at restaurants and cafés? There are more than 250 restaurants and cafés that reward you with EuroBonus points in Scandinavia. Simply pay with a payment card linked to your EuroBonus account to earn points. If you have not linked a payment card yet, you can participate in a competition and be one of 10 winners of 30,000 points. Members in Sweden and Norway are eligible to participate. Just link your payment card for the first time and earn points on three different occasions before August 31.",
       "created_at": "2026-06-10 10:29:01",
       "first_seen": "2026-06-23",
+      "status": "active"
+    },
+    {
+      "uuid": "carnivore-steakhouse-7363d9ba-19cf-4ef8-a806-e65352078382",
+      "name": "Carnivore Steakhouse",
+      "country": "se",
+      "city": "Malmö",
+      "postcode": "21131",
+      "address": "Östra Förstadsgatan 24",
+      "lat": 55.6072888,
+      "lng": 13.0183018,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "www.carnivore.nu",
+      "phone": "+46 (0)40-10 40 10",
+      "email": "info@carnivore.nu",
+      "description": "Treat yourself to a memorable dining experience at Carnivore Steakhouse in Malmö, where quality cuts, great flavours and a vibrant atmosphere come together. Whether you’re enjoying a perfectly grilled steak, sharing a meal with friends or celebrating a special occasion, Carnivore is a destination for anyone who appreciates great food.",
+      "cards_accepted": [
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-10-01 13:36:02",
+      "first_seen": "2026-10-14",
       "status": "active"
     },
     {
