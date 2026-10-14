@@ -2176,11 +2176,12 @@
     "current_points_channel": 10,
     "description": "<p>Plænerobot er specialister i robotplæneklippere. Her&nbsp;kan du finde den idéelle Robotplæneklipper, der passer præcist til dit behov og græsplæne.&nbsp;</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-10-14",
     "last_seen": "2026-10-14",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Plænerobot-1689583979.jpg",
     "name": "Plænerobot",
     "slug": "plænerobot",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630d-898e-7124-b25d-05186095f9a9"
   },
   "0189630d-8cd6-709a-8fb9-aa0488874f2d": {
@@ -3906,17 +3907,22 @@
     "uuid": "01896310-e498-7394-b512-9fe9cabbc37c"
   },
   "01896310-e823-72b0-8d74-6b3da56a30e3": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "18.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-14"
+    },
     "all_time_high_date": "2026-06-22",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 dage",
+    "campaign_ends_human_en": "in 3 days",
     "category_id": 14,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "I over 10 år har Autodoc hjulpet kunder i 26 europæiske lande med at reparere biler. Autodoc sælger kun\n\nhøjkvalitets bildele kun fra de bedste bilproducenter og til de allerbedste priser",
     "first_seen": "2026-04-24",
     "last_seen": "2026-10-14",

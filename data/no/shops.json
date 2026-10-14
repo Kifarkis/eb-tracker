@@ -3429,17 +3429,22 @@
     "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
   },
   "01896310-e823-72b0-8d74-6b3da56a30e3": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "18.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-14"
+    },
     "all_time_high_date": "2026-05-25",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 dager",
+    "campaign_ends_human_en": "om 3 dager",
     "category_id": 14,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Hei og velkommen til AUTODOC! Du er i ferd med å bli en del av et fellesskap med over 21 millioner fornøyde kunder, fra bilentusiaster til profesjonelle mekanikere og folk som rett og slett elsker alt som har med biler å gjøre.<br><br><strong>Vennligst merk</strong>: Du kan ikke tjene poeng når du kjøper dekk.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-10-14",
