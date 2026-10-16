@@ -132,15 +132,15 @@
   },
   "01896307-cb70-7078-96e6-9379b454803c": {
     "active_campaign": {
-      "ends_date": "18.10.2026",
+      "ends_date": "25.10.2026",
       "points_campaign": 50,
       "points_channel": 10,
       "started": "2026-10-15"
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": "om 1 dag",
-    "campaign_ends_human_en": "in 1 day",
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 9,
     "commission_type": "variable",
     "currency": "%",
@@ -5203,11 +5203,12 @@
     "current_points_channel": 5,
     "description": "<div>Hos CAIA Cosmetics finner du sminke- og hudpleieprodukter av høyeste kvalitet. Vi har alt du trenger innen sminke og hudpleie for å enkelt skape det perfekte utseendet. Oppdag sminkesettene våre for forskjellige hudtoner eller fyll sminkebordet ditt med våre bestselgere.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-10-16",
     "last_seen": "2026-10-16",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/odCApZQWRIMvXv8f4gO2VEKZnJ0FDGEXQS03cCoe.png",
     "name": "CAIA Cosmetics",
     "slug": "caia-cosmetics",
-    "status": "active",
+    "status": "gone",
     "uuid": "019b939e-7e05-71c0-a5c6-2fb15815f053"
   },
   "019bc664-90ed-7386-a14b-4ee847a35168": {

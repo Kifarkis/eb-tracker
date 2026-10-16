@@ -196,15 +196,15 @@
   },
   "01896307-cb70-7078-96e6-9379b454803c": {
     "active_campaign": {
-      "ends_date": "2026-10-18",
+      "ends_date": "2026-10-25",
       "points_campaign": 50,
       "points_channel": 10,
       "started": "2026-10-15"
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": "om 1 dag",
-    "campaign_ends_human_en": "in 1 day",
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 9,
     "commission_type": "variable",
     "currency": "%",

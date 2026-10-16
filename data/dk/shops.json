@@ -117,15 +117,15 @@
   },
   "01896307-cb70-7078-96e6-9379b454803c": {
     "active_campaign": {
-      "ends_date": "18.10.2026",
+      "ends_date": "25.10.2026",
       "points_campaign": 50,
       "points_channel": 10,
       "started": "2026-10-15"
     },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": "om 1 dag",
-    "campaign_ends_human_en": "in 1 day",
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 9,
     "commission_type": "variable",
     "currency": "%",
@@ -6035,6 +6035,27 @@
     "slug": "krifa",
     "status": "gone",
     "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
+  },
+  "019a5e2b-866b-702d-b295-e28101b5ba41": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-16",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 9,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>RevolutionRace har siden 2014 revolutioneret outdoor-branchen ved at udfordre det traditionelle (og ofte dyre) marked for friluftstøj. Missionen er klar: At skabe holdbart, stilfuldt og prisvenligt udendørstøj, der sidder perfekt – uanset om du vandrer i fjeldet, arbejder i haven eller lufter hunden.</div>",
+    "first_seen": "2026-10-16",
+    "last_seen": "2026-10-16",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VPmb6bYcayvI1L6ye8NJCU835OUbEjRzy3MNQ8RE.png",
+    "name": "RevolutionRace",
+    "slug": "revolutionrace",
+    "status": "active",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
   },
   "019a6df3-8f39-72f5-899b-9c7a753abcda": {
     "active_campaign": null,
