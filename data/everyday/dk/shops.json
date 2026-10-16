@@ -1,7 +1,7 @@
 {
   "country": "dk",
-  "updated": "2026-10-15T08:41:51.727419+00:00",
-  "shop_count": 346,
+  "updated": "2026-10-16T08:36:25.715105+00:00",
+  "shop_count": 347,
   "shops": [
     {
       "uuid": "ac-perchs-thehandel-2",
@@ -7503,6 +7503,35 @@
       "campaign_description": null,
       "created_at": "2016-12-13 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "restaurant-uva-66797fb8-7456-41d3-aa6f-fd16e36b80e4",
+      "name": "Restaurant UVA",
+      "country": "dk",
+      "city": "Købehavn",
+      "postcode": "1057",
+      "address": "Holbergsgade 17 st th",
+      "lat": 55.67862359999999,
+      "lng": 12.5897043,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 100,
+      "currency": "DKK",
+      "website": "https://www.restaurant-uva.dk/",
+      "phone": "+45 20 14 41 71",
+      "email": "info@restaurant-uva.dk",
+      "description": "Discover Restaurant UVA, where delicious food, quality ingredients and a welcoming atmosphere come together for a memorable dining experience. Whether you're enjoying a relaxed lunch, a lovely dinner or a special occasion, UVA is a great place to savour good food and great company.",
+      "cards_accepted": [
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-10-15 14:38:07",
+      "first_seen": "2026-10-16",
       "status": "active"
     },
     {
