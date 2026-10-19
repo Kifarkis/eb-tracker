@@ -110,6 +110,32 @@
     "status": "gone",
     "uuid": "01896307-b78c-7310-b699-86959d5dfe0e"
   },
+  "01896307-c614-73bf-be00-aed08d7bb87d": {
+    "active_campaign": {
+      "ends_date": "25.10.2026",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-10-19"
+    },
+    "all_time_high_date": "2026-10-19",
+    "all_time_high_points": 30,
+    "campaign_ends_human": "om 5 dage",
+    "campaign_ends_human_en": "in 5 days",
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 15,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
+    "description": "<p>Nelly.com - Nordens største butik på nettet til mode- og skønhedsbevidste kvinder mellem 18 og 35 år. Nelly.com inspirerer med nyheder hver dag fra nogle af butikkens 850 forskellige varemærker til gode priser og med hurtig levering. Her mødes alt fra internationale velkendte modehuse til Nellys egne unikke varemærker såsom Nly Trend og Nly Shoes. </p>",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Nelly.com-1689583601.jpg",
+    "name": "Nelly.com",
+    "slug": "nelly.com",
+    "status": "active",
+    "uuid": "01896307-c614-73bf-be00-aed08d7bb87d"
+  },
   "01896307-cb70-7078-96e6-9379b454803c": {
     "active_campaign": {
       "ends_date": "25.10.2026",
@@ -6863,5 +6889,31 @@
     "slug": "authentic-europe",
     "status": "active",
     "uuid": "01a1447d-94dd-7090-a4ae-22c7b348afe1"
+  },
+  "01a15438-70cb-7210-8da5-737a9df69135": {
+    "active_campaign": {
+      "ends_date": "31.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-19"
+    },
+    "all_time_high_date": "2026-10-19",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 14,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Authentic Scandinavia tilbyder pakkerejser og rundrejser i Skandinavien og Norden. Oplev Norges fjorde, nordiske hovedstæder, nordlys og Laplands unikke vinteroplevelser. Vælg mellem individuelle rejser, togrejser, bilferier og guidede grupperejser med fleksible muligheder for at tilpasse din ferie.</div>",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/25DekCnTzAmWUx1E8gJQKTEEi8W2yDl4s5QOrA2J.png",
+    "name": "Authentic Scandinavia",
+    "slug": "authentic-scandinavia",
+    "status": "active",
+    "uuid": "01a15438-70cb-7210-8da5-737a9df69135"
   }
 }
