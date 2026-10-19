@@ -2713,5 +2713,133 @@
     "points_channel": 10,
     "started": "2026-10-05",
     "uuid": "0189630f-1164-724e-add9-82aae07ee93f"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Ase a-kasse",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-09-29",
+    "uuid": "01909142-1013-7009-832e-9bdf53f0b900"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Autodoc",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-14",
+    "uuid": "01896310-e823-72b0-8d74-6b3da56a30e3"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Bottle Hero",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "019a112d-87ab-730e-9bb7-101330a28267"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-15",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Dustin Erhverv",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-10-12",
+    "uuid": "0189630b-a1fd-7133-b07a-084f91874cd8"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Euroflorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "GANT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896312-beb2-7051-a0a1-ff2121e0dee9"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Helsegrossisten",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-06",
+    "uuid": "0189630f-a5eb-73e6-9be7-41a7fb921f47"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Otto Suenson",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-09-29",
+    "uuid": "01a061f3-cf1c-72ff-b6a6-d838f5ed65ed"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Sephora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-06",
+    "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Sonos",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "0189630e-a751-7311-930d-de861b1a0c5d"
   }
 ]

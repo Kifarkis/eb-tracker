@@ -5816,5 +5816,205 @@
     "points_channel": 100,
     "started": "2026-10-05",
     "uuid": "0189630c-56c3-7074-8394-13e45ce5c745"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Agoda",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Agood Company",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-12",
+    "uuid": "01896311-c762-72e7-8110-9489cd35dfb2"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Albrekts Guld",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-07",
+    "uuid": "0189630b-85b9-7042-9563-61fe0949c835"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Bright 1-2-3",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "018abc11-d400-7191-966d-c882cc05726f"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "COS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-15",
+    "uuid": "0189630e-0bd3-72c2-a84d-9bc1f40f4a70"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Dustin Företag",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-10-12",
+    "uuid": "0189630b-a1fd-7133-b07a-084f91874cd8"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "EPIC Travelgear",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-02",
+    "uuid": "0199b95a-142f-73a9-90e9-d6dbaecdc935"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "EuroFlorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "GANT",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896312-beb2-7051-a0a1-ff2121e0dee9"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Gymgrossisten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896307-c0a0-73c3-bb34-1854292ab161"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Gymkompaniet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "0191c697-0a7d-7061-81d0-bb2f29b2167c"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Hudoteket",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-12",
+    "uuid": "01896309-aa2d-71e5-9c48-248f03c79b6f"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Lindskrog parkering Arlanda",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-05",
+    "uuid": "0199710b-f1ca-707f-b9b0-6e55f41c1f81"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Maxulin",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-10-12",
+    "uuid": "019662cf-bd3a-73ba-840e-37bb81369e8e"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Mekonomen",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "018ec72b-d288-7262-acbe-3b258b4b7862"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Nordic Spectra",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-07",
+    "uuid": "0189630d-c86d-7327-9a2d-942f470fde4a"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Nordiska Kompaniet",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-08",
+    "uuid": "019bc659-063f-7135-b5e6-2b3c841e9626"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Pergolux",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-05",
+    "uuid": "01a0b396-bcad-7228-b050-cc49a5084adb"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Sephora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-06",
+    "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Sonos",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-12",
+    "uuid": "0189630e-a751-7311-930d-de861b1a0c5d"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "Tibber",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-10-05",
+    "uuid": "018abc11-cf42-731d-a74c-99b0c7398eef"
+  },
+  {
+    "ended": "2026-10-19",
+    "name": "ZOO.se",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
   }
 ]
