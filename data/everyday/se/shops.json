@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-10-19T09:25:49.551374+00:00",
-  "shop_count": 447,
+  "updated": "2026-10-20T09:00:22.539598+00:00",
+  "shop_count": 446,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -8216,37 +8216,6 @@
       "status": "active"
     },
     {
-      "uuid": "stina-bomans-matsal",
-      "name": "Stina Bomans Matsal",
-      "country": "se",
-      "city": "Trosa",
-      "postcode": "61930",
-      "address": "Östra Hamnplan",
-      "lat": 58.8934294,
-      "lng": 17.5516086,
-      "mode": "onsite",
-      "category_id": 11,
-      "points_per_100": 50,
-      "currency": "SEK",
-      "website": "www.bomans.se",
-      "phone": "+4615652500",
-      "email": "karin@bomans.se",
-      "description": "Food is, and always has been, a central part at Boman's and in the Boman family. Kristin's great grandmother Stina Boman ran the tavern Boman's Matsalar in Nyköping during the 1930s to 1950s. Kristin's mom Birgitta used to run around on the premecies and nurtured a dream of one day running her own tavern and hotel. The interest of food has been with the Boman family for generations. Our dear Karl-Åke often drives by in his canarie yellow Cadillac with nettles, morels and wild strawberries all depending on what is growing in Trosa's woods. Karl-Åke has faithfully picked and delivered the good stuff to Boman's for 25 years. Stina Boman's large meatballs will always be on our menu as well as other recipes from her tavern. We always prefer to use local ingredients for our dishes.<br/><br/>Stina Bomans Matsal is open for lunch Monday to Friday from 11.30 to 13.30 and on Saturdays between 12.30 to 15.00.",
-      "cards_accepted": [
-        "MC",
-        "VISA",
-        "AMEX"
-      ],
-      "has_fixed_reward": false,
-      "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
-      "created_at": "2018-06-21 00:00:00",
-      "first_seen": "2026-05-05",
-      "status": "active"
-    },
-    {
       "uuid": "stockholm-fisk",
       "name": "Stockholm Fisk",
       "country": "se",
@@ -13536,6 +13505,38 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "stina-bomans-matsal",
+      "name": "Stina Bomans Matsal",
+      "country": "se",
+      "city": "Trosa",
+      "postcode": "61930",
+      "address": "Östra Hamnplan",
+      "lat": 58.8934294,
+      "lng": 17.5516086,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "www.bomans.se",
+      "phone": "+4615652500",
+      "email": "karin@bomans.se",
+      "description": "Food is, and always has been, a central part at Boman's and in the Boman family. Kristin's great grandmother Stina Boman ran the tavern Boman's Matsalar in Nyköping during the 1930s to 1950s. Kristin's mom Birgitta used to run around on the premecies and nurtured a dream of one day running her own tavern and hotel. The interest of food has been with the Boman family for generations. Our dear Karl-Åke often drives by in his canarie yellow Cadillac with nettles, morels and wild strawberries all depending on what is growing in Trosa's woods. Karl-Åke has faithfully picked and delivered the good stuff to Boman's for 25 years. Stina Boman's large meatballs will always be on our menu as well as other recipes from her tavern. We always prefer to use local ingredients for our dishes.<br/><br/>Stina Bomans Matsal is open for lunch Monday to Friday from 11.30 to 13.30 and on Saturdays between 12.30 to 15.00.",
+      "cards_accepted": [
+        "MC",
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2018-06-21 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-10-20"
     },
     {
       "uuid": "gota-dental",
