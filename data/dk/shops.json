@@ -1898,6 +1898,27 @@
     "status": "active",
     "uuid": "0189630c-9fc9-73e0-b4b9-d1f9ad971859"
   },
+  "0189630c-cd49-700d-b0e0-9bb47f03628a": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-20",
+    "all_time_high_points": 15,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 14,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 15,
+    "current_points_campaign": 0,
+    "current_points_channel": 3,
+    "description": "<div> Hvis du gerne vil se dig omkring i Danmark eller rejse længere ud i verden, kan du trygt regne med FlixBus og vores omfattende busnetværk! </div>",
+    "first_seen": "2026-10-20",
+    "last_seen": "2026-10-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VM0msXODe7z3gcrbUOj7G4pARECn5fW2eYrClTlz.png",
+    "name": "Flixbus",
+    "slug": "flixbus",
+    "status": "active",
+    "uuid": "0189630c-cd49-700d-b0e0-9bb47f03628a"
+  },
   "0189630c-d887-72b0-889d-aec1f78825e4": {
     "active_campaign": null,
     "all_time_high_date": "2026-06-22",

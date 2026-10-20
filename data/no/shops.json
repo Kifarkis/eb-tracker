@@ -1148,6 +1148,27 @@
     "status": "active",
     "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
   },
+  "0189630a-48b2-739f-8a99-02b1c54808a4": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-20",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>TEMPUR tilbyr eksklusive madrasser, puter og senger utviklet for optimal komfort og støtte. Med sitt unike, trykkavlastende TEMPUR-materiale tilpasser produktene seg kroppens form, vekt og varme. Sortimentet inkluderer også overmadrasser, sengetilbehør og ergonomiske søvnprodukter.</div>",
+    "first_seen": "2026-10-20",
+    "last_seen": "2026-10-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/NFCdTik1vu0ZzRTFrvoBUnLlllS4F64iMqx67NkX.jpg",
+    "name": "Tempur",
+    "slug": "tempur",
+    "status": "active",
+    "uuid": "0189630a-48b2-739f-8a99-02b1c54808a4"
+  },
   "0189630a-4f00-71b4-b13a-6a93082439a9": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
