@@ -3870,17 +3870,22 @@
     "uuid": "01896310-c5df-7232-a2dc-589b6cddbee7"
   },
   "01896310-cff7-730e-a0e8-c319ca656c74": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "31.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-21"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Magasin er et dansk stormagasin og online shoppingunivers med et bredt udvalg af mode, beauty, bolig, accessories, design og livsstilsprodukter. På Magasin.dk finder du kendte danske og internationale brands inden for blandt andet tøj, sko, parfume, makeup, hudpleje, smykker, boligindretning og meget mere til hele familien.</div><div><strong><br />Bemærk venligst:</strong> Kampagnen gælder kun online, og ikke i Magasin&#039;s fysiske varehuse. Gælder ikke køb via App&#039;en. Kampagnen gælder ikke på køb af gavekort. Du kan ikke optjene point hvis du benytter gavekort som betalingsmetode.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-10-21",
