@@ -6848,6 +6848,32 @@
     "status": "active",
     "uuid": "01a0c356-aec7-7097-873f-7315ea3175a3"
   },
+  "01a0d2cd-44b6-70e0-9d09-7fa13f871050": {
+    "active_campaign": {
+      "ends_date": "31.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-22"
+    },
+    "all_time_high_date": "2026-10-22",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Aarke er et svensk designbrand, der kombinerer funktionalitet med skandinavisk æstetik i produkter til hjemmet. Brandet er især kendt for elegante kulsyremaskiner og løsninger til vandrensning, hvor fokus er på kvalitet, materialer og et tidløst design.</div>",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/3sclNjjY9VAvtQAoClaebg2dPLMRotWusRQkufkK.png",
+    "name": "Aarke",
+    "slug": "aarke",
+    "status": "active",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
   "01a0f1fd-d198-73ac-b68f-208dfa6c1c08": {
     "active_campaign": null,
     "all_time_high_date": "2026-09-30",

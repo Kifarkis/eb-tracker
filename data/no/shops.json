@@ -6234,5 +6234,26 @@
     "slug": "aktivvinterno",
     "status": "active",
     "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
+  },
+  "01a163d8-2fe4-72a7-8c0c-ba042bc82dd0": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-22",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 43,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Autodeler.co.no er en nettbutikk for bildeler og biltilbehør med et stort utvalg til ulike bilmerker og modeller. Her finner du blant annet bremsedeler, filtre, støtdempere, motorolje, dekk og felger til konkurransedyktige priser for vedlikehold og reparasjoner.</div>",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/BatEK2HwQLeyaxFFWDIlwhqwNdu2wWmCtCBTHeIB.png",
+    "name": "Autodeler",
+    "slug": "autodeler",
+    "status": "active",
+    "uuid": "01a163d8-2fe4-72a7-8c0c-ba042bc82dd0"
   }
 }
