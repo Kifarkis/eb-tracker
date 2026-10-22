@@ -10879,5 +10879,26 @@
     "slug": "maria-nila",
     "status": "active",
     "uuid": "01a15995-1223-71ec-9279-4797c4f71f13"
+  },
+  "01a16286-1d6b-7005-8fd7-a4c11e525a76": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-22",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 9,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>AktivVinter.se är en skandinavisk webbutik med fokus på skidkläder, skidutrustning och friluftsprodukter för hela familjen. Sortimentet omfattar välkända varumärken och produkter för både skidsemestern och vinterns utomhusaktiviteter. Med prisgaranti, ett brett utbud och fokus på kundservice vill AktivVinter göra det enkelt att hitta rätt utrustning inför vintern.</div>",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/a54HCmfAvdQnia8AOglnkZKmG3HSIgcEHAyd833J.png",
+    "name": "Aktivvinter.se",
+    "slug": "aktivvinterse",
+    "status": "active",
+    "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
   }
 }

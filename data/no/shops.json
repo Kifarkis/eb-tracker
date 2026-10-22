@@ -6213,5 +6213,26 @@
     "slug": "authentic-scandinavia",
     "status": "active",
     "uuid": "01a15438-70cb-7210-8da5-737a9df69135"
+  },
+  "01a16286-1d6b-7005-8fd7-a4c11e525a76": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-10-22",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 9,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>AktivVinter.no er en skandinavisk nettbutikk med fokus på skiklær, skiutstyr og friluftsprodukter for hele familien. Her finner du kjente merkevarer og utstyr til både skiferien og vinterens utendørsaktiviteter. Med prisgaranti, et bredt sortiment og fokus på god kundeservice gjør AktivVinter det enklere å finne riktig utstyr til vinteren.</div>",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/FkTpMg6v09QXIG8NZGc55k9NDPtt41ZmznhFwaF9.png",
+    "name": "Aktivvinter.no",
+    "slug": "aktivvinterno",
+    "status": "active",
+    "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
   }
 }
