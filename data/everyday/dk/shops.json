@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-10-22T09:01:35.461525+00:00",
+  "updated": "2026-10-23T08:56:32.105031+00:00",
   "shop_count": 347,
   "shops": [
     {
@@ -7523,6 +7523,7 @@
       "email": "info@restaurant-uva.dk",
       "description": "Discover Restaurant UVA, where delicious food, quality ingredients and a welcoming atmosphere come together for a memorable dining experience. Whether you're enjoying a relaxed lunch, a lovely dinner or a special occasion, UVA is a great place to savour good food and great company.",
       "cards_accepted": [
+        "MC",
         "VISA"
       ],
       "has_fixed_reward": false,

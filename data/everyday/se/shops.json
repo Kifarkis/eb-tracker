@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-10-22T09:01:35.485551+00:00",
+  "updated": "2026-10-23T08:56:32.136711+00:00",
   "shop_count": 446,
   "shops": [
     {
@@ -561,6 +561,7 @@
       "email": "info@carnivore.nu",
       "description": "Treat yourself to a memorable dining experience at Carnivore Steakhouse in Malmö, where quality cuts, great flavours and a vibrant atmosphere come together. Whether you’re enjoying a perfectly grilled steak, sharing a meal with friends or celebrating a special occasion, Carnivore is a destination for anyone who appreciates great food.",
       "cards_accepted": [
+        "MC",
         "VISA",
         "AMEX"
       ],
