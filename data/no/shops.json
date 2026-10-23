@@ -509,17 +509,22 @@
     "uuid": "01896308-a62c-70f9-b1e8-cf2fa8091102"
   },
   "01896308-a975-7164-aa9c-41b2ec9d89e2": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "25.10.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-10-23"
+    },
     "all_time_high_date": "2026-06-01",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 dag",
+    "campaign_ends_human_en": "in 1 day",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<p>Ved å samle over 400 av Norges mest kjente butikker, har Miinto muligheten til å kunne tilby deg et spennende og bedt sortiment av varer til dame, herre og barn. Miinto har tusenvis av merker, fra kjente Premium brands som Tiger of Sweden, By Malene Birger, Filippa K m.m, til sporty brands som Twentyfour, Norrøna og Bergans.<br></p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-10-23",
