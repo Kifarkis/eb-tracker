@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Integritet — EuroBonus Shopping</title>
+<style>
+:root {
+  --bg: #faf9f7; --surface: #ffffff;
+  --border: rgba(0, 0, 0, 0.08); --border-strong: rgba(0, 0, 0, 0.16);
+  --text: #1a1a1a; --text-muted: #595959; --text-faint: #707070;
+  --accent: #1858c7;
+}
+html[data-theme="dark"] {
+  --bg: #0f0f10; --surface: #1a1a1c;
+  --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+  --text: #ededed; --text-muted: #b3b3b3; --text-faint: #8a8a8a;
+  --accent: #6ea8ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f0f10; --surface: #1a1a1c;
+    --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+    --text: #ededed; --text-muted: #b3b3b3; --text-faint: #8a8a8a;
+    --accent: #6ea8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg); color: var(--text);
+  margin: 0; padding: 0 0 64px;
+  font-size: 15px; line-height: 1.65;
+  min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column;
+}
+.sas-container { width: 100%; max-width: 1500px; margin: 0 auto; padding: 0 24px; }
+.article-container { width: 100%; max-width: 640px; margin: 0 auto; padding: 32px 24px 0; flex: 1 0 auto; }
+
+.sas-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; padding-top: 32px; }
+.sas-title { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0; color: var(--text); text-decoration: none; }
+.sas-title:hover { color: var(--accent); }
+.sas-header-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.sas-header-select { font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }
+.sas-toggle { background: none; border: 0.5px solid var(--border-strong); color: var(--text-muted); padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; font-family: inherit; }
+.sas-toggle:hover { color: var(--text); }
+.sas-news { position: relative; }
+a.sas-news:hover { text-decoration: none; }
+.sas-news[aria-current] { color: var(--text); border-color: var(--text-faint); }
+.sas-news-dot { display: none; position: absolute; top: 3px; right: 3px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.sas-news.is-unseen .sas-news-dot { display: block; }
+.sas-news-short { display: none; }
+
+h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 32px 0; }
+h2 { font-size: 18px; font-weight: 500; letter-spacing: -0.01em; margin: 32px 0 8px 0; }
+p { margin: 0 0 16px 0; color: var(--text-muted); }
+strong { color: var(--text); font-weight: 500; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; background: var(--surface); padding: 2px 6px; border-radius: 4px; }
+.footer-note { margin-top: 48px; padding-top: 24px; border-top: 0.5px solid var(--border); font-size: 12px; color: var(--text-faint); }
+
+.sas-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 64px; padding-top: 24px; border-top: 0.5px solid var(--border); gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--text-faint); }
+.sas-footer a { color: var(--text-muted); text-decoration: none; }
+.sas-footer a:hover { color: var(--text); text-decoration: underline; }
+.sas-footer-right { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  body { padding: 0 0 48px; }
+  .sas-container { padding: 0 14px; }
+  .article-container { padding: 24px 14px 0; }
+  .sas-header { padding-top: 20px; }
+  .sas-header-select { padding: 6px 8px; font-size: 12px; }
+  .sas-toggle { padding: 6px 10px; font-size: 12px; }
+  .sas-news { padding: 6px 6px; border-color: transparent; }
+  .sas-news-long { display: none; }
+  .sas-news-short { display: inline; }
+  .sas-footer { flex-direction: column; align-items: flex-start; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="sas-container">
+  <div class="sas-header">
+    <a class="sas-title" href="/">EuroBonus Shopping</a>
+    <div class="sas-header-controls">
+      <select class="sas-header-select" id="country-select" aria-label="Country"></select>
+      <select class="sas-header-select" id="language-select" aria-label="Language"></select>
+      <a class="sas-toggle sas-news" href="nytt.html"><span id="nav-news-sv">Nytt</span><span id="nav-news-en" style="display: none;"><span class="sas-news-long">What's new</span><span class="sas-news-short">News</span></span><span class="sas-news-dot"></span></a>
+      <button class="sas-toggle" id="theme-toggle">Dark mode</button>
+    </div>
+  </div>
+</div>
+
+<div class="article-container">
+   <article id="sv">
+    <h1>Integritet</h1>
+
+    <p>Kort version: inga namn eller konton. Slår du på notiser eller mejl sparas bara det som behövs för att skicka dem — se Notiser och Mejl nedan.</p>
+
+    <h2>Vad lagras i din webbläsare?</h2>
+    <p>Bara det du själv använder: vilket tema du valt (mörkt eller ljust), vilka butiker du sparat som favoriter och — om du slagit på notiser — vilka butiker du bevakar och ett slumpat id. Bevakar du via mejl sparas även din e-postadress lokalt, så att den är ifylld nästa gång. Allt sparas lokalt med <code>localStorage</code>. Tema och favoriter skickas aldrig till mig; bevakningarna skickas bara om du slår på notiser eller mejl.</p>
+
+    <h2>Notiser</h2>
+    <p>Trycker du på Bevaka i en butik frågar webbläsaren om lov att visa notiser. Säger du ja skapar webbläsarens push-tjänst (Google, Apple eller Mozilla beroende på webbläsare) en push-adress för just den här sidan. Den adressen, ett slumpat id, vilka butiker du bevakar, en eventuell lägstanivå och ditt språk sparas hos Cloudflare så att sidan kan skicka notisen när en bevakad butik får en kampanj eller ett lägre pris. Inget namn, ingen e-post och ingen IP-adress sparas.</p>
+    <p>Slutar du bevaka alla butiker raderas uppgifterna direkt. Blockerar du notiser eller tar bort sidan från telefonen raderas de automatiskt nästa gång en notis inte går fram. Du kan när som helst stänga av notiser i webbläsarens inställningar.</p>
+
+    <h2>Mejl</h2>
+    <p>Väljer du att bevaka en butik via mejl sparas din e-postadress, vilka butiker du bevakar, en eventuell lägstanivå och ditt språk hos Cloudflare. Först skickas ett mejl med en bekräftelselänk; utan bekräftelse skickas inga fler mejl och adressen raderas automatiskt inom en vecka. Mejlen skickas från eurobonus@chiq.se via Microsoft 365. Varje mejl har en länk för att sluta, och då raderas adressen direkt.</p>
+    <p>För att stoppa automatiserat missbruk av formuläret används Cloudflare Turnstile när du skickar in din adress. Det laddas bara när du använder mejlformuläret.</p>
+
+    <h2>Plats</h2>
+    <p>På fliken I butik finns en knapp som heter Nära mig. Trycker du på den frågar webbläsaren om lov att dela din position, och sorterar sedan ställena efter avstånd. Positionen används bara i din webbläsare för att räkna ut avstånden. Den skickas inte till mig, den sparas inte och den lämnar aldrig din enhet. Trycker du inte på knappen frågas du aldrig.</p>
+
+    <h2>Cookies</h2>
+    <p>Inga cookies används.</p>
+
+    <h2>Analys</h2>
+    <p>Sidan använder två integritetsvänliga analystjänster för att förstå hur den används och övervaka prestanda. Ingen av dem använder cookies, fingeravtryck eller spårning av enskilda besökare, och ingen kräver samtyckesbanner enligt GDPR.</p>
+
+    <p><strong>GoatCounter</strong> räknar sidvisningar och samlar grundläggande information — land, webbläsare, skärmstorlek och varifrån trafiken kommer (t.ex. sökmotor eller länk från annan sida). IP-adresser används kort för att avgöra land men sparas inte. Mer info: <a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">goatcounter.com/help/privacy</a>.</p>
+
+    <p><strong>Cloudflare Web Analytics</strong> mäter laddningstider och prestanda (Core Web Vitals). Tjänsten spårar inte enskilda besökare och lagrar ingen personlig data. Mer info: <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">cloudflare.com/web-analytics</a>.</p>
+
+    <h2>Serverloggar</h2>
+    <p>Sidan ligger på GitHub Pages, som loggar besökares IP-adresser av säkerhetsskäl. Jag har inte tillgång till dessa loggar. Se <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHubs integritetspolicy</a>.</p>
+
+    <h2>E-post</h2>
+    <p>Om du mejlar <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a> hanteras din e-post bara för att svara dig. Den säljs inte, delas inte och används inte till något annat.</p>
+
+    <h2>Extern data</h2>
+    <p>Butiks- och produktdatan hämtas automatiskt från EuroBonus publika sidor, en källa per flik. Den hämtningen sker på en server, inte i din webbläsare.</p>
+
+    <p>Bilder på butiker och produkter laddas däremot direkt från SAS servrar när du tittar på sidan. Det betyder att din IP-adress syns för dem, precis som när du besöker vilken webbplats som helst.</p>
+
+    <p>Klickar du vidare på en butik, en produkt eller en vägbeskrivning lämnar du den här sidan. Länkarna går till SAS EuroBonus, till butikens egen webbplats eller till Google Maps, och de har alla sina egna integritetspolicyer.</p>
+
+    <h2>Ändringar</h2>
+    <p>Om policyn ändras uppdateras den här sidan.</p>
+
+    <div class="footer-note">
+      <p>Senast uppdaterad: oktober 2026. Kontakt: <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a></p>
+    </div>
+  </article>
+
+  <article id="en" style="display: none;">
+    <h1>Privacy</h1>
+
+    <p>Short version: no names or accounts. If you turn on notifications or e-mails, only what is needed to send them is stored — see Notifications and E-mail below.</p>
+
+    <h2>What's stored in your browser?</h2>
+    <p>Only what you use: your chosen theme (dark or light), the shops you've saved as favourites and — if you've turned on notifications — the shops you watch and a random id. If you watch by e-mail, your e-mail address is also saved locally so it's filled in next time. All of it is saved locally with <code>localStorage</code>. Theme and favourites are never sent to me; your watched shops are only sent if you turn on notifications or e-mails.</p>
+
+    <h2>Notifications</h2>
+    <p>When you tap Watch on a shop, your browser asks for permission to show notifications. If you agree, your browser's push service (Google, Apple or Mozilla, depending on the browser) creates a push address for this site. That address, a random id, the shops you watch, an optional minimum level and your language are stored with Cloudflare so the site can notify you when a watched shop starts a campaign or lowers its price. No name, e-mail or IP address is stored.</p>
+    <p>If you stop watching all shops, the data is deleted right away. If you block notifications or remove the site from your phone, it is deleted automatically the next time a notification can't be delivered. You can turn notifications off at any time in your browser settings.</p>
+
+    <h2>E-mail</h2>
+    <p>If you choose to watch a shop by e-mail, your e-mail address, the shops you watch, an optional minimum level and your language are stored with Cloudflare. First you get an e-mail with a confirmation link; without confirmation no more e-mails are sent and the address is deleted automatically within a week. E-mails are sent from eurobonus@chiq.se through Microsoft 365. Every e-mail has a link to stop, which deletes your address right away.</p>
+    <p>To stop automated abuse of the form, Cloudflare Turnstile checks the request when you submit your address. It is only loaded when you use the e-mail form.</p>
+
+    <h2>Location</h2>
+    <p>The In store tab has a button called Near me. Pressing it makes your browser ask permission to share your location, and the places are then sorted by distance. The location is used only inside your browser to work out those distances. It is not sent to me, it is not stored, and it never leaves your device. If you don't press the button, you are never asked.</p>
+
+    <h2>Cookies</h2>
+    <p>None.</p>
+
+    <h2>Analytics</h2>
+    <p>The site uses two privacy-respecting analytics services to understand how it's being used and to monitor performance. Neither uses cookies, fingerprinting, or tracking of individual visitors, and neither requires a consent banner under GDPR.</p>
+
+    <p><strong>GoatCounter</strong> counts page visits and collects basic information — country, browser, screen size, and where traffic comes from (e.g. search engines or links from other sites). IP addresses are used briefly to determine country but are not stored. More info: <a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">goatcounter.com/help/privacy</a>.</p>
+
+    <p><strong>Cloudflare Web Analytics</strong> measures page load performance (Core Web Vitals). It doesn't track individual visitors and stores no personal data. More info: <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">cloudflare.com/web-analytics</a>.</p>
+
+    <h2>Server logs</h2>
+    <p>The site is hosted on GitHub Pages, which logs visitor IP addresses for security purposes. I don't have access to those logs. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy policy</a>.</p>
+
+    <h2>Email</h2>
+    <p>If you email <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a>, your email is used only to reply to you. Not sold, not shared, not used for anything else.</p>
+
+    <h2>External data</h2>
+    <p>Shop and product data is fetched automatically from the EuroBonus public pages, one source per tab. That fetching happens on a server, not in your browser.</p>
+
+    <p>Shop and product images, however, load directly from the SAS servers while you view the page. That means your IP address is visible to them, the same as when you visit any website.</p>
+
+    <p>Clicking through to a shop, a product, or directions takes you off this site. Those links go to SAS EuroBonus, to the merchant's own website, or to Google Maps, and each has its own privacy policy.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, this page gets updated.</p>
+
+    <div class="footer-note">
+      <p>Last updated: October 2026. Contact: <a href="mailto:eurobonus@chiq.se">eurobonus@chiq.se</a></p>
+    </div>
+  </article>
+</div>
+
+<div class="sas-container">
+  <footer class="sas-footer">
+    <div>
+      <span id="footer-unaffiliated-sv">Oberoende sida, inte ansluten till SAS eller EuroBonus.</span>
+      <span id="footer-unaffiliated-en" style="display: none;">Independent site, not affiliated with SAS or EuroBonus.</span>
+    </div>
+    <div class="sas-footer-right">
+      <a href="/"><span id="footer-home-sv">Hem</span><span id="footer-home-en" style="display: none;">Home</span></a>
+      ·
+      <a href="about.html"><span id="footer-about-sv">Om sidan</span><span id="footer-about-en" style="display: none;">About</span></a>
+      ·
+      <a href="nytt.html"><span id="footer-news-sv">Nytt</span><span id="footer-news-en" style="display: none;">What's new</span></a>
+      ·
+      <span aria-current="page"><span id="footer-privacy-sv">Integritet</span><span id="footer-privacy-en" style="display: none;">Privacy</span></span>
+      ·
+      <a href="feed-se.xml"><span id="footer-rss-sv">RSS-flöde</span><span id="footer-rss-en" style="display: none;">RSS feed</span></a>
+      ·
+      <span>© 2026 David Kifarkis</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var COUNTRIES = [
+    { code: 'SE', local_lang: 'sv', name: 'Sverige', languages: ['sv', 'en'] },
+    { code: 'DK', local_lang: 'da', name: 'Danmark', languages: ['da', 'en'] },
+    { code: 'NO', local_lang: 'nb', name: 'Norge',   languages: ['nb', 'en'] },
+    { code: 'FI', local_lang: 'en', name: 'Suomi',   languages: ['en'] }
+  ];
+
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme-toggle');
+  function prefersDark() { return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; }
+  function isDark() {
+    var t = root.getAttribute('data-theme');
+    if (t === 'dark') return true;
+    if (t === 'light') return false;
+    return prefersDark();
+  }
+  function setToggleLabel() { toggle.textContent = isDark() ? 'Light mode' : 'Dark mode'; }
+  try {
+    var stored = localStorage.getItem('sas-theme');
+    if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+  } catch (e) {}
+  setToggleLabel();
+  toggle.addEventListener('click', function() {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('sas-theme', next); } catch (e) {}
+    setToggleLabel();
+  });
+
+  var current = 'sv';
+
+  function applyLang() {
+    document.querySelectorAll('#sv, #en, [id$="-sv"], [id$="-en"]').forEach(function(el) {
+      var l = el.id.slice(-2);
+      el.style.display = l === current ? '' : 'none';
+    });
+    document.documentElement.lang = current;
+  }
+
+  var countrySel = document.getElementById('country-select');
+  COUNTRIES.forEach(function(c) {
+    var o = document.createElement('option');
+    o.value = c.code; o.textContent = c.name;
+    countrySel.appendChild(o);
+  });
+  countrySel.value = 'SE';
+  countrySel.addEventListener('change', function() {
+    var c = COUNTRIES.find(function(x) { return x.code === countrySel.value; });
+    var lang = c ? c.local_lang : 'sv';
+    window.location.href = '/?c=' + countrySel.value + '&l=' + lang;
+  });
+
+  var langSel = document.getElementById('language-select');
+  ['sv', 'en'].forEach(function(l) {
+    var o = document.createElement('option');
+    o.value = l;
+    o.textContent = l === 'sv' ? 'Svenska' : 'English';
+    langSel.appendChild(o);
+  });
+  langSel.value = 'sv';
+  langSel.addEventListener('change', function() {
+    current = langSel.value;
+    applyLang();
+  });
+
+  applyLang();
+})();
+</script>
+
+<script src="news.js" defer></script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c0d97a34f9524bd18f638693155d6704"}'></script>
+
+</body>
+</html>

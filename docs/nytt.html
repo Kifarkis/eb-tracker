@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Vad är nytt — EuroBonus Shopping</title>
+<style>
+:root {
+  --bg: #faf9f7; --surface: #ffffff;
+  --border: rgba(0, 0, 0, 0.08); --border-strong: rgba(0, 0, 0, 0.16);
+  --text: #1a1a1a; --text-muted: #595959; --text-faint: #707070;
+  --accent: #1858c7;
+}
+html[data-theme="dark"] {
+  --bg: #0f0f10; --surface: #1a1a1c;
+  --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+  --text: #ededed; --text-muted: #b3b3b3; --text-faint: #8a8a8a;
+  --accent: #6ea8ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f0f10; --surface: #1a1a1c;
+    --border: rgba(255, 255, 255, 0.08); --border-strong: rgba(255, 255, 255, 0.18);
+    --text: #ededed; --text-muted: #b3b3b3; --text-faint: #8a8a8a;
+    --accent: #6ea8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg); color: var(--text);
+  margin: 0; padding: 0 0 64px;
+  font-size: 15px; line-height: 1.65;
+  min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column;
+}
+.sas-container { width: 100%; max-width: 1500px; margin: 0 auto; padding: 0 24px; }
+.article-container { width: 100%; max-width: 640px; margin: 0 auto; padding: 32px 24px 0; flex: 1 0 auto; }
+
+.sas-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; padding-top: 32px; }
+.sas-title { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0; color: var(--text); text-decoration: none; }
+.sas-title:hover { color: var(--accent); }
+.sas-header-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.sas-header-select { font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }
+.sas-toggle { background: none; border: 0.5px solid var(--border-strong); color: var(--text-muted); padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; font-family: inherit; }
+.sas-toggle:hover { color: var(--text); }
+.sas-news { position: relative; }
+a.sas-news:hover { text-decoration: none; }
+.sas-news[aria-current] { color: var(--text); border-color: var(--text-faint); }
+.sas-news-dot { display: none; position: absolute; top: 3px; right: 3px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.sas-news.is-unseen .sas-news-dot { display: block; }
+.sas-news-short { display: none; }
+
+h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 32px 0; }
+h2 { font-size: 18px; font-weight: 500; letter-spacing: -0.01em; margin: 32px 0 8px 0; }
+p { margin: 0 0 16px 0; color: var(--text-muted); }
+strong { color: var(--text); font-weight: 500; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.news-list { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-muted); }
+.news-list li { margin: 0 0 8px 0; }
+.footer-note { margin-top: 48px; padding-top: 24px; border-top: 0.5px solid var(--border); font-size: 12px; color: var(--text-faint); }
+
+.sas-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 64px; padding-top: 24px; border-top: 0.5px solid var(--border); gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--text-faint); }
+.sas-footer a { color: var(--text-muted); text-decoration: none; }
+.sas-footer a:hover { color: var(--text); text-decoration: underline; }
+.sas-footer-right { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  body { padding: 0 0 48px; }
+  .sas-container { padding: 0 14px; }
+  .article-container { padding: 24px 14px 0; }
+  .sas-header { padding-top: 20px; }
+  .sas-header-select { padding: 6px 8px; font-size: 12px; }
+  .sas-toggle { padding: 6px 10px; font-size: 12px; }
+  .sas-news { padding: 6px 6px; border-color: transparent; }
+  .sas-news-long { display: none; }
+  .sas-news-short { display: inline; }
+  .sas-footer { flex-direction: column; align-items: flex-start; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="sas-container">
+  <div class="sas-header">
+    <a class="sas-title" href="/">EuroBonus Shopping</a>
+    <div class="sas-header-controls">
+      <select class="sas-header-select" id="country-select" aria-label="Country"></select>
+      <select class="sas-header-select" id="language-select" aria-label="Language"></select>
+      <a class="sas-toggle sas-news" href="nytt.html" aria-current="page"><span id="nav-news-sv">Nytt</span><span id="nav-news-en" style="display: none;"><span class="sas-news-long">What's new</span><span class="sas-news-short">News</span></span><span class="sas-news-dot"></span></a>
+      <button class="sas-toggle" id="theme-toggle">Dark mode</button>
+    </div>
+  </div>
+</div>
+
+<div class="article-container" id="news-page">
+  <article id="sv">
+    <h1>Vad är nytt</h1>
+
+    <p>Nya funktioner på sidan, de senaste först.</p>
+
+    <h2>28 oktober 2026</h2>
+    <ul class="news-list">
+      <li><strong>Bevaka butiker:</strong> få en notis i webbläsaren eller ett mejl när en butik får en ny eller höjd kampanj. Välj en lägstanivå, t.ex. ”bara från 75 EB”.</li>
+      <li><strong>Bevaka pris i Shoppen:</strong> få besked när poängpriset på ett presentkort sjunker.</li>
+      <li><strong>Bästa hittills:</strong> märkning på kampanjer som är lika bra som eller bättre än butikens bästa sedan vi började följa den.</li>
+      <li><strong>Kampanjhistorik i butiksrutan:</strong> bästa nivå, tidigare kampanjer och hur länge sedan senaste kampanjen.</li>
+      <li><strong>Favoriter:</strong> stjärnmärk butiker och filtrera på dem.</li>
+      <li><strong>Dela:</strong> länk direkt till en butik.</li>
+      <li><strong>Bäst värde per poäng:</strong> ny sortering i Shoppen.</li>
+      <li><strong>RSS-flöden</strong> med nya kampanjer per land.</li>
+      <li><strong>Snabbare mobilsida</strong> och kompaktare meny på mobilen.</li>
+      <li><strong>Kollar kampanjer varannan timme</strong> (tidigare var sjätte).</li>
+    </ul>
+
+    <h2>27 oktober 2026</h2>
+    <ul class="news-list">
+      <li><strong>Shoppen:</strong> presentkort och Månadens deals från EuroBonus Shop, med ”Nytt”-märkning på nya presentkort.</li>
+      <li><strong>Halverad sidvikt:</strong> butiksbeskrivningar laddas först när du öppnar en butik.</li>
+    </ul>
+  </article>
+
+  <article id="en" style="display: none;">
+    <h1>What’s new</h1>
+
+    <p>New features on the site, newest first.</p>
+
+    <h2>28 October 2026</h2>
+    <ul class="news-list">
+      <li><strong>Watch shops:</strong> get a browser notification or an email when a shop gets a new or higher campaign. Pick a minimum level, e.g. “only from 75 EB”.</li>
+      <li><strong>Watch prices in the Shop:</strong> get told when the points price of a gift card drops.</li>
+      <li><strong>Best so far:</strong> a label on campaigns that match or beat the shop’s best since we started tracking it.</li>
+      <li><strong>Campaign history in the shop pop-up:</strong> best level, earlier campaigns and how long since the last campaign.</li>
+      <li><strong>Favourites:</strong> star shops and filter on them.</li>
+      <li><strong>Share:</strong> link straight to a shop.</li>
+      <li><strong>Best value per point:</strong> new sort order in the Shop.</li>
+      <li><strong>RSS feeds</strong> with new campaigns per country.</li>
+      <li><strong>Faster mobile site</strong> and a more compact menu on phones.</li>
+      <li><strong>Checks campaigns every two hours</strong> (previously every six).</li>
+    </ul>
+
+    <h2>27 October 2026</h2>
+    <ul class="news-list">
+      <li><strong>Shop:</strong> gift cards and Deals of the Month from the EuroBonus Shop, with a “New” label on new gift cards.</li>
+      <li><strong>Half the page weight:</strong> shop descriptions load only when you open a shop.</li>
+    </ul>
+  </article>
+</div>
+
+<div class="sas-container">
+  <footer class="sas-footer">
+    <div>
+      <span id="footer-unaffiliated-sv">Oberoende sida, inte ansluten till SAS eller EuroBonus.</span>
+      <span id="footer-unaffiliated-en" style="display: none;">Independent site, not affiliated with SAS or EuroBonus.</span>
+    </div>
+    <div class="sas-footer-right">
+      <a href="/"><span id="footer-home-sv">Hem</span><span id="footer-home-en" style="display: none;">Home</span></a>
+      ·
+      <a href="about.html"><span id="footer-about-sv">Om sidan</span><span id="footer-about-en" style="display: none;">About</span></a>
+      ·
+      <span aria-current="page"><span id="footer-news-sv">Nytt</span><span id="footer-news-en" style="display: none;">What's new</span></span>
+      ·
+      <a href="privacy.html"><span id="footer-privacy-sv">Integritet</span><span id="footer-privacy-en" style="display: none;">Privacy</span></a>
+      ·
+      <a href="feed-se.xml"><span id="footer-rss-sv">RSS-flöde</span><span id="footer-rss-en" style="display: none;">RSS feed</span></a>
+      ·
+      <span>© 2026 David Kifarkis</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var COUNTRIES = [
+    { code: 'SE', local_lang: 'sv', name: 'Sverige', languages: ['sv', 'en'] },
+    { code: 'DK', local_lang: 'da', name: 'Danmark', languages: ['da', 'en'] },
+    { code: 'NO', local_lang: 'nb', name: 'Norge',   languages: ['nb', 'en'] },
+    { code: 'FI', local_lang: 'en', name: 'Suomi',   languages: ['en'] }
+  ];
+
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme-toggle');
+  function prefersDark() { return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; }
+  function isDark() {
+    var t = root.getAttribute('data-theme');
+    if (t === 'dark') return true;
+    if (t === 'light') return false;
+    return prefersDark();
+  }
+  function setToggleLabel() { toggle.textContent = isDark() ? 'Light mode' : 'Dark mode'; }
+  try {
+    var stored = localStorage.getItem('sas-theme');
+    if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+  } catch (e) {}
+  setToggleLabel();
+  toggle.addEventListener('click', function() {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('sas-theme', next); } catch (e) {}
+    setToggleLabel();
+  });
+
+  var current = 'sv';
+
+  function applyLang() {
+    document.querySelectorAll('#sv, #en, [id$="-sv"], [id$="-en"]').forEach(function(el) {
+      var l = el.id.slice(-2);
+      el.style.display = l === current ? '' : 'none';
+    });
+    document.documentElement.lang = current;
+  }
+
+  var countrySel = document.getElementById('country-select');
+  COUNTRIES.forEach(function(c) {
+    var o = document.createElement('option');
+    o.value = c.code; o.textContent = c.name;
+    countrySel.appendChild(o);
+  });
+  countrySel.value = 'SE';
+  countrySel.addEventListener('change', function() {
+    var c = COUNTRIES.find(function(x) { return x.code === countrySel.value; });
+    var lang = c ? c.local_lang : 'sv';
+    window.location.href = '/?c=' + countrySel.value + '&l=' + lang;
+  });
+
+  var langSel = document.getElementById('language-select');
+  ['sv', 'en'].forEach(function(l) {
+    var o = document.createElement('option');
+    o.value = l;
+    o.textContent = l === 'sv' ? 'Svenska' : 'English';
+    langSel.appendChild(o);
+  });
+  langSel.value = 'sv';
+  langSel.addEventListener('change', function() {
+    current = langSel.value;
+    applyLang();
+  });
+
+  applyLang();
+})();
+</script>
+
+<script src="news.js" defer></script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c0d97a34f9524bd18f638693155d6704"}'></script>
+
+</body>
+</html>
