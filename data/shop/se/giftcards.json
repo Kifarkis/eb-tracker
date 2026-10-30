@@ -2,7 +2,7 @@
   "region": "se",
   "collection": "giftcards",
   "currency": "SEK",
-  "updated": "2026-10-27T10:31:46.336714+00:00",
+  "updated": "2026-10-30T10:35:47.580609+00:00",
   "item_count": 146,
   "items": [
     {
@@ -850,18 +850,18 @@
       "region": "se",
       "url": "https://www.saseurobonusshop.com/se/fashioncheque",
       "image": "https://sas-media.loyalty.prod.eu-north-1.awardit.com/media/catalog/product/cache/2/image/509x509/9df78eab33525d08d6e5fb8d27136e95/f/a/fashioncheque_giftcard_med_logo_se.jpg",
-      "points_price": null,
-      "cash_price": null,
-      "cash_unit": null,
+      "points_price": 1610,
+      "cash_price": 50.0,
+      "cash_unit": "kr",
       "accrual_points": 500,
       "accrual_is_max": true,
       "max_earn_points": 500,
       "points_per_100": null,
-      "ore_per_point": null,
+      "ore_per_point": 3.106,
       "first_seen": "2026-08-24",
       "status": "active",
-      "lowest_points_price": null,
-      "lowest_points_date": null
+      "lowest_points_price": 1610,
+      "lowest_points_date": "2026-10-30"
     },
     {
       "uuid": "se:selected",
