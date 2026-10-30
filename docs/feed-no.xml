@@ -5,8 +5,29 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-10-28T00:00:00Z</updated>
+<updated>2026-10-30T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>iRobot: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a13f7b-f1a0-7345-8750-1411c32e7f85"/>
+<id>tag:eurobonus.chiq.se,2026:no/01a13f7b-f1a0-7345-8750-1411c32e7f85/2026-10-30</id>
+<updated>2026-10-30T00:00:00Z</updated>
+<summary>2026-10-30 · slutter 01.11.2026 · ordinært 25 · Beste hittil</summary>
+</entry>
+<entry>
+<title>Lenovo: 20 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896311-859b-70f9-876a-a52c61ec5e5a"/>
+<id>tag:eurobonus.chiq.se,2026:no/01896311-859b-70f9-876a-a52c61ec5e5a/2026-10-30</id>
+<updated>2026-10-30T00:00:00Z</updated>
+<summary>2026-10-30 · slutter 08.11.2026 · ordinært 10</summary>
+</entry>
+<entry>
+<title>Fyndiq: 100 EB / kjøp</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630a-3059-73d7-9526-637d8af50232"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630a-3059-73d7-9526-637d8af50232/2026-10-30</id>
+<updated>2026-10-30T00:00:00Z</updated>
+<summary>2026-10-30 · slutter 08.11.2026 · ordinært 50</summary>
+</entry>
 <entry>
 <title>Zooplus: 30 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896311-78a2-734c-aec3-9f2c9fdb7339"/>
@@ -265,26 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/01a13f61-6ad4-72e9-ac4e-524ced9b934a/2026-10-16</id>
 <updated>2026-10-16T00:00:00Z</updated>
 <summary>2026-10-16 · slutter 31.10.2026 · ordinært 25</summary>
-</entry>
-<entry>
-<title>Authentic Europe: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a1447d-94dd-7090-a4ae-22c7b348afe1"/>
-<id>tag:eurobonus.chiq.se,2026:no/01a1447d-94dd-7090-a4ae-22c7b348afe1/2026-10-16</id>
-<updated>2026-10-16T00:00:00Z</updated>
-<summary>2026-10-16 · slutter 31.10.2026 · ordinært 25</summary>
-</entry>
-<entry>
-<title>iRobot: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a13f7b-f1a0-7345-8750-1411c32e7f85"/>
-<id>tag:eurobonus.chiq.se,2026:no/01a13f7b-f1a0-7345-8750-1411c32e7f85/2026-10-15</id>
-<updated>2026-10-15T00:00:00Z</updated>
-<summary>2026-10-15 · avsluttet 2026-10-19</summary>
-</entry>
-<entry>
-<title>Outnorth: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896307-cb70-7078-96e6-9379b454803c"/>
-<id>tag:eurobonus.chiq.se,2026:no/01896307-cb70-7078-96e6-9379b454803c/2026-10-15</id>
-<updated>2026-10-15T00:00:00Z</updated>
-<summary>2026-10-15 · avsluttet 2026-10-26</summary>
 </entry>
 </feed>

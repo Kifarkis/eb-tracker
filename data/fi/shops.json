@@ -541,11 +541,12 @@
     "current_points_channel": 7,
     "description": "<p>The Natural&nbsp;Goods&nbsp;Company&nbsp;believes in purity,&nbsp;naturalness&nbsp;and&nbsp;environmental friendliness.&nbsp;The products are imported&nbsp;high-quality&nbsp;natural cosmetics&nbsp;and&nbsp;organic products, and&nbsp;are made from pure and natural ingredients.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-10-30",
     "last_seen": "2026-10-30",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/The_Natural_Goods_Company-1689583733.jpg",
     "name": "The Natural Goods Company",
     "slug": "the-natural-goods-company",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896309-cabe-73e4-9fc4-00b3ca6c0fc6"
   },
   "01896309-d617-72ee-955d-fbd52bdf0b67": {
@@ -583,11 +584,12 @@
     "current_points_channel": 3,
     "description": "<p>Greenlips Beauty is a Finnish natural cosmetics online store that offers a selective range of the best natural cosmetics. The selection includes high quality, effective, natural, safe, and ethical cosmetics and skin care products for women, men, kids and babies. All products are cruelty-free.&nbsp;</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-10-30",
     "last_seen": "2026-10-30",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Greenlips_Beauty-1689583740.jpg",
     "name": "Greenlips Beauty",
     "slug": "greenlips-beauty",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896309-e674-72d4-a916-446b264b381a"
   },
   "0189630a-28d0-70b3-bbe0-1867fcea0f9d": {
