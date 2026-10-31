@@ -6232,5 +6232,101 @@
     "points_channel": 10,
     "started": "2026-10-19",
     "uuid": "01a056d7-23a7-73fa-a86a-adb8af1a51ac"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Aarke",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-07",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Authentic Europe",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-16",
+    "uuid": "01a1447d-94dd-7090-a4ae-22c7b348afe1"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Authentic Scandinavia",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-19",
+    "uuid": "01a15438-70cb-7210-8da5-737a9df69135"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Bokus Play",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-10-20",
+    "uuid": "0189630d-4b5d-71a3-affd-112b7d1db7d7"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Bythjul",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-05",
+    "uuid": "0189630c-9632-7149-b9c1-41a24d6c98db"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Dagens Industri",
+    "points_campaign": 750,
+    "points_channel": 150,
+    "started": "2026-10-09",
+    "uuid": "0189630c-352a-734f-8d20-f3f041c6ab64"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Flygbussarna",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-10-19",
+    "uuid": "01896312-6607-711b-a79c-23479d58722a"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-19",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Luxplus",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-20",
+    "uuid": "0189630c-36d2-72c5-b0b0-2659a992a722"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Onyx Cookware",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-19",
+    "uuid": "01a04319-8c3e-70f1-80fb-7c2cdc036ea8"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Selected",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-16",
+    "uuid": "01a13f61-6ad4-72e9-ac4e-524ced9b934a"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Storytel",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-10-07",
+    "uuid": "0189630c-97b2-70fc-b190-002eaed90291"
   }
 ]

@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-10-30T00:00:00Z</updated>
+<updated>2026-10-31T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Vasmua: 75 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a0c331-91c4-720a-97ca-57f4716d4853"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a0c331-91c4-720a-97ca-57f4716d4853/2026-10-31</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<summary>2026-10-31 · slutar 2026-11-30 · ordinarie 50</summary>
+</entry>
+<entry>
+<title>ExpressVPN: 300 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a18c1f-d202-7305-88b0-0e4bcb96725c"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a18c1f-d202-7305-88b0-0e4bcb96725c/2026-10-31</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<summary>2026-10-31 · slutar 2026-11-30 · ordinarie 100</summary>
+</entry>
 <entry>
 <title>Miss Hosting: 2000 EB / köp</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=019dafb9-e034-7101-acb5-862c125d8cf3"/>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:se/01896308-d5a1-70c8-84eb-a07e4bcd0d2c/2026-10-26</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <summary>2026-10-26 · slutar 2026-11-08 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Db Journey: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896310-78d4-7290-bebb-ae80a7cd6ef1"/>
-<id>tag:eurobonus.chiq.se,2026:se/01896310-78d4-7290-bebb-ae80a7cd6ef1/2026-10-26</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<summary>2026-10-26 · slutar 2026-11-01 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Bosch Home: 75 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018e3827-6f29-71e6-beae-2be3af85c068"/>
-<id>tag:eurobonus.chiq.se,2026:se/018e3827-6f29-71e6-beae-2be3af85c068/2026-10-26</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<summary>2026-10-26 · slutar 2026-11-01 · ordinarie 25 · Bästa hittills</summary>
 </entry>
 </feed>

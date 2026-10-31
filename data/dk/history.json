@@ -2937,5 +2937,101 @@
     "points_channel": 10,
     "started": "2026-10-19",
     "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Aarke",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-22",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Authentic Europe",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-16",
+    "uuid": "01a1447d-94dd-7090-a4ae-22c7b348afe1"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Authentic Scandinavia",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-19",
+    "uuid": "01a15438-70cb-7210-8da5-737a9df69135"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Ewii",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-10-01",
+    "uuid": "018caabe-91fe-71c5-ae25-f8455fa39c8d"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Luxplus",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-20",
+    "uuid": "0189630c-36d2-72c5-b0b0-2659a992a722"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Magasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-21",
+    "uuid": "01896310-cff7-730e-a0e8-c319ca656c74"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Onyx Cookware",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-19",
+    "uuid": "01a04319-8c3e-70f1-80fb-7c2cdc036ea8"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "PLAZA",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-12",
+    "uuid": "01896312-5927-71e3-b708-a164f2a9d0d4"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Royal Design",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-09",
+    "uuid": "01896307-a666-701a-8245-ad7183712454"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Saxo Premium",
+    "points_campaign": 1000,
+    "points_channel": 200,
+    "started": "2026-10-09",
+    "uuid": "01967b86-7869-7008-b00b-fbfc7b989001"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Selected",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-16",
+    "uuid": "01a13f61-6ad4-72e9-ac4e-524ced9b934a"
+  },
+  {
+    "ended": "2026-10-31",
+    "name": "Skagenfood",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-10-09",
+    "uuid": "0195c822-fa45-739f-bb70-98d57db79ff0"
   }
 ]

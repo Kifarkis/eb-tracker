@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-10-30T00:00:00Z</updated>
+<updated>2026-10-31T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>ExpressVPN: 300 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a18c1f-d202-7305-88b0-0e4bcb96725c"/>
+<id>tag:eurobonus.chiq.se,2026:no/01a18c1f-d202-7305-88b0-0e4bcb96725c/2026-10-31</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<summary>2026-10-31 · slutter 30.11.2026 · ordinært 100</summary>
+</entry>
 <entry>
 <title>iRobot: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a13f7b-f1a0-7345-8750-1411c32e7f85"/>
@@ -159,14 +166,14 @@
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=018e3827-6f29-71e6-beae-2be3af85c068"/>
 <id>tag:eurobonus.chiq.se,2026:no/018e3827-6f29-71e6-beae-2be3af85c068/2026-10-21</id>
 <updated>2026-10-21T00:00:00Z</updated>
-<summary>2026-10-21 · slutter 31.10.2026 · ordinært 25 · Beste hittil</summary>
+<summary>2026-10-21 · avsluttet 2026-10-31</summary>
 </entry>
 <entry>
 <title>partyking: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=019b11f5-2adc-72f3-96b1-3428a999ce72"/>
 <id>tag:eurobonus.chiq.se,2026:no/019b11f5-2adc-72f3-96b1-3428a999ce72/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
-<summary>2026-10-19 · slutter 31.10.2026 · ordinært 25 · Beste hittil</summary>
+<summary>2026-10-19 · avsluttet 2026-10-31</summary>
 </entry>
 <entry>
 <title>Revolution Race: 50 EB / 100 kr</title>
@@ -187,7 +194,7 @@
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a04319-8c3e-70f1-80fb-7c2cdc036ea8"/>
 <id>tag:eurobonus.chiq.se,2026:no/01a04319-8c3e-70f1-80fb-7c2cdc036ea8/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
-<summary>2026-10-19 · slutter 31.10.2026 · ordinært 50</summary>
+<summary>2026-10-19 · avsluttet 2026-10-31</summary>
 </entry>
 <entry>
 <title>Nelly.com: 30 EB / 100 kr</title>
@@ -215,7 +222,7 @@
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896308-9acc-7096-9b2a-e74389673a4b"/>
 <id>tag:eurobonus.chiq.se,2026:no/01896308-9acc-7096-9b2a-e74389673a4b/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
-<summary>2026-10-19 · slutter 31.10.2026 · ordinært 50 · Beste hittil</summary>
+<summary>2026-10-19 · avsluttet 2026-10-31</summary>
 </entry>
 <entry>
 <title>Ideal of Sweden: 100 EB / 100 kr</title>
@@ -271,7 +278,7 @@
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a15438-70cb-7210-8da5-737a9df69135"/>
 <id>tag:eurobonus.chiq.se,2026:no/01a15438-70cb-7210-8da5-737a9df69135/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
-<summary>2026-10-19 · slutter 31.10.2026 · ordinært 25</summary>
+<summary>2026-10-19 · avsluttet 2026-10-31</summary>
 </entry>
 <entry>
 <title>A Retro Tale: 30 EB / 100 kr</title>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/019716f7-b841-708c-94f7-aa0db57db557/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
 <summary>2026-10-19 · avsluttet 2026-10-26</summary>
-</entry>
-<entry>
-<title>Selected: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a13f61-6ad4-72e9-ac4e-524ced9b934a"/>
-<id>tag:eurobonus.chiq.se,2026:no/01a13f61-6ad4-72e9-ac4e-524ced9b934a/2026-10-16</id>
-<updated>2026-10-16T00:00:00Z</updated>
-<summary>2026-10-16 · slutter 31.10.2026 · ordinært 25</summary>
 </entry>
 </feed>
