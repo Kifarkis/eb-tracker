@@ -6328,5 +6328,277 @@
     "points_channel": 100,
     "started": "2026-10-07",
     "uuid": "0189630c-97b2-70fc-b190-002eaed90291"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Agoda",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Apoteket",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-30",
+    "uuid": "0189630b-9850-7399-84a6-b1b735256b79"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Axkid",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0197c0ea-b1e0-732d-9954-8f087718f4c8"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Bosch Home",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-26",
+    "uuid": "018e3827-6f29-71e6-beae-2be3af85c068"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Flixbus",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-26",
+    "uuid": "0189630c-cd49-700d-b0e0-9bb47f03628a"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Golvpoolen",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-26",
+    "uuid": "0189630a-eb8f-7075-b244-c68e0c6e1e8a"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Hairsale",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630e-10db-7242-8784-fa488e12f287"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "HelloFresh",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-10-26",
+    "uuid": "0189630e-0077-7365-979b-baa2f08a1bc7"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Hunkemöller",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630a-b3f1-7132-b07f-16beb096de9f"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Klippkungen",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01971711-a2b6-72e7-a91e-6bb8dad647da"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Kutts",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630a-7c0c-73f8-a3fb-44bbe56e6362"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Lloyd shoes",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "018abc11-bf2f-7341-a9fe-46704d307460"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Lusini",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896311-bc95-710e-bb1d-ebccfe64d8c2"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "MyMOWO",
+    "points_campaign": 500,
+    "points_channel": 100,
+    "started": "2026-10-26",
+    "uuid": "019d442e-c0ef-72d4-8983-d2a4b4328029"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "NiceBeauty",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896311-cd52-7367-8aae-0c4b46a3188e"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "P Lindberg",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630f-51f6-7085-b16a-1bf95980fc97"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Parfym.se",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896308-8756-70e3-b42a-66850f7b1673"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Partyninja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01961a7e-63f1-705f-92f0-4b45c819de18"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Relode",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-26",
+    "uuid": "01a085f3-f409-73f0-a62f-d2c23afb77f9"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "RevolutionRace",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Shark Ninja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Siemens Home",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-26",
+    "uuid": "0199c3f9-87a4-73df-9412-b69270133dab"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Sif Jakobs",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-10-26",
+    "uuid": "01896311-0958-725c-b6df-4d2efeaf54c9"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Singular Society",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-10-26",
+    "uuid": "019ad964-5fce-7380-ba91-5c4007d5ebbd"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Soffadirekt",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630a-1be2-707b-8a6f-d198c40fe2d9"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Telinet",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-10-26",
+    "uuid": "018e5102-89f1-70d3-b184-bfb0de1ae948"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Tempur",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630a-48b2-739f-8a99-02b1c54808a4"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Uppercut",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896308-8435-7153-8098-459054b908b0"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Ur&Penn",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01909199-023e-72d1-9225-12612083a62e"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Vinkylen",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
   }
 ]

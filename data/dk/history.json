@@ -3033,5 +3033,77 @@
     "points_channel": 400,
     "started": "2026-10-09",
     "uuid": "0195c822-fa45-739f-bb70-98d57db79ff0"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Agoda",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "018e3812-d948-725c-b796-8c3e17bf12d4"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "BabySam",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630c-66c4-7294-80b6-a07402666552"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Flixbus",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-26",
+    "uuid": "0189630c-cd49-700d-b0e0-9bb47f03628a"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Hunkemöller",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "0189630a-b3f1-7132-b07f-16beb096de9f"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Husqvarna",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019d713b-929f-7136-98ba-83fb547332ef"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Nicehair",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896311-cd52-7367-8aae-0c4b46a3188e"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "RevolutionRace",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
+  {
+    "ended": "2026-11-01",
+    "name": "Shark Ninja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
   }
 ]
