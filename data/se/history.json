@@ -6600,5 +6600,13 @@
     "points_channel": 10,
     "started": "2026-10-26",
     "uuid": "018abc11-d276-70ea-b149-50ae4e0bd6bb"
+  },
+  {
+    "ended": "2026-11-02",
+    "name": "Aktivvinter.se",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-01",
+    "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
   }
 ]
