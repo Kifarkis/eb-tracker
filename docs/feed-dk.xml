@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-02T00:00:00Z</updated>
+<updated>2026-11-03T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Sonos: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630e-a751-7311-930d-de861b1a0c5d"/>
+<id>tag:eurobonus.chiq.se,2026:dk/0189630e-a751-7311-930d-de861b1a0c5d/2026-11-03</id>
+<updated>2026-11-03T00:00:00Z</updated>
+<summary>2026-11-03 · slutter 08.11.2026 · normalt 15 · Bedste hidtil</summary>
+</entry>
 <entry>
 <title>Selected: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a13f61-6ad4-72e9-ac4e-524ced9b934a"/>
@@ -277,13 +284,6 @@
 <title>Ideal of Sweden: 100 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630f-4b89-721d-88e7-5b4e2b299f5f"/>
 <id>tag:eurobonus.chiq.se,2026:dk/0189630f-4b89-721d-88e7-5b4e2b299f5f/2026-10-19</id>
-<updated>2026-10-19T00:00:00Z</updated>
-<summary>2026-10-19 · afsluttet 2026-10-26</summary>
-</entry>
-<entry>
-<title>CS Megastore: 20 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630e-21d9-70b4-9f7a-92a6704964ac"/>
-<id>tag:eurobonus.chiq.se,2026:dk/0189630e-21d9-70b4-9f7a-92a6704964ac/2026-10-19</id>
 <updated>2026-10-19T00:00:00Z</updated>
 <summary>2026-10-19 · afsluttet 2026-10-26</summary>
 </entry>

@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-02T00:00:00Z</updated>
+<updated>2026-11-03T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Sonos: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630e-a751-7311-930d-de861b1a0c5d"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630e-a751-7311-930d-de861b1a0c5d/2026-11-03</id>
+<updated>2026-11-03T00:00:00Z</updated>
+<summary>2026-11-03 · slutter 08.11.2026 · ordinært 15 · Beste hittil</summary>
+</entry>
 <entry>
 <title>Timarco: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896308-7f87-71ee-b3bc-53cb7efe268f"/>
@@ -277,13 +284,6 @@
 <title>Hunkemøller: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630a-b3f1-7132-b07f-16beb096de9f"/>
 <id>tag:eurobonus.chiq.se,2026:no/0189630a-b3f1-7132-b07f-16beb096de9f/2026-10-26</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<summary>2026-10-26 · avsluttet 2026-11-01</summary>
-</entry>
-<entry>
-<title>Flixbus: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630c-cd49-700d-b0e0-9bb47f03628a"/>
-<id>tag:eurobonus.chiq.se,2026:no/0189630c-cd49-700d-b0e0-9bb47f03628a/2026-10-26</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <summary>2026-10-26 · avsluttet 2026-11-01</summary>
 </entry>

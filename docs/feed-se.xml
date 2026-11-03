@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-02T00:00:00Z</updated>
+<updated>2026-11-03T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Sonos: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630e-a751-7311-930d-de861b1a0c5d"/>
+<id>tag:eurobonus.chiq.se,2026:se/0189630e-a751-7311-930d-de861b1a0c5d/2026-11-03</id>
+<updated>2026-11-03T00:00:00Z</updated>
+<summary>2026-11-03 · slutar 2026-11-08 · ordinarie 15 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>outl1: 30 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=019e9785-274b-7017-8bd8-61fb7372192e"/>
@@ -277,13 +284,6 @@
 <title>Vinkylen: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018abc11-d276-70ea-b149-50ae4e0bd6bb"/>
 <id>tag:eurobonus.chiq.se,2026:se/018abc11-d276-70ea-b149-50ae4e0bd6bb/2026-10-26</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<summary>2026-10-26 · avslutad 2026-11-01</summary>
-</entry>
-<entry>
-<title>Ur&amp;Penn: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01909199-023e-72d1-9225-12612083a62e"/>
-<id>tag:eurobonus.chiq.se,2026:se/01909199-023e-72d1-9225-12612083a62e/2026-10-26</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <summary>2026-10-26 · avslutad 2026-11-01</summary>
 </entry>

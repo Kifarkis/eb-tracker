@@ -2864,17 +2864,22 @@
     "uuid": "0189630e-a559-7100-863e-7bca9f8a61ea"
   },
   "0189630e-a751-7311-930d-de861b1a0c5d": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "08.11.2026",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-11-03"
+    },
     "all_time_high_date": "2026-06-01",
     "all_time_high_points": 30,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 4 dage",
+    "campaign_ends_human_en": "in 4 days",
     "category_id": 4,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 15,
-    "current_points_campaign": 0,
-    "current_points_channel": 3,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
     "description": "<p>Skab dit perfekte lydsystem. Det hele fungerer sammen, og Sonos fungerer med alle dine yndlingstjenester, så du kan lytte til, hvad du vil, hvor du vil, som du vil.</p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-03",
