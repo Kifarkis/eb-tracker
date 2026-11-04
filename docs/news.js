@@ -1,5 +1,5 @@
 (function () {
-  var LATEST = '2026-10-28';
+  var LATEST = '2026-11-03';
   var KEY = 'sas-news-seen';
   var seen;
   try { seen = localStorage.getItem(KEY) || ''; } catch (e) { return; }

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Integritet — EuroBonus Shopping</title>
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
 :root {
   --bg: #faf9f7; --surface: #ffffff;
@@ -38,7 +41,11 @@ body {
 .article-container { width: 100%; max-width: 640px; margin: 0 auto; padding: 32px 24px 0; flex: 1 0 auto; }
 
 .sas-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; gap: 24px; flex-wrap: wrap; padding-top: 32px; }
-.sas-title { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0; color: var(--text); text-decoration: none; }
+.sas-title { display: inline-flex; align-items: center; gap: 0.35em; font-size: 28px; font-weight: 500; letter-spacing: -0.02em; margin: 0; color: var(--text); text-decoration: none; }
+.sas-mark { width: 1.15em; height: 1.15em; flex: none; }
+.sas-mark-r { fill: var(--accent); stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+.sas-mark-p { fill: var(--accent); }
+.sas-mark-i { fill: var(--bg); }
 .sas-title:hover { color: var(--accent); }
 .sas-header-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .sas-header-select { font-family: inherit; font-size: 13px; padding: 7px 12px; border: 0.5px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text); cursor: pointer; }
@@ -83,7 +90,7 @@ code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; 
 
 <div class="sas-container">
   <div class="sas-header">
-    <a class="sas-title" href="/">EuroBonus Shopping</a>
+    <a class="sas-title" href="/"><svg class="sas-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><polygon class="sas-mark-r" points="32,3 37.67,7.14 44.58,5.87 47.9,12.06 54.67,13.92 54.97,20.94 60.27,25.55 57.5,32 60.27,38.45 54.97,43.06 54.67,50.08 47.9,51.94 44.58,58.13 37.67,56.86 32,61 26.33,56.86 19.42,58.13 16.1,51.94 9.33,50.08 9.03,43.06 3.73,38.45 6.5,32 3.73,25.55 9.03,20.94 9.33,13.92 16.1,12.06 19.42,5.87 26.33,7.14"/><circle class="sas-mark-i" cx="32" cy="32" r="19"/><path class="sas-mark-p" transform="translate(32 32) rotate(45) scale(0.5) translate(-32 -31)" d="M32 5C34.5 5 36 8 36 12L36 24L58 35L58 40L36 34L36 47L43 52L43 56L32 53L21 56L21 52L28 47L28 34L6 40L6 35L28 24L28 12C28 8 29.5 5 32 5Z"/></svg>EuroBonus Shopping</a>
     <div class="sas-header-controls">
       <select class="sas-header-select" id="country-select" aria-label="Country"></select>
       <select class="sas-header-select" id="language-select" aria-label="Language"></select>

@@ -27,7 +27,8 @@
 <meta name="color-scheme" content="light dark"/>
 <meta name="robots" content="noindex"/>
 <title><xsl:value-of select="$title"/></title>
-<link rel="icon" href="icon-192.png" type="image/png"/>
+<link rel="icon" href="favicon.ico" sizes="32x32"/>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
 <style>
 :root {
   --bg: #faf9f7; --surface: #ffffff;
