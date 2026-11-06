@@ -2498,7 +2498,7 @@
     "description": "<div>COS tilbyder moderne tøj til kvinder og mænd med fokus på tidløst design, høj kvalitet og funktionalitet. Kollektionerne er kendetegnet ved minimalistisk æstetik, nøje udvalgte materialer og bæredygtige ambitioner. COS kombinerer klassiske silhuetter med nutidige detaljer og skaber alsidige styles til både hverdag, arbejde og særlige lejligheder.</div>",
     "first_seen": "2026-06-25",
     "last_seen": "2026-11-06",
-    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/JsespeChctHtSA77c37WrWkgJzVM8EUNhYJ0Fp2Y.png",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/svfkgiDGopcG9MtGNInqqi9bLKtez75ZA7cWALkE.png",
     "name": "COS",
     "slug": "cos",
     "status": "active",
@@ -7034,5 +7034,26 @@
     "slug": "expressvpn",
     "status": "active",
     "uuid": "01a18c1f-d202-7305-88b0-0e4bcb96725c"
+  },
+  "01a1b0e6-f166-7385-90d7-fdede72c2d83": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-06",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Etsy er en international markedsplads, der forbinder kreative selvstændige med kunder på udkig efter noget særligt. Her finder du unikke produkter, håndlavede designs, personlige gaver og vintagefund fra uafhængige sælgere verden over. Etsy gør det nemt at opdage originale idéer og støtte små virksomheder og kreative iværksættere.</div>",
+    "first_seen": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/TJFqNchdiDRWJa9xsNpkqWhABI3Bvk5uZq4gd17Z.png",
+    "name": "Etsy",
+    "slug": "etsy",
+    "status": "active",
+    "uuid": "01a1b0e6-f166-7385-90d7-fdede72c2d83"
   }
 }

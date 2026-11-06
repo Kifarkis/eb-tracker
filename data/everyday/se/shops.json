@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-11-05T18:01:51.985363+00:00",
+  "updated": "2026-11-06T15:56:14.454298+00:00",
   "shop_count": 446,
   "shops": [
     {
@@ -1511,7 +1511,7 @@
       "status": "active"
     },
     {
-      "uuid": "hastens-birger-jarlsgatan",
+      "uuid": "hastens-birger-jarlsgatan-2351c2ae-9bfa-4dd9-a906-c1e5d85f58c7",
       "name": "Hästens Birger Jarlsgatan",
       "country": "se",
       "city": "Stockholm",
@@ -1526,7 +1526,7 @@
       "website": "www.hastens.com",
       "phone": "+468225020",
       "email": "frida.lihnbla@hastens.se",
-      "description": "Hästens has a rich history running back through six generations—from our roots as master saddlers to Hästens appointment as Royal Purveyors, and the Spirit of Excellence that drives us forward into the future. The journey to where we are now is one filled with passion, skill and the pursuit of making the best handcrafted beds in the world.<br/><br/>From the day we made our first bed, natural materials have always played a fundamental role. In 1852 cotton, horsetail hair, wool and flax were superior to other materials and, surprisingly, even today... that remains the case. And, then as it is now, the best way to craft using these materials is by hand. This tradition of hand craftsmanship gives our bed makers a deeply-rooted understanding and mastery of both their art, and the natural materials that are so crucial to its consolidation.<br/><br/>Imbuing everything we do with our Spirit of Excellence is still a founding principle that informs the work of our master craftsmen. And to them, there is no other way or standard of working.<br/><br/>Earning SAS EuroBonus Bonus Points on purchase can´t be combined with special discounts or other organized discounts or loyalty programs. Please be aware that SAS EuroBonus Bonus Points earned at this store will be assigned to your account 21 days after the purchase.",
+      "description": "when giving your Hästens sales person your EuroBonus number upon purchase.<br><br>Hästens has a rich history running back through six generations—from our roots as master saddlers to Hästens appointment as Royal Purveyors, and the Spirit of Excellence that drives us forward into the future. The journey to where we are now is one filled with passion, skill and the pursuit of making the best handcrafted beds in the world.<br/><br/>From the day we made our first bed, natural materials have always played a fundamental role. In 1852 cotton, horsetail hair, wool and flax were superior to other materials and, surprisingly, even today... that remains the case. And, then as it is now, the best way to craft using these materials is by hand. This tradition of hand craftsmanship gives our bed makers a deeply-rooted understanding and mastery of both their art, and the natural materials that are so crucial to its consolidation.<br/><br/>Earning SAS EuroBonus Bonus Points on purchase can´t be combined with special discounts or other organized discounts or loyalty programs. Please be aware that SAS EuroBonus Bonus Points earned at this store will be assigned to your account 21 days after the purchase.",
       "cards_accepted": [],
       "has_fixed_reward": false,
       "coming_soon": false,
@@ -1534,7 +1534,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2016-05-10 00:00:00",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-11-06",
       "status": "active"
     },
     {
@@ -13507,6 +13507,34 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "hastens-birger-jarlsgatan",
+      "name": "Hästens Birger Jarlsgatan",
+      "country": "se",
+      "city": "Stockholm",
+      "postcode": "11145",
+      "address": "Birger Jarlsgatan 25",
+      "lat": 59.3369034,
+      "lng": 18.0707383,
+      "mode": "onsite",
+      "category_id": 5,
+      "points_per_100": 30,
+      "currency": "SEK",
+      "website": "www.hastens.com",
+      "phone": "+468225020",
+      "email": "frida.lihnbla@hastens.se",
+      "description": "Hästens has a rich history running back through six generations—from our roots as master saddlers to Hästens appointment as Royal Purveyors, and the Spirit of Excellence that drives us forward into the future. The journey to where we are now is one filled with passion, skill and the pursuit of making the best handcrafted beds in the world.<br/><br/>From the day we made our first bed, natural materials have always played a fundamental role. In 1852 cotton, horsetail hair, wool and flax were superior to other materials and, surprisingly, even today... that remains the case. And, then as it is now, the best way to craft using these materials is by hand. This tradition of hand craftsmanship gives our bed makers a deeply-rooted understanding and mastery of both their art, and the natural materials that are so crucial to its consolidation.<br/><br/>Imbuing everything we do with our Spirit of Excellence is still a founding principle that informs the work of our master craftsmen. And to them, there is no other way or standard of working.<br/><br/>Earning SAS EuroBonus Bonus Points on purchase can´t be combined with special discounts or other organized discounts or loyalty programs. Please be aware that SAS EuroBonus Bonus Points earned at this store will be assigned to your account 21 days after the purchase.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2016-05-10 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-11-06"
     },
     {
       "uuid": "stina-bomans-matsal",
