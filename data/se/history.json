@@ -6608,5 +6608,269 @@
     "points_channel": 10,
     "started": "2026-11-01",
     "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Aarke",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Acer",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-01",
+    "uuid": "01896310-f77f-72c9-9b07-830ad79ad27f"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Australian Bodycare",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-26",
+    "uuid": "0189630f-53a2-70ae-9335-2e13d199108f"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "BetterFeast",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-11-02",
+    "uuid": "01896310-2e87-724b-8e38-231cdf71b372"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Björn Borg",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-11-02",
+    "uuid": "01896308-503c-73a5-9ec8-382fd13dc580"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Bodystore",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01896307-a48e-7282-a8f3-2508750f0b14"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Bottle Hero",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "019a112d-87ab-730e-9bb7-101330a28267"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "E-Wheels",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-02",
+    "uuid": "01896310-1e04-7083-b83b-6a19deed1cf1"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "E.ON",
+    "points_campaign": 8000,
+    "points_channel": 1600,
+    "started": "2026-11-02",
+    "uuid": "019c1e6d-75f2-70c5-b79f-99971e427f75"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Elskling",
+    "points_campaign": 2500,
+    "points_channel": 500,
+    "started": "2026-11-02",
+    "uuid": "0189630f-5536-7329-883b-ceffb426d426"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "EuroFlorist",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896308-d5a1-70c8-84eb-a07e4bcd0d2c"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Florister i Sverige",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-11-02",
+    "uuid": "0189630e-1cbb-71c5-b96e-c639b69edd2f"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Fyndiq",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-30",
+    "uuid": "0189630a-3059-73d7-9526-637d8af50232"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Haglöfs",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-01",
+    "uuid": "018f1a0b-1749-708d-bbec-9aa03594b3b0"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Holdit",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-11-02",
+    "uuid": "01896310-de2d-7039-a4f2-7938c62656a5"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "HP Online Store",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-02",
+    "uuid": "01896307-c470-7051-bef2-606292482eae"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Hudoteket",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01896309-aa2d-71e5-9c48-248f03c79b6f"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Interflora",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "018abc10-e2a1-7029-a2d1-0df7f582fd1c"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Lamp24.se",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-26",
+    "uuid": "01896309-9aec-70c0-939a-ff07b252e81c"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Lenovo",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-10-30",
+    "uuid": "01896311-859b-70f9-876a-a52c61ec5e5a"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Lounge by Zalando",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-10-28",
+    "uuid": "018abc11-7ec7-73a0-bb3a-428c1b239d7d"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Lux-case",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-10-30",
+    "uuid": "01896308-35e5-7100-9665-4122177f0b78"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Miss Hosting",
+    "points_campaign": 2000,
+    "points_channel": 400,
+    "started": "2026-10-30",
+    "uuid": "019dafb9-e034-7101-acb5-862c125d8cf3"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "outl1",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-02",
+    "uuid": "019e9785-274b-7017-8bd8-61fb7372192e"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Philips Hue",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "018ee1d2-896a-729f-932c-e9664dc0c907"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "PN Jakt AB",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "0189630a-24d9-70d4-a254-d9e398ede37d"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Puma",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01896311-6dc5-71e3-913b-755e3e93a3f2"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Selected",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-02",
+    "uuid": "01a13f61-6ad4-72e9-ac4e-524ced9b934a"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Singular Society",
+    "points_campaign": 4000,
+    "points_channel": 800,
+    "started": "2026-11-02",
+    "uuid": "019ad964-5fce-7380-ba91-5c4007d5ebbd"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Sonos",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-03",
+    "uuid": "0189630e-a751-7311-930d-de861b1a0c5d"
+  },
+  {
+    "ended": "2026-11-09",
+    "name": "Zooplus",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-10-28",
+    "uuid": "01896311-78a2-734c-aec3-9f2c9fdb7339"
   }
 ]
