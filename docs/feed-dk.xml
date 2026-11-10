@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-10T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>LEGO: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01896310-5de4-71af-9cfa-190c9eebec97"/>
+<id>tag:eurobonus.chiq.se,2026:dk/01896310-5de4-71af-9cfa-190c9eebec97/2026-11-10</id>
+<updated>2026-11-10T00:00:00Z</updated>
+<summary>2026-11-10 · slutter 30.11.2026 · normalt 25 · Bedste hidtil</summary>
+</entry>
 <entry>
 <title>Shark Ninja: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=019e4465-abe2-7069-a495-477ebb1168ba"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:dk/01a0d2cd-44b6-70e0-9d09-7fa13f871050/2026-10-22</id>
 <updated>2026-10-22T00:00:00Z</updated>
 <summary>2026-10-22 · afsluttet 2026-10-31</summary>
-</entry>
-<entry>
-<title>Magasin: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01896310-cff7-730e-a0e8-c319ca656c74"/>
-<id>tag:eurobonus.chiq.se,2026:dk/01896310-cff7-730e-a0e8-c319ca656c74/2026-10-21</id>
-<updated>2026-10-21T00:00:00Z</updated>
-<summary>2026-10-21 · afsluttet 2026-10-31</summary>
 </entry>
 </feed>

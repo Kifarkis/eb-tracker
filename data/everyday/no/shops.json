@@ -1,6 +1,6 @@
 {
   "country": "no",
-  "updated": "2026-11-09T20:45:15.813118+00:00",
+  "updated": "2026-11-10T20:50:36.907102+00:00",
   "shop_count": 415,
   "shops": [
     {
@@ -12043,7 +12043,7 @@
       "status": "active"
     },
     {
-      "uuid": "taxifix-oslo-taxi",
+      "uuid": "taxifix-oslo-taxi-ad70b5b2-63d8-4b22-be56-fe63e100a237",
       "name": "Taxifix, Oslo Taxi",
       "country": "no",
       "city": ".",
@@ -12066,7 +12066,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2022-04-27 09:33:13",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-11-10",
       "status": "active"
     },
     {
@@ -12462,6 +12462,34 @@
       "created_at": "2022-09-22 09:32:36",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "taxifix-oslo-taxi",
+      "name": "Taxifix, Oslo Taxi",
+      "country": "no",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.cencom.no/taxifixeurobonus/",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 6,
+      "points_per_100": 20,
+      "currency": "NOK",
+      "website": "https://cencom.no/taxifixeurobonus/",
+      "phone": "+4702323",
+      "email": "mikkel@bnr.dk",
+      "description": "Oslo Taxi is the biggest taxi company in Oslo and has been transporting Oslo citizens and visitors all the way since 1921. We take pride in customer satisfaction and both drivers and cars are of high standards. All drivers are interviewed prior to being allowed to drive for Oslo Taxi in order to secure the best service for our customers. To earn EuroBonus Bonus points, simply register your EuroBonus membership number in your profile in the Taxifix app and earn points automatically on all upcoming bookings. It is not possible to retro register points.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2022-04-27 09:33:13",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-11-10"
     },
     {
       "uuid": "festspillene-i-bergen",

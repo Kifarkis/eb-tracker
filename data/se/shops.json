@@ -3312,17 +3312,22 @@
     "uuid": "0189630d-9003-7266-84ef-6291db61aa5e"
   },
   "0189630d-af8b-717b-b0cb-1f385bd015f5": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-11-22",
+      "points_campaign": 800,
+      "points_channel": 160,
+      "started": "2026-11-10"
+    },
     "all_time_high_date": "2026-04-29",
     "all_time_high_points": 1000,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 2,
     "commission_type": "fixed",
     "currency": "SEK",
     "current_points": 400,
-    "current_points_campaign": 0,
-    "current_points_channel": 80,
+    "current_points_campaign": 800,
+    "current_points_channel": 160,
     "description": "<div>BookBeat är en digital prenumerationstjänst för ljud- och e-böcker. Med vår streamingtjänst har du tillgång till over 1 miljon. Du väljer själv om du vill lyssna strömmat eller ladda hem böckerna till offline bruk. Att lyssna offline är perfekt när du är på resande fot och inte har tillgång till mobildata eller wifi.<br><br></div><h1>Villkor för denna partner</h1><div>Den här kampanjen kan bara användas en gång per Eurobonus-medlem. Du tjänar EuroBonus-poäng även om du väljer att inte fortsätta med din prenumeration.&nbsp;</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-10",
@@ -5036,17 +5041,22 @@
     "uuid": "01896310-53fd-714f-a6f7-291cff7e7154"
   },
   "01896310-5de4-71af-9cfa-190c9eebec97": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-11-30",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-10"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 veckor",
+    "campaign_ends_human_en": "in 2 weeks",
     "category_id": 3,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "Utforska LEGO® -universum, där du hittar nya och klassiska leksaksprodukter från den populära danska leksakstillverkaren, som i flera generationer har väckt glädje och lek för barn i alla åldrar.",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-10",
@@ -11003,5 +11013,26 @@
     "slug": "sellpy",
     "status": "active",
     "uuid": "01a1b0f6-2de0-7357-8df7-d4105b6bc7e8"
+  },
+  "01a1c5c9-c855-71e3-8dc0-81b2954fd269": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-10",
+    "all_time_high_points": 500,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 11,
+    "commission_type": "fixed",
+    "currency": "SEK",
+    "current_points": 500,
+    "current_points_campaign": 0,
+    "current_points_channel": 100,
+    "description": "<div>Gårdssällskapet är en svensk gårdsbutik online som erbjuder ekologiskt och KRAV-märkt kött från noggrant utvalda svenska gårdar. Med fokus på hög kvalitet, god djurhållning och nära samarbeten med lokala bönder levererar de färskt kött direkt hem till dörren. Här kan du beställa köttlådor och mathantverk med omtanke om både djur och smak.<br /><br /></div><h1>Villkor för denna partner</h1><div>Du tjänar endast poäng om du är ny kund och endast för ditt första köp. </div>",
+    "first_seen": "2026-11-10",
+    "last_seen": "2026-11-10",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/4PkR8aqGZHEolJMaUo4cgwTbl7Q36eU3CL6TSMzr.png",
+    "name": "Gårdssällskapet",
+    "slug": "gardssallskapet",
+    "status": "active",
+    "uuid": "01a1c5c9-c855-71e3-8dc0-81b2954fd269"
   }
 }
