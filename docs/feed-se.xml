@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-10T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Zmarta försäkring: 2500 EB / köp</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0198511f-cddd-705e-8f63-7df64aa4f3af"/>
+<id>tag:eurobonus.chiq.se,2026:se/0198511f-cddd-705e-8f63-7df64aa4f3af/2026-11-10</id>
+<updated>2026-11-10T00:00:00Z</updated>
+<summary>2026-11-10 · slutar 2026-11-22 · ordinarie 1500 · Bästa hittills</summary>
+</entry>
+<entry>
+<title>Svenska Gummihuset: 1000 EB / köp</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630d-cf20-7172-9143-c46a1a6970e6"/>
+<id>tag:eurobonus.chiq.se,2026:se/0189630d-cf20-7172-9143-c46a1a6970e6/2026-11-10</id>
+<updated>2026-11-10T00:00:00Z</updated>
+<summary>2026-11-10 · slutar 2026-11-30 · ordinarie 500 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>Trendcarpet: 100 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0197c10c-695d-734a-80cb-afa6b257734f"/>
@@ -267,24 +281,10 @@
 <summary>2026-11-04 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
 </entry>
 <entry>
-<title>Allente: 3000 EB / köp</title>
+<title>Allente: 5000 EB / köp</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630c-d887-72b0-889d-aec1f78825e4"/>
 <id>tag:eurobonus.chiq.se,2026:se/0189630c-d887-72b0-889d-aec1f78825e4/2026-11-04</id>
 <updated>2026-11-04T00:00:00Z</updated>
-<summary>2026-11-04 · slutar 2026-11-15 · ordinarie 1500</summary>
-</entry>
-<entry>
-<title>Sonos: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630e-a751-7311-930d-de861b1a0c5d"/>
-<id>tag:eurobonus.chiq.se,2026:se/0189630e-a751-7311-930d-de861b1a0c5d/2026-11-03</id>
-<updated>2026-11-03T00:00:00Z</updated>
-<summary>2026-11-03 · avslutad 2026-11-09</summary>
-</entry>
-<entry>
-<title>outl1: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=019e9785-274b-7017-8bd8-61fb7372192e"/>
-<id>tag:eurobonus.chiq.se,2026:se/019e9785-274b-7017-8bd8-61fb7372192e/2026-11-02</id>
-<updated>2026-11-02T00:00:00Z</updated>
-<summary>2026-11-02 · avslutad 2026-11-09</summary>
+<summary>2026-11-04 · slutar 2026-11-15 · ordinarie 1500 · Bästa hittills</summary>
 </entry>
 </feed>
