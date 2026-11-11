@@ -6872,5 +6872,13 @@
     "points_channel": 6,
     "started": "2026-10-28",
     "uuid": "01896311-78a2-734c-aec3-9f2c9fdb7339"
+  },
+  {
+    "ended": "2026-11-11",
+    "name": "Siemens Home",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-11-09",
+    "uuid": "0199c3f9-87a4-73df-9412-b69270133dab"
   }
 ]

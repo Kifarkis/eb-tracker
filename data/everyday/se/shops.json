@@ -1,7 +1,7 @@
 {
   "country": "se",
-  "updated": "2026-11-10T20:50:36.915128+00:00",
-  "shop_count": 446,
+  "updated": "2026-11-11T17:54:31.132181+00:00",
+  "shop_count": 447,
   "shops": [
     {
       "uuid": "at-steampunk-bar",
@@ -7796,6 +7796,35 @@
       "campaign_description": null,
       "created_at": "2017-09-26 00:00:00",
       "first_seen": "2026-05-05",
+      "status": "active"
+    },
+    {
+      "uuid": "sf-anytime-f7500f3d-59d5-4faa-8d58-677de729be28",
+      "name": "SF Anytime",
+      "country": "se",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.sfanytime.se",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 12,
+      "points_per_100": 100,
+      "currency": "SEK",
+      "website": "www.sfanytime.se",
+      "phone": "+46 (08) 409 188 00",
+      "email": "mattias.lindvall@sfanytime.com",
+      "description": "Make your next movie night extra rewarding with SF Anytime! Explore a wide selection of movies and TV shows, from the latest blockbusters to timeless favourites, and enjoy great entertainment from the comfort of your home.<br><br>With SF Anytime, you can turn every movie night into something special – and earn EuroBonus points along the way.",
+      "cards_accepted": [
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-11-11 12:29:11",
+      "first_seen": "2026-11-11",
       "status": "active"
     },
     {

@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-10T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>eesy 5G internet: 5000 EB / køb</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01947398-11de-7335-9cb6-dd340f9e023b"/>
+<id>tag:eurobonus.chiq.se,2026:dk/01947398-11de-7335-9cb6-dd340f9e023b/2026-11-11</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<summary>2026-11-11 · slutter 01.12.2026 · normalt 3000</summary>
+</entry>
 <entry>
 <title>LEGO: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01896310-5de4-71af-9cfa-190c9eebec97"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:dk/018e3812-d948-725c-b796-8c3e17bf12d4/2026-10-26</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <summary>2026-10-26 · afsluttet 2026-11-01</summary>
-</entry>
-<entry>
-<title>Aarke: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a0d2cd-44b6-70e0-9d09-7fa13f871050"/>
-<id>tag:eurobonus.chiq.se,2026:dk/01a0d2cd-44b6-70e0-9d09-7fa13f871050/2026-10-22</id>
-<updated>2026-10-22T00:00:00Z</updated>
-<summary>2026-10-22 · afsluttet 2026-10-31</summary>
 </entry>
 </feed>
