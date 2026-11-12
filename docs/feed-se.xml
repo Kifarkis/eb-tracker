@@ -5,8 +5,29 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-10T00:00:00Z</updated>
+<updated>2026-11-12T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Selected: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a13f61-6ad4-72e9-ac4e-524ced9b934a"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a13f61-6ad4-72e9-ac4e-524ced9b934a/2026-11-12</id>
+<updated>2026-11-12T00:00:00Z</updated>
+<summary>2026-11-12 · slutar 2026-11-15 · ordinarie 25 · Bästa hittills</summary>
+</entry>
+<entry>
+<title>Lounge by Zalando: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018abc11-7ec7-73a0-bb3a-428c1b239d7d"/>
+<id>tag:eurobonus.chiq.se,2026:se/018abc11-7ec7-73a0-bb3a-428c1b239d7d/2026-11-12</id>
+<updated>2026-11-12T00:00:00Z</updated>
+<summary>2026-11-12 · slutar 2026-11-15 · ordinarie 25 · Bästa hittills</summary>
+</entry>
+<entry>
+<title>Aarke: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a0d2cd-44b6-70e0-9d09-7fa13f871050"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a0d2cd-44b6-70e0-9d09-7fa13f871050/2026-11-12</id>
+<updated>2026-11-12T00:00:00Z</updated>
+<summary>2026-11-12 · slutar 2026-11-15 · ordinarie 25 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>Zmarta försäkring: 2500 EB / köp</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0198511f-cddd-705e-8f63-7df64aa4f3af"/>
@@ -265,26 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:se/01896308-01a2-7058-a537-bb687b41c4b4/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · slutar 2026-11-15 · ordinarie 50</summary>
-</entry>
-<entry>
-<title>EPIC Travelgear: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0199b95a-142f-73a9-90e9-d6dbaecdc935"/>
-<id>tag:eurobonus.chiq.se,2026:se/0199b95a-142f-73a9-90e9-d6dbaecdc935/2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>2026-11-06 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
-</entry>
-<entry>
-<title>Safira: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0192958a-3d0c-73f6-8808-283b59ffe62b"/>
-<id>tag:eurobonus.chiq.se,2026:se/0192958a-3d0c-73f6-8808-283b59ffe62b/2026-11-04</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<summary>2026-11-04 · slutar 2026-11-30 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Live it: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896307-f57d-71f6-aa8f-f07920c18bb9"/>
-<id>tag:eurobonus.chiq.se,2026:se/01896307-f57d-71f6-aa8f-f07920c18bb9/2026-11-04</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<summary>2026-11-04 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
 </entry>
 </feed>
