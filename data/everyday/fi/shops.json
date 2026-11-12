@@ -1,6 +1,6 @@
 {
   "country": "fi",
-  "updated": "2026-11-11T17:54:31.119107+00:00",
+  "updated": "2026-11-12T18:20:19.745127+00:00",
   "shop_count": 2,
   "shops": [
     {
@@ -47,7 +47,9 @@
       "phone": "+46 (08) 409 188 00",
       "email": "mattias.lindvall@sfanytime.com",
       "description": "Make your next movie night extra rewarding with SF Anytime! Explore a wide selection of movies and TV shows, from the latest blockbusters to timeless favourites, and enjoy great entertainment from the comfort of your home.<br><br>With SF Anytime, you can turn every movie night into something special – and earn EuroBonus points along the way.",
-      "cards_accepted": [],
+      "cards_accepted": [
+        "VISA"
+      ],
       "has_fixed_reward": false,
       "coming_soon": false,
       "has_campaign": false,

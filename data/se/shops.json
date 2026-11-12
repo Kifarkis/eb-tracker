@@ -9042,18 +9042,23 @@
     "uuid": "0199b95a-142f-73a9-90e9-d6dbaecdc935"
   },
   "0199c347-a9d7-725b-9687-0cb0917347ce": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-12-01",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-12"
+    },
     "all_time_high_date": "2026-05-11",
     "all_time_high_points": 75,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 veckor",
+    "campaign_ends_human_en": "in 2 weeks",
     "category_id": 11,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
-    "description": "<div>Nespresso gör det möjligt att förvandla din kaffeupplevelse till något alldeles extra. Med Vertuo-maskinen kan du uppleva alla typer av kaffevarianter i flera olika storlekar, från en stor kopp till en enkel espresso. Perfekt för dig som gillar en värmande lyx-kaffe på morgonen eller en svalkande iskaffe en solig sommardag.<br><br>&nbsp;</div><h1>Villkor för denna partner&nbsp;</h1><div><br></div><div>Du kan bara tjäna poäng på kaffemaskiner. Tyvärr kan du inte tjäna poäng på kapslar och tillbehör.</div>",
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Nespresso gör det möjligt att förvandla din kaffeupplevelse till något alldeles extra. Med Vertuo-maskinen kan du uppleva alla typer av kaffevarianter i flera olika storlekar, från en stor kopp till en enkel espresso. Perfekt för dig som gillar en värmande lyx-kaffe på morgonen eller en svalkande iskaffe en solig sommardag.<br /><br /> </div><h1>Villkor för denna partner </h1><div>Du kan bara tjäna poäng på kaffemaskiner. Tyvärr kan du inte tjäna poäng på kapslar och tillbehör.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-12",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/fh2RpUx8KEx82xGdm7XrZkAYMLERqumlohlicmH5.png",
@@ -10727,17 +10732,22 @@
     "uuid": "01a0b389-9931-709b-bf7b-7f7e6fb6e4e2"
   },
   "01a0b396-bcad-7228-b050-cc49a5084adb": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-12-07",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-12"
+    },
     "all_time_high_date": "2026-10-05",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 veckor",
+    "campaign_ends_human_en": "in 3 weeks",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>PERGOLUX är ett norskt varumärke som utvecklar pergolor och tillbehör för nordiska uteplatser. Sortimentet omfattar aluminiumpergolor med manuella eller motoriserade lamelltak, samt glasväggar, screens, LED-belysning och värmelampor. Produkterna kombinerar skandinavisk design med funktionella lösningar för att skapa ett mer användbart och väderskyddat uterum.</div>",
     "first_seen": "2026-09-18",
     "last_seen": "2026-11-12",
@@ -11045,6 +11055,32 @@
     "status": "active",
     "uuid": "01a1b0f6-2de0-7357-8df7-d4105b6bc7e8"
   },
+  "01a1b100-4c8c-7358-8d63-3a43843e3d2c": {
+    "active_campaign": {
+      "ends_date": "2026-12-01",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-12"
+    },
+    "all_time_high_date": "2026-11-12",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 2 veckor",
+    "campaign_ends_human_en": "in 2 weeks",
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Tiger of Sweden är ett svenskt modevarumärke som förenar skandinavisk minimalism med modern design och tidlös elegans. Varumärket erbjuder stilrena kollektioner för både män och kvinnor, med fokus på kvalitet, passform och hantverk. Sortimentet sträcker sig från klassiskt skrädderi och kostymer till moderna vardagsplagg och accessoarer.</div>",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/sWap43vv8OazJ1GODalsqY1PMyH9s9sfC1Xit8PM.png",
+    "name": "Tiger of Sweden",
+    "slug": "tiger-of-sweden",
+    "status": "active",
+    "uuid": "01a1b100-4c8c-7358-8d63-3a43843e3d2c"
+  },
   "01a1c5c9-c855-71e3-8dc0-81b2954fd269": {
     "active_campaign": null,
     "all_time_high_date": "2026-11-10",
@@ -11065,5 +11101,31 @@
     "slug": "gardssallskapet",
     "status": "active",
     "uuid": "01a1c5c9-c855-71e3-8dc0-81b2954fd269"
+  },
+  "01a1d035-3d43-700f-984b-7663abe1c67e": {
+    "active_campaign": {
+      "ends_date": "2026-11-19",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-12"
+    },
+    "all_time_high_date": "2026-11-12",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 6 dagar",
+    "campaign_ends_human_en": "in 6 days",
+    "category_id": 1,
+    "commission_type": "fixed",
+    "currency": "SEK",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>LIÉ STUDIO är ett danskt accessoarvarumärke grundat i Köpenhamn av tvillingsystrarna Amalie och Cecilie Moosgaard. Varumärket förenar skandinavisk minimalism med tidlös och modern design i kollektioner av smycken, lädervaror och accessoarer. Med fokus på kvalitet, material och gediget hantverk skapar LIÉ STUDIO eleganta produkter som passar både till vardags och vid speciella tillfällen.</div>",
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Yn7Y9LqdzAqQcxNiHAHWZflsiG3lJR6RO8x2497v.png",
+    "name": "Lié Studio",
+    "slug": "lie-studio",
+    "status": "active",
+    "uuid": "01a1d035-3d43-700f-984b-7663abe1c67e"
   }
 }
