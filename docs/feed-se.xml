@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-12T00:00:00Z</updated>
+<updated>2026-11-13T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Kids-World: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018abc10-d14f-71ec-85c4-4071ab93a75a"/>
+<id>tag:eurobonus.chiq.se,2026:se/018abc10-d14f-71ec-85c4-4071ab93a75a/2026-11-13</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<summary>2026-11-13 · slutar 2026-11-22 · ordinarie 25</summary>
+</entry>
+<entry>
+<title>A Retro Tale: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=019716f7-b841-708c-94f7-aa0db57db557"/>
+<id>tag:eurobonus.chiq.se,2026:se/019716f7-b841-708c-94f7-aa0db57db557/2026-11-13</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<summary>2026-11-13 · slutar 2026-12-01 · ordinarie 15 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>Tiger of Sweden: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a1b100-4c8c-7358-8d63-3a43843e3d2c"/>
@@ -270,20 +284,6 @@
 <title>Dyson: 30 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896310-bb05-734c-87c7-a0d8eadfe399"/>
 <id>tag:eurobonus.chiq.se,2026:se/01896310-bb05-734c-87c7-a0d8eadfe399/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · slutar 2026-11-15 · ordinarie 15</summary>
-</entry>
-<entry>
-<title>CS Megastore: 20 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630e-21d9-70b4-9f7a-92a6704964ac"/>
-<id>tag:eurobonus.chiq.se,2026:se/0189630e-21d9-70b4-9f7a-92a6704964ac/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · slutar 2026-11-15 · ordinarie 10 · Bästa hittills</summary>
-</entry>
-<entry>
-<title>Bubbleroom: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896309-b8ae-7129-9039-516c2dbedf13"/>
-<id>tag:eurobonus.chiq.se,2026:se/01896309-b8ae-7129-9039-516c2dbedf13/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · slutar 2026-11-15 · ordinarie 15</summary>
 </entry>

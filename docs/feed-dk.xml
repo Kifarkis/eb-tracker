@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-12T00:00:00Z</updated>
+<updated>2026-11-13T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Kids-World: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=018abc10-d14f-71ec-85c4-4071ab93a75a"/>
+<id>tag:eurobonus.chiq.se,2026:dk/018abc10-d14f-71ec-85c4-4071ab93a75a/2026-11-13</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<summary>2026-11-13 · slutter 22.11.2026 · normalt 25</summary>
+</entry>
+<entry>
+<title>A Retro Tale: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=019716f7-b841-708c-94f7-aa0db57db557"/>
+<id>tag:eurobonus.chiq.se,2026:dk/019716f7-b841-708c-94f7-aa0db57db557/2026-11-13</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<summary>2026-11-13 · slutter 01.12.2026 · normalt 15</summary>
+</entry>
 <entry>
 <title>Tiger of Sweden: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a1b100-4c8c-7358-8d63-3a43843e3d2c"/>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:dk/01896311-78a2-734c-aec3-9f2c9fdb7339/2026-10-28</id>
 <updated>2026-10-28T00:00:00Z</updated>
 <summary>2026-10-28 · afsluttet 2026-11-09</summary>
-</entry>
-<entry>
-<title>Lounge by Zalando: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=018abc11-7ec7-73a0-bb3a-428c1b239d7d"/>
-<id>tag:eurobonus.chiq.se,2026:dk/018abc11-7ec7-73a0-bb3a-428c1b239d7d/2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>2026-10-28 · afsluttet 2026-11-09</summary>
-</entry>
-<entry>
-<title>Shark Ninja: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=019e4465-abe2-7069-a495-477ebb1168ba"/>
-<id>tag:eurobonus.chiq.se,2026:dk/019e4465-abe2-7069-a495-477ebb1168ba/2026-10-26</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<summary>2026-10-26 · afsluttet 2026-11-01</summary>
 </entry>
 </feed>
