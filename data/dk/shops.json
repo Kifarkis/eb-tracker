@@ -5592,6 +5592,27 @@
     "status": "active",
     "uuid": "0196b513-2638-7036-83ce-676479acc9ff"
   },
+  "019716f7-b841-708c-94f7-aa0db57db557": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-13",
+    "all_time_high_points": 15,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 15,
+    "current_points_campaign": 0,
+    "current_points_channel": 3,
+    "description": "<div>A Retro Tale er en eksklusiv svensk webshop med autentiske vintage luksusvarer og secondhand designertilbehør. Sortimentet omfatter designertasker, smykker, ure og accessories fra Chanel, Louis Vuitton, Gucci og Hermès. Med fokus på kvalitet, ægthed og bæredygtighed tilbydes tidløs luksusmode.</div>",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/JQMfbR5n1QqphpS1PPfVwAOu4lNmYmv46XgdrOQS.png",
+    "name": "A Retro Tale",
+    "slug": "a-retro-tale",
+    "status": "active",
+    "uuid": "019716f7-b841-708c-94f7-aa0db57db557"
+  },
   "019759cc-0c9d-7307-928c-aef67e0d4bd7": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",

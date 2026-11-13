@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-12T00:00:00Z</updated>
+<updated>2026-11-13T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>A Retro Tale: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=019716f7-b841-708c-94f7-aa0db57db557"/>
+<id>tag:eurobonus.chiq.se,2026:no/019716f7-b841-708c-94f7-aa0db57db557/2026-11-13</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<summary>2026-11-13 · slutter 01.12.2026 · ordinært 15 · Beste hittil</summary>
+</entry>
 <entry>
 <title>Tiger of Sweden: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01a1b100-4c8c-7358-8d63-3a43843e3d2c"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/019acabe-1ceb-72e7-88b5-ef434d15ce09/2026-11-02</id>
 <updated>2026-11-02T00:00:00Z</updated>
 <summary>2026-11-02 · avsluttet 2026-11-09</summary>
-</entry>
-<entry>
-<title>Skruvat: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896309-8695-729b-af3d-7858d358e60a"/>
-<id>tag:eurobonus.chiq.se,2026:no/01896309-8695-729b-af3d-7858d358e60a/2026-11-02</id>
-<updated>2026-11-02T00:00:00Z</updated>
-<summary>2026-11-02 · slutter 30.11.2026 · ordinært 10</summary>
 </entry>
 </feed>
