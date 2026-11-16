@@ -3241,5 +3241,93 @@
     "points_channel": 6,
     "started": "2026-10-28",
     "uuid": "01896311-78a2-734c-aec3-9f2c9fdb7339"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Aarke",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-12",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-11-09",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-09",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Fyndiq",
+    "points_campaign": 200,
+    "points_channel": 40,
+    "started": "2026-11-09",
+    "uuid": "0189630a-3059-73d7-9526-637d8af50232"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "G-star",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "018ce8ef-9005-73b2-9eab-aa62d65c537a"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Lounge by Zalando",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-12",
+    "uuid": "018abc11-7ec7-73a0-bb3a-428c1b239d7d"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Matas",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-09",
+    "uuid": "019c9982-a557-7050-963f-ed75c89bc565"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Sephora",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-11-09",
+    "uuid": "0189630c-5cf0-73e4-8bad-757898565730"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Shark Ninja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
   }
 ]

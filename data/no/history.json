@@ -3943,5 +3943,149 @@
     "points_channel": 6,
     "started": "2026-10-28",
     "uuid": "01896311-78a2-734c-aec3-9f2c9fdb7339"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Aarke",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-12",
+    "uuid": "01a0d2cd-44b6-70e0-9d09-7fa13f871050"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Aktivvinter.no",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-01",
+    "uuid": "01a16286-1d6b-7005-8fd7-a4c11e525a76"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Christiania Glassmagasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01896309-850a-71db-86b3-69229f093274"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "CS Megastore",
+    "points_campaign": 20,
+    "points_channel": 4,
+    "started": "2026-11-09",
+    "uuid": "0189630e-21d9-70b4-9f7a-92a6704964ac"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Dyson",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-09",
+    "uuid": "01896310-bb05-734c-87c7-a0d8eadfe399"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Ellos",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "0189630a-d108-712a-8856-644fdd60eedb"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Fyndiq",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-11-09",
+    "uuid": "0189630a-3059-73d7-9526-637d8af50232"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "G-Star",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "018ce8ef-9005-73b2-9eab-aa62d65c537a"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Gymgrossisten",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01896307-c0a0-73c3-bb34-1854292ab161"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Homeroom",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "0189630c-993e-7061-bb1a-d41d2272a9bf"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Ishavskraft strøm",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-11-09",
+    "uuid": "01896311-52f1-73e7-808c-3b4e7aea9371"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "KICKS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01932f75-1211-7244-b60c-0fe79fd03b46"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "LYKO",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "0189630f-41cb-714c-8b2f-cb2c7a900d0b"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Shark Gaming",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01896310-6fe5-71d2-a915-4d9f58c8d27a"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "SharkNinja",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "019e4465-abe2-7069-a495-477ebb1168ba"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Sporttema",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01896308-f18d-71b5-9064-ffc3c373972f"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Timarco",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "01896308-7f87-71ee-b3bc-53cb7efe268f"
+  },
+  {
+    "ended": "2026-11-16",
+    "name": "Vakre Vene",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-09",
+    "uuid": "019be5ba-a3a8-7123-9165-fc4aa24f2604"
   }
 ]
