@@ -1,6 +1,6 @@
 {
   "country": "dk",
-  "updated": "2026-11-16T18:32:51.164717+00:00",
+  "updated": "2026-11-17T22:24:37.867428+00:00",
   "shop_count": 348,
   "shops": [
     {
@@ -288,7 +288,7 @@
       "category_id": 12,
       "points_per_100": 100,
       "currency": "DKK",
-      "website": "www.blockbuster.dk",
+      "website": "https://www.blockbuster.dk/da?utm_source=sas_dk&utm_campaign=sas_banner_dk_2026",
       "phone": "+46 (08) 409 188 00",
       "email": "mattias.lindvall@sfanytime.com",
       "description": "Movie nights at home just got more rewarding.<br><br>Picture it: the lights are low, the snacks are ready, and you’ve got the perfect film queued up. That’s movie night with Blockbuster, and now it pays off too.<br><br>With Blockbuster, you rent or buy exactly what you’re in the mood for. No subscription and no commitment, just the movies and series you actually want to watch. Catch the latest blockbusters before everyone else, or revisit the favourites you never get tired of.<br><br>And here’s the best part: every rental and purchase earns you EuroBonus points. Your next movie night could bring you one step closer to your next trip.",
@@ -297,9 +297,9 @@
       ],
       "has_fixed_reward": false,
       "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
+      "has_campaign": true,
+      "campaign_title": "YOUR NEXT FAVOURITE FILM IS JUST A CLICK AWAY",
+      "campaign_description": "From Hollywood hits and award-winning dramas to family favourites and timeless classics, Blockbuster brings entertainment for every taste and occasion. Explore a world of movies and series, with something for everyone to enjoy.",
       "created_at": "2026-11-11 12:36:59",
       "first_seen": "2026-11-11",
       "status": "active"

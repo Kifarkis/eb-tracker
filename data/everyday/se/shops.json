@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-11-16T18:32:51.177749+00:00",
+  "updated": "2026-11-17T22:24:37.884880+00:00",
   "shop_count": 447,
   "shops": [
     {
@@ -426,7 +426,7 @@
       "status": "active"
     },
     {
-      "uuid": "brasserie-makalos",
+      "uuid": "brasserie-makalos-7cfd1c88-e46d-4d95-a3b3-80a0f0923aff",
       "name": "Brasserie Makalös",
       "country": "se",
       "city": "Stockholm",
@@ -452,7 +452,7 @@
       "campaign_title": "BREAKFAST AND LUNCH OFFER AT BRASSERIE MAKALÖS",
       "campaign_description": "At Brasserie Makalös you can experience French cuisine out of the ordinary. And right now you even earn 100 Bonus points per 100 SEK you dine for at breakfast between 7:30 and 10:00 Monday to Friday. Or earn 150 Bonus points per 100 SEK you dine for at lunch between 13:00 and 16:00 Monday to Friday! The normal bonus of 50 Bonus points per 100 SEK applies for all purchases made outside of the breakfast and lunch offers.",
       "created_at": "2018-01-18 00:00:00",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-11-17",
       "status": "active"
     },
     {
@@ -2159,7 +2159,7 @@
       "currency": "SEK",
       "website": "https://inovela.se/kampanjer/eurobonus",
       "phone": "+46 (0)8 414 00 315",
-      "email": "charlie@inovela.se",
+      "email": "erik@inovela.se",
       "description": "Earn 1 bonus point for every SEK you pay when you install a home battery, after the Green Technology tax deduction.<br><br>Store your solar energy and make your home more energy-efficient with a home battery from Inovèla. With experienced in-house experts, Inovèla supports you throughout the process, from advice and planning to installation and support.",
       "cards_accepted": [],
       "has_fixed_reward": false,
@@ -7811,7 +7811,7 @@
       "category_id": 12,
       "points_per_100": 100,
       "currency": "SEK",
-      "website": "www.sfanytime.se",
+      "website": "https://www.sfanytime.com/sv?utm_source=sas_sv&utm_campaign=sas_banner_sv_2026",
       "phone": "+46 (08) 409 188 00",
       "email": "mattias.lindvall@sfanytime.com",
       "description": "Movie nights at home just got more rewarding.<br><br>Picture it: the lights are low, the snacks are ready, and you’ve got the perfect film queued up. That’s movie night with SF Anytime, and now it pays off too.<br><br>With SF Anytime, you rent or buy exactly what you’re in the mood for. No subscription and no commitment, just the movies and series you actually want to watch. Catch the latest blockbusters before everyone else, or revisit the favourites you never get tired of.<br><br>And here’s the best part: every rental and purchase earns you EuroBonus points. Your next movie night could bring you one step closer to your next trip.",
@@ -7820,9 +7820,9 @@
       ],
       "has_fixed_reward": false,
       "coming_soon": false,
-      "has_campaign": false,
-      "campaign_title": null,
-      "campaign_description": null,
+      "has_campaign": true,
+      "campaign_title": "YOUR NEXT FAVOURITE FILM IS JUST A CLICK AWAY",
+      "campaign_description": "From Hollywood hits and award-winning dramas to family favourites and timeless classics, SF Anytime brings entertainment for every taste and occasion. Explore a world of movies and series, with something for everyone to enjoy.",
       "created_at": "2026-11-11 12:29:11",
       "first_seen": "2026-11-11",
       "status": "active"
@@ -13536,6 +13536,37 @@
       "created_at": "2020-02-05 14:07:06",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "brasserie-makalos",
+      "name": "Brasserie Makalös",
+      "country": "se",
+      "city": "Stockholm",
+      "postcode": "11153",
+      "address": "Västra Trädgårdsgatan 11b",
+      "lat": 59.3312617,
+      "lng": 18.069803,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "SEK",
+      "website": "http://brasseriemakalos.se/",
+      "phone": "+468446650",
+      "email": "yohan@brasseriemakalos.se",
+      "description": "The food, the wine, the culture. Experience the soul of French cuisine in the heart of Stockholm. If you are looking for a French experience outside of the ordinary you have to stop by our Brasserie Makalös. And as they say in French \"à bientôt\" or see you soon.",
+      "cards_accepted": [
+        "MC",
+        "VISA"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": true,
+      "campaign_title": "BREAKFAST AND LUNCH OFFER AT BRASSERIE MAKALÖS",
+      "campaign_description": "At Brasserie Makalös you can experience French cuisine out of the ordinary. And right now you even earn 100 Bonus points per 100 SEK you dine for at breakfast between 7:30 and 10:00 Monday to Friday. Or earn 150 Bonus points per 100 SEK you dine for at lunch between 13:00 and 16:00 Monday to Friday! The normal bonus of 50 Bonus points per 100 SEK applies for all purchases made outside of the breakfast and lunch offers.",
+      "created_at": "2018-01-18 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-11-17"
     },
     {
       "uuid": "hastens-birger-jarlsgatan",
