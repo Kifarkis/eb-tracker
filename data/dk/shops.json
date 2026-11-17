@@ -2943,17 +2943,22 @@
     "uuid": "0189630e-de91-732d-baf8-54bd0aad79fc"
   },
   "0189630e-e559-73fb-8554-d9a161d6ff4e": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-17"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<p>Rains er et moderne regntøjsmærke, der skaber vandtæt design til den globale borger. Inspireret af sin skandinaviske arv har Rains regntøj en kompromisløs tilgang til enkelhed, der er helt forankret i funktionalitet.</p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-17",
@@ -5749,6 +5754,32 @@
     "status": "active",
     "uuid": "0197c107-cebd-72fa-a046-e400b8d63285"
   },
+  "0197c10c-695d-734a-80cb-afa6b257734f": {
+    "active_campaign": {
+      "ends_date": "22.11.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-17"
+    },
+    "all_time_high_date": "2026-11-17",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 4 dage",
+    "campaign_ends_human_en": "in 4 days",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Trend Carpet tilbyder moderne og stilfulde tæpper, der kombinerer kvalitet, komfort og flot design. Med et bredt udvalg af farver, mønstre og materialer kan du finde det perfekte tæppe til ethvert rum og skabe en personlig, hyggelig og indbydende atmosfære i hjemmet.</div>",
+    "first_seen": "2026-11-17",
+    "last_seen": "2026-11-17",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sfvad6Su9pn7CCbmidX0EGzSv0SaxPYXZjFPOlaL.png",
+    "name": "Trendcarpet",
+    "slug": "trend-carpet",
+    "status": "active",
+    "uuid": "0197c10c-695d-734a-80cb-afa6b257734f"
+  },
   "0197e954-1582-7280-a406-34f3a6152288": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
@@ -7184,5 +7215,26 @@
     "slug": "lie-studio",
     "status": "active",
     "uuid": "01a1d035-3d43-700f-984b-7663abe1c67e"
+  },
+  "01a1e8d9-447c-782d-8f73-4348075947a5": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-17",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 43,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Bilbuster er en dansk webshop med fokus på at gøre bilrengøring nemmere og mere overskuelig. Her finder du blandt andet Dustbuster - en kompakt og kraftig støvsuger, der gør det let at komme ind i bilens små hjørner. Webshoppen tilbyder også filtre, reservedele og tilbehør, så du nemt kan holde bilen ren.</div>",
+    "first_seen": "2026-11-17",
+    "last_seen": "2026-11-17",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ja6PzYwfw8ebWbekOPAEDZOEZ8du7Yamlh1j6THk.png",
+    "name": "Bilbuster",
+    "slug": "bilbuster",
+    "status": "active",
+    "uuid": "01a1e8d9-447c-782d-8f73-4348075947a5"
   }
 }

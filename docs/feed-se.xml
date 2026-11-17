@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-16T00:00:00Z</updated>
+<updated>2026-11-17T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>RAINS: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630e-e559-73fb-8554-d9a161d6ff4e"/>
+<id>tag:eurobonus.chiq.se,2026:se/0189630e-e559-73fb-8554-d9a161d6ff4e/2026-11-17</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<summary>2026-11-17 · slutar 2026-12-01 · ordinarie 25 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>ZOO.se: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896312-b5e6-7274-8e4a-7eb11e4ab5a9"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:se/0189630d-cf20-7172-9143-c46a1a6970e6/2026-11-10</id>
 <updated>2026-11-10T00:00:00Z</updated>
 <summary>2026-11-10 · slutar 2026-11-30 · ordinarie 500 · Bästa hittills</summary>
-</entry>
-<entry>
-<title>LEGO: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896310-5de4-71af-9cfa-190c9eebec97"/>
-<id>tag:eurobonus.chiq.se,2026:se/01896310-5de4-71af-9cfa-190c9eebec97/2026-11-10</id>
-<updated>2026-11-10T00:00:00Z</updated>
-<summary>2026-11-10 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
 </entry>
 </feed>

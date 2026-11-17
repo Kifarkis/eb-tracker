@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-16T00:00:00Z</updated>
+<updated>2026-11-17T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Trendcarpet: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0197c10c-695d-734a-80cb-afa6b257734f"/>
+<id>tag:eurobonus.chiq.se,2026:no/0197c10c-695d-734a-80cb-afa6b257734f/2026-11-17</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<summary>2026-11-17 · slutter 22.11.2026 · ordinært 25</summary>
+</entry>
+<entry>
+<title>Rains: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630e-e559-73fb-8554-d9a161d6ff4e"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630e-e559-73fb-8554-d9a161d6ff4e/2026-11-17</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<summary>2026-11-17 · slutter 01.12.2026 · ordinært 25 · Beste hittil</summary>
+</entry>
 <entry>
 <title>ZOO.no: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896312-b5e6-7274-8e4a-7eb11e4ab5a9"/>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/0189630c-56c3-7074-8394-13e45ce5c745/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · slutter 30.11.2026 · ordinært 250 · Beste hittil</summary>
-</entry>
-<entry>
-<title>LYKO: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630f-41cb-714c-8b2f-cb2c7a900d0b"/>
-<id>tag:eurobonus.chiq.se,2026:no/0189630f-41cb-714c-8b2f-cb2c7a900d0b/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · avsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>KICKS: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01932f75-1211-7244-b60c-0fe79fd03b46"/>
-<id>tag:eurobonus.chiq.se,2026:no/01932f75-1211-7244-b60c-0fe79fd03b46/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · avsluttet 2026-11-16</summary>
 </entry>
 </feed>
