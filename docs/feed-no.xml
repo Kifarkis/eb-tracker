@@ -5,8 +5,29 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-17T00:00:00Z</updated>
+<updated>2026-11-18T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Viator: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630e-3cfe-7166-9125-0e412743ab2c"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630e-3cfe-7166-9125-0e412743ab2c/2026-11-18</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<summary>2026-11-18 · slutter 01.12.2026 · ordinært 15 · Beste hittil</summary>
+</entry>
+<entry>
+<title>Norli: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630a-a084-73fb-a865-8fda2d897a29"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630a-a084-73fb-a865-8fda2d897a29/2026-11-18</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<summary>2026-11-18 · slutter 01.12.2026 · ordinært 25 · Beste hittil</summary>
+</entry>
+<entry>
+<title>By Malene Birger: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0198add9-2376-7149-8893-70d89ef702a6"/>
+<id>tag:eurobonus.chiq.se,2026:no/0198add9-2376-7149-8893-70d89ef702a6/2026-11-18</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<summary>2026-11-18 · slutter 01.12.2026 · ordinært 25</summary>
+</entry>
 <entry>
 <title>Trendcarpet: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0197c10c-695d-734a-80cb-afa6b257734f"/>
@@ -265,26 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/01896308-f18d-71b5-9064-ffc3c373972f/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · avsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>SharkNinja: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=019e4465-abe2-7069-a495-477ebb1168ba"/>
-<id>tag:eurobonus.chiq.se,2026:no/019e4465-abe2-7069-a495-477ebb1168ba/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · avsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>Shark Gaming: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896310-6fe5-71d2-a915-4d9f58c8d27a"/>
-<id>tag:eurobonus.chiq.se,2026:no/01896310-6fe5-71d2-a915-4d9f58c8d27a/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · avsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>Nextory: 500 EB / kjøp</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630c-56c3-7074-8394-13e45ce5c745"/>
-<id>tag:eurobonus.chiq.se,2026:no/0189630c-56c3-7074-8394-13e45ce5c745/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · slutter 30.11.2026 · ordinært 250 · Beste hittil</summary>
 </entry>
 </feed>
