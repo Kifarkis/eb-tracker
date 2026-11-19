@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-18T00:00:00Z</updated>
+<updated>2026-11-19T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>COS: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630e-0bd3-72c2-a84d-9bc1f40f4a70"/>
+<id>tag:eurobonus.chiq.se,2026:no/0189630e-0bd3-72c2-a84d-9bc1f40f4a70/2026-11-19</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<summary>2026-11-19 · slutter 01.12.2026 · ordinært 25 · Beste hittil</summary>
+</entry>
 <entry>
 <title>Viator: 30 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=0189630e-3cfe-7166-9125-0e412743ab2c"/>
@@ -277,13 +284,6 @@
 <title>Timarco: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896308-7f87-71ee-b3bc-53cb7efe268f"/>
 <id>tag:eurobonus.chiq.se,2026:no/01896308-7f87-71ee-b3bc-53cb7efe268f/2026-11-09</id>
-<updated>2026-11-09T00:00:00Z</updated>
-<summary>2026-11-09 · avsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>Sporttema: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896308-f18d-71b5-9064-ffc3c373972f"/>
-<id>tag:eurobonus.chiq.se,2026:no/01896308-f18d-71b5-9064-ffc3c373972f/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · avsluttet 2026-11-16</summary>
 </entry>

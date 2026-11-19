@@ -1,6 +1,6 @@
 {
   "country": "se",
-  "updated": "2026-11-19T00:23:20.803969+00:00",
+  "updated": "2026-11-19T20:37:11.764726+00:00",
   "shop_count": 447,
   "shops": [
     {
@@ -7816,6 +7816,7 @@
       "email": "mattias.lindvall@sfanytime.com",
       "description": "Movie nights at home just got more rewarding.<br><br>Picture it: the lights are low, the snacks are ready, and you’ve got the perfect film queued up. That’s movie night with SF Anytime, and now it pays off too.<br><br>With SF Anytime, you rent or buy exactly what you’re in the mood for. No subscription and no commitment, just the movies and series you actually want to watch. Catch the latest blockbusters before everyone else, or revisit the favourites you never get tired of.<br><br>And here’s the best part: every rental and purchase earns you EuroBonus points. Your next movie night could bring you one step closer to your next trip.",
       "cards_accepted": [
+        "MC",
         "VISA"
       ],
       "has_fixed_reward": false,

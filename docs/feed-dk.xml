@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-18T00:00:00Z</updated>
+<updated>2026-11-19T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>COS: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630e-0bd3-72c2-a84d-9bc1f40f4a70"/>
+<id>tag:eurobonus.chiq.se,2026:dk/0189630e-0bd3-72c2-a84d-9bc1f40f4a70/2026-11-19</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<summary>2026-11-19 · slutter 01.12.2026 · normalt 25 · Bedste hidtil</summary>
+</entry>
+<entry>
+<title>3 Internet: 5000 EB / køb</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01916acc-a2d2-7262-84cd-9b7d1b90e047"/>
+<id>tag:eurobonus.chiq.se,2026:dk/01916acc-a2d2-7262-84cd-9b7d1b90e047/2026-11-19</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<summary>2026-11-19 · slutter 01.12.2026 · normalt 2000</summary>
+</entry>
 <entry>
 <title>Viator: 30 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630e-3cfe-7166-9125-0e412743ab2c"/>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:dk/0189630e-21d9-70b4-9f7a-92a6704964ac/2026-11-09</id>
 <updated>2026-11-09T00:00:00Z</updated>
 <summary>2026-11-09 · afsluttet 2026-11-16</summary>
-</entry>
-<entry>
-<title>Sonos: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630e-a751-7311-930d-de861b1a0c5d"/>
-<id>tag:eurobonus.chiq.se,2026:dk/0189630e-a751-7311-930d-de861b1a0c5d/2026-11-03</id>
-<updated>2026-11-03T00:00:00Z</updated>
-<summary>2026-11-03 · afsluttet 2026-11-09</summary>
-</entry>
-<entry>
-<title>Selected: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a13f61-6ad4-72e9-ac4e-524ced9b934a"/>
-<id>tag:eurobonus.chiq.se,2026:dk/01a13f61-6ad4-72e9-ac4e-524ced9b934a/2026-11-02</id>
-<updated>2026-11-02T00:00:00Z</updated>
-<summary>2026-11-02 · afsluttet 2026-11-09</summary>
 </entry>
 </feed>

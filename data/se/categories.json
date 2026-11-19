@@ -21,6 +21,11 @@
       "slug": "djurtillbehor"
     },
     {
+      "category_id": 52,
+      "name": "Elbolag",
+      "slug": "elbolag"
+    },
+    {
       "category_id": 6,
       "name": "Hus och hem",
       "slug": "hus-och-hem"
