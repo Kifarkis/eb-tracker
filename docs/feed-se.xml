@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-18T00:00:00Z</updated>
+<updated>2026-11-19T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Vattenfall: 6000 EB / köp</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a1f33b-c423-76fd-a232-a31101c7c5de"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a1f33b-c423-76fd-a232-a31101c7c5de/2026-11-19</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<summary>2026-11-19 · slutar 2026-12-01 · ordinarie 4000</summary>
+</entry>
 <entry>
 <title>iHero: 75 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0192dd9e-dd06-7289-9591-6d065b667294"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:se/0199c347-a9d7-725b-9687-0cb0917347ce/2026-11-12</id>
 <updated>2026-11-12T00:00:00Z</updated>
 <summary>2026-11-12 · slutar 2026-12-01 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Lounge by Zalando: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018abc11-7ec7-73a0-bb3a-428c1b239d7d"/>
-<id>tag:eurobonus.chiq.se,2026:se/018abc11-7ec7-73a0-bb3a-428c1b239d7d/2026-11-12</id>
-<updated>2026-11-12T00:00:00Z</updated>
-<summary>2026-11-12 · avslutad 2026-11-16</summary>
 </entry>
 </feed>
