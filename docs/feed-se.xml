@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-19T00:00:00Z</updated>
+<updated>2026-11-20T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Zooplus: 30 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896311-78a2-734c-aec3-9f2c9fdb7339"/>
+<id>tag:eurobonus.chiq.se,2026:se/01896311-78a2-734c-aec3-9f2c9fdb7339/2026-11-20</id>
+<updated>2026-11-20T00:00:00Z</updated>
+<summary>2026-11-20 · slutar 2026-12-01 · ordinarie 15 · Bästa hittills</summary>
+</entry>
+<entry>
+<title>Hugo Boss: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896310-13a3-7209-99fa-b9b39702de45"/>
+<id>tag:eurobonus.chiq.se,2026:se/01896310-13a3-7209-99fa-b9b39702de45/2026-11-20</id>
+<updated>2026-11-20T00:00:00Z</updated>
+<summary>2026-11-20 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
+</entry>
 <entry>
 <title>Vattenfall: 6000 EB / köp</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a1f33b-c423-76fd-a232-a31101c7c5de"/>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:se/019716f7-b841-708c-94f7-aa0db57db557/2026-11-13</id>
 <updated>2026-11-13T00:00:00Z</updated>
 <summary>2026-11-13 · slutar 2026-12-01 · ordinarie 15 · Bästa hittills</summary>
-</entry>
-<entry>
-<title>Tiger of Sweden: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a1b100-4c8c-7358-8d63-3a43843e3d2c"/>
-<id>tag:eurobonus.chiq.se,2026:se/01a1b100-4c8c-7358-8d63-3a43843e3d2c/2026-11-12</id>
-<updated>2026-11-12T00:00:00Z</updated>
-<summary>2026-11-12 · slutar 2026-12-01 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Selected: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a13f61-6ad4-72e9-ac4e-524ced9b934a"/>
-<id>tag:eurobonus.chiq.se,2026:se/01a13f61-6ad4-72e9-ac4e-524ced9b934a/2026-11-12</id>
-<updated>2026-11-12T00:00:00Z</updated>
-<summary>2026-11-12 · slutar 2026-11-29 · ordinarie 25 · Bästa hittills</summary>
 </entry>
 </feed>
