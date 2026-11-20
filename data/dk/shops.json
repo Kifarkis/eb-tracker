@@ -1284,6 +1284,32 @@
     "status": "active",
     "uuid": "0189630b-75a2-70b5-855a-cef439e391a1"
   },
+  "0189630b-8de2-7172-adb7-a5eb4bfb4aac": {
+    "active_campaign": {
+      "ends_date": "31.12.2026",
+      "points_campaign": 4000,
+      "points_channel": 800,
+      "started": "2026-11-20"
+    },
+    "all_time_high_date": "2026-11-20",
+    "all_time_high_points": 4000,
+    "campaign_ends_human": "om 1 måned",
+    "campaign_ends_human_en": "om 1 måned",
+    "category_id": 12,
+    "commission_type": "fixed",
+    "currency": "DKK",
+    "current_points": 2000,
+    "current_points_campaign": 4000,
+    "current_points_channel": 800,
+    "description": "<div>OiSTER er et teleselskab med fokus på billige mobilabonnementer, mobilt bredbånd og streaming. Grundlaget for OiSTER har altid været, at det skal være nemt og billigt at være OiSTER-kunde.</div><div><br /><br /></div><h1>Betingelser for denne partner</h1><div>Dette tilbud kan kun benyttes en gang per medlem og gælder kun danske kunder. En ny kunde anses som ikke aktiv de seneste 12 måneder. Kampagnen gælder kun for tilmeldning af abonnement, og ikke ved køb af udstyr eller mobiler alene. Du skal være kunde minimum 3 måneder før point udbetales.</div>",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/OiSTER-1689583849.jpg",
+    "name": "OiSTER",
+    "slug": "oister",
+    "status": "active",
+    "uuid": "0189630b-8de2-7172-adb7-a5eb4bfb4aac"
+  },
   "0189630b-928d-72ed-abed-3920407b316d": {
     "active_campaign": {
       "ends_date": "01.12.2026",
@@ -5196,12 +5222,7 @@
     "uuid": "0190da78-6010-7279-97c9-f898f02027dd"
   },
   "01916acc-a2d2-7262-84cd-9b7d1b90e047": {
-    "active_campaign": {
-      "ends_date": "01.12.2026",
-      "points_campaign": 5000,
-      "points_channel": 1000,
-      "started": "2026-11-19"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-05-04",
     "all_time_high_points": 6000,
     "campaign_ends_human": "om 1 uge",
@@ -5214,11 +5235,12 @@
     "current_points_channel": 1000,
     "description": "<div>Ingen gravning i haven, ingen teknikerbesøg – online på kun 5 min. Og til samme pris i hele Danmark. 3 gør det nemt for dig at få lynhurtigt og stabilt internet. Du skal ikke vente på gravning til kabler eller teknikerbesøg. Ingen fiber, DSL eller coax. Du putter bare et SIM-kort i en router og sætter routeren i en stikkontakt. Helt på niveau med en kablet fiberforbindelse.<br /><br />Som EuroBonus-medlem får du lige nu de første 6 måneder til kun 149 kr. (derfefter 299. kr.) Normalpris 199 kr. de første 3 måneder.<br /><br /></div><h1>Vilkår for denne partner</h1><div>Denne kampagne kan kun benyttes en gang per medlem og gælder kun for nye kunder som ikke er eller har været Internetkunde hos 3 før. Du kan stadig benytte tilbuddet hvis du er mobilkunde hos 3. Du optjener kun på din første bestilling, og ikke per løbende måned.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-20",
     "last_seen": "2026-11-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/zqQ18R0b9rffKKzApA2SAGJ6DBr0Ddw0rgaMPKcf.jpg",
     "name": "3 Internet",
     "slug": "3-internet",
-    "status": "active",
+    "status": "gone",
     "uuid": "01916acc-a2d2-7262-84cd-9b7d1b90e047"
   },
   "01918df2-dab9-710b-8016-dbfec600d48f": {
@@ -6386,17 +6408,22 @@
     "uuid": "019c472e-ad8b-703a-9abe-dd62e2e9519b"
   },
   "019c9982-a557-7050-963f-ed75c89bc565": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 30,
+      "points_channel": 6,
+      "started": "2026-11-20"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 8,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 15,
-    "current_points_campaign": 0,
-    "current_points_channel": 3,
+    "current_points_campaign": 30,
+    "current_points_channel": 6,
     "description": "<div>Matas tilbyder et bredt udvalg af skønhedsprodukter, sundhed, personlig pleje og livsstil. Her finder du både kendte brands og egne produkter med hurtig levering, gode tilbud og professionel rådgivning online.<br><br></div><h1>Betingelser for denne partner</h1><div>Du optjener kun på bestillinger online, og ikke i matas fysiske butikker. Der kan ikke optjenes på håndkøbsmedicin, lægemidler til dyr, gavekort og modermælkserstatning.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-20",
@@ -6492,17 +6519,22 @@
     "uuid": "019d0b3a-53d6-73e2-9bb6-1136e90eaa28"
   },
   "019d713b-929f-7136-98ba-83fb547332ef": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Opdag aktuelle tilbud fra Husqvarna til sæsonens haveprojekter. I vores sortiment finder du verdensførende robotplæneklippere, motorsave i høj kvalitet, effektive sneslynger og meget mere. Husqvarnas innovative og pålidelige løsninger gør havearbejdet nemmere året rundt.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-20",

@@ -3337,5 +3337,14 @@
     "points_channel": 10,
     "started": "2026-11-12",
     "uuid": "01a1d035-3d43-700f-984b-7663abe1c67e"
+  },
+  {
+    "ended": "2026-11-20",
+    "name": "3 Internet",
+    "note": "shop_disappeared",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-11-19",
+    "uuid": "01916acc-a2d2-7262-84cd-9b7d1b90e047"
   }
 ]

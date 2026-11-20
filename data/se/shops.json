@@ -2697,6 +2697,27 @@
     "status": "active",
     "uuid": "0189630c-7a41-71db-82cc-e43785fdeed3"
   },
+  "0189630c-81ad-7284-810f-e438d4675121": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-20",
+    "all_time_high_points": 2000,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 12,
+    "commission_type": "fixed",
+    "currency": "SEK",
+    "current_points": 2000,
+    "current_points_campaign": 0,
+    "current_points_channel": 400,
+    "description": "<div>Med Tre Bredband får du snabbt och stabilt internet för hela familjen. Njut av smidig streaming, gaming och arbete hemifrån med modern 5G-teknik. Tre erbjuder flexibla bredbandslösningar med hög hastighet och enkel installation, så att du alltid kan vara uppkopplad.</div><div><br /><br /></div><h1>Villkor för denna partner</h1><div>Denna kampanj kan endast användas en gång per EuroBonus-medlem och gäller endast för nya kunder (som inte varit aktiva under de senaste 12 månaderna). Om du till exempel är mobil-kund kan du fortfarande dra nytta av kampanjen. Du tjänar endast poäng när du beställer abonnemang på bredband som du aktivt behåller i minst 3 månader.</div>",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/kOBuu049G9iyt4a9bB4kRbwSR1dSGB4adoBRmU3f.png",
+    "name": "Tre",
+    "slug": "tre",
+    "status": "active",
+    "uuid": "0189630c-81ad-7284-810f-e438d4675121"
+  },
   "0189630c-8b21-7039-86df-b41dde917bef": {
     "active_campaign": null,
     "all_time_high_date": "2026-04-24",
@@ -10062,17 +10083,22 @@
     "uuid": "019d712d-0027-72e3-b533-d5dae9863711"
   },
   "019d713b-929f-7136-98ba-83fb547332ef": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-12-01",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 vecka",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Upptäck aktuella erbjudanden från Husqvarna för säsongens trädgårdsprojekt. I vårt sortiment hittar du världsledande robotgräsklippare, högkvalitativa motorsågar, effektiva snöslungor och mycket mer. Husqvarnas innovativa och pålitliga lösningar gör trädgårdsarbetet enklare året om.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-20",
@@ -11341,5 +11367,26 @@
     "slug": "vattenfall",
     "status": "active",
     "uuid": "01a1f33b-c423-76fd-a232-a31101c7c5de"
+  },
+  "01a1f8d4-fb63-717c-a16b-44566ae28dac": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-20",
+    "all_time_high_points": 25,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 1,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 0,
+    "current_points_channel": 5,
+    "description": "<div>Soft Goat är ett svenskt modemärke med bas i Stockholm som kombinerar skandinavisk minimalism med exklusiv design och hög kvalitet. Varumärket är särskilt känt för sina lyxiga kashmirplagg, tidlösa modeller och mjuka material. Kollektionerna erbjuder moderna garderobsfavoriter för både kvinnor och män, med fokus på komfort, hållbarhet och mångsidig design.</div>",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ycP8ggb3mvklLoNV9RoY6ZH2jtY6y3T8aq6JO9U8.png",
+    "name": "Soft Goat",
+    "slug": "soft-goat",
+    "status": "active",
+    "uuid": "01a1f8d4-fb63-717c-a16b-44566ae28dac"
   }
 }

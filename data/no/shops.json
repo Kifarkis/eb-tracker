@@ -5664,17 +5664,22 @@
     "uuid": "019d42ca-5521-729d-82e9-6fa4798330c6"
   },
   "019d713b-929f-7136-98ba-83fb547332ef": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
     "all_time_high_date": "2026-04-24",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 6,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Oppdag aktuelle tilbud fra Husqvarna til sesongens hageprosjekter. I vårt sortiment finner du markedsledende robotgressklippere, motorsager av høy kvalitet, effektive snøfresere og mye mer. Husqvarnas innovative og pålitelige løsninger gjør hagearbeidet enklere hele året.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-20",
@@ -6626,5 +6631,31 @@
     "slug": "lie-studio",
     "status": "active",
     "uuid": "01a1d035-3d43-700f-984b-7663abe1c67e"
+  },
+  "01a1f83b-064e-7df7-9758-4fd5765db269": {
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
+    "all_time_high_date": "2026-11-20",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
+    "category_id": 6,
+    "commission_type": "variable",
+    "currency": "%",
+    "current_points": 25,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
+    "description": "<div>Kremmerhuset er en norsk interiørkjede som tilbyr et inspirerende utvalg av interiør, møbler, dekorasjoner, tekstiler og kjøkkenutstyr. Her finner du trendy produkter, sesongvarer og gaveideer som gjør det enkelt å skape et personlig, koselig og stilfullt hjem til enhver anledning.</div>",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/UOs24RtC4on1O1h7JDgOVkI4OBmKwsp3osI0uFwy.png",
+    "name": "Kremmerhuset",
+    "slug": "kremmerhuset",
+    "status": "active",
+    "uuid": "01a1f83b-064e-7df7-9758-4fd5765db269"
   }
 }
