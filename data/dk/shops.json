@@ -1096,17 +1096,22 @@
     "uuid": "0189630b-12c3-73e3-ac98-8b7400497796"
   },
   "0189630b-4546-7250-8897-ffc1dfc5b8b1": {
-    "active_campaign": null,
-    "all_time_high_date": "2026-04-24",
-    "all_time_high_points": 25,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
+    "all_time_high_date": "2026-11-20",
+    "all_time_high_points": 50,
+    "campaign_ends_human": "om 1 uge",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 9,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<p>JD Sports er Storbritanniens førende sports&nbsp;forhandler&nbsp;og tilbyder et omfattende udvalg af trainers, fodtøj, beklædning og tilbehør til mænd, kvinder og børn.</p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-20",
@@ -1214,11 +1219,12 @@
     "current_points_channel": 10,
     "description": "<p>På toytoy.dk&nbsp;finder du en lang række produkter som Disney legetøj, Disney bamser, Disney møbler samt andre Disney ting til børneværelset.</p>\n\n<p><br></p>\n\n\n\n\n\n\n\n<p><br></p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-20",
     "last_seen": "2026-11-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ToyToy-1689583839.jpg",
     "name": "ToyToy",
     "slug": "toytoy-1",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-69ea-7036-967b-f3d3fbe4d07f"
   },
   "0189630b-6ef3-70bf-9097-2463157f32a9": {
@@ -2891,11 +2897,12 @@
     "current_points_channel": 5,
     "description": "<p>JUNIQE er den førende online portal for prints og plakater til enhver stil og ethvert budget. Designet af internationale kunstnere, produceret her i Europa. Fotografer, designere, illustratorer og mange andre - vores fællesskab er skabt af hundredvis af kreative talenter fra hele verden. Vores mål? At støtte deres kunstneriske rejse. Vi bestræber os på at give kunstnerne et fundament, hvorfra de kan vise deres individuelle stil og dele deres historier - og vi sikrer, at de tjener på hvert print, de sælger.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-20",
     "last_seen": "2026-11-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Juniqe-1689584050.jpg",
     "name": "Juniqe",
     "slug": "junique",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630e-9ed2-71d7-b765-67d30a86d64d"
   },
   "0189630e-a559-7100-863e-7bca9f8a61ea": {
@@ -4654,11 +4661,12 @@
     "current_points_channel": 10,
     "description": "<p>The Body Factory fremstiller kvalitets trænings- og livsstils tøj, der i pasform og design passer til den aktive livsstil, løb, fitness og funktionel træning.</p>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-20",
     "last_seen": "2026-11-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/The_Body_Factory-1689584293.jpg",
     "name": "The Body Factory",
     "slug": "the-body-factory",
-    "status": "active",
+    "status": "gone",
     "uuid": "01896312-574c-70cf-abcc-8cc16e1760a4"
   },
   "01896312-5927-71e3-b708-a164f2a9d0d4": {
@@ -6229,12 +6237,7 @@
     "uuid": "019a1174-de0b-7066-a09b-15833c2450d4"
   },
   "019a538d-c10c-7270-9bbb-c2304ec7d8d2": {
-    "active_campaign": {
-      "ends_date": "04.12.2026",
-      "points_campaign": 5000,
-      "points_channel": 1000,
-      "started": "2026-10-26"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-04-30",
     "all_time_high_points": 5000,
     "campaign_ends_human": "om 1 uge",
@@ -6247,11 +6250,12 @@
     "current_points_channel": 1000,
     "description": "<div>Krifa er en dansk fagforening og a-kasse, der fokuserer på trivsel, udvikling og støtte på arbejdspladsen. Krifa skiller sig ud ved at være en tværfaglig fagforening uden traditionelle arbejdskampe. Deres mål er at hjælpe medlemmer med at opnå balance i arbejdslivet og sikre en god arbejdsdag med trivsel og faglig støtte.</div><div> </div><h1><br />Luksusgavekort på 1.000 kr. og 12 mdr. gratis fagforening</h1><div>Bliv betalende medlem hos Krifa og få et LuksusGavekort på 1.000 kr. og 12 mdr. gratis fagforening. Gavekortet kan bl.a. bruges til Ikea, Zalando, Jysk, Magasin, Imerco og mange flere. Du modtager automatisk dit gavekort, når du har betalt første kontingent. Din gratis periode i fagforeningen aktiveres så snart du bliver medlem hos Krifa.<br /><br /></div><div><br /></div><h1>Vilkår for denne partner</h1><div>Denne kampagne kan kun benyttes en gang per medlem og gælder kun for medlemmer, som ikke i forvejen er medlemmer i Krifa. Kampagnen gælder ikke hvis du er studerende, hvis du har modtaget en anden velkomstgave fra Krifa inden for de seneste 15 måneder eller har købt Krifa Komplet – Krifas samlepakke med a-kasse, fagforening og gratis lønsikring. Forsøg på snyd vil resultere i suspendering af dit EuroBonus medlemskab. Dine 5.000 point vil blive udbetalt efter 3 måneder som betalende medlem hos Krifa. <br /><br /><strong>Bemærk venligst: </strong>Krifa er ikke ansvarlig for udbetaling af EuroBonus point. Alle henvendelser vedr. dette skal ske ved kontakt til vores kundeservice.</div><div><br /></div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-20",
     "last_seen": "2026-11-20",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/RG2ZZMDyQGRvlnp3br5UO0X8YbHgVfWGUfA4ckc1.png",
     "name": "Krifa",
     "slug": "krifa",
-    "status": "active",
+    "status": "gone",
     "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
   },
   "019a5e2b-866b-702d-b295-e28101b5ba41": {

@@ -3346,5 +3346,14 @@
     "points_channel": 1000,
     "started": "2026-11-19",
     "uuid": "01916acc-a2d2-7262-84cd-9b7d1b90e047"
+  },
+  {
+    "ended": "2026-11-20",
+    "name": "Krifa",
+    "note": "shop_disappeared",
+    "points_campaign": 5000,
+    "points_channel": 1000,
+    "started": "2026-10-26",
+    "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
   }
 ]

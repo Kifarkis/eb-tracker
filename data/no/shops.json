@@ -6434,17 +6434,22 @@
     "uuid": "01a13f61-6ad4-72e9-ac4e-524ced9b934a"
   },
   "01a13f7b-f1a0-7345-8750-1411c32e7f85": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "01.12.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-20"
+    },
     "all_time_high_date": "2026-10-15",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 1 uke",
+    "campaign_ends_human_en": "in 1 week",
     "category_id": 4,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>iRobot tilbyr innovative robotstøvsugere og rengjøringsløsninger som gjør hverdagen enklere. Med avansert teknologi, smart navigasjon og automatisk rengjøring hjelper iRobot deg med å holde hjemmet rent. Produktene kombinerer brukervennlighet, effektivitet og smarte funksjoner for moderne hjem.</div>",
     "first_seen": "2026-10-15",
     "last_seen": "2026-11-20",
