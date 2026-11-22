@@ -3355,5 +3355,77 @@
     "points_channel": 1000,
     "started": "2026-10-26",
     "uuid": "019a538d-c10c-7270-9bbb-c2304ec7d8d2"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Apopro",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0192e872-2c1c-719e-b17a-40069c2aef26"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Farnell",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-16",
+    "uuid": "0189630e-3572-7186-9686-3ccd8ac6130b"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "InkClub",
+    "points_campaign": 100,
+    "points_channel": 20,
+    "started": "2026-11-16",
+    "uuid": "01896308-9acc-7096-9b2a-e74389673a4b"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Kids-World",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-13",
+    "uuid": "018abc10-d14f-71ec-85c4-4071ab93a75a"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Nicehair",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896311-cd52-7367-8aae-0c4b46a3188e"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "RevolutionRace",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-11-16",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Trendcarpet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-17",
+    "uuid": "0197c10c-695d-734a-80cb-afa6b257734f"
   }
 ]

@@ -4095,5 +4095,133 @@
     "points_channel": 10,
     "started": "2026-11-12",
     "uuid": "01a1d035-3d43-700f-984b-7663abe1c67e"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Autodude",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "018f57d7-5ba2-735f-97f3-c511b00c38bb"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Christiania Glassmagasin",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896309-850a-71db-86b3-69229f093274"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Db Journey",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896310-78d4-7290-bebb-ae80a7cd6ef1"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Farnell",
+    "points_campaign": 30,
+    "points_channel": 6,
+    "started": "2026-11-16",
+    "uuid": "0189630e-3572-7186-9686-3ccd8ac6130b"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Gina Tricot",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0189630a-28d0-70b3-bbe0-1867fcea0f9d"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Gullfunn",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896312-dd43-7392-aab6-2b384ab082d1"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Hulténs",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0189630a-c6f7-7291-8c71-3010f6b9bab2"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Kärcher",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0191bc56-6ced-715e-abb2-cb27acc9aa66"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "KICKS",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01932f75-1211-7244-b60c-0fe79fd03b46"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Kids-World",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-13",
+    "uuid": "018abc10-d14f-71ec-85c4-4071ab93a75a"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Lampemesteren",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896308-b758-703a-8f2a-7d8ab49b690e"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Lindex",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "0189630a-9780-71c1-a269-e72cab65f2a4"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Outnorth",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896307-cb70-7078-96e6-9379b454803c"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Revolution Race",
+    "points_campaign": 75,
+    "points_channel": 15,
+    "started": "2026-11-16",
+    "uuid": "019a5e2b-866b-702d-b295-e28101b5ba41"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "Trendcarpet",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-17",
+    "uuid": "0197c10c-695d-734a-80cb-afa6b257734f"
+  },
+  {
+    "ended": "2026-11-22",
+    "name": "ZOO.no",
+    "points_campaign": 50,
+    "points_channel": 10,
+    "started": "2026-11-16",
+    "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
   }
 ]
