@@ -2,8 +2,8 @@
   "region": "no",
   "collection": "giftcards",
   "currency": "NOK",
-  "updated": "2026-11-17T02:56:18.234569+00:00",
-  "item_count": 37,
+  "updated": "2026-11-23T20:14:56.792405+00:00",
+  "item_count": 36,
   "items": [
     {
       "uuid": "no:zupergift",
@@ -201,28 +201,6 @@
       "first_seen": "2026-08-02",
       "status": "active",
       "lowest_points_price": 3220,
-      "lowest_points_date": "2026-08-02"
-    },
-    {
-      "uuid": "no:gavekort-adidas",
-      "slug": "gavekort-adidas",
-      "name": "Gavekort Adidas",
-      "brand": "Gavekort",
-      "collection": "giftcards",
-      "region": "no",
-      "url": "https://www.saseurobonusshop.com/no/gavekort-adidas",
-      "image": "https://sas-media.loyalty.prod.eu-north-1.awardit.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas_giftcard_med_logo_9.jpg",
-      "points_price": 1600,
-      "cash_price": 2.0,
-      "cash_unit": "kr",
-      "accrual_points": 500,
-      "accrual_is_max": false,
-      "max_earn_points": null,
-      "points_per_100": 25000,
-      "ore_per_point": 0.125,
-      "first_seen": "2026-08-02",
-      "status": "active",
-      "lowest_points_price": 1600,
       "lowest_points_date": "2026-08-02"
     },
     {
@@ -818,6 +796,29 @@
       "status": "active",
       "lowest_points_price": 1000,
       "lowest_points_date": "2026-08-02"
+    },
+    {
+      "uuid": "no:gavekort-adidas",
+      "slug": "gavekort-adidas",
+      "name": "Gavekort Adidas",
+      "brand": "Gavekort",
+      "collection": "giftcards",
+      "region": "no",
+      "url": "https://www.saseurobonusshop.com/no/gavekort-adidas",
+      "image": "https://sas-media.loyalty.prod.eu-north-1.awardit.com/media/catalog/product/cache/3/image/509x509/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas_giftcard_med_logo_9.jpg",
+      "points_price": 1600,
+      "cash_price": 2.0,
+      "cash_unit": "kr",
+      "accrual_points": 500,
+      "accrual_is_max": false,
+      "max_earn_points": null,
+      "points_per_100": 25000,
+      "ore_per_point": 0.125,
+      "first_seen": "2026-08-02",
+      "status": "gone",
+      "lowest_points_price": 1600,
+      "lowest_points_date": "2026-08-02",
+      "gone_since": "2026-11-23"
     }
   ]
 }
