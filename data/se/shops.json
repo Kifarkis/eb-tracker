@@ -2414,6 +2414,27 @@
     "status": "active",
     "uuid": "0189630b-9850-7399-84a6-b1b735256b79"
   },
+  "0189630b-99fa-7346-b114-c6e55494958c": {
+    "active_campaign": null,
+    "all_time_high_date": "2026-11-26",
+    "all_time_high_points": 2000,
+    "campaign_ends_human": null,
+    "campaign_ends_human_en": null,
+    "category_id": 12,
+    "commission_type": "fixed",
+    "currency": "SEK",
+    "current_points": 2000,
+    "current_points_campaign": 0,
+    "current_points_channel": 400,
+    "description": "<div>Telenor bredband erbjuder snabbt och stabilt internet för hela hemmet. Med bredband via fiber eller mobilnätet kan du enkelt surfa, streama, spela och jobba hemifrån. Hitta ett bredbandsabonnemang som passar dina behov och njut av en smidig och pålitlig internetuppkoppling.</div><div><br /><br /></div><h1>Villkor för denna partner</h1><div>Du tjänar endast poäng genom att köpa TV, eller Bredband. Den här kampanjen kan bara användas en gång per EuroBonus-medlem. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du måste vara kund i minst 3 månader för att tjäna poäng. Samtliga beställningar på tillbehör eller kontantkort kommer att annulleras.</div>",
+    "first_seen": "2026-11-26",
+    "last_seen": "2026-11-26",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Telenor-1689583852.jpg",
+    "name": "Telenor Bredband",
+    "slug": "telenor-2",
+    "status": "active",
+    "uuid": "0189630b-99fa-7346-b114-c6e55494958c"
+  },
   "0189630b-a1fd-7133-b07a-084f91874cd8": {
     "active_campaign": {
       "ends_date": "2026-11-29",
@@ -2833,7 +2854,7 @@
     "first_seen": "2026-11-20",
     "last_seen": "2026-11-26",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/kOBuu049G9iyt4a9bB4kRbwSR1dSGB4adoBRmU3f.png",
-    "name": "Tre",
+    "name": "Tre Bredband",
     "slug": "tre",
     "status": "active",
     "uuid": "0189630c-81ad-7284-810f-e438d4675121"
