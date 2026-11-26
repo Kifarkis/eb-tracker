@@ -5,8 +5,15 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-no.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb"/>
 <id>https://eurobonus.chiq.se/feed-no.xml</id>
-<updated>2026-11-25T00:00:00Z</updated>
+<updated>2026-11-26T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Miinto: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896308-a975-7164-aa9c-41b2ec9d89e2"/>
+<id>tag:eurobonus.chiq.se,2026:no/01896308-a975-7164-aa9c-41b2ec9d89e2/2026-11-26</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<summary>2026-11-26 · slutter 30.11.2026 · ordinært 25 · Beste hittil</summary>
+</entry>
 <entry>
 <title>Strim: 1500 EB / kjøp</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=018abc11-7a28-71e0-bc8a-9e9617c71d80"/>
@@ -279,12 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:no/01896309-850a-71db-86b3-69229f093274/2026-11-23</id>
 <updated>2026-11-23T00:00:00Z</updated>
 <summary>2026-11-23 · slutter 30.11.2026 · ordinært 25 · Beste hittil</summary>
-</entry>
-<entry>
-<title>Bubbleroom: 30 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=NO&amp;l=nb&amp;s=01896309-b8ae-7129-9039-516c2dbedf13"/>
-<id>tag:eurobonus.chiq.se,2026:no/01896309-b8ae-7129-9039-516c2dbedf13/2026-11-23</id>
-<updated>2026-11-23T00:00:00Z</updated>
-<summary>2026-11-23 · slutter 29.11.2026 · ordinært 15</summary>
 </entry>
 </feed>

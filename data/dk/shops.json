@@ -409,17 +409,22 @@
     "uuid": "01896308-a32a-7301-8110-e1b4a6023301"
   },
   "01896308-a975-7164-aa9c-41b2ec9d89e2": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "30.11.2026",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-26"
+    },
     "all_time_high_date": "2026-06-01",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 3 dage",
+    "campaign_ends_human_en": "in 3 days",
     "category_id": 1,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<p>På miinto.dk er det muligt at handle direkte i Danmarks bedste fysiske modebutikker. Miinto.dk kombinerer således de fysiske modebutikkers ekspertise, service og tryghed med den fleksibilitet og tilgængelighed, som kendetegner onlinehandel.&nbsp;<br></p>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-26",
