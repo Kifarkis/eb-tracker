@@ -7352,5 +7352,14 @@
     "points_channel": 10,
     "started": "2026-11-16",
     "uuid": "01896312-b5e6-7274-8e4a-7eb11e4ab5a9"
+  },
+  {
+    "ended": "2026-11-27",
+    "name": "Telia Bredband",
+    "note": "shop_disappeared",
+    "points_campaign": 3000,
+    "points_channel": 600,
+    "started": "2026-11-23",
+    "uuid": "0189630b-94d9-73d6-9d65-2f31fd21738c"
   }
 ]

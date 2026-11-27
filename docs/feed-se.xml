@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-se.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv"/>
 <id>https://eurobonus.chiq.se/feed-se.xml</id>
-<updated>2026-11-26T00:00:00Z</updated>
+<updated>2026-11-27T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Lyko: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630f-41cb-714c-8b2f-cb2c7a900d0b"/>
+<id>tag:eurobonus.chiq.se,2026:se/0189630f-41cb-714c-8b2f-cb2c7a900d0b/2026-11-27</id>
+<updated>2026-11-27T00:00:00Z</updated>
+<summary>2026-11-27 · slutar 2026-11-30 · ordinarie 25 · Bästa hittills</summary>
+</entry>
+<entry>
+<title>Bruce Studios: 5000 EB / köp</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01a21d00-16d0-7e8b-8f37-affc4729ac77"/>
+<id>tag:eurobonus.chiq.se,2026:se/01a21d00-16d0-7e8b-8f37-affc4729ac77/2026-11-27</id>
+<updated>2026-11-27T00:00:00Z</updated>
+<summary>2026-11-27 · slutar 2026-12-31 · ordinarie 2500</summary>
+</entry>
 <entry>
 <title>Miinto: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=01896308-a975-7164-aa9c-41b2ec9d89e2"/>
@@ -180,7 +194,7 @@
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630b-94d9-73d6-9d65-2f31fd21738c"/>
 <id>tag:eurobonus.chiq.se,2026:se/0189630b-94d9-73d6-9d65-2f31fd21738c/2026-11-23</id>
 <updated>2026-11-23T00:00:00Z</updated>
-<summary>2026-11-23 · slutar 2026-11-29 · ordinarie 1500</summary>
+<summary>2026-11-23 · avslutad 2026-11-27</summary>
 </entry>
 <entry>
 <title>Tallink Silja Line: 50 EB / 100 kr</title>
@@ -270,20 +284,6 @@
 <title>Resväskor: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630d-4cf2-7278-83e0-55fc3595ba3f"/>
 <id>tag:eurobonus.chiq.se,2026:se/0189630d-4cf2-7278-83e0-55fc3595ba3f/2026-11-23</id>
-<updated>2026-11-23T00:00:00Z</updated>
-<summary>2026-11-23 · slutar 2026-11-29 · ordinarie 25 · Bästa hittills</summary>
-</entry>
-<entry>
-<title>Polarn O. Pyret: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=0189630a-4f00-71b4-b13a-6a93082439a9"/>
-<id>tag:eurobonus.chiq.se,2026:se/0189630a-4f00-71b4-b13a-6a93082439a9/2026-11-23</id>
-<updated>2026-11-23T00:00:00Z</updated>
-<summary>2026-11-23 · slutar 2026-11-29 · ordinarie 25</summary>
-</entry>
-<entry>
-<title>Philips Hue: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=SE&amp;l=sv&amp;s=018ee1d2-896a-729f-932c-e9664dc0c907"/>
-<id>tag:eurobonus.chiq.se,2026:se/018ee1d2-896a-729f-932c-e9664dc0c907/2026-11-23</id>
 <updated>2026-11-23T00:00:00Z</updated>
 <summary>2026-11-23 · slutar 2026-11-29 · ordinarie 25 · Bästa hittills</summary>
 </entry>

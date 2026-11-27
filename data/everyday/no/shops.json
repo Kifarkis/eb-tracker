@@ -1,6 +1,6 @@
 {
   "country": "no",
-  "updated": "2026-11-26T10:54:19.307736+00:00",
+  "updated": "2026-11-27T13:57:13.789513+00:00",
   "shop_count": 415,
   "shops": [
     {
@@ -2474,7 +2474,7 @@
       "status": "active"
     },
     {
-      "uuid": "fjellskal-fisketorget",
+      "uuid": "fjellskal-fisketorget-cfbc370e-8b8a-4c06-94f1-1f1b58f880ad",
       "name": "Fjellskål Fisketorget",
       "country": "no",
       "city": "Bergen",
@@ -2488,7 +2488,7 @@
       "currency": "NOK",
       "website": "www.fjellskal.com",
       "phone": "+4798905898",
-      "email": "tor.erik.lie@fjellskaal.no",
+      "email": "hanna@fjellskaal.no",
       "description": "Fjellskål Fisketorget is a combined seafood store and restaurant. Our main focus is to provide the best seafood experience possible, both when buying fish to bring back home to enjoy with your family and when dining in our restaurant only metes away from the sea! We look forward to welcoming you all at Fjellskål Fisketorget",
       "cards_accepted": [
         "MC",
@@ -2501,7 +2501,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2017-11-29 00:00:00",
-      "first_seen": "2026-05-05",
+      "first_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -2535,12 +2535,12 @@
       "status": "active"
     },
     {
-      "uuid": "fjordgull-90103698-fd91-46a9-8f3a-ea06bbff406b",
-      "name": "Fjordgull",
+      "uuid": "fjordgullcom-90103698-fd91-46a9-8f3a-ea06bbff406b",
+      "name": "fjordgull.com",
       "country": "no",
       "city": ".",
       "postcode": ".",
-      "address": "www.fjordgull.com",
+      "address": "-",
       "lat": null,
       "lng": null,
       "mode": "online",
@@ -2558,7 +2558,7 @@
       "campaign_title": null,
       "campaign_description": null,
       "created_at": "2026-06-25 08:32:03",
-      "first_seen": "2026-11-24",
+      "first_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -12461,6 +12461,66 @@
       "created_at": "2022-09-22 09:32:36",
       "first_seen": "2026-05-05",
       "status": "active"
+    },
+    {
+      "uuid": "fjellskal-fisketorget",
+      "name": "Fjellskål Fisketorget",
+      "country": "no",
+      "city": "Bergen",
+      "postcode": "5013",
+      "address": "Strandkaien 3",
+      "lat": 60.393931,
+      "lng": 5.3241461,
+      "mode": "onsite",
+      "category_id": 11,
+      "points_per_100": 50,
+      "currency": "NOK",
+      "website": "www.fjellskal.com",
+      "phone": "+4798905898",
+      "email": "tor.erik.lie@fjellskaal.no",
+      "description": "Fjellskål Fisketorget is a combined seafood store and restaurant. Our main focus is to provide the best seafood experience possible, both when buying fish to bring back home to enjoy with your family and when dining in our restaurant only metes away from the sea! We look forward to welcoming you all at Fjellskål Fisketorget",
+      "cards_accepted": [
+        "MC",
+        "VISA",
+        "AMEX"
+      ],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2017-11-29 00:00:00",
+      "first_seen": "2026-05-05",
+      "status": "gone",
+      "gone_since": "2026-11-27"
+    },
+    {
+      "uuid": "fjordgull-90103698-fd91-46a9-8f3a-ea06bbff406b",
+      "name": "Fjordgull",
+      "country": "no",
+      "city": ".",
+      "postcode": ".",
+      "address": "www.fjordgull.com",
+      "lat": null,
+      "lng": null,
+      "mode": "online",
+      "category_id": 2,
+      "points_per_100": 100,
+      "currency": "NOK",
+      "website": "https://fjordgull.com/?utm_source=sas&utm_medium=partner&utm_campaign=eurobonus-shopping",
+      "phone": "+47 90 50 76 78",
+      "email": "hakon@nordkrone.no",
+      "description": "when subscribing to Fjordgull and registering your EuroBonus number. Until September 30, 2026, all new customers receive an extra 2,500 points. Points are credited within 40 days after your first box has been delivered (first deliveries ship September/October 2026).<br><br>Fjordgull offers premium high-concentration omega-3, produced entirely in Norway under GMP quality standards. Each daily dose provides 680 mg of omega-3, of which 590 mg EPA and DHA. Delivered to your door on a flexible subscription: one box every two months, cancel anytime.",
+      "cards_accepted": [],
+      "has_fixed_reward": false,
+      "coming_soon": false,
+      "has_campaign": false,
+      "campaign_title": null,
+      "campaign_description": null,
+      "created_at": "2026-06-25 08:32:03",
+      "first_seen": "2026-11-24",
+      "status": "gone",
+      "gone_since": "2026-11-27"
     },
     {
       "uuid": "fjordgull",

@@ -1663,11 +1663,12 @@
     "current_points_channel": 400,
     "description": "<div>Telia tilbyr mobiltelefoni, mobilabonnement, smarttelefoner, bredbånd og digitale tjenester. Sortimentet inkluderer abonnementer med data, 5G, mobilt bredbånd, hjemmeinternett og populære smarttelefoner fra Apple, Samsung og Google. Telia tilbyr fleksible løsninger for privatpersoner og familier som ønsker en samlet løsning for mobil, internett og underholdning.<br /><br /><br /></div><h1>Vilkår for denne partneren</h1><div> Denne kampanjen kan kun brukes én gang per EuroBonus-medlem og er kun gyldig for nye kunder (ikke aktiv de siste 12 månedene). Du tjener kun poeng ved bestilling av Mobilabonnement, Mobilt bredbånd, eller Trådløst bredbånd (med unntak av Junior 1 GB, Junior 5 GB, og kontantkort). Du må være kunde i minst 3 måneder for å tjene poeng.</div>",
     "first_seen": "2026-04-24",
+    "gone_since": "2026-11-27",
     "last_seen": "2026-11-27",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Telia-1689583851.jpg",
     "name": "Telia",
     "slug": "telia-bredband-og-tv",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-94d9-73d6-9d65-2f31fd21738c"
   },
   "0189630b-a1fd-7133-b07a-084f91874cd8": {

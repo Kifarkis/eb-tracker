@@ -2373,12 +2373,7 @@
     "uuid": "0189630b-85b9-7042-9563-61fe0949c835"
   },
   "0189630b-94d9-73d6-9d65-2f31fd21738c": {
-    "active_campaign": {
-      "ends_date": "2026-11-29",
-      "points_campaign": 3000,
-      "points_channel": 600,
-      "started": "2026-11-23"
-    },
+    "active_campaign": null,
     "all_time_high_date": "2026-11-23",
     "all_time_high_points": 3000,
     "campaign_ends_human": "om 1 dag",
@@ -2391,11 +2386,12 @@
     "current_points_channel": 600,
     "description": "<div>Med Telia Bredband får du en snabb, stabil och pålitlig internetuppkoppling för hela hemmet. Streama filmer, spela online och arbeta hemifrån utan avbrott. Telia erbjuder flexibla bredbandslösningar som passar dina behov, med hög kvalitet, trygg service och en smidig digital vardag.<br /><br /><br /></div><h1>Villkor för denna partner</h1><div>Denna kampanj kan endast användas en gång per EuroBonus-medlem och gäller endast för nya kunder (som inte varit aktiva under de senaste 12 månaderna). Om du till exempel är tv-kund kan du fortfarande dra nytta av kampanjen. Du tjänar endast poäng när du beställer abonnemang på bredband eller bredband &#43; TV som du aktivt behåller i minst 3 månader.</div>",
     "first_seen": "2026-11-11",
+    "gone_since": "2026-11-27",
     "last_seen": "2026-11-27",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/AHMOqu4iYtHfTkGr9nZljsW2NsJshDRdwlkp5Ikl.jpg",
     "name": "Telia Bredband",
     "slug": "telia",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-94d9-73d6-9d65-2f31fd21738c"
   },
   "0189630b-9850-7399-84a6-b1b735256b79": {
@@ -2438,11 +2434,12 @@
     "current_points_channel": 400,
     "description": "<div>Telenor bredband erbjuder snabbt och stabilt internet för hela hemmet. Med bredband via fiber eller mobilnätet kan du enkelt surfa, streama, spela och jobba hemifrån. Hitta ett bredbandsabonnemang som passar dina behov och njut av en smidig och pålitlig internetuppkoppling.</div><div><br /><br /></div><h1>Villkor för denna partner</h1><div>Du tjänar endast poäng genom att köpa TV, eller Bredband. Den här kampanjen kan bara användas en gång per EuroBonus-medlem. Kampanjen gäller endast svenska EuroBonus-medlemmar. Du måste vara kund i minst 3 månader för att tjäna poäng. Samtliga beställningar på tillbehör eller kontantkort kommer att annulleras.</div>",
     "first_seen": "2026-11-26",
+    "gone_since": "2026-11-27",
     "last_seen": "2026-11-27",
     "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Telenor-1689583852.jpg",
     "name": "Telenor Bredband",
     "slug": "telenor-2",
-    "status": "active",
+    "status": "gone",
     "uuid": "0189630b-99fa-7346-b114-c6e55494958c"
   },
   "0189630b-a1fd-7133-b07a-084f91874cd8": {
@@ -4576,17 +4573,22 @@
     "uuid": "0189630f-4008-70ef-8d6f-88f1537517ac"
   },
   "0189630f-41cb-714c-8b2f-cb2c7a900d0b": {
-    "active_campaign": null,
+    "active_campaign": {
+      "ends_date": "2026-11-30",
+      "points_campaign": 50,
+      "points_channel": 10,
+      "started": "2026-11-27"
+    },
     "all_time_high_date": "2026-06-01",
     "all_time_high_points": 50,
-    "campaign_ends_human": null,
-    "campaign_ends_human_en": null,
+    "campaign_ends_human": "om 2 dagar",
+    "campaign_ends_human_en": "in 2 days",
     "category_id": 8,
     "commission_type": "variable",
     "currency": "%",
     "current_points": 25,
-    "current_points_campaign": 0,
-    "current_points_channel": 5,
+    "current_points_campaign": 50,
+    "current_points_channel": 10,
     "description": "<div>Lyko är hår- och skönhetsspecialisten som strävar efter att ha den bästa kundupplevelsen och det bredaste produktsortimentet. Vi vill fånga känslan att skönhet är lekfullt, härligt och något individuellt. Totalt erbjuder vi över 55 000 produkter från fler än 1 000 varumärken, en mix av kända och nya spännande som kompletteras av vårt prisvärda private lable sortiment.</div>",
     "first_seen": "2026-04-24",
     "last_seen": "2026-11-27",
@@ -12019,5 +12021,31 @@
     "slug": "folkhemmet",
     "status": "active",
     "uuid": "01a21257-bc58-7f81-b931-c090dccdd54b"
+  },
+  "01a21d00-16d0-7e8b-8f37-affc4729ac77": {
+    "active_campaign": {
+      "ends_date": "2026-12-31",
+      "points_campaign": 5000,
+      "points_channel": 1000,
+      "started": "2026-11-27"
+    },
+    "all_time_high_date": "2026-11-27",
+    "all_time_high_points": 5000,
+    "campaign_ends_human": "om 1 månad",
+    "campaign_ends_human_en": "om 1 månad",
+    "category_id": 8,
+    "commission_type": "fixed",
+    "currency": "SEK",
+    "current_points": 2500,
+    "current_points_campaign": 5000,
+    "current_points_channel": 1000,
+    "description": "<div>Bruce Studios erbjuder ett flexibelt träningsmedlemskap med tillgång till över 1 000 träningsanläggningar i Norden. Upptäck gym, yoga, pilates, simning, klättring och mycket mer. Boka enkelt träningspass via appen och anpassa din träning efter din livsstil, dina behov och mål.<br /><br /><strong>BLACK WEEK DEAL:</strong> Få 50% rabatt på Base i 3 månader med koden &#34;BLACKYEAR26&#34;. För nya och befintliga medlemmar med årsmedlemskap.<br /><br /><br /></div><h1>Villkor för denna partner</h1><div>Detta erbjudande gäller endast en gång per EuroBonus medlem och är endast tillåtet för nya, svenska prenumeranter. Du tjänar endast poäng för årsprenumeration.</div>",
+    "first_seen": "2026-11-27",
+    "last_seen": "2026-11-27",
+    "logo": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/4OLaGTePNghbEHUz7qOafHIxh6TvRSsmi44tbGep.png",
+    "name": "Bruce Studios",
+    "slug": "bruce-studios",
+    "status": "active",
+    "uuid": "01a21d00-16d0-7e8b-8f37-affc4729ac77"
   }
 }

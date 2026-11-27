@@ -5,8 +5,22 @@
 <link rel="self" href="https://eurobonus.chiq.se/feed-dk.xml"/>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da"/>
 <id>https://eurobonus.chiq.se/feed-dk.xml</id>
-<updated>2026-11-26T00:00:00Z</updated>
+<updated>2026-11-27T00:00:00Z</updated>
 <author><name>eurobonus.chiq.se</name></author>
+<entry>
+<title>Onyx Cookware: 75 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a04319-8c3e-70f1-80fb-7c2cdc036ea8"/>
+<id>tag:eurobonus.chiq.se,2026:dk/01a04319-8c3e-70f1-80fb-7c2cdc036ea8/2026-11-27</id>
+<updated>2026-11-27T00:00:00Z</updated>
+<summary>2026-11-27 · slutter 30.11.2026 · normalt 50 · Bedste hidtil</summary>
+</entry>
+<entry>
+<title>Go Dream: 50 EB / 100 kr</title>
+<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630a-f625-7029-9a93-ed9bbdc2d5eb"/>
+<id>tag:eurobonus.chiq.se,2026:dk/0189630a-f625-7029-9a93-ed9bbdc2d5eb/2026-11-27</id>
+<updated>2026-11-27T00:00:00Z</updated>
+<summary>2026-11-27 · slutter 30.11.2026 · normalt 25</summary>
+</entry>
 <entry>
 <title>Miinto: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01896308-a975-7164-aa9c-41b2ec9d89e2"/>
@@ -141,11 +155,11 @@
 <summary>2026-11-23 · slutter 29.11.2026 · normalt 1000 · Bedste hidtil</summary>
 </entry>
 <entry>
-<title>H&amp;M: 30 EB / 100 kr</title>
+<title>H&amp;M: 50 EB / 100 kr</title>
 <link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=0189630c-ecb3-72e3-85ad-ca8b587c08df"/>
 <id>tag:eurobonus.chiq.se,2026:dk/0189630c-ecb3-72e3-85ad-ca8b587c08df/2026-11-23</id>
 <updated>2026-11-23T00:00:00Z</updated>
-<summary>2026-11-23 · slutter 30.11.2026 · normalt 15</summary>
+<summary>2026-11-23 · slutter 30.11.2026 · normalt 25 · Bedste hidtil</summary>
 </entry>
 <entry>
 <title>Gents: 50 EB / 100 kr</title>
@@ -272,19 +286,5 @@
 <id>tag:eurobonus.chiq.se,2026:dk/019edad6-5e38-7178-ae89-d222ff519417/2026-11-22</id>
 <updated>2026-11-22T00:00:00Z</updated>
 <summary>2026-11-22 · slutter 29.11.2026 · normalt 15</summary>
-</entry>
-<entry>
-<title>Bubliq: 75 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a0f1fd-d198-73ac-b68f-208dfa6c1c08"/>
-<id>tag:eurobonus.chiq.se,2026:dk/01a0f1fd-d198-73ac-b68f-208dfa6c1c08/2026-11-22</id>
-<updated>2026-11-22T00:00:00Z</updated>
-<summary>2026-11-22 · slutter 06.12.2026 · normalt 50</summary>
-</entry>
-<entry>
-<title>Bilbuster: 50 EB / 100 kr</title>
-<link rel="alternate" href="https://eurobonus.chiq.se/?c=DK&amp;l=da&amp;s=01a1e8d9-447c-782d-8f73-4348075947a5"/>
-<id>tag:eurobonus.chiq.se,2026:dk/01a1e8d9-447c-782d-8f73-4348075947a5/2026-11-22</id>
-<updated>2026-11-22T00:00:00Z</updated>
-<summary>2026-11-22 · slutter 29.11.2026 · normalt 25</summary>
 </entry>
 </feed>
